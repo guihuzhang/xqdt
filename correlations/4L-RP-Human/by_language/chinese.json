@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "Chinese_0",
+    "question_id": 520,
+    "level": 2,
+    "language": "Chinese",
+    "text": "保加利亚航空公司位于保加利亚,其官方网站是 http://www.air.bg/en/. 它的命名是 FLYING BULGARIA. 保加利亚的IATA航空公司名称是 FB. 不平等调整的人类发展指数为0.701和快乐星球指数为40.1。",
+    "graph": "Bulgaria Air | airline accounting code | 623<br>Bulgaria Air | country | Bulgaria<br>Bulgaria Air | IATA airline designator | FB<br>Bulgaria Air | callsign of airline | FLYING BULGARIA<br>Bulgaria Air | official name | „България Еър“ АД<br>Bulgaria Air | official website | http://www.air.bg/en/<br>Bulgaria | suicide rate | 6.5<br>Bulgaria | Inequality-adjusted Human Development Index | 0.701<br>Bulgaria | Democracy Index | 6.71<br>Bulgaria | Happy Planet Index score | 40.1",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_1",
+    "question_id": 521,
+    "level": 2,
+    "language": "Chinese",
+    "text": "中国公角园索资度倻一中度 0.651,中国公角园索资度分算位倻一中度 2.21,中国公角园索资度很子统计倻一中度 41.9",
+    "graph": "People's Republic of China | Inequality-adjusted Human Development Index | 0.651<br>People's Republic of China | Democracy Index | 2.21<br>People's Republic of China | Happy Planet Index score | 41.9",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_2",
+    "question_id": 522,
+    "level": 2,
+    "language": "Chinese",
+    "text": "\"ERROR I think there's a mistake in your request. There are only 3 sentences, not 4. Also, I assume you meant to ask me to generate a combined paragraph in Simplified Chinese, not English. Here is the combined paragraph: \"\"天体1147 Stavropolis的apoapsis为418476000000.0，公转周期为1249.6，格里高利·内乌明发现了1147 Stavropolis。\"",
+    "graph": "1147 Stavropolis | apoapsis | 418476000000.0<br>1147 Stavropolis | orbitalPeriod | 1249.6<br>1147 Stavropolis | discoverer | Grigory Neujmin",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_3",
+    "question_id": 523,
+    "level": 2,
+    "language": "Chinese",
+    "text": "捷克共和国的官方名称是捷克共和国,其自杀率为9.5个,其民主指数为7.67和幸福星球指数为46.8。",
+    "graph": "Czech Republic | suicide rate | 9.5<br>Czech Republic | Inequality-adjusted Human Development Index | 0.85<br>Czech Republic | Democracy Index | 7.67<br>Czech Republic | Happy Planet Index score | 46.8<br>Czech Republic | official name | Česká republika<br>Czech Republic | official website | https://www.czechia.eu/",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_4",
+    "question_id": 524,
+    "level": 2,
+    "language": "Chinese",
+    "text": "巴基斯坦国际航空公司的官方名称是 s,其官方网站是 https://www.piac.com.pk/. 它位于巴基斯坦,有巴基斯坦的命名牌。 巴基斯坦的国际民航组织航空公司的标志是PIA。 巴基斯坦有不平等调整的人类发展指数为0.38和快乐星球指数为45.1。",
+    "graph": "Pakistan International Airlines | airline accounting code | 214<br>Pakistan International Airlines | country | Pakistan<br>Pakistan International Airlines | callsign of airline | PAKISTAN<br>Pakistan International Airlines | ICAO airline designator | PIA<br>Pakistan International Airlines | official name | پاکِستان اِنٹَرنیشَنَل ایئر لائنزs<br>Pakistan International Airlines | official website | https://www.piac.com.pk/<br>Pakistan | suicide rate | 9.8<br>Pakistan | Inequality-adjusted Human Development Index | 0.38<br>Pakistan | Democracy Index | 4.31<br>Pakistan | Happy Planet Index score | 45.1",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_5",
+    "question_id": 525,
+    "level": 2,
+    "language": "Chinese",
+    "text": "Bello (crater) 位于贝多芬方格，位于水星上，是一座撞击坑，命名自安德烈斯·贝略。",
+    "graph": "Bello (crater) | locatedOnAstronomicalLocation | Mercury (planet)<br>Bello (crater) | instanceOf | Impact crater<br>Bello (crater) | location | Beethoven quadrangle<br>Bello (crater) | namedAfter | Andrés Bello",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_6",
+    "question_id": 526,
+    "level": 2,
+    "language": "Chinese",
+    "text": "\"ERROR { \"\"full-text\"\": \"\"\\u56db\\u5b50\\u4e09\\u56db\\u5927\\u5b66\\u4e60\\u662f\\u7a0b\\u5b66\\u4e60\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u4e3a\\u4e00\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e00\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7b49\\u7ed9\\u5b66\\u4e60\\u7684\\u4e3a\\u4e3a\\u7a0b\\u5b66\\u4e60\"",
+    "graph": "University of Cambridge | type | Research university",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_7",
+    "question_id": 527,
+    "level": 2,
+    "language": "Chinese",
+    "text": "CO2 是 CO2 的化学方程式,用于冷藏,它具有 CO CO2 的 CO CO2 代码 V03AN02 和 CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO CO",
+    "graph": "carbon dioxide | associated hazard | carbon dioxide exposure<br>carbon dioxide | ATC code | V03AN02<br>carbon dioxide | canonical SMILES | C(=O)=O<br>carbon dioxide | InChI | InChI=1S/CO2/c2-1-3<br>carbon dioxide | chemical formula | CO₂<br>carbon dioxide | has use | coolant",
+    "precision_list": [
+      0.0,
+      0.5,
+      0.5
+    ],
+    "recall_list": [
+      0.0,
+      0.25,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_8",
+    "question_id": 528,
+    "level": 2,
+    "language": "Chinese",
+    "text": "西方目标基金会成立于1979年1月1日,总部设在美国。",
+    "graph": "Western Goals Foundation | formationDate | 01 January 1979<br>Western Goals Foundation | country | United States",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_9",
+    "question_id": 529,
+    "level": 2,
+    "language": "Chinese",
+    "text": "奥嘉·邦达雷娃出生于圣彼得堡，曾就读于圣彼得堡国立大学，专业领域包括经济学和数学。",
+    "graph": "Olga Bondareva | almaMater | Leningrad State University<br>Olga Bondareva | birthPlace | Leningrad, USSR<br>Olga Bondareva | professionalField | Economics<br>Olga Bondareva | professionalField | Mathematics",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_10",
+    "question_id": 530,
+    "level": 2,
+    "language": "Chinese",
+    "text": "\"ERROR I think there's a mistake in the input. There are only 2 sentences, not 4. And the second sentence seems to be a date in a weird format. Assuming the date is \"\"1930-01-20\"\", here is the combined paragraph in Simplified Chinese: \"\"布兹·奥德林参与了阿波罗11号任务，他出生于1930年1月20日。\"",
+    "graph": "Buzz Aldrin | mission | Apollo 11<br>Buzz Aldrin | birthDate | 1930-01-20",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_11",
+    "question_id": 531,
+    "level": 2,
+    "language": "Chinese",
+    "text": "Dieter Fensel是ESWC2023的演讲者,该会议由videoLectures.net赞助,来自希腊,有167项被接受的贡献,其中41项是被接受的。",
+    "graph": "ESWC 2023 | speaker | Dieter Fensel<br>ESWC 2023 | number of accepted contributions | 41<br>ESWC 2023 | number of submissions | 167<br>ESWC 2023 | language used | English<br>ESWC 2023 | sponsor | VideoLectures.net<br>ESWC 2023 | admission rate | 0.1939<br>ESWC 2023 | country | Greece",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_12",
+    "question_id": 532,
+    "level": 2,
+    "language": "Chinese",
+    "text": "该国的自杀率为14.6、不平等调整的人类发展指数为0.85,该国的快乐星球指数得分为47.1。",
+    "graph": "Vanilla Air | airline accounting code | 842<br>Vanilla Air | country | Japan<br>Vanilla Air | IATA airline designator | JW<br>Vanilla Air | ICAO airline designator | VNL<br>Vanilla Air | official name | バニラ・エア株式会社<br>Japan | suicide rate | 14.6<br>Japan | Inequality-adjusted Human Development Index | 0.85<br>Japan | Democracy Index | 8.15<br>Japan | Happy Planet Index score | 47.1<br>Japan | official name | 日本国",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_13",
+    "question_id": 533,
+    "level": 2,
+    "language": "Chinese",
+    "text": "《Mermaid》是追隨者合唱團的作品，追隨者合唱團是華納音樂集團的藝人，而《Mermaid》也曾發行於哥伦比亚唱片",
+    "graph": "Mermaid (Train song) | musicalBand | Train (band)<br>Train (band) | recordLabel | Warner Music Group<br>Mermaid (Train song) | recordLabel | Columbia Records",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_14",
+    "question_id": 534,
+    "level": 2,
+    "language": "Chinese",
+    "text": "墨西哥墨西哥州墨西哥州Morelos的领导人是阿德里安·李維拉·佩雷斯。",
+    "graph": "Morelos | leader | Adrián Rivera Pérez",
+    "precision_list": [
+      0.5,
+      0.5,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_15",
+    "question_id": 535,
+    "level": 2,
+    "language": "Chinese",
+    "text": "Gerhard Weikum是第22届国际语义网络会议的演讲者,由Ontotext赞助,该会议在希腊举行,接受率为0.194。",
+    "graph": "The 22nd International Semantic Web Conference | speaker | Gerhard Weikum<br>The 22nd International Semantic Web Conference | number of accepted contributions | 33<br>The 22nd International Semantic Web Conference | number of submissions | 411<br>The 22nd International Semantic Web Conference | language used | English<br>The 22nd International Semantic Web Conference | sponsor | Ontotext<br>The 22nd International Semantic Web Conference | admission rate | 0.194<br>The 22nd International Semantic Web Conference | country | Greece",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_16",
+    "question_id": 536,
+    "level": 2,
+    "language": "Chinese",
+    "text": "Georgios Fotou是一个人,他的运动是。",
+    "graph": "Georgios Fotou | sport | Rowing (sport)<br>Georgios Fotou | instanceOf | Human",
+    "precision_list": [
+      0.5,
+      1.0,
+      0.5
+    ],
+    "recall_list": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_17",
+    "question_id": 537,
+    "level": 2,
+    "language": "Chinese",
+    "text": "墨西哥墨西哥州墨西哥州Morelos的领导人是阿德里安·李維拉·佩雷斯",
+    "graph": "Morelos | leader | Adrián Rivera Pérez",
+    "precision_list": [
+      1.0,
+      0.5,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_18",
+    "question_id": 538,
+    "level": 2,
+    "language": "Chinese",
+    "text": "Oklahoma City Streetcar 属于 Embark (公交运营公司)。Embark (公交运营公司) 运营 Oklahoma City Streetcar。Oklahoma City Streetcar 位于 Oklahoma City。",
+    "graph": "Oklahoma City Streetcar | isPartOf | Embark (transit authority)<br>Oklahoma City Streetcar | country | United States<br>Oklahoma City Streetcar | locatedInArea | Oklahoma City<br>Oklahoma City Streetcar | operator | Embark (transit authority)<br>Oklahoma City Streetcar | trackGauge | Standard-gauge railway",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_19",
+    "question_id": 539,
+    "level": 2,
+    "language": "Chinese",
+    "text": "官方网站是http://www.air.bg/en/. 报道了保加利亚航空的电话号码,该航空公司的电话号码是FLYING BULGARIA。 总部设在保加利亚,该航空公司的电话号码是623。 无差异调整的人力发展指数为0.701和保加利亚幸福星球指数为6.71。",
+    "graph": "Bulgaria Air | airline accounting code | 623<br>Bulgaria Air | country | Bulgaria<br>Bulgaria Air | IATA airline designator | FB<br>Bulgaria Air | callsign of airline | FLYING BULGARIA<br>Bulgaria Air | official name | „България Еър“ АД<br>Bulgaria Air | official website | http://www.air.bg/en/<br>Bulgaria | suicide rate | 6.5<br>Bulgaria | Inequality-adjusted Human Development Index | 0.701<br>Bulgaria | Democracy Index | 6.71<br>Bulgaria | Happy Planet Index score | 40.1",
+    "precision_list": [
+      1.0,
+      0.25,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_20",
+    "question_id": 540,
+    "level": 2,
+    "language": "Chinese",
+    "text": "LUFTHANSA是位于德国的Lufthansa的命名牌,其官方网站是 https://www.lufthansa.com/de/de/. 该国的官方名称是联邦共和国德意志。 该国的自杀率为8.3,不平等调整的人类发展指数为0.883,快乐行星指数为52.7和不平等调整的人类发展指数为0.883.",
+    "graph": "Lufthansa | airline accounting code | 220<br>Lufthansa | country | Germany<br>Lufthansa | callsign of airline | LUFTHANSA<br>Lufthansa | official website | https://www.lufthansa.com/de/de/<br>Germany | suicide rate | 8.3<br>Germany | Inequality-adjusted Human Development Index | 0.883<br>Germany | poverty incidence | 16<br>Germany | Democracy Index | 8.67<br>Germany | Happy Planet Index score | 52.7<br>Germany | official name | Bundesrepublik Deutschland",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_21",
+    "question_id": 541,
+    "level": 2,
+    "language": "Chinese",
+    "text": "\"ERROR { \"\"individual-lexicalisations\"\": [ { \"\"id\"\": 0, \"\"lex\"\": \"\"以色列航空的航空会计代码是114.\"\" }, { \"\"id\"\": 1, \"\"lex\"\": \"\"以色列航空位于以色列.\"\" }, { \"\"id\"\": 2, \"\"lex\"\": \"\"以色列航空的IATA航空识别码是LY.\"\" }, { \"\"id\"\": 3, \"\"lex\"\": \"\"以色列航空的呼号是ELAL.\"\" }, { \"\"id\"\": 4, \"\"lex\"\": \"\"以色列航空的官方名称是\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u5e73\\u5e03\\u56db\\u5b66\\u4e1c\\u56db\\u5b66\\u4e00\\u56db\\u5165.\"\" } ], \"\"full-text\"\": \"\"\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u5e73\\u5e03\\u56db\\u5b66\\u4e1c\\u56db\\u5b66\\u4e00\\u56db\\u5165\\u7684\\u672c\\u8bc1\\u7801\\u662f114\\uff0c\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u5e73\\u4e1c\\u56db\\u5b66\\u4e1c\\u56db\\u5b66\\u4e00\\u56db\\u5165\\u5e73\\u5e03\\u56db\\u5b66\\u4e1c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u672c\\u56db\\u5165\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684IATA\\u5e73\\u5e03\\u7801\\u7801\\u5e03\\u4e00\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u7801\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u6ce8\\u5165\\u7801\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u516d\\u4e00\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u516d\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u516d\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u516d\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\\u56db\\u5165\\u7684\\u5e73\\u5e03\\u5e03\\u4e4c\\u5e73\\u5b50\\u672c\"",
+    "graph": "EL AL Israel Airlines Ltd. | airline accounting code | 114<br>EL AL Israel Airlines Ltd. | country | Israel<br>EL AL Israel Airlines Ltd. | IATA airline designator | LY<br>EL AL Israel Airlines Ltd. | callsign of airline | ELAL<br>EL AL Israel Airlines Ltd. | official name | אל על נתיבי אויר לישראל בע''מ",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_22",
+    "question_id": 542,
+    "level": 2,
+    "language": "Chinese",
+    "text": "布鲁塞尔航空的航空票务编码为082，公司位于比利时，呼号为BEELINE。比利时的自杀率为20.7人/100,000人/年，人类发展指数值为0.874，贫困率為13.1%，Happy Planet Index得分是42.5。",
+    "graph": "Brussels Airlines | airline accounting code | 082<br>Brussels Airlines | country | Belgium<br>Brussels Airlines | callsign of airline | BEELINE<br>Belgium | suicide rate | 20.7<br>Belgium | Inequality-adjusted Human Development Index | 0.874<br>Belgium | poverty incidence | 13.1<br>Belgium | Democracy Index | 7.51<br>Belgium | Happy Planet Index score | 42.5<br>Belgium | official name | Koninkrijk België<br>Belgium | official website | https://www.belgium.be/",
+    "precision_list": [
+      0.75,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_23",
+    "question_id": 543,
+    "level": 2,
+    "language": "Chinese",
+    "text": "马萨诸塞州布洛克顿的卡丁尼尔·斯佩尔曼高中成立于1958年,由理查德·库辛创立。",
+    "graph": "Cardinal Spellman High School (Brockton, Massachusetts) | locatedInArea | Massachusetts<br>Cardinal Spellman High School (Brockton, Massachusetts) | country | United States<br>Cardinal Spellman High School (Brockton, Massachusetts) | instanceOf | High school in the United States<br>Cardinal Spellman High School (Brockton, Massachusetts) | formationDate | 00 1958<br>Cardinal Spellman High School (Brockton, Massachusetts) | foundedBy | Richard Cushing",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_24",
+    "question_id": 544,
+    "level": 2,
+    "language": "Chinese",
+    "text": "米勒斯,纽约是一个位于纽约索默塞特和纽约雅茨,美国的非实体社区。",
+    "graph": "Millers, New York | country | United States<br>Millers, New York | locatedInArea | Somerset, New York<br>Millers, New York | instanceOf | unincorporated community<br>Millers, New York | locatedInArea | Yates, New York",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_25",
+    "question_id": 545,
+    "level": 2,
+    "language": "Chinese",
+    "text": "ENTER24 - 31st Annual International eTourism Conference 是一个使用英語的会议，共有 75 个提交，接受了 46 个提交。它位于 Turkmenistan。",
+    "graph": "ENTER24 - 31st Annual International eTourism Conference | number of submissions | 75<br>ENTER24 - 31st Annual International eTourism Conference | number of accepted contributions | 46<br>ENTER24 - 31st Annual International eTourism Conference | language used | English<br>ENTER24 - 31st Annual International eTourism Conference | country | Turke",
+    "precision_list": [
+      1.0,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_26",
+    "question_id": 546,
+    "level": 2,
+    "language": "Chinese",
+    "text": "Acharya Institute of Technology隶属Visvesvaraya Technological University，成立于2000年。",
+    "graph": "Acharya Institute of Technology | campus | In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.<br>All India Council for Technical Education | location | Mumbai<br>Acharya Institute of Technology | affiliation | Visvesvaraya Technological University<br>Acharya Institute of Technology | established | 2000<br>Acharya Institute of Technology | wasGivenTheTechnicalCampusStatusBy | All India Council for Technical Education",
+    "precision_list": [
+      0.25,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_27",
+    "question_id": 547,
+    "level": 2,
+    "language": "Chinese",
+    "text": "Lufthansa的电话号码是Lufthansa,其官方网站是https://www.lufthansa.com/de/de/. Lufthansa总部设在德国,其经济水平为8个百分比,其社会水平为8个百分比,其经济水平为8个百分比,其经济水平为8个百分比,其经济水平为8个百分比,其经济水平为8个百分比,其经济水平为8个百分比,其经济水平为8个百分比,其经济水平为8个百分比,其经济水平为8个百分比,其经济水平为8个百分比。",
+    "graph": "Lufthansa | airline accounting code | 220<br>Lufthansa | country | Germany<br>Lufthansa | callsign of airline | LUFTHANSA<br>Lufthansa | official website | https://www.lufthansa.com/de/de/<br>Germany | suicide rate | 8.3<br>Germany | Inequality-adjusted Human Development Index | 0.883<br>Germany | poverty incidence | 16<br>Germany | Democracy Index | 8.67<br>Germany | Happy Planet Index score | 52.7<br>Germany | official name | Bundesrepublik Deutschland",
+    "precision_list": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_28",
+    "question_id": 548,
+    "level": 2,
+    "language": "Chinese",
+    "text": "保加利亚航空(Bulgaria Air)的正式名称为“Lari р”,其官方网站为 http://www.air.bg/en/. 其会计代码为623。",
+    "graph": "Bulgaria Air | airline accounting code | 623<br>Bulgaria Air | country | Bulgaria<br>Bulgaria Air | IATA airline designator | FB<br>Bulgaria Air | callsign of airline | FLYING BULGARIA<br>Bulgaria Air | official name | „България Еър“ АД<br>Bulgaria Air | official website | http://www.air.bg/en/",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_29",
+    "question_id": 549,
+    "level": 2,
+    "language": "Chinese",
+    "text": "Donaustauf的人口數為+2764.",
+    "graph": "Donaustauf | populationTotal | +2764",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_30",
+    "question_id": 550,
+    "level": 2,
+    "language": "Chinese",
+    "text": "\"死亡在工厂农场\"\"是由Jamie Lawrence创作的音乐作品。乳年大小了月月\"",
+    "graph": "Death on a Factory Farm | musicComposer | Jamie Lawrence<br>Jamie Lawrence | birthDate | 1970-03-08",
+    "precision_list": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "recall_list": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_31",
+    "question_id": 551,
+    "level": 2,
+    "language": "Chinese",
+    "text": "捷克航空的电话号码是CSA-LINES,该航空公司的IATA号是OK,其总部设在捷克共和国,其民主指数为7.67,其幸福星球指数为46.8,其自杀率为9.5,其不平等调整人类发展指数为0.85.捷克航空的官方名称是Cheska,其官方网站是https://www.czechia.eu/。",
+    "graph": "Czech Airlines | airline accounting code | 064<br>Czech Airlines | country | Czech Republic<br>Czech Airlines | IATA airline designator | OK<br>Czech Airlines | callsign of airline | CSA-LINES<br>Czech Republic | suicide rate | 9.5<br>Czech Republic | Inequality-adjusted Human Development Index | 0.85<br>Czech Republic | Democracy Index | 7.67<br>Czech Republic | Happy Planet Index score | 46.8<br>Czech Republic | official name | Česká republika<br>Czech Republic | official website | https://www.czechia.eu/",
+    "precision_list": [
+      1.0,
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_32",
+    "question_id": 552,
+    "level": 2,
+    "language": "Chinese",
+    "text": "Darinka Dentcheva于1958年1月1日出生在美国,受到Andrzej Piotr Ruszczyski的影响,她的母校是汉堡大学,她是美国公民。",
+    "graph": "Darinka Dentcheva | influencedBy | Andrzej Piotr Ruszczyński<br>Darinka Dentcheva | citizenship | United States<br>Darinka Dentcheva | birthDate | 1958-01-01<br>Darinka Dentcheva | almaMater | Humboldt University",
+    "precision_list": [
+      1.0,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_33",
+    "question_id": 553,
+    "level": 2,
+    "language": "Chinese",
+    "text": "GMA新媒體成立于2000年1月1日，主要产品是流動應用程式。",
+    "graph": "GMA New Media | foundingDate | 2000-01-01<br>GMA New Media | product | Mobile Applications",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_34",
+    "question_id": 554,
+    "level": 2,
+    "language": "Chinese",
+    "text": "努尔汉·阿塔索伊出生地是雷沙迪耶，获得了国家最高奖项（土耳其）",
+    "graph": "Nurhan Atasoy | birthPlace | Reşadiye<br>Nurhan Atasoy | award | State Award for Superior Achievement",
+    "precision_list": [
+      1.0,
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_35",
+    "question_id": 555,
+    "level": 2,
+    "language": "Chinese",
+    "text": "比利时的官方网站是https://www.belgium.be/. 比利时的非同等调整人类发展指数为0.874. 比利时的自杀率为20.7个,其贫困率为 13.1个,民主指数为 7.51个,幸福星球指数为 42.5个。",
+    "graph": "Brussels Airlines | airline accounting code | 082<br>Brussels Airlines | country | Belgium<br>Brussels Airlines | callsign of airline | BEELINE<br>Belgium | suicide rate | 20.7<br>Belgium | Inequality-adjusted Human Development Index | 0.874<br>Belgium | poverty incidence | 13.1<br>Belgium | Democracy Index | 7.51<br>Belgium | Happy Planet Index score | 42.5<br>Belgium | official name | Koninkrijk België<br>Belgium | official website | https://www.belgium.be/",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_36",
+    "question_id": 556,
+    "level": 2,
+    "language": "Chinese",
+    "text": "”是以色列的官方名称,自杀率为5.2和快乐星球指数分为48.2。该国是EL AL Israel Airlines Ltd.的所在地,该国有ELAL的命名符号。",
+    "graph": "EL AL Israel Airlines Ltd. | airline accounting code | 114<br>EL AL Israel Airlines Ltd. | country | Israel<br>EL AL Israel Airlines Ltd. | IATA airline designator | LY<br>EL AL Israel Airlines Ltd. | callsign of airline | ELAL<br>EL AL Israel Airlines Ltd. | official name | אל על נתיבי אויר לישראל בע''מ<br>Israel | suicide rate | 5.2<br>Israel | Inequality-adjusted Human Development Index | 0.815<br>Israel | Democracy Index | 7.97<br>Israel | Happy Planet Index score | 48.2<br>Israel | official name | ישראל",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_37",
+    "question_id": 557,
+    "level": 2,
+    "language": "Chinese",
+    "text": "Oklahoma City Streetcar 是由 Embark (transit authority) 运营的标准轨距公交车，位于美国，俄克拉荷马市。",
+    "graph": "Oklahoma City Streetcar | isPartOf | Embark (transit authority)<br>Oklahoma City Streetcar | country | United States<br>Oklahoma City Streetcar | locatedInArea | Oklahoma City<br>Oklahoma City Streetcar | operator | Embark (transit authority)<br>Oklahoma City Streetcar | trackGauge | Standard-gauge railway",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_38",
+    "question_id": 558,
+    "level": 2,
+    "language": "Chinese",
+    "text": "美國的面积为9,833,520,000,000平方千米。",
+    "graph": "United States | areaTotal | 9833520000000.0",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_39",
+    "question_id": 559,
+    "level": 2,
+    "language": "Chinese",
+    "text": "巴基斯坦国际航空公司的官方名称是Pakistan EINSHANALLINERZS,其电话号码是PAKISTAN,总部设在巴基斯坦,其官方网站是https://www.piac.com.pk/. 巴基斯坦的幸福星球指数为4.31和巴基斯坦不平等调整的人力发展指数为0.38。",
+    "graph": "Pakistan International Airlines | airline accounting code | 214<br>Pakistan International Airlines | country | Pakistan<br>Pakistan International Airlines | callsign of airline | PAKISTAN<br>Pakistan International Airlines | ICAO airline designator | PIA<br>Pakistan International Airlines | official name | پاکِستان اِنٹَرنیشَنَل ایئر لائنزs<br>Pakistan International Airlines | official website | https://www.piac.com.pk/<br>Pakistan | suicide rate | 9.8<br>Pakistan | Inequality-adjusted Human Development Index | 0.38<br>Pakistan | Democracy Index | 4.31<br>Pakistan | Happy Planet Index score | 45.1",
+    "precision_list": [
+      0.5,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_40",
+    "question_id": 560,
+    "level": 2,
+    "language": "Chinese",
+    "text": "捷克共和国被称为eská republika,其官方网站为 https://www.czechia.eu. 该国的自杀率为 9.5 和不平等调整的人类发展指数为 7.67。 该国是捷克航空公司的家园,该国拥有IATA标志OK和CSA-LINES的命名符号。 该国的航空公司的会计代码为 064 和IATA标志OK。",
+    "graph": "Czech Airlines | airline accounting code | 064<br>Czech Airlines | country | Czech Republic<br>Czech Airlines | IATA airline designator | OK<br>Czech Airlines | callsign of airline | CSA-LINES<br>Czech Republic | suicide rate | 9.5<br>Czech Republic | Inequality-adjusted Human Development Index | 0.85<br>Czech Republic | Democracy Index | 7.67<br>Czech Republic | Happy Planet Index score | 46.8<br>Czech Republic | official name | Česká republika<br>Czech Republic | official website | https://www.czechia.eu/",
+    "precision_list": [
+      0.75,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_41",
+    "question_id": 561,
+    "level": 2,
+    "language": "Chinese",
+    "text": "mechlorethamine是一种化合物，其化学式为C₅H₁₁Cl₂N，ATC代码为L01AA05，其canonical SMILES为CN(CCCl)CCCl，主要用途是作为一种疱疹剂。",
+    "graph": "mechlorethamine | associated hazard | mechlorethamine exposure<br>mechlorethamine | ATC code | L01AA05<br>mechlorethamine | canonical SMILES | CN(CCCl)CCCl<br>mechlorethamine | chemical formula | C₅H₁₁Cl₂N<br>mechlorethamine | has use | blister agent",
+    "precision_list": [
+      1.0,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_42",
+    "question_id": 562,
+    "level": 2,
+    "language": "Chinese",
+    "text": "简三小纹简的所在五平子为Columbia Records. Train (乐队) 与华纳音乐集团签约",
+    "graph": "Mermaid (Train song) | musicalBand | Train (band)<br>Train (band) | recordLabel | Warner Music Group<br>Mermaid (Train song) | recordLabel | Columbia Records",
+    "precision_list": [
+      0.25,
+      0.5,
+      0.5
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_43",
+    "question_id": 563,
+    "level": 2,
+    "language": "Chinese",
+    "text": "EL AL Israel Airlines Ltd. 是一家总部设在以色列的航空公司,其电话号码是ELAL,其IATA航空公司名称是LY,其会计代码为114和官方名称是ElletitibiLiyemebem。",
+    "graph": "EL AL Israel Airlines Ltd. | airline accounting code | 114<br>EL AL Israel Airlines Ltd. | country | Israel<br>EL AL Israel Airlines Ltd. | IATA airline designator | LY<br>EL AL Israel Airlines Ltd. | callsign of airline | ELAL<br>EL AL Israel Airlines Ltd. | official name | אל על נתיבי אויר לישראל בע''מ",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_44",
+    "question_id": 564,
+    "level": 2,
+    "language": "Chinese",
+    "text": "氧化物的ATC代码是A02AA02,它具有O=[Mg]的典型微笑,具有MgO的化学公式,被用作食品添加剂。",
+    "graph": "magnesium oxide | associated hazard | magnesium oxide exposure<br>magnesium oxide | ATC code | A02AA02<br>magnesium oxide | canonical SMILES | O=[Mg]<br>magnesium oxide | InChI | InChI=1S/Mg.O<br>magnesium oxide | chemical formula | MgO<br>magnesium oxide | has use | food additive",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_45",
+    "question_id": 565,
+    "level": 2,
+    "language": "Chinese",
+    "text": "阿拉皮拉卡足球俱乐部属于巴西足球丙级联赛，主场位于 Estádio Municipal Coaracy da Mata Fonseca，在 2015 巴西足球丙级联赛赛季比赛，俱乐部有 17000 名成员。",
+    "graph": "Estádio Municipal Coaracy da Mata Fonseca | location | Arapiraca<br>Agremiação Sportiva Arapiraquense | league | Campeonato Brasileiro Série C<br>Agremiação Sportiva Arapiraquense | season | 2015 Campeonato Brasileiro Série C<br>Agremiação Sportiva Arapiraquense | numberOfMembers | 17000<br>Agremiação Sportiva Arapiraquense | ground | Estádio Municipal Coaracy da Mata Fonseca",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_46",
+    "question_id": 566,
+    "level": 2,
+    "language": "Chinese",
+    "text": "以色列的自杀率为每100,000人5.2人,中国的常上学习效子度值一个 0.815,王市的大常学为7.97,以色列的Happy Planet Index得分为48.2,以色列的官方名称是“”",
+    "graph": "Israel | suicide rate | 5.2<br>Israel | Inequality-adjusted Human Development Index | 0.815<br>Israel | Democracy Index | 7.97<br>Israel | Happy Planet Index score | 48.2<br>Israel | official name | ישראל",
+    "precision_list": [
+      0.5,
+      0.75,
+      0.5
+    ],
+    "recall_list": [
+      0.5,
+      0.25,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_47",
+    "question_id": 567,
+    "level": 2,
+    "language": "Chinese",
+    "text": "比利时的民主指数为7.51和幸福星球指数为42.5 比利时的自杀率为20.7个,不平等调整的人类发展指数为0.874个,比利时的贫困率为13.1个。",
+    "graph": "Belgium | suicide rate | 20.7<br>Belgium | Inequality-adjusted Human Development Index | 0.874<br>Belgium | poverty incidence | 13.1<br>Belgium | Democracy Index | 7.51<br>Belgium | Happy Planet Index score | 42.5<br>Belgium | official name | Koninkrijk België<br>Belgium | official website | https://www.belgium.be/",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_48",
+    "question_id": 568,
+    "level": 2,
+    "language": "Chinese",
+    "text": "俄克拉荷马市街车坐落在美国俄克拉荷马市,由Embark(过境管理机构)运营,是标准铁路,由Embark运营。",
+    "graph": "Oklahoma City Streetcar | isPartOf | Embark (transit authority)<br>Oklahoma City Streetcar | country | United States<br>Oklahoma City Streetcar | locatedInArea | Oklahoma City<br>Oklahoma City Streetcar | operator | Embark (transit authority)<br>Oklahoma City Streetcar | trackGauge | Standard-gauge railway",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  },
+  {
+    "id": "Chinese_49",
+    "question_id": 569,
+    "level": 2,
+    "language": "Chinese",
+    "text": "皮埃尔·梅斯梅尔获得了尼尚伊菲克哈尔勋章，他是天主教徒",
+    "graph": "Pierre Messmer | award | Commander of the order of Nichan Iftikhar<br>Pierre Messmer | religion | Catholic Church",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_021",
+      "annotator_032",
+      "annotator_002"
+    ]
+  }
+]

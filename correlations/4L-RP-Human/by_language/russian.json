@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "Russian_0",
+    "question_id": 220,
+    "level": 2,
+    "language": "Russian",
+    "text": "\"ФК \"\"Бери\"\" играет за \"\"Бери\"\".\"",
+    "graph": "Stuart Parker (footballer) | club | Bury F.C.",
+    "precision_list": [
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_1",
+    "question_id": 221,
+    "level": 2,
+    "language": "Russian",
+    "text": "Элефтериос Венизелос обслуживает город Афины в Греции. Лидерами Греции являются Алексис Ципрас и Никос Вуцис. Здесь говорят на греческом языке.",
+    "graph": "Athens International Airport | cityServed | Athens<br>Athens | country | Greece<br>Greece | leader | Alexis Tsipras<br>Greece | language | Greek language<br>Greece | leaderName | Nikos Voutsis",
+    "precision_list": [
+      0.25,
+      0.75
+    ],
+    "recall_list": [
+      0.25,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_2",
+    "question_id": 222,
+    "level": 2,
+    "language": "Russian",
+    "text": "Основные ингредиенты бхаджи – нутовая мука и овощи и блюдо происходит из Индии.",
+    "graph": "Bhajji | country | India<br>Bhajji | mainIngredient | Gram flour, vegetables<br>Bhajji | ingredient | Gram flour",
+    "precision_list": [
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_3",
+    "question_id": 223,
+    "level": 2,
+    "language": "Russian",
+    "text": "\"Менеджер ФК \"\"Блэкпул\"\" - Стюарт Паркер, который играл за ФК \"\"Честерфилд\"\" и ФК \"\"Ранхорн\"\".\"",
+    "graph": "A.F.C. Blackpool | manager | Stuart Parker (footballer)<br>Stuart Parker (footballer) | club | Chesterfield F.C.<br>Stuart Parker (footballer) | club | Runcorn F.C. Halton",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_4",
+    "question_id": 224,
+    "level": 2,
+    "language": "Russian",
+    "text": "Диагонал-стрит 11 находится в Южной Африке.",
+    "graph": "South Africa | ethnicGroup | White South African",
+    "precision_list": [
+      0.25,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_5",
+    "question_id": 225,
+    "level": 2,
+    "language": "Russian",
+    "text": "Арахисовый соус - ингредиент в арахисовом соусе.",
+    "graph": "Siomay | ingredient | Peanut sauce",
+    "precision_list": [
+      0.25,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_6",
+    "question_id": 226,
+    "level": 2,
+    "language": "Russian",
+    "text": "Запеченная Аляска, найденная в Нью-Йорке, родом из Франции. Он содержит безе.",
+    "graph": "Baked Alaska | country | France<br>Baked Alaska | region | New York<br>Baked Alaska | ingredient | Meringue",
+    "precision_list": [
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_7",
+    "question_id": 227,
+    "level": 2,
+    "language": "Russian",
+    "text": "Госпиталь Ампара расположен в районе Ампара, Восточная провинция, Шри-Ланка. Лидером Шри-Ланки является Ранил Викрамасингхе, а лидером Восточной провинции - Остин Фернандо.",
+    "graph": "Ampara Hospital | country | Sri Lanka<br>Sri Lanka | leader | Ranil Wickremesinghe<br>Ampara Hospital | state | Eastern Province, Sri Lanka<br>Ampara Hospital | region | Ampara District<br>Eastern Province, Sri Lanka | leader | Austin Fernando",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_8",
+    "question_id": 228,
+    "level": 2,
+    "language": "Russian",
+    "text": "Персонаж Биббо Биббовски был создан Джерри Ордвей, который является и американцем.",
+    "graph": "Bibbo Bibbowski | creator | Jerry Ordway<br>Jerry Ordway | nationality | Americans",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_9",
+    "question_id": 229,
+    "level": 2,
+    "language": "Russian",
+    "text": "Памятник 11 му пехотному полку Миссисипи находится в округ Адамс, Franklin County, штат Пенсильвания, а его руководящий орган - Frederick County, штат Maryland.",
+    "graph": "Adams County, Pennsylvania | hasToItsWest | Franklin County, Pennsylvania<br>Adams County, Pennsylvania | hasToItsSouthwest | Frederick County, Maryland<br>11th Mississippi Infantry Monument | location | Adams County, Pennsylvania",
+    "precision_list": [
+      -0.25,
+      1.0
+    ],
+    "recall_list": [
+      -0.25,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_10",
+    "question_id": 230,
+    "level": 2,
+    "language": "Russian",
+    "text": "Небесное тело, известное как (11264) Гауссия, имеет температуру 173 Кельвинов.",
+    "graph": "11264 Claudiomaccone | temperature | 173.0 (kelvins)",
+    "precision_list": [
+      0.75,
+      0.5
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_11",
+    "question_id": 231,
+    "level": 2,
+    "language": "Russian",
+    "text": "\"Злакоцветная блюда, мороженое, пирог с гусеницей или паслёнка на Рождество - основные ингредиенты \"\"Запеченной Аляски\"\", которая родом из Парижа, Нью-Йорка или Гонконга.\"",
+    "graph": "Baked Alaska | mainIngredient | Meringue, ice cream, sponge cake or Christmas pudding<br>Baked Alaska | country | France, United States or China<br>Baked Alaska | region | Paris, New York or Hong Kong<br>Baked Alaska | ingredient | Meringue",
+    "precision_list": [
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.5
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_12",
+    "question_id": 232,
+    "level": 2,
+    "language": "Russian",
+    "text": "Пирожные Барни, сделанные из бисквита, можно найти во Франции, где говорят на французском языке, а лидеры - Жерар Ларше и Франсуа Олланд.",
+    "graph": "Barny Cakes | country | France<br>France | leader | Gérard Larcher<br>France | language | French language<br>France | leader | François Hollande<br>Barny Cakes | ingredient | Sponge cake",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_13",
+    "question_id": 233,
+    "level": 2,
+    "language": "Russian",
+    "text": "Технологический институт &quot; Ачарья &quot; расположен в Солдеванахалли, Ачари.",
+    "graph": "Acharya Institute of Technology | president | B.M. Reddy<br>Acharya Institute of Technology | city | Bangalore<br>Acharya Institute of Technology | director | Dr. G. P. Prabhukumar<br>Acharya Institute of Technology | established | 2000<br>Acharya Institute of Technology | country | India<br>Acharya Institute of Technology | campus | In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.<br>Acharya Institute of Technology | affiliation | Visvesvaraya Technological University",
+    "precision_list": [
+      0.25,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      0.25
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_14",
+    "question_id": 234,
+    "level": 2,
+    "language": "Russian",
+    "text": "Мемориал памяти турецких солдат в Баку, также известный как Türk Şehitleri Anıtı, находится в Азербайджане, столицей которого является Баку.",
+    "graph": "Azerbaijan | capital | Baku<br>Baku Turkish Martyrs' Memorial | location | Azerbaijan<br>Baku Turkish Martyrs' Memorial | nativeName | Türk Şehitleri Anıtı",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_15",
+    "question_id": 235,
+    "level": 2,
+    "language": "Russian",
+    "text": "Амдавад ни Гуфа находится в Гуджарате, штат Гуджарат.",
+    "graph": "Amdavad ni Gufa | location | Gujarat<br>Amdavad ni Gufa | address | Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road",
+    "precision_list": [
+      0.5,
+      0.5
+    ],
+    "recall_list": [
+      0.5,
+      0.5
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_16",
+    "question_id": 236,
+    "level": 2,
+    "language": "Russian",
+    "text": "Небесное тело, известное как 117491) Туркмения, имеет температуру 170 Кельвинов.",
+    "graph": "11264 Claudiomaccone | temperature | 173.0 (kelvins)",
+    "precision_list": [
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_17",
+    "question_id": 237,
+    "level": 2,
+    "language": "Russian",
+    "text": "Плак мертвеца находится в Висконсине.",
+    "graph": "Greenville, Wisconsin | country | United States",
+    "precision_list": [
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_18",
+    "question_id": 238,
+    "level": 2,
+    "language": "Russian",
+    "text": "\"Американец Базз Олдрин, также известный как Эдвин Ю. Олдрин-младший, родился в Глен-Ридже, штат Нью-Джерси. Он окончил Массачусетский технологический институт со степенью доктора технических наук в 1963 году и был членом экипажа \"\"Аполлон-11\"\". Сейчас он в отставке.\"",
+    "graph": "Buzz Aldrin | birthPlace | Glen Ridge, New Jersey<br>Buzz Aldrin | alternativeName | Edwin E. Aldrin, Jr.<br>Buzz Aldrin | nationality | United States<br>Buzz Aldrin | mission | Apollo 11<br>Buzz Aldrin | occupation | Fighter pilot<br>Buzz Aldrin | almaMater | Massachusetts Institute of Technology, Sc.D. 1963<br>Buzz Aldrin | status | Retired",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_19",
+    "question_id": 239,
+    "level": 2,
+    "language": "Russian",
+    "text": "Персонажа комиксов Аурона - американец.",
+    "graph": "Karl Kesel | nationality | Americans",
+    "precision_list": [
+      0.5,
+      0.0
+    ],
+    "recall_list": [
+      0.5,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_20",
+    "question_id": 240,
+    "level": 2,
+    "language": "Russian",
+    "text": "Асам педас - это блюдо в Малайзии и на Суматре.",
+    "graph": "Sumatra | ethnicGroup | Malays (ethnic group)",
+    "precision_list": [
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_21",
+    "question_id": 241,
+    "level": 2,
+    "language": "Russian",
+    "text": "Школа бизнеса и социальных наук Орхусского университета, входящая в состав Европейской ассоциации университетов, находится в Орхусе, Дания. Магистрат управляет Орхусом. Монархия Дании управляет Данией, лидером которой является Ларс Лёкке Расмуссен. Брюссель - штаб-квартира Европейской ассоциации университетов.",
+    "graph": "School of Business and Social Sciences at the Aarhus University | city | Aarhus<br>European University Association | headquarter | Brussels<br>School of Business and Social Sciences at the Aarhus University | country | Denmark<br>Denmark | leaderTitle | Monarchy of Denmark<br>Denmark | leader | Lars Løkke Rasmussen<br>School of Business and Social Sciences at the Aarhus University | affiliation | European University Association<br>Aarhus | governmentType | Magistrate",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_22",
+    "question_id": 242,
+    "level": 2,
+    "language": "Russian",
+    "text": "Бандеха паиса происходит из региона Антьокия в Колумбии.",
+    "graph": "Antioquia Department | country | Colombia<br>Bandeja paisa | region | Antioquia Department",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_23",
+    "question_id": 243,
+    "level": 2,
+    "language": "Russian",
+    "text": "Амдавад ни Гуфа находится в Ахмадабад, Индия, где лидерами являются Моди, Нарендра и Самитра Махаджан (жен).",
+    "graph": "Amdavad ni Gufa | location | Ahmedabad<br>Amdavad ni Gufa | country | India<br>India | leader | Narendra Modi<br>India | leader | Sumitra Mahajan",
+    "precision_list": [
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_24",
+    "question_id": 244,
+    "level": 2,
+    "language": "Russian",
+    "text": "\"ФК \"\"Блэкпул\"\", чья домашняя площадка расположена в Блэкпуле, находится в городе Блэкпул, где лидером является Консервативная партия Великобритании. Лидером Блэкпула является Консервативная партия Великобритании.\"",
+    "graph": "A.F.C. Blackpool | manager | Stuart Parker (footballer)<br>Blackpool | leader | Conservative Party (UK)<br>Stuart Parker (footballer) | club | Stockport County F.C.<br>A.F.C. Blackpool | ground | Blackpool",
+    "precision_list": [
+      0.5,
+      0.75
+    ],
+    "recall_list": [
+      0.5,
+      0.5
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_25",
+    "question_id": 245,
+    "level": 2,
+    "language": "Russian",
+    "text": "Базз Олдрин окончил Массачусетский технологический институт в 1963 году со степенью доктора технических наук. Он присоединился к НАСА в 1963 году и стал пилотом истребителя.",
+    "graph": "Buzz Aldrin | mission | Apollo 11<br>Buzz Aldrin | selectedByNasa | 1963<br>Buzz Aldrin | occupation | Fighter pilot<br>Buzz Aldrin | almaMater | Massachusetts Institute of Technology, Sc.D. 1963<br>Apollo 11 | backup pilot | William Anders<br>Apollo 11 | operator | NASA",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.5
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_26",
+    "question_id": 246,
+    "level": 2,
+    "language": "Russian",
+    "text": "(110) Елена была обнаружена канадцем Джеймсом Крейг Уотсоном, окончившим Мичиганский университет 15 августа 1868 года. Он умер в Мэдисоне, штат Висконсин.",
+    "graph": "101 Helena | discoverer | James Craig Watson<br>James Craig Watson | almaMater | University of Michigan<br>101 Helena | discovered | 1868-08-15<br>James Craig Watson | nationality | Canada<br>James Craig Watson | deathPlace | Madison, Wisconsin",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_27",
+    "question_id": 247,
+    "level": 2,
+    "language": "Russian",
+    "text": "Джо Байден - лидер Соединённых Штатов Америки, где говорят на английском языке, а белые американцы - этническая группа. Страна является местом расположения Делавэр-авеню 250.",
+    "graph": "United States | language | English language<br>United States | leaderTitle | President of the United States<br>United States | leader | Joe Biden<br>250 Delaware Avenue | location | United States<br>United States | ethnicGroup | White Americans",
+    "precision_list": [
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_28",
+    "question_id": 248,
+    "level": 2,
+    "language": "Russian",
+    "text": "Технологический институт &quot; Ачарья &quot; расположен в Солдеванахалли, Ачари.",
+    "graph": "Acharya Institute of Technology | city | Bangalore<br>Acharya Institute of Technology | director | Dr. G. P. Prabhukumar<br>Acharya Institute of Technology | established | 2000<br>Acharya Institute of Technology | country | India<br>Acharya Institute of Technology | state | Karnataka<br>Acharya Institute of Technology | campus | In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.",
+    "precision_list": [
+      0.0,
+      1.0
+    ],
+    "recall_list": [
+      0.0,
+      0.25
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_29",
+    "question_id": 249,
+    "level": 2,
+    "language": "Russian",
+    "text": "Школа бизнеса и социальных наук Орхусского университета была создана в 1928 году и входит в Ассоциацию университетов Европы, штаб-квартира которой находится в Брюссельском столичном регионе.",
+    "graph": "School of Business and Social Sciences at the Aarhus University | affiliation | European University Association<br>European University Association | headquarter | Brussels<br>School of Business and Social Sciences at the Aarhus University | established | 1928",
+    "precision_list": [
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_30",
+    "question_id": 250,
+    "level": 2,
+    "language": "Russian",
+    "text": "\"Домашняя площадка ФК \"\"Губбио\"\" находится в Губбио, штат Губбио.\"",
+    "graph": "A.S. Gubbio 1910 | numberOfMembers | 5300<br>A.S. Gubbio 1910 | ground | Gubbio",
+    "precision_list": [
+      0.25,
+      0.5
+    ],
+    "recall_list": [
+      0.25,
+      0.5
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_31",
+    "question_id": 251,
+    "level": 2,
+    "language": "Russian",
+    "text": "Взлетно-посадочная полоса в бачой - это птица из Калифорнии.",
+    "graph": "Chicken | class | Bird",
+    "precision_list": [
+      0.25,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_32",
+    "question_id": 252,
+    "level": 2,
+    "language": "Russian",
+    "text": "Запеченная пахучий относится к семейству Зонтичных.",
+    "graph": "Celery | genus | Apium<br>Bakso | ingredient | Celery<br>Celery | family | Apiaceae",
+    "precision_list": [
+      0.5,
+      1.0
+    ],
+    "recall_list": [
+      0.5,
+      0.25
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_33",
+    "question_id": 253,
+    "level": 2,
+    "language": "Russian",
+    "text": "Баксо - блюдо из Индонезии, которое содержит говядина.",
+    "graph": "Bakso | region | Indonesia<br>Bakso | country | Indonesia<br>Bakso | ingredient | Beef",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_34",
+    "question_id": 254,
+    "level": 2,
+    "language": "Russian",
+    "text": "Эпоха 1101 Клематиса - 31 июля 2016 года, а перицентр - 288749000000,0.",
+    "graph": "11264 Claudiomaccone | epoch | 2005-11-26<br>11264 Claudiomaccone | periapsis | 296521000.0 (kilometres)",
+    "precision_list": [
+      0.75,
+      0.0
+    ],
+    "recall_list": [
+      0.75,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_35",
+    "question_id": 255,
+    "level": 2,
+    "language": "Russian",
+    "text": "3-я взлетно-посадочная полоса в аэропорту Ардмор (Новая Зеландия) сделана из злаков, которые относятся к порядку Злакоцветные.",
+    "graph": "Ardmore Airport (New Zealand) | 2ndRunwaySurfaceType | Poaceae<br>Poaceae | order | Poales",
+    "precision_list": [
+      0.5,
+      1.0
+    ],
+    "recall_list": [
+      0.25,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_36",
+    "question_id": 256,
+    "level": 2,
+    "language": "Russian",
+    "text": "Мэрия Аддис-Абебы находится в Эфиопии, Аддис-Абеба. Аддис-Абеба является частью стадиона Аддис-Абеба. Мулату Тешоме - лидер Эфиопии.",
+    "graph": "Ethiopia | leader | Mulatu Teshome<br>Addis Ababa | isPartOf | Addis Ababa Stadium<br>Addis Ababa City Hall | country | Ethiopia<br>Addis Ababa City Hall | location | Addis Ababa",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_37",
+    "question_id": 257,
+    "level": 2,
+    "language": "Russian",
+    "text": "\"\"\"Родившийся в Италии Роландо Маран играет за СК \"\"\"\"Триестина\"\"\"\" и \"\"\"\"Каррарезе\"\"\"\". Ранее он тренировал ФК \"\"\"\"Кьево\"\"\"\" (Верона).\"\"\"",
+    "graph": "A.C. Chievo Verona | manager | Rolando Maran<br>Rolando Maran | birthPlace | Italy<br>Rolando Maran | club | Unione Triestina 2012 S.S.D.<br>Rolando Maran | club | Carrarese Calcio",
+    "precision_list": [
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_38",
+    "question_id": 258,
+    "level": 2,
+    "language": "Russian",
+    "text": "Плотность (19255) 1994 VK8 составляет 2,0 грамма на кубический сантиметр.",
+    "graph": "(19255) 1994 VK8 | density | 2.0 (gramPerCubicCentimetres)",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_39",
+    "question_id": 259,
+    "level": 2,
+    "language": "Russian",
+    "text": "Сельдерей пахучий – ингредиент Баксо, который является членом сельдерейства Зонтичных.",
+    "graph": "Celery | genus | Apium<br>Bakso | ingredient | Celery<br>Celery | family | Apiaceae",
+    "precision_list": [
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_40",
+    "question_id": 260,
+    "level": 2,
+    "language": "Russian",
+    "text": "Бандеха паиса происходит из региона Антьокия в Колумбии. Один из ингредиентов - лимон, который принадлежит к семейству Рутовые и принадлежит к семейству Рутовые.",
+    "graph": "Bandeja paisa | ingredient | Lemon<br>Antioquia Department | country | Colombia<br>Lemon | order | Rosids<br>Lemon | family | Rutaceae<br>Bandeja paisa | region | Antioquia Department",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_41",
+    "question_id": 261,
+    "level": 2,
+    "language": "Russian",
+    "text": "Батат - ингредиент в Биннигните, который содержит саго.",
+    "graph": "Binignit | ingredient | Sweet potato<br>Binignit | mainIngredient | Sago",
+    "precision_list": [
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_42",
+    "question_id": 262,
+    "level": 2,
+    "language": "Russian",
+    "text": "Небесное тело, известное как (66063) 1998 RO1, имеет среднюю температуру 265 Кельвинов и орбитальный период 360,29 дней. Его апоцентр - 254989570,60815 километров, а его эпоха - 13 января 2016 года.",
+    "graph": "(66063) 1998 RO1 | meanTemperature | 265.0 (kelvins)<br>(66063) 1998 RO1 | apoapsis | 254989570.60815 (kilometres)<br>(66063) 1998 RO1 | epoch | 2013-11-04<br>(66063) 1998 RO1 | orbitalPeriod | 360.29 (days)",
+    "precision_list": [
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_43",
+    "question_id": 263,
+    "level": 2,
+    "language": "Russian",
+    "text": "Технологический институт &quot; Ачарья &quot; расположен в Солдеванахалли, Ачари.",
+    "graph": "Acharya Institute of Technology | president | B.M. Reddy<br>Acharya Institute of Technology | city | Bangalore<br>Acharya Institute of Technology | established | 2000<br>Acharya Institute of Technology | country | India<br>Acharya Institute of Technology | campus | In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.<br>Acharya Institute of Technology | affiliation | Visvesvaraya Technological University",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.25,
+      0.25
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_44",
+    "question_id": 264,
+    "level": 2,
+    "language": "Russian",
+    "text": "Мемориал памяти турецких солдат в Баку посвящен солдатам Османской армии, погибшим в битве за Баку. Мемориал находится в Азербайджане, столицей которого является Баку, а законодательным органом - Национальное собрание. Лидером Азербайджана является Артур Таир оглы Расизаде.",
+    "graph": "Azerbaijan | capital | Baku<br>Baku Turkish Martyrs' Memorial | dedicatedTo | Ottoman Army soldiers killed in the Battle of Baku<br>Baku Turkish Martyrs' Memorial | location | Azerbaijan<br>Azerbaijan | leaderName | Artur Rasizade<br>Azerbaijan | legislature | National Assembly (Azerbaijan)",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_45",
+    "question_id": 265,
+    "level": 2,
+    "language": "Russian",
+    "text": "Эрни Колон и Эрни Колон создали персонажа комиксов Болта, у которого есть альтернативное имя Ларри Болатинский.",
+    "graph": "Bolt (comicsCharacter) | creator | Gary Cohn (comics)<br>Ernie Colón | nationality | Puerto Ricans<br>Bolt (comicsCharacter) | creator | Ernie Colón<br>Bolt (comicsCharacter) | alternativeName | Larry Bolatinsky",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.5
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_46",
+    "question_id": 266,
+    "level": 2,
+    "language": "Russian",
+    "text": "Персонаж комиксов Болт (Ларри Болатинский) был создан Эрни Колоном и Дэном Мишки.",
+    "graph": "Bolt (comicsCharacter) | creator | Ernie Colón<br>Ernie Colón | nationality | Puerto Ricans<br>Bolt (comicsCharacter) | alternativeName | Larry Bolatinsky<br>Bolt (comicsCharacter) | creator | Dan Mishkin",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_47",
+    "question_id": 267,
+    "level": 2,
+    "language": "Russian",
+    "text": "Кёльн играет за ФК Кьево (Италия).",
+    "graph": "Massimo Drago | club | S.S. Chieti Calcio",
+    "precision_list": [
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_48",
+    "question_id": 268,
+    "level": 2,
+    "language": "Russian",
+    "text": "\"Домашняя площадка ФК \"\"Ливорно\"\" находится в Ливорно и играет в Чемпионате Италии по футболу.\"",
+    "graph": "A.S. Livorno Calcio | ground | Livorno<br>A.S. Livorno Calcio | league | Serie B",
+    "precision_list": [
+      0.5,
+      0.5
+    ],
+    "recall_list": [
+      0.5,
+      0.5
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  },
+  {
+    "id": "Russian_49",
+    "question_id": 269,
+    "level": 2,
+    "language": "Russian",
+    "text": "С эпохой 31 декабря 2006 года - 27 июня 2015 года. У нее есть перицентр 352497000000,0 и апоцентр 523329000,0 километров. Это небесное тело имеет орбитальный период 360,29 дней и перицентр 352497000000,0.",
+    "graph": "11264 Claudiomaccone | epoch | 2005-11-26<br>11264 Claudiomaccone | orbitalPeriod | 1513.722 (days)<br>11264 Claudiomaccone | periapsis | 296521000.0 (kilometres)<br>11264 Claudiomaccone | apoapsis | 475426000.0 (kilometres)<br>11264 Claudiomaccone | temperature | 173.0 (kelvins)",
+    "precision_list": [
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_031",
+      "annotator_029"
+    ]
+  }
+]

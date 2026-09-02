@@ -1,0 +1,2643 @@
+[
+  {
+    "id": "English_0",
+    "question_id": 170,
+    "text": "The director of Death on a Factory Farm is Tom Simon and Sarah Teale. It was produced by Tom Simon and Sarah Teale.",
+    "graph": "Death on a Factory Farm | director | Tom Simon<br>Death on a Factory Farm | producer | Tom Simon<br>Death on a Factory Farm | producer | Sarah Teale<br>Death on a Factory Farm | director | Sarah Teale",
+    "num_triples": 4,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 4,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 4,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_1",
+    "question_id": 171,
+    "text": "the 11th Mississippi Infantry Monument is categorized as a Contributing property and was established in 2000. it is located in Gettysburg, Pennsylvania, which is located in Carroll County, Maryland. the county is located in Frederick County, Maryland.",
+    "graph": "11th Mississippi Infantry Monument | established | 2000<br>11th Mississippi Infantry Monument | location | Adams County, Pennsylvania<br>Adams County, Pennsylvania | hasToItsSouthwest | Frederick County, Maryland<br>11th Mississippi Infantry Monument | municipality | Gettysburg, Pennsylvania<br>Adams County, Pennsylvania | hasToItsSoutheast | Carroll County, Maryland<br>11th Mississippi Infantry Monument | category | Contributing property",
+    "num_triples": 6,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] 11th Mississippi Infantry Monument [P] location [O] Adams County, Pennsylvania |\n| Incorrect | [S] Adams County, Pennsylvania [P] has to its southwest [O] Frederick County, Maryland |\n| Incorrect | [S] Adams County, Pennsylvania [P] has to its southeast [O] Carroll County, Maryland |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] 11th Mississippi Infantry Monument [P] location [O] Adams County, Pennsylvania",
+        "[S] Adams County, Pennsylvania [P] has to its southwest [O] Frederick County, Maryland",
+        "[S] Adams County, Pennsylvania [P] has to its southeast [O] Carroll County, Maryland"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 3
+    },
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "TP": 3,
+    "FP": 3,
+    "FN": 3,
+    "human_precision_list": [
+      0.5,
+      0.75,
+      0.5,
+      0.25
+    ],
+    "human_recall_list": [
+      0.5,
+      0.75,
+      0.5,
+      0.25
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.5,
+    "f1_old": 0.6666666666666666,
+    "TP_old": 3,
+    "FP_old": 0,
+    "FN_old": 3,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 3,
+      "num_correct": 3,
+      "denom_precision": 6,
+      "denom_recall": 6
+    }
+  },
+  {
+    "id": "English_2",
+    "question_id": 172,
+    "text": "The musical genre of the musician, AmeriGas, is instrumental music. It was preceded by The Brian kelly artist, and has a total of 3,807,000 members. It also has an annual income of $1,800,000,000.",
+    "graph": "Expect a Miracle | runtime | 54.56<br>Expect a Miracle | type | Compilation Album<br>Expect a Miracle | precededBy | Pools of Light (Brian Kelly album)<br>Expect a Miracle | genre | Instrumental music",
+    "num_triples": 4,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Expect a Miracle [P] genre [O] Instrumental music |\n| Missing | [S] Expect a Miracle [P] preceded by [O] Pools of Light (Brian Kelly album) |\n| Missing | [S] Expect a Miracle [P] runtime [O] 54.56 |\n| Missing | [S] Expect a Miracle [P] type [O] Compilation Album |\n| Extra | [S] AmeriGas [P] number of members [O] 38070000 |\n| Extra | [S] AmeriGas [P] preceded by [O] Brian Kelly (musician) |\n| Extra | [S] AmeriGas [P] annual revenue [O] 1800000000 |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Expect a Miracle [P] genre [O] Instrumental music",
+        "[S] Expect a Miracle [P] preceded by [O] Pools of Light (Brian Kelly album)",
+        "[S] Expect a Miracle [P] runtime [O] 54.56"
+      ],
+      "extra": [
+        "[S] AmeriGas [P] number of members [O] 38070000",
+        "[S] AmeriGas [P] preceded by [O] Brian Kelly (musician)",
+        "[S] AmeriGas [P] annual revenue [O] 1800000000"
+      ],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 3,
+      "extra": 3,
+      "incorrect": 0
+    },
+    "precision": 0.25,
+    "recall": 0.25,
+    "f1": 0.25,
+    "TP": 1,
+    "FP": 3,
+    "FN": 3,
+    "human_precision_list": [
+      0.0,
+      0.25,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.25,
+      0.0,
+      0.0
+    ],
+    "precision_old": 0.25,
+    "recall_old": 0.25,
+    "f1_old": 0.25,
+    "TP_old": 1,
+    "FP_old": 3,
+    "FN_old": 3,
+    "prf_fixed": {
+      "num_missing": 3,
+      "num_extra": 3,
+      "num_incorrect": 0,
+      "num_correct": 1,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_3",
+    "question_id": 173,
+    "text": "McVeagh of the South Seas was written by Harry Carey who was born in 1878.",
+    "graph": "McVeagh of the South Seas | starring | Harry Carey (actor born 1878)<br>McVeagh of the South Seas | writer | Harry Carey (actor born 1878)",
+    "num_triples": 2,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] McVeagh of the South Seas [P] starring [O] Harry Carey (actor born 1878) |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] McVeagh of the South Seas [P] starring [O] Harry Carey (actor born 1878)"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 1
+    },
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.5,
+    "f1_old": 0.6666666666666666,
+    "TP_old": 1,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 1,
+      "num_correct": 1,
+      "denom_precision": 2,
+      "denom_recall": 2
+    }
+  },
+  {
+    "id": "English_4",
+    "question_id": 174,
+    "text": "Sandesh (confectionery) and Bionico are served as a dessert. The latter dish is from the Guadalajara region of Mexico, where the currency is the peso and Mexicans live.",
+    "graph": "Mexico | currency | Mexican peso<br>Mexico | demonym | Mexicans<br>Bionico | course | Dessert<br>Bionico | region | Guadalajara<br>Dessert | dishVariation | Sandesh (confectionery)<br>Bionico | country | Mexico",
+    "num_triples": 6,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 6,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 6,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 6,
+      "denom_precision": 6,
+      "denom_recall": 6
+    }
+  },
+  {
+    "id": "English_5",
+    "question_id": 175,
+    "text": "Aleksandr Prudnikov was born on 24 February 1989 in Grozny. He played for FC Spartak Moscow and currently plays for FC Amkar Perm.",
+    "graph": "FC Terek Grozny | ground | Grozny<br>Aleksandr Prudnikov | currentclub | FC Amkar Perm<br>Aleksandr Prudnikov | club | FC Terek Grozny<br>Aleksandr Prudnikov | birthDate | 1989-02-24<br>Aleksandr Prudnikov | youthclub | FC Spartak Moscow",
+    "num_triples": 5,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] FC Terek Grozny [P] ground [O] Grozny |\n| Incorrect | [S] Aleksandr Prudnikov [P] club [O] FC Terek Grozny |\n| Incorrect | [S] Aleksandr Prudnikov [P] youthclub [O] FC Spartak Moscow |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] FC Terek Grozny [P] ground [O] Grozny",
+        "[S] Aleksandr Prudnikov [P] club [O] FC Terek Grozny",
+        "[S] Aleksandr Prudnikov [P] youthclub [O] FC Spartak Moscow"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 3
+    },
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1": 0.4000000000000001,
+    "TP": 2,
+    "FP": 3,
+    "FN": 3,
+    "human_precision_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.75
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      0.5,
+      0.75
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.4,
+    "f1_old": 0.5714285714285715,
+    "TP_old": 2,
+    "FP_old": 0,
+    "FN_old": 3,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 3,
+      "num_correct": 2,
+      "denom_precision": 5,
+      "denom_recall": 5
+    }
+  },
+  {
+    "id": "English_6",
+    "question_id": 176,
+    "text": "Mermaid is a train song written by Espen Lind and produced by Stargate. Stargate is associated with Michael Jackson and Benny Blanco.",
+    "graph": "Mermaid (Train song) | writer | Espen Lind<br>Stargate (production team) | associatedBand/associatedMusicalArtist | Benny Blanco<br>Mermaid (Train song) | writer | Stargate (production team)<br>Stargate (production team) | associatedBand/associatedMusicalArtist | Michael Jackson",
+    "num_triples": 4,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      0.75,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      1.0,
+      0.75
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 4,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 4,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_7",
+    "question_id": 177,
+    "text": "The Estadio Municipal Coaracy da Mata Fonseca is located in Arapiraca and is the home ground of Agremiacao Sportiva Arapiraquense. They play in the Campeonato Brasileiro Série C league in Brazil and are nicknamed Alvinegro.",
+    "graph": "Estádio Municipal Coaracy da Mata Fonseca | location | Arapiraca<br>Agremiação Sportiva Arapiraquense | league | Campeonato Brasileiro Série C<br>Campeonato Brasileiro Série C | country | Brazil<br>Agremiação Sportiva Arapiraquense | nickname | ''Alvinegro<br>Agremiação Sportiva Arapiraquense | ground | Estádio Municipal Coaracy da Mata Fonseca",
+    "num_triples": 5,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 5,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      0.25,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 5,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 5,
+      "denom_precision": 5,
+      "denom_recall": 5
+    }
+  },
+  {
+    "id": "English_8",
+    "question_id": 178,
+    "text": "The College of William & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &",
+    "graph": "Alan B. Miller Hall | architect | Robert A. M. Stern<br>Alan B. Miller Hall | address | 101 Ukrop Way<br>Alan B. Miller Hall | buildingStartDate | 30 March 2007<br>Alan B. Miller Hall | currentTenants | Mason School of Business<br>Alan B. Miller Hall | completionDate | 2009-06-01<br>Alan B. Miller Hall | location | Virginia<br>Alan B. Miller Hall | owner | College of William & Mary",
+    "num_triples": 7,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Alan B. Miller Hall [P] address [O] 101 Ukrop Way |\n| Missing | [S] Alan B. Miller Hall [P] architect [O] Robert A. M. Stern |\n| Missing | [S] Alan B. Miller Hall [P] building start date [O] 30 March 2007 |\n| Missing | [S] Alan B. Miller Hall [P] completion date [O] 2009-06-01 |\n| Missing | [S] Alan B. Miller Hall [P] current tenants [O] Mason School of Business |\n| Missing | [S] Alan B. Miller Hall [P] location [O] Virginia |\n| Missing | [S] Alan B. Miller Hall [P] owner [O] College of William & Mary |\n| Extra | [S] College of William & Mary [P] endowment [O] 1.2 billion (dollars) |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Alan B. Miller Hall [P] address [O] 101 Ukrop Way",
+        "[S] Alan B. Miller Hall [P] architect [O] Robert A. M. Stern",
+        "[S] Alan B. Miller Hall [P] building start date [O] 30 March 2007",
+        "[S] Alan B. Miller Hall [P] completion date [O] 2009-06-01",
+        "[S] Alan B. Miller Hall [P] current tenants [O] Mason School of Business",
+        "[S] Alan B. Miller Hall [P] location [O] Virginia",
+        "[S] Alan B. Miller Hall [P] owner [O] College of William & Mary"
+      ],
+      "extra": [
+        "[S] College of William & Mary [P] endowment [O] 1.2 billion (dollars)"
+      ],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 7,
+      "extra": 1,
+      "incorrect": 0
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 1,
+    "FN": 7,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 1,
+    "FN_old": 7,
+    "prf_fixed": {
+      "num_missing": 7,
+      "num_extra": 1,
+      "num_incorrect": 0,
+      "num_correct": 0,
+      "denom_precision": 1,
+      "denom_recall": 7
+    }
+  },
+  {
+    "id": "English_9",
+    "question_id": 179,
+    "text": "Death on a Factory Farm director Tom Simon. Death on a Factory Farm producer Tom Simon. Death on a Factory Farm producer Sarah Teale. Death on a Factory Farm director Sarah Teale",
+    "graph": "Death on a Factory Farm | director | Tom Simon<br>Death on a Factory Farm | producer | Tom Simon<br>Death on a Factory Farm | producer | Sarah Teale<br>Death on a Factory Farm | director | Sarah Teale",
+    "num_triples": 4,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 4,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 4,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_10",
+    "question_id": 180,
+    "text": "Death on a Factory Farm director is Tom Simon and Sarah Teale and producer is Tom Simon and Sarah Teale.",
+    "graph": "Death on a Factory Farm | director | Tom Simon<br>Death on a Factory Farm | producer | Tom Simon<br>Death on a Factory Farm | producer | Sarah Teale<br>Death on a Factory Farm | director | Sarah Teale",
+    "num_triples": 4,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 4,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 4,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_11",
+    "question_id": 181,
+    "text": "Lady Anne Monson lives in Kingdom of England and lives in India. India has a total area of 3287590000000.0 and is governed by Chief Justice.",
+    "graph": "Lady Anne Monson | nationality | Kingdom of England<br>India | areaTotal | 3287590000000.0<br>Lady Anne Monson | residence | India<br>India | leaderTitle | Chief Justice",
+    "num_triples": 4,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.75
+    ],
+    "human_recall_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.75
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 4,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 4,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_12",
+    "question_id": 182,
+    "text": "\"The Imaid song \"\"Train\"\" was preceded by Lind Mermaid \"\", which was written on 27th December, 2012. The song was followed by the song, Train's Train song, followed by Train - 12 - 27. It was written by John Amund.\"",
+    "graph": "Mermaid (Train song) | releaseDate | 2012-12-27<br>Mermaid (Train song) | precededBy | This'll Be My Year<br>Mermaid (Train song) | writer | Espen Lind<br>Mermaid (Train song) | runtime | 3.16<br>Mermaid (Train song) | writer | Amund Bjørklund<br>Mermaid (Train song) | followedBy | Imagine (John Lennon song)",
+    "num_triples": 6,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Mermaid (Train song) [P] runtime [O] 3.16 |\n| Incorrect | [S] Mermaid (Train song) [P] preceded by [O] This'll Be My Year |\n| Incorrect | [S] Mermaid (Train song) [P] writer [O] Espen Lind |\n| Incorrect | [S] Mermaid (Train song) [P] writer [O] Amund Bjørklund |\n| Incorrect | [S] Mermaid (Train song) [P] followed by [O] Imagine (John Lennon song) |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Mermaid (Train song) [P] runtime [O] 3.16"
+      ],
+      "extra": [],
+      "incorrect": [
+        "[S] Mermaid (Train song) [P] preceded by [O] This'll Be My Year",
+        "[S] Mermaid (Train song) [P] writer [O] Espen Lind",
+        "[S] Mermaid (Train song) [P] writer [O] Amund Bjørklund",
+        "[S] Mermaid (Train song) [P] followed by [O] Imagine (John Lennon song)"
+      ]
+    },
+    "error_counts": {
+      "missing": 1,
+      "extra": 0,
+      "incorrect": 4
+    },
+    "precision": 0.2,
+    "recall": 0.16666666666666666,
+    "f1": 0.1818181818181818,
+    "TP": 1,
+    "FP": 4,
+    "FN": 5,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.16666666666666666,
+    "f1_old": 0.2857142857142857,
+    "TP_old": 1,
+    "FP_old": 0,
+    "FN_old": 5,
+    "prf_fixed": {
+      "num_missing": 1,
+      "num_extra": 0,
+      "num_incorrect": 4,
+      "num_correct": 1,
+      "denom_precision": 5,
+      "denom_recall": 6
+    }
+  },
+  {
+    "id": "English_13",
+    "question_id": 183,
+    "text": "Bionico is a dessert found in Mexico and it contains raisins. The currency of Mexico is the peso.",
+    "graph": "Mexico | currency | Mexican peso<br>Bionico | course | Dessert<br>Bionico | ingredient | Raisin<br>Bionico | country | Mexico",
+    "num_triples": 4,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 4,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 4,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_14",
+    "question_id": 184,
+    "text": "The director of it's called Cyril Bütüner el and it's also where it's also where it's also where it's also where it's also where you will find the film's Great to MBAs.",
+    "graph": "It's Great to Be Young (1956 film) | director | Cyril Frankel",
+    "num_triples": 1,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] It's Great to Be Young (1956 film) [P] director [O] Cyril Frankel |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] It's Great to Be Young (1956 film) [P] director [O] Cyril Frankel"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 1
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 1,
+    "FN": 1,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 1,
+      "num_correct": 0,
+      "denom_precision": 1,
+      "denom_recall": 1
+    }
+  },
+  {
+    "id": "English_15",
+    "question_id": 185,
+    "text": "The Turkish language is spoken in Turkey where the leader is known as the Republic of Turkey. The country is the location of the Ataturk Atasoy which is a citizenship of the Turkish people.",
+    "graph": "Turkey | longName | Republic of Turkey<br>Nurhan Atasoy | nationality | Turkish people<br>Nurhan Atasoy | citizenship | Turkey<br>Turkey | language | Turkish language",
+    "num_triples": 4,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] Turkey [P] long name [O] Republic of Turkey |\n| Incorrect | [S] Nurhan Atasoy [P] nationality [O] Turkish people |\n| Incorrect | [S] Nurhan Atasoy [P] citizenship [O] Turkey |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] Turkey [P] long name [O] Republic of Turkey",
+        "[S] Nurhan Atasoy [P] nationality [O] Turkish people",
+        "[S] Nurhan Atasoy [P] citizenship [O] Turkey"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 3
+    },
+    "precision": 0.25,
+    "recall": 0.25,
+    "f1": 0.25,
+    "TP": 1,
+    "FP": 3,
+    "FN": 3,
+    "human_precision_list": [
+      0.25,
+      0.0,
+      0.25,
+      0.25
+    ],
+    "human_recall_list": [
+      0.25,
+      0.0,
+      0.5,
+      0.25
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.25,
+    "f1_old": 0.4,
+    "TP_old": 1,
+    "FP_old": 0,
+    "FN_old": 3,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 3,
+      "num_correct": 1,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_16",
+    "question_id": 186,
+    "text": "Anatole de Grunwald is the publisher of English (OCLC) which is published by Anatole de Grunwald.",
+    "graph": "English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald",
+    "num_triples": 2,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] English Without Tears [P] producer [O] Anatole de Grunwald |\n| Incorrect | [S] English Without Tears [P] writer [O] Anatole de Grunwald |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] English Without Tears [P] producer [O] Anatole de Grunwald",
+        "[S] English Without Tears [P] writer [O] Anatole de Grunwald"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 2
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 2,
+    "FN": 2,
+    "human_precision_list": [
+      0.0,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 0,
+    "FN_old": 2,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 2,
+      "num_correct": 0,
+      "denom_precision": 2,
+      "denom_recall": 2
+    }
+  },
+  {
+    "id": "English_17",
+    "question_id": 187,
+    "text": "The kingdom of England is the nationality of the English national, who died in 1776-02-18. The country is the birthplace of architect, George Davutoglu, who resides in India.",
+    "graph": "Lady Anne Monson | nationality | Kingdom of England<br>Lady Anne Monson | residence | India<br>Lady Anne Monson | spouse | George Monson<br>Lady Anne Monson | deathDate | 1776-02-18",
+    "num_triples": 4,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Lady Anne Monson [P] residence [O] India |\n| Missing | [S] Lady Anne Monson [P] spouse [O] George Monson |\n| Extra | [S] George Davutoglu [P] birth place [O] India |\n| Extra | [S] George Davutoglu [P] death date [O] 1776-02-18 |\n| Incorrect | [S] Lady Anne Monson [P] nationality [O] Kingdom of England |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Lady Anne Monson [P] residence [O] India",
+        "[S] Lady Anne Monson [P] spouse [O] George Monson"
+      ],
+      "extra": [
+        "[S] George Davutoglu [P] birth place [O] India",
+        "[S] George Davutoglu [P] death date [O] 1776-02-18"
+      ],
+      "incorrect": [
+        "[S] Lady Anne Monson [P] nationality [O] Kingdom of England"
+      ]
+    },
+    "error_counts": {
+      "missing": 2,
+      "extra": 2,
+      "incorrect": 1
+    },
+    "precision": 0.25,
+    "recall": 0.25,
+    "f1": 0.25,
+    "TP": 1,
+    "FP": 3,
+    "FN": 3,
+    "human_precision_list": [
+      0.25,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.25,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precision_old": 0.3333333333333333,
+    "recall_old": 0.25,
+    "f1_old": 0.28571428571428575,
+    "TP_old": 1,
+    "FP_old": 2,
+    "FN_old": 3,
+    "prf_fixed": {
+      "num_missing": 2,
+      "num_extra": 2,
+      "num_incorrect": 1,
+      "num_correct": 1,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_18",
+    "question_id": 188,
+    "text": "1777539 is the population metro in the country.",
+    "graph": "Ciudad Ayala | populationMetro | 1777539",
+    "num_triples": 1,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] Ciudad Ayala [P] population metro [O] 1777539 |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] Ciudad Ayala [P] population metro [O] 1777539"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 1
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 1,
+    "FN": 1,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 1,
+      "num_correct": 0,
+      "denom_precision": 1,
+      "denom_recall": 1
+    }
+  },
+  {
+    "id": "English_19",
+    "question_id": 189,
+    "text": "Shapenley University is the alma mater of the celestial body known as, of which, is the same name of the asteroid, is Shional Lapenator.",
+    "graph": "Olga Bondareva | knownFor | Bondareva–Shapley theorem<br>Olga Bondareva | almaMater | Leningrad State University<br>Olga Bondareva | professionalField | Economics",
+    "num_triples": 3,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Olga Bondareva [P] alma mater [O] Leningrad State University |\n| Missing | [S] Olga Bondareva [P] known for [O] Bondareva–Shapley theorem |\n| Missing | [S] Olga Bondareva [P] professional field [O] Economics |\n| Extra | [S] Shional Lapanator [P] alma mater [O] Shapenley University |\n| Extra | [S] Shional Lapanator [P] asteroid [O] Shapenley |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Olga Bondareva [P] alma mater [O] Leningrad State University",
+        "[S] Olga Bondareva [P] known for [O] Bondareva–Shapley theorem",
+        "[S] Olga Bondareva [P] professional field [O] Economics"
+      ],
+      "extra": [
+        "[S] Shional Lapanator [P] alma mater [O] Shapenley University",
+        "[S] Shional Lapanator [P] asteroid [O] Shapenley"
+      ],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 3,
+      "extra": 2,
+      "incorrect": 0
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 2,
+    "FN": 3,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 2,
+    "FN_old": 3,
+    "prf_fixed": {
+      "num_missing": 3,
+      "num_extra": 2,
+      "num_incorrect": 0,
+      "num_correct": 0,
+      "denom_precision": 2,
+      "denom_recall": 3
+    }
+  },
+  {
+    "id": "English_20",
+    "question_id": 190,
+    "text": "Harry Carey stars in the South Seas band which was born in 1878 and whose director is Cyril Bruce. He was born in 1878 and included Harry Carey as as the Dean.",
+    "graph": "McVeagh of the South Seas | director | Cyril Bruce<br>McVeagh of the South Seas | director | Harry Carey (actor born 1878)<br>McVeagh of the South Seas | starring | Harry Carey (actor born 1878)",
+    "num_triples": 3,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] McVeagh of the South Seas [P] director [O] Cyril Bruce |\n| Incorrect | [S] McVeagh of the South Seas [P] director [O] Harry Carey (actor born 1878) |\n| Incorrect | [S] McVeagh of the South Seas [P] starring [O] Harry Carey (actor born 1878) |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] McVeagh of the South Seas [P] director [O] Cyril Bruce",
+        "[S] McVeagh of the South Seas [P] director [O] Harry Carey (actor born 1878)",
+        "[S] McVeagh of the South Seas [P] starring [O] Harry Carey (actor born 1878)"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 3
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 3,
+    "FN": 3,
+    "human_precision_list": [
+      0.0,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.25,
+      0.5,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 0,
+    "FN_old": 3,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 3,
+      "num_correct": 0,
+      "denom_precision": 3,
+      "denom_recall": 3
+    }
+  },
+  {
+    "id": "English_21",
+    "question_id": 191,
+    "text": "Bananaman was shown on the BBC which is based in Broadcasting House in London and created by Steve Bright.",
+    "graph": "BBC | city | Broadcasting House<br>Bananaman | creator | Steve Bright<br>Bananaman | broadcastedBy | BBC",
+    "num_triples": 3,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.5
+    ],
+    "human_recall_list": [
+      1.0,
+      0.75,
+      1.0,
+      0.75
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 3,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 3,
+      "denom_precision": 3,
+      "denom_recall": 3
+    }
+  },
+  {
+    "id": "English_22",
+    "question_id": 192,
+    "text": "The expection of the Instrumental music genre is Easy Lira acle.",
+    "graph": "Expect a Miracle | genre | Instrumental music<br>Expect a Miracle | genre | Easy listening",
+    "num_triples": 2,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] Expect a Miracle [P] genre [O] Instrumental music |\n| Incorrect | [S] Expect a Miracle [P] genre [O] Easy listening |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] Expect a Miracle [P] genre [O] Instrumental music",
+        "[S] Expect a Miracle [P] genre [O] Easy listening"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 2
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 2,
+    "FN": 2,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 0,
+    "FN_old": 2,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 2,
+      "num_correct": 0,
+      "denom_precision": 2,
+      "denom_recall": 2
+    }
+  },
+  {
+    "id": "English_23",
+    "question_id": 193,
+    "text": "The 11th Mississippi Infantry Monument is located in the municipality of Gettysburg, Adams County, Pennsylvania. It is categorised as a contributing property. Adams County is south of Cumberland County and south of Carroll County, Maryland.",
+    "graph": "11th Mississippi Infantry Monument | location | Adams County, Pennsylvania<br>11th Mississippi Infantry Monument | state | Pennsylvania<br>11th Mississippi Infantry Monument | municipality | Gettysburg, Pennsylvania<br>Adams County, Pennsylvania | hasToItsSoutheast | Carroll County, Maryland<br>11th Mississippi Infantry Monument | category | Contributing property<br>Adams County, Pennsylvania | hasToItsNorth | Cumberland County, Pennsylvania",
+    "num_triples": 6,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 6,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      0.75,
+      1.0,
+      0.75
+    ],
+    "human_recall_list": [
+      1.0,
+      0.75,
+      1.0,
+      0.5
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 6,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 6,
+      "denom_precision": 6,
+      "denom_recall": 6
+    }
+  },
+  {
+    "id": "English_24",
+    "question_id": 194,
+    "text": "An important member of the Apollo 6 crew was on Haog Shenzie.",
+    "graph": "Nie Haisheng | mission | Shenzhou 6<br>Shenzhou 6 | cosparId | 2005-040A",
+    "num_triples": 2,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Nie Haisheng [P] mission [O] Shenzhou 6 |\n| Missing | [S] Shenzhou 6 [P] cospar id [O] 2005-040A |\n| Extra | [S] Apollo 6 [P] crew members [O] Nie Haisheng |\n| Incorrect | [S] Nie Haisheng [P] mission [O] Shenzhou 6 |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Nie Haisheng [P] mission [O] Shenzhou 6",
+        "[S] Shenzhou 6 [P] cospar id [O] 2005-040A"
+      ],
+      "extra": [
+        "[S] Apollo 6 [P] crew members [O] Nie Haisheng"
+      ],
+      "incorrect": [
+        "[S] Nie Haisheng [P] mission [O] Shenzhou 6"
+      ]
+    },
+    "error_counts": {
+      "missing": 2,
+      "extra": 1,
+      "incorrect": 1
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 2,
+    "FN": 3,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 1,
+    "FN_old": 3,
+    "prf_fixed": {
+      "num_missing": 2,
+      "num_extra": 1,
+      "num_incorrect": 1,
+      "num_correct": 0,
+      "denom_precision": 2,
+      "denom_recall": 3
+    }
+  },
+  {
+    "id": "English_25",
+    "question_id": 195,
+    "text": "Imagine is on the Imagine album.",
+    "graph": "Imagine (John Lennon song) | album | Imagine (John Lennon album)",
+    "num_triples": 1,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] Imagine (John Lennon song) [P] album [O] Imagine (John Lennon album) |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] Imagine (John Lennon song) [P] album [O] Imagine (John Lennon album)"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 1
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 1,
+    "FN": 1,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 1,
+      "num_correct": 0,
+      "denom_precision": 1,
+      "denom_recall": 1
+    }
+  },
+  {
+    "id": "English_26",
+    "question_id": 196,
+    "text": "\"\"\"The musical genre of \"\"\"\"Mermaid\"\"\"\" is trance music. It was written by Espen Lind and Amund Bjørklund. It was released on 27 December 2012 and has a runtime of 3.16. It is followed by \"\"\"\"Imagine\"\"\"\" and \"\"\"\"This'll be My Year\"\"\"\".\"\"\"",
+    "graph": "Mermaid (Train song) | releaseDate | 2012-12-27<br>Mermaid (Train song) | precededBy | This'll Be My Year<br>Mermaid (Train song) | writer | Espen Lind<br>Mermaid (Train song) | runtime | 3.16<br>Mermaid (Train song) | writer | Amund Bjørklund<br>Mermaid (Train song) | followedBy | Imagine (John Lennon song)",
+    "num_triples": 6,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Extra | [S] Mermaid (Train song) [P] genre [O] Trance music |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [
+        "[S] Mermaid (Train song) [P] genre [O] Trance music"
+      ],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 1,
+      "incorrect": 0
+    },
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1": 0.923076923076923,
+    "TP": 6,
+    "FP": 1,
+    "FN": 0,
+    "human_precision_list": [
+      0.75,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "human_recall_list": [
+      0.75,
+      0.25,
+      1.0,
+      0.75
+    ],
+    "precision_old": 0.8571428571428571,
+    "recall_old": 1.0,
+    "f1_old": 0.923076923076923,
+    "TP_old": 6,
+    "FP_old": 1,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 1,
+      "num_incorrect": 0,
+      "num_correct": 6,
+      "denom_precision": 7,
+      "denom_recall": 6
+    }
+  },
+  {
+    "id": "English_27",
+    "question_id": 197,
+    "text": "It's Great to Be Young (1956 film), who starred John Mills, Gilbert Taylor, 94.0, 282838.0, Louis Levy, is his draft team.",
+    "graph": "It's Great to Be Young (1956 film) | starring | John Mills<br>It's Great to Be Young (1956 film) | cinematography | Gilbert Taylor<br>It's Great to Be Young (1956 film) | runtime | 94.0<br>It's Great to Be Young (1956 film) | gross | 282838.0<br>It's Great to Be Young (1956 film) | musicComposer | Louis Levy",
+    "num_triples": 5,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] It's Great to Be Young (1956 film) [P] cinematography [O] Gilbert Taylor |\n| Incorrect | [S] It's Great to Be Young (1956 film) [P] music composer [O] Louis Levy |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] It's Great to Be Young (1956 film) [P] cinematography [O] Gilbert Taylor",
+        "[S] It's Great to Be Young (1956 film) [P] music composer [O] Louis Levy"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 2
+    },
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1": 0.6,
+    "TP": 3,
+    "FP": 2,
+    "FN": 2,
+    "human_precision_list": [
+      0.25,
+      0.25,
+      1.0,
+      0.25
+    ],
+    "human_recall_list": [
+      0.25,
+      0.25,
+      1.0,
+      0.25
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.6,
+    "f1_old": 0.7499999999999999,
+    "TP_old": 3,
+    "FP_old": 0,
+    "FN_old": 2,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 2,
+      "num_correct": 3,
+      "denom_precision": 5,
+      "denom_recall": 5
+    }
+  },
+  {
+    "id": "English_28",
+    "question_id": 198,
+    "text": "The 11th Mississippi Infantry Monument was established in 2000 in Adams County, Pennsylvania.",
+    "graph": "11th Mississippi Infantry Monument | established | 2000<br>11th Mississippi Infantry Monument | location | Adams County, Pennsylvania<br>11th Mississippi Infantry Monument | state | Pennsylvania",
+    "num_triples": 3,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 3,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 3,
+      "denom_precision": 3,
+      "denom_recall": 3
+    }
+  },
+  {
+    "id": "English_29",
+    "question_id": 199,
+    "text": "English Without Tears, whose draft team is Anatole de Grunwald, has the following number Anatole de Grunwald, and the draft of Bernard Knowles.",
+    "graph": "English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald<br>English Without Tears | cinematography | Bernard Knowles",
+    "num_triples": 3,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] English Without Tears [P] producer [O] Anatole de Grunwald |\n| Incorrect | [S] English Without Tears [P] writer [O] Anatole de Grunwald |\n| Incorrect | [S] English Without Tears [P] cinematography [O] Bernard Knowles |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] English Without Tears [P] producer [O] Anatole de Grunwald",
+        "[S] English Without Tears [P] writer [O] Anatole de Grunwald",
+        "[S] English Without Tears [P] cinematography [O] Bernard Knowles"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 3
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 3,
+    "FN": 3,
+    "human_precision_list": [
+      0.0,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 0,
+    "FN_old": 3,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 3,
+      "num_correct": 0,
+      "denom_precision": 3,
+      "denom_recall": 3
+    }
+  },
+  {
+    "id": "English_30",
+    "question_id": 200,
+    "text": "Imagine is on the album, Imagine.",
+    "graph": "Imagine (John Lennon song) | album | Imagine (John Lennon album)",
+    "num_triples": 1,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 1,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 1,
+      "denom_precision": 1,
+      "denom_recall": 1
+    }
+  },
+  {
+    "id": "English_31",
+    "question_id": 201,
+    "text": "English Without Tears was written by Anatole de Grunwald and edited by Alan Jaggs. It was composed by Nicholas Brodszky and has Bernard Knowles as a cinematographer.",
+    "graph": "English Without Tears | musicComposer | Nicholas Brodszky<br>English Without Tears | editing | Alan Jaggs<br>English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald<br>English Without Tears | cinematography | Bernard Knowles",
+    "num_triples": 5,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] English Without Tears [P] producer [O] Anatole de Grunwald |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] English Without Tears [P] producer [O] Anatole de Grunwald"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 1
+    },
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1": 0.8000000000000002,
+    "TP": 4,
+    "FP": 1,
+    "FN": 1,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      1.0,
+      0.75
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.8,
+    "f1_old": 0.888888888888889,
+    "TP_old": 4,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 1,
+      "num_correct": 4,
+      "denom_precision": 5,
+      "denom_recall": 5
+    }
+  },
+  {
+    "id": "English_32",
+    "question_id": 202,
+    "text": "GMA New Media is a mass media company that produces online games and web services. It is also a company in the entertainment industry that produces web services.",
+    "graph": "GMA New Media | industry | Mass Media<br>GMA New Media | product | Online Game<br>GMA New Media | industry | Entertainment<br>GMA New Media | product | World Wide Web",
+    "num_triples": 4,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 4,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 4,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_33",
+    "question_id": 203,
+    "text": "Mermaid is a pop rock song written by Espen Lind. It was released on 27 December 2012 and has a run time of 3.16.",
+    "graph": "Mermaid (Train song) | genre | Pop rock<br>Mermaid (Train song) | runtime | 3.16<br>Mermaid (Train song) | releaseDate | 2012-12-27<br>Mermaid (Train song) | precededBy | This'll Be My Year<br>Mermaid (Train song) | writer | Espen Lind",
+    "num_triples": 5,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Mermaid (Train song) [P] preceded by [O] This'll Be My Year |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Mermaid (Train song) [P] preceded by [O] This'll Be My Year"
+      ],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 1,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1": 0.888888888888889,
+    "TP": 4,
+    "FP": 0,
+    "FN": 1,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      0.25,
+      0.75
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.8,
+    "f1_old": 0.888888888888889,
+    "TP_old": 4,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 1,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 4,
+      "denom_precision": 4,
+      "denom_recall": 5
+    }
+  },
+  {
+    "id": "English_34",
+    "question_id": 204,
+    "text": "Ciudad Ayala is located in Mexico, is part of the Greater Los and is located in Ciudad Ayala. Mexico is part of Ciudad Ayala. Mexico is part of Ciudad",
+    "graph": "Ciudad Ayala | populationDensity | 1604.0<br>Ciudad Ayala | leaderTitle | Governator<br>Ciudad Ayala | isPartOf | Morelos<br>Ciudad Ayala | country | Mexico",
+    "num_triples": 4,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Ciudad Ayala [P] leader title [O] Governator |\n| Missing | [S] Ciudad Ayala [P] population density [O] 1604.0 |\n| Extra | [S] Ciudad Ayala [P] is part of [O] Greater Los |\n| Extra | [S] Mexico [P] is part of [O] Ciudad Ayala |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Ciudad Ayala [P] leader title [O] Governator",
+        "[S] Ciudad Ayala [P] population density [O] 1604.0"
+      ],
+      "extra": [
+        "[S] Ciudad Ayala [P] is part of [O] Greater Los",
+        "[S] Mexico [P] is part of [O] Ciudad Ayala"
+      ],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 2,
+      "extra": 2,
+      "incorrect": 0
+    },
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "TP": 2,
+    "FP": 2,
+    "FN": 2,
+    "human_precision_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.5
+    ],
+    "human_recall_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "precision_old": 0.5,
+    "recall_old": 0.5,
+    "f1_old": 0.5,
+    "TP_old": 2,
+    "FP_old": 2,
+    "FN_old": 2,
+    "prf_fixed": {
+      "num_missing": 2,
+      "num_extra": 2,
+      "num_incorrect": 0,
+      "num_correct": 2,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_35",
+    "question_id": 205,
+    "text": "awh engineering college in india was created in 2001 and is led by the ganges . the ganges is a river in india . mumbai is mumbai .",
+    "graph": "India | largestCity | Mumbai<br>AWH Engineering College | country | India<br>AWH Engineering College | established | 2001<br>Kerala | leaderName | Kochi<br>AWH Engineering College | state | Kerala<br>India | river | Ganges",
+    "num_triples": 6,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] AWH Engineering College [P] state [O] Kerala |\n| Missing | [S] India [P] largest city [O] Mumbai |\n| Missing | [S] Kerala [P] leader name [O] Kochi |\n| Extra | [S] Mumbai [P] is part of [O] India |\n| Extra | [S] AWH Engineering College [P] leader [O] Ganges |",
+    "parsed_errors": {
+      "missing": [
+        "[S] AWH Engineering College [P] state [O] Kerala",
+        "[S] India [P] largest city [O] Mumbai",
+        "[S] Kerala [P] leader name [O] Kochi"
+      ],
+      "extra": [
+        "[S] Mumbai [P] is part of [O] India",
+        "[S] AWH Engineering College [P] leader [O] Ganges"
+      ],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 3,
+      "extra": 2,
+      "incorrect": 0
+    },
+    "precision": 0.6,
+    "recall": 0.5,
+    "f1": 0.5454545454545454,
+    "TP": 3,
+    "FP": 2,
+    "FN": 3,
+    "human_precision_list": [
+      0.5,
+      0.75,
+      0.5,
+      0.5
+    ],
+    "human_recall_list": [
+      0.5,
+      0.25,
+      0.25,
+      0.5
+    ],
+    "precision_old": 0.6,
+    "recall_old": 0.5,
+    "f1_old": 0.5454545454545454,
+    "TP_old": 3,
+    "FP_old": 2,
+    "FN_old": 3,
+    "prf_fixed": {
+      "num_missing": 3,
+      "num_extra": 2,
+      "num_incorrect": 0,
+      "num_correct": 3,
+      "denom_precision": 5,
+      "denom_recall": 6
+    }
+  },
+  {
+    "id": "English_36",
+    "question_id": 206,
+    "text": "the birth place of antwerp is stellendam , netherlands .",
+    "graph": "Ab Klink | birthPlace | Stellendam, Netherlands",
+    "num_triples": 1,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] Ab Klink [P] birth place [O] Stellendam, Netherlands |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] Ab Klink [P] birth place [O] Stellendam, Netherlands"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 1
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 1,
+    "FN": 1,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 1,
+      "num_correct": 0,
+      "denom_precision": 1,
+      "denom_recall": 1
+    }
+  },
+  {
+    "id": "English_37",
+    "question_id": 207,
+    "text": "united states buzz aldrin was born on january 20th 1930 . glen ridge born a member was fighter pilot on apollo 11 .",
+    "graph": "Buzz Aldrin | birthPlace | Glen Ridge, New Jersey<br>Buzz Aldrin | nationality | United States<br>Buzz Aldrin | was a crew member of | Apollo 11<br>Buzz Aldrin | occupation | Fighter pilot<br>Buzz Aldrin | birthDate | 1930-01-20",
+    "num_triples": 5,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 5,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      0.25,
+      0.25,
+      0.5,
+      0.5
+    ],
+    "human_recall_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 5,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 5,
+      "denom_precision": 5,
+      "denom_recall": 5
+    }
+  },
+  {
+    "id": "English_38",
+    "question_id": 208,
+    "text": "created by roger mckenzie , the full name of ben urich is '' benjamin urich '' .",
+    "graph": "Ben Urich | creator | Roger McKenzie (comic book writer)<br>Ben Urich | fullName | Benjamin Urich",
+    "num_triples": 2,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 2,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      0.75,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      1.0,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 2,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 2,
+      "denom_precision": 2,
+      "denom_recall": 2
+    }
+  },
+  {
+    "id": "English_39",
+    "question_id": 209,
+    "text": "antioch , california is 13.0 antioch , california has a total area of 75.324 square km .",
+    "graph": "Antioch, California | elevationAboveTheSeaLevel | 13.0<br>Antioch, California | areaTotal | 75.324 (square kilometres)",
+    "num_triples": 2,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] Antioch, California [P] elevation above the sea level [O] 13.0 |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] Antioch, California [P] elevation above the sea level [O] 13.0"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 1
+    },
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1": 0.5,
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.5,
+    "f1_old": 0.6666666666666666,
+    "TP_old": 1,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 1,
+      "num_correct": 1,
+      "denom_precision": 2,
+      "denom_recall": 2
+    }
+  },
+  {
+    "id": "English_40",
+    "question_id": 210,
+    "text": "the diameter of alv x-1 , which has 2 stages , is 5.0 foots . it was launched .",
+    "graph": "ALV X-1 | diameter | 1.524 (metres)<br>ALV X-1 | rocketStages | 2<br>ALV X-1 | totalLaunches | 1",
+    "num_triples": 3,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] ALV X-1 [P] diameter [O] 1.524 (metres) |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] ALV X-1 [P] diameter [O] 1.524 (metres)"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 1
+    },
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1": 0.6666666666666666,
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "human_precision_list": [
+      0.25,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "human_recall_list": [
+      0.25,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.6666666666666666,
+    "f1_old": 0.8,
+    "TP_old": 2,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 1,
+      "num_correct": 2,
+      "denom_precision": 3,
+      "denom_recall": 3
+    }
+  },
+  {
+    "id": "English_41",
+    "question_id": 211,
+    "text": "the odbeme of odbeme , genre , ranger e records , is the genre of renre , odbete .",
+    "graph": "Anders Osborne | genre | Rhythm and blues<br>Anders Osborne | recordLabel | Shanachie Records",
+    "num_triples": 2,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Anders Osborne [P] genre [O] Rhythm and blues |\n| Missing | [S] Anders Osborne [P] record label [O] Shanachie Records |\n| Extra | [S] Odbete [P] genre [O] Ranger Records |\n| Extra | [S] Odbete [P] stylistic origin [O] Obdeme |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Anders Osborne [P] genre [O] Rhythm and blues",
+        "[S] Anders Osborne [P] record label [O] Shanachie Records"
+      ],
+      "extra": [
+        "[S] Odbete [P] genre [O] Ranger Records",
+        "[S] Odbete [P] stylistic origin [O] Obdeme"
+      ],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 2,
+      "extra": 2,
+      "incorrect": 0
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 2,
+    "FN": 2,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 2,
+    "FN_old": 2,
+    "prf_fixed": {
+      "num_missing": 2,
+      "num_extra": 2,
+      "num_incorrect": 0,
+      "num_correct": 0,
+      "denom_precision": 2,
+      "denom_recall": 2
+    }
+  },
+  {
+    "id": "English_42",
+    "question_id": 212,
+    "text": "oyster sauce is an ingredient of the dish beef kway teow which is a food that comes from and is found in singapore .",
+    "graph": "Beef kway teow | region | Singapore<br>Beef kway teow | ingredient | Oyster sauce<br>Beef kway teow | country | Singapore and Indonesia",
+    "num_triples": 3,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Beef kway teow [P] country [O] Singapore and Indonesia |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Beef kway teow [P] country [O] Singapore and Indonesia"
+      ],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 1,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1": 0.8,
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "human_precision_list": [
+      1.0,
+      0.75,
+      0.75,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.75
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.6666666666666666,
+    "f1_old": 0.8,
+    "TP_old": 2,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 1,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 2,
+      "denom_precision": 2,
+      "denom_recall": 3
+    }
+  },
+  {
+    "id": "English_43",
+    "question_id": 213,
+    "text": "alfred garth jones was born in england and died in london .",
+    "graph": "Alfred Garth Jones | deathPlace | London<br>Alfred Garth Jones | birthPlace | England<br>Alfred Garth Jones | nationality | United Kingdom",
+    "num_triples": 3,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Alfred Garth Jones [P] nationality [O] United Kingdom |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Alfred Garth Jones [P] nationality [O] United Kingdom"
+      ],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 1,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1": 0.8,
+    "TP": 2,
+    "FP": 0,
+    "FN": 1,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.6666666666666666,
+    "f1_old": 0.8,
+    "TP_old": 2,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 1,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 2,
+      "denom_precision": 2,
+      "denom_recall": 3
+    }
+  },
+  {
+    "id": "English_44",
+    "question_id": 214,
+    "text": "Binignit is located in Mexico and is a variation of a Cottage cheese dish.",
+    "graph": "Bionico | country | Mexico<br>Bionico | dishVariation | Cottage cheese",
+    "num_triples": 2,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] Bionico [P] country [O] Mexico |\n| Incorrect | [S] Bionico [P] dish variation [O] Cottage cheese |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] Bionico [P] country [O] Mexico",
+        "[S] Bionico [P] dish variation [O] Cottage cheese"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 2
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 2,
+    "FN": 2,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.25,
+      1.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.25,
+      1.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 0,
+    "FN_old": 2,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 2,
+      "num_correct": 0,
+      "denom_precision": 2,
+      "denom_recall": 2
+    }
+  },
+  {
+    "id": "English_45",
+    "question_id": 215,
+    "text": "the 11th Mississippi Infantry Monument is located in Cumberland County, Pennsylvania, Cumberland County, Pennsylvania, United States. it was established in 2000 and is categorised as a Contributing property.",
+    "graph": "11th Mississippi Infantry Monument | established | 2000<br>11th Mississippi Infantry Monument | location | Adams County, Pennsylvania<br>11th Mississippi Infantry Monument | category | Contributing property<br>Adams County, Pennsylvania | hasToItsNorth | Cumberland County, Pennsylvania<br>11th Mississippi Infantry Monument | country | United States",
+    "num_triples": 5,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] 11th Mississippi Infantry Monument [P] location [O] Adams County, Pennsylvania |\n| Missing | [S] Adams County, Pennsylvania [P] has to its north [O] Cumberland County, Pennsylvania |",
+    "parsed_errors": {
+      "missing": [
+        "[S] 11th Mississippi Infantry Monument [P] location [O] Adams County, Pennsylvania",
+        "[S] Adams County, Pennsylvania [P] has to its north [O] Cumberland County, Pennsylvania"
+      ],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 2,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1": 0.7499999999999999,
+    "TP": 3,
+    "FP": 0,
+    "FN": 2,
+    "human_precision_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "human_recall_list": [
+      0.75,
+      0.5,
+      0.75,
+      0.5
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.6,
+    "f1_old": 0.7499999999999999,
+    "TP_old": 3,
+    "FP_old": 0,
+    "FN_old": 2,
+    "prf_fixed": {
+      "num_missing": 2,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 3,
+      "denom_precision": 3,
+      "denom_recall": 5
+    }
+  },
+  {
+    "id": "English_46",
+    "question_id": 216,
+    "text": "The director of Super capers is ray lister Jr. and the company is affiliated with the Visvesvaraya Technological University. The company is owned by lionsgate and has a revenue of $9,997,000,000. the company also has a net income of $98.0.",
+    "graph": "Super Capers | distributor | Lionsgate<br>Super Capers | director | Ray Griggs (director)<br>Super Capers | runtime | 98.0<br>Super Capers | starring | Tom Lister, Jr.<br>Super Capers | gross | 30955.0",
+    "num_triples": 5,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Super Capers [P] starring [O] Tom Lister, Jr. |\n| Missing | [S] Super Capers [P] gross [O] 30955.0 |\n| Extra | [S] Super Capers [P] revenue [O] 9997000000 |\n| Extra | [S] Super Capers [P] affiliated company [O] Visvesvaraya Technological University |\n| Incorrect | [S] Super Capers [P] distributor [O] Lionsgate |\n| Incorrect | [S] Super Capers [P] director [O] Ray Griggs (director) |\n| Incorrect | [S] Super Capers [P] runtime [O] 98.0 |",
+    "parsed_errors": {
+      "missing": [
+        "[S] Super Capers [P] starring [O] Tom Lister, Jr.",
+        "[S] Super Capers [P] gross [O] 30955.0"
+      ],
+      "extra": [
+        "[S] Super Capers [P] revenue [O] 9997000000",
+        "[S] Super Capers [P] affiliated company [O] Visvesvaraya Technological University"
+      ],
+      "incorrect": [
+        "[S] Super Capers [P] distributor [O] Lionsgate",
+        "[S] Super Capers [P] director [O] Ray Griggs (director)",
+        "[S] Super Capers [P] runtime [O] 98.0"
+      ]
+    },
+    "error_counts": {
+      "missing": 2,
+      "extra": 2,
+      "incorrect": 3
+    },
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 5,
+    "FN": 5,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ],
+    "precision_old": 0.0,
+    "recall_old": 0.0,
+    "f1_old": 0.0,
+    "TP_old": 0,
+    "FP_old": 2,
+    "FN_old": 5,
+    "prf_fixed": {
+      "num_missing": 2,
+      "num_extra": 2,
+      "num_incorrect": 3,
+      "num_correct": 0,
+      "denom_precision": 5,
+      "denom_recall": 5
+    }
+  },
+  {
+    "id": "English_47",
+    "question_id": 217,
+    "text": "Mermaid is a Train song which was produced by Espionage. It was followed by Imagine which was certified by FIMI.",
+    "graph": "Mermaid (Train song) | musicalBand | Train (band)<br>Mermaid (Train song) | producer | Espionage (production team)<br>Mermaid (Train song) | followedBy | Imagine (John Lennon song)<br>Imagine (John Lennon song) | certification | FIMI",
+    "num_triples": 4,
+    "model_response": "All correct",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": []
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 0
+    },
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "TP": 4,
+    "FP": 0,
+    "FN": 0,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "precision_old": 1.0,
+    "recall_old": 1.0,
+    "f1_old": 1.0,
+    "TP_old": 4,
+    "FP_old": 0,
+    "FN_old": 0,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 0,
+      "num_correct": 4,
+      "denom_precision": 4,
+      "denom_recall": 4
+    }
+  },
+  {
+    "id": "English_48",
+    "question_id": 218,
+    "text": "Anatole de Grunwald is the producer of English Without Tears along with the cinematographer Bernard Knowles.",
+    "graph": "English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald<br>English Without Tears | cinematography | Bernard Knowles",
+    "num_triples": 3,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] English Without Tears [P] writer [O] Anatole de Grunwald |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] English Without Tears [P] writer [O] Anatole de Grunwald"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 1
+    },
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1": 0.6666666666666666,
+    "TP": 2,
+    "FP": 1,
+    "FN": 1,
+    "human_precision_list": [
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      0.5,
+      0.75,
+      0.75
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.6666666666666666,
+    "f1_old": 0.8,
+    "TP_old": 2,
+    "FP_old": 0,
+    "FN_old": 1,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 1,
+      "num_correct": 2,
+      "denom_precision": 3,
+      "denom_recall": 3
+    }
+  },
+  {
+    "id": "English_49",
+    "question_id": 219,
+    "text": "Anatole de Grunwald is the writer of English Without Tears, which was edited by Alan Jaggs. It was created by Nicholas Brodszky and Bernard Knowles.",
+    "graph": "English Without Tears | musicComposer | Nicholas Brodszky<br>English Without Tears | editing | Alan Jaggs<br>English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald<br>English Without Tears | cinematography | Bernard Knowles",
+    "num_triples": 5,
+    "model_response": "| Type | Triple |\n| ---- | ------ |\n| Incorrect | [S] English Without Tears [P] music composer [O] Nicholas Brodszky |\n| Incorrect | [S] English Without Tears [P] producer [O] Anatole de Grunwald |\n| Incorrect | [S] English Without Tears [P] cinematography [O] Bernard Knowles |",
+    "parsed_errors": {
+      "missing": [],
+      "extra": [],
+      "incorrect": [
+        "[S] English Without Tears [P] music composer [O] Nicholas Brodszky",
+        "[S] English Without Tears [P] producer [O] Anatole de Grunwald",
+        "[S] English Without Tears [P] cinematography [O] Bernard Knowles"
+      ]
+    },
+    "error_counts": {
+      "missing": 0,
+      "extra": 0,
+      "incorrect": 3
+    },
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1": 0.4000000000000001,
+    "TP": 2,
+    "FP": 3,
+    "FN": 3,
+    "human_precision_list": [
+      0.25,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "human_recall_list": [
+      0.25,
+      0.75,
+      0.75,
+      0.25
+    ],
+    "precision_old": 1.0,
+    "recall_old": 0.4,
+    "f1_old": 0.5714285714285715,
+    "TP_old": 2,
+    "FP_old": 0,
+    "FN_old": 3,
+    "prf_fixed": {
+      "num_missing": 0,
+      "num_extra": 0,
+      "num_incorrect": 3,
+      "num_correct": 2,
+      "denom_precision": 5,
+      "denom_recall": 5
+    }
+  }
+]

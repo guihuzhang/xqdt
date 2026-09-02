@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "Spanish_0",
+    "question_id": 370,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Hartley High School se encuentra en Hartley, Texas, Estados Unidos y es parte del Distrito Escolar Independiente de Hartley.",
+    "graph": "Hartley High School | instanceOf | High school in the United States<br>Hartley High School | country | United States<br>Hartley High School | locatedInArea | Hartley, Texas<br>Hartley High School | schoolDistrict | Hartley Independent School District",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_1",
+    "question_id": 371,
+    "level": 2,
+    "language": "Spanish",
+    "text": "La Western Goals Foundation fue fundada el 01 de enero de 1979 y está en Estados Unidos.",
+    "graph": "Western Goals Foundation | formationDate | 01 January 1979<br>Western Goals Foundation | country | United States",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_2",
+    "question_id": 372,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Andrew Cyrille es un músico que toca la batería y está asociado con los sellos discográficos DIW Records y BYG Actuel.",
+    "graph": "Andrew Cyrille | recordLabel | DIW Records<br>Andrew Cyrille | instrument | Drum kit<br>Andrew Cyrille | recordLabel | BYG Records",
+    "precision_list": [
+      1.0,
+      0.75,
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      0.75,
+      0.75,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_3",
+    "question_id": 373,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El dióxido de carbono es un refrigerante utilizado para la refrigeración. Tiene una fórmula química de CO2 y un código canónico SMILES de C(O)=O. CO2 es un hazard asociado con la exposición al carbono. CO2 es un CO2 y tiene el código canónico C(O)=O. CO2 es un CO2 que tiene una temperatura de 1S/CO2/c2-1-3.",
+    "graph": "carbon dioxide | associated hazard | carbon dioxide exposure<br>carbon dioxide | ATC code | V03AN02<br>carbon dioxide | canonical SMILES | C(=O)=O<br>carbon dioxide | InChI | InChI=1S/CO2/c2-1-3<br>carbon dioxide | chemical formula | CO₂<br>carbon dioxide | has use | coolant",
+    "precision_list": [
+      0.25,
+      0.5,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.25,
+      0.5,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_4",
+    "question_id": 374,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Oklahoma City Streetcar se encuentra en Oklahoma City, Estados Unidos y es operado por Embark (autoridad de tránsito), es un ferrocarril estándar y es operado por Embark.",
+    "graph": "Oklahoma City Streetcar | isPartOf | Embark (transit authority)<br>Oklahoma City Streetcar | country | United States<br>Oklahoma City Streetcar | locatedInArea | Oklahoma City<br>Oklahoma City Streetcar | operator | Embark (transit authority)<br>Oklahoma City Streetcar | trackGauge | Standard-gauge railway",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_5",
+    "question_id": 375,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Buzz Aldrin participó en la misión Apollo 11 y nació el 20 de enero de 1930.",
+    "graph": "Buzz Aldrin | mission | Apollo 11<br>Buzz Aldrin | birthDate | 1930-01-20",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_6",
+    "question_id": 376,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Karaosmaniye, Hopa es un asentamiento situado en Hopa, Turquía.",
+    "graph": "Karaosmaniye, Hopa | instanceOf | Human settlement<br>Karaosmaniye, Hopa | country | Turkey<br>Karaosmaniye, Hopa | locatedInArea | Hopa",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_7",
+    "question_id": 377,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El etileno es un solvente utilizado en el uso de la química. Tiene el código de Kemler 33 y el código ATC D08AX8. El etileno tiene un canónico SMILES CO y tiene la fórmula química C2H6O. El etileno tiene un grado de InChI de 1S/C2H6O/c1-2-3/h3H.",
+    "graph": "ethanol | Kemler code | 33<br>ethanol | associated hazard | ethanol exposure<br>ethanol | ATC code | D08AX08<br>ethanol | canonical SMILES | CCO<br>ethanol | InChI | InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3<br>ethanol | chemical formula | C₂H₆O<br>ethanol | has use | solvent",
+    "precision_list": [
+      0.75,
+      0.25,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_8",
+    "question_id": 378,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El nombre oficial del país es République française y tiene el sitio web oficial en https://www.service-public.fr/. La tasa de suicidio es de 9,7 y el índice de desarrollo humano ajustado a la desigualdad es de 0,825. La puntuación del índice Happy Planet es de 51,8 y el índice de desarrollo humano ajustado a la desigualdad es de 0,825.",
+    "graph": "Air France | airline accounting code | 057<br>Air France | country | France<br>Air France | IATA airline designator | AF<br>France | suicide rate | 9.7<br>France | Inequality-adjusted Human Development Index | 0.825<br>France | poverty incidence | 13.6<br>France | Democracy Index | 7.99<br>France | Happy Planet Index score | 51.8<br>France | official name | République française<br>France | official website | https://www.service-public.fr/",
+    "precision_list": [
+      1.0,
+      0.5,
+      0.0,
+      1.0
+    ],
+    "recall_list": [
+      0.5,
+      0.5,
+      0.0,
+      0.5
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_9",
+    "question_id": 379,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El Museo de Planeo en Vuelo del Suroeste de EE. UU. es un museo de aviación ubicado en Nuevo México, Estados Unidos.",
+    "graph": "US Southwest Soaring Museum | locatedInArea | New Mexico<br>US Southwest Soaring Museum | country | United States<br>US Southwest Soaring Museum | instanceOf | Aviation museum",
+    "precision_list": [
+      1.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_10",
+    "question_id": 380,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El Oklahoma City Streetcar es un sistema de tranvía que forma parte de Embark (transit authority) y se encuentra en Oklahoma City, Estados Unidos, y tiene un ancho de vía estándar.",
+    "graph": "Oklahoma City Streetcar | isPartOf | Embark (transit authority)<br>Oklahoma City Streetcar | country | United States<br>Oklahoma City Streetcar | locatedInArea | Oklahoma City<br>Oklahoma City Streetcar | operator | Embark (transit authority)<br>Oklahoma City Streetcar | trackGauge | Standard-gauge railway",
+    "precision_list": [
+      1.0,
+      0.75,
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_11",
+    "question_id": 381,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Karaosmaniye, Hopa es un asentamiento humano en Turquía.",
+    "graph": "Karaosmaniye, Hopa | instanceOf | Human settlement<br>Karaosmaniye, Hopa | country | Turkey<br>Karaosmaniye, Hopa | locatedInArea | Hopa",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_12",
+    "question_id": 382,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Millers, Nueva York es una comunidad no incorporada ubicada en Somerset, Nueva York y Yates, Nueva York, Estados Unidos.",
+    "graph": "Millers, New York | country | United States<br>Millers, New York | locatedInArea | Somerset, New York<br>Millers, New York | instanceOf | unincorporated community<br>Millers, New York | locatedInArea | Yates, New York",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_13",
+    "question_id": 383,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El Canal Exploration Center es una estación de tren ubicado en Valley View, Ohio, en los Estados Unidos.",
+    "graph": "Canal Exploration Center station | locatedInArea | Valley View, Ohio<br>Canal Exploration Center station | country | United States<br>Canal Exploration Center station | instanceOf | Train station",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_14",
+    "question_id": 384,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Western Goals Foundation, fundada el 01 de enero de 1979, se encuentra en Estados Unidos.",
+    "graph": "Western Goals Foundation | formationDate | 01 January 1979<br>Western Goals Foundation | country | United States",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_15",
+    "question_id": 385,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Pakistan International Airlines tiene el código de contabilidad de 214 y su nombre oficial es pakistaninishnallinerz. El país es la ubicación de la aerolínea y tiene el índice de desarrollo humano ajustado por la inequidad de 0.38 y el índice Happy Planet de 4.31 respectivamente. El país tiene el índice oficial de sitios web de la aerolínea, https://www.piac.com.pk/.",
+    "graph": "Pakistan International Airlines | airline accounting code | 214<br>Pakistan International Airlines | country | Pakistan<br>Pakistan International Airlines | callsign of airline | PAKISTAN<br>Pakistan International Airlines | ICAO airline designator | PIA<br>Pakistan International Airlines | official name | پاکِستان اِنٹَرنیشَنَل ایئر لائنزs<br>Pakistan International Airlines | official website | https://www.piac.com.pk/<br>Pakistan | suicide rate | 9.8<br>Pakistan | Inequality-adjusted Human Development Index | 0.38<br>Pakistan | Democracy Index | 4.31<br>Pakistan | Happy Planet Index score | 45.1",
+    "precision_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.75
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.5
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_16",
+    "question_id": 386,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Olga Bondareva nació en Leningrado, URSS. Su alma mater es la Universidad Estatal de Leningrado y es matemática.",
+    "graph": "Olga Bondareva | almaMater | Leningrad State University<br>Olga Bondareva | birthPlace | Leningrad, USSR<br>Olga Bondareva | professionalField | Economics<br>Olga Bondareva | professionalField | Mathematics",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_17",
+    "question_id": 387,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El (1857) Parchomenko tiene un eje semimayor de +2.2435713 unidad astronómica.",
+    "graph": "1857 Parchomenko | semiMajorAxis | +2.2435713 astronomical unit",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_18",
+    "question_id": 388,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Olga Bondareva nació en San Petersburgo y estudió en la Universidad Estatal de San Petersburgo. Su campo profesional es tanto la economía como las matemáticas.",
+    "graph": "Olga Bondareva | almaMater | Leningrad State University<br>Olga Bondareva | birthPlace | Leningrad, USSR<br>Olga Bondareva | professionalField | Economics<br>Olga Bondareva | professionalField | Mathematics",
+    "precision_list": [
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "recall_list": [
+      1.0,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_19",
+    "question_id": 389,
+    "level": 2,
+    "language": "Spanish",
+    "text": "\"Jeju Air es una aerolínea de Corea del Sur. Su nombre oficial es Jeju Air. Su código de contabilidad es 806. Su nombre oficial es Jeju Air. Su nombre oficial es Jeju Air. Su nombre oficial es \"\"JJA\"\". Su indice de desarrollo humano ajustado por la inequidad es 0.838 y su índice de planeta feliz es de 39.8.\"",
+    "graph": "Jeju Air | airline accounting code | 806<br>Jeju Air | country | South Korea<br>Jeju Air | IATA airline designator | 7C<br>Jeju Air | callsign of airline | JEJU AIR<br>Jeju Air | ICAO airline designator | JJA<br>Jeju Air | official name | 주식회사 제주항공<br>Jeju Air | official website | http://www.jejuair.net<br>South Korea | suicide rate | 21.2<br>South Korea | Inequality-adjusted Human Development Index | 0.838<br>South Korea | Happy Planet Index score | 39.8",
+    "precision_list": [
+      0.75,
+      0.25,
+      0.25,
+      0.75
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_20",
+    "question_id": 390,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El código ATC de dióxido de carbono (CO2) es V03AN02. Tiene los SMILES canónicos de C(=O)=O. Tiene el inChI=1S/CO2/c2-1-3 y se utiliza como refrigerante.",
+    "graph": "carbon dioxide | associated hazard | carbon dioxide exposure<br>carbon dioxide | ATC code | V03AN02<br>carbon dioxide | canonical SMILES | C(=O)=O<br>carbon dioxide | InChI | InChI=1S/CO2/c2-1-3<br>carbon dioxide | chemical formula | CO₂<br>carbon dioxide | has use | coolant",
+    "precision_list": [
+      1.0,
+      0.75,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_21",
+    "question_id": 391,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Ciudad Ayala está en la zona horaria UTC -6, tiene una densidad de población de 1604.0 y es gobernada por un gobierno de gestión municipal.",
+    "graph": "Ciudad Ayala | governmentType | Council-manager government<br>Ciudad Ayala | populationDensity | 1604.0<br>Ciudad Ayala | utcOffset | −6",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_22",
+    "question_id": 392,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Cape Cod Academy es una escuela que se fundó en 1976. Está situado en Massachusetts, en el país de Estados Unidos.",
+    "graph": "Cape Cod Academy | locatedInArea | Massachusetts<br>Cape Cod Academy | country | United States<br>Cape Cod Academy | instanceOf | School<br>Cape Cod Academy | formationDate | 00 1976",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_23",
+    "question_id": 393,
+    "level": 2,
+    "language": "Spanish",
+    "text": "La Fundación Western Goals fue fundada en 1979 en los Estados Unidos.",
+    "graph": "Western Goals Foundation | formationDate | 01 January 1979<br>Western Goals Foundation | country | United States",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_24",
+    "question_id": 394,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Imogene Pass es un paso de montaña en las montañas de San Juan en Colorado, Estados Unidos.",
+    "graph": "Imogene Pass | locatedInArea | Colorado<br>Imogene Pass | country | United States<br>Imogene Pass | instanceOf | Mountain pass<br>Imogene Pass | mountainRange | San Juan Mountains",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_25",
+    "question_id": 395,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El cráter Bello, un cráter de impacto, está ubicado en Mercurio y está nombrado en honor a Andrés Bello, y se encuentra en el cuadrilátero de Beethoven.",
+    "graph": "Bello (crater) | locatedOnAstronomicalLocation | Mercury (planet)<br>Bello (crater) | instanceOf | Impact crater<br>Bello (crater) | location | Beethoven quadrangle<br>Bello (crater) | namedAfter | Andrés Bello",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_26",
+    "question_id": 396,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Buzz Aldrin fue parte de la misión Apolo 11 y nació el 20 de enero de 1930.",
+    "graph": "Buzz Aldrin | mission | Apollo 11<br>Buzz Aldrin | birthDate | 1930-01-20",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_27",
+    "question_id": 397,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Millers es una comunidad no incorporada en el área de Yates y Somerset, Nueva York, Estados Unidos.",
+    "graph": "Millers, New York | country | United States<br>Millers, New York | locatedInArea | Somerset, New York<br>Millers, New York | instanceOf | unincorporated community<br>Millers, New York | locatedInArea | Yates, New York",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_28",
+    "question_id": 398,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Cardinal Spellman High School (Brockton, Massachusetts) es una escuela secundaria en los Estados Unidos. Fue fundada por Richard Cushing en 0058 y se encuentra en Massachusetts.",
+    "graph": "Cardinal Spellman High School (Brockton, Massachusetts) | locatedInArea | Massachusetts<br>Cardinal Spellman High School (Brockton, Massachusetts) | country | United States<br>Cardinal Spellman High School (Brockton, Massachusetts) | instanceOf | High school in the United States<br>Cardinal Spellman High School (Brockton, Massachusetts) | formationDate | 00 1958<br>Cardinal Spellman High School (Brockton, Massachusetts) | foundedBy | Richard Cushing",
+    "precision_list": [
+      0.75,
+      0.75,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_29",
+    "question_id": 399,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Mark Dobson es un ser humano, su nombre de pila es Mark, quien pertenece al equipo deportivo Kent County Cricket Club y también perteneció al equipo Glamorgan County Cricket Club, y utiliza un estilo de bowling de giro ortodoxo con la mano izquierda.",
+    "graph": "Mark Dobson | instanceOf | Human<br>Mark Dobson | givenName | Mark (given name)<br>Mark Dobson | team | Kent County Cricket Club<br>Mark Dobson | bowlingStyle | Left-arm orthodox spin<br>Mark Dobson | team | Glamorgan County Cricket Club",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_30",
+    "question_id": 400,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Millers, New York es una área no incorporada situada en Somerset, New York, y también en Yates, New York, en Estados Unidos.",
+    "graph": "Millers, New York | country | United States<br>Millers, New York | locatedInArea | Somerset, New York<br>Millers, New York | instanceOf | unincorporated community<br>Millers, New York | locatedInArea | Yates, New York",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_31",
+    "question_id": 401,
+    "level": 2,
+    "language": "Spanish",
+    "text": "\"Bulgaria Air tiene el código de contabilidad de 623 y el nombre oficial es Болгария Еир АД. El país tiene un índice de desarrollo humano ajustado por la inequidad de 0.701 y un índice de la Democracia de 6.71. El país también tiene el código de contabilidad de IBN de \"\"FLYING BULGARIA\"\". El país tiene un índice de desarrollo humano de 6.5 y un índice de planeta feliz de 40.1.\"",
+    "graph": "Bulgaria Air | airline accounting code | 623<br>Bulgaria Air | country | Bulgaria<br>Bulgaria Air | IATA airline designator | FB<br>Bulgaria Air | callsign of airline | FLYING BULGARIA<br>Bulgaria Air | official name | „България Еър“ АД<br>Bulgaria Air | official website | http://www.air.bg/en/<br>Bulgaria | suicide rate | 6.5<br>Bulgaria | Inequality-adjusted Human Development Index | 0.701<br>Bulgaria | Democracy Index | 6.71<br>Bulgaria | Happy Planet Index score | 40.1",
+    "precision_list": [
+      0.75,
+      0.5,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.5,
+      0.5,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_32",
+    "question_id": 402,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Pakistan International Airlines tiene el nombre oficial de s y su sitio web oficial es https://www.piac.com.pk/. Se encuentra en Pakistán y tiene la señal de llamada de PAKISTÁN. El designador de aerolíneas de la OACI para Pakistán es PIA. Pakistán tiene un índice de desarrollo humano ajustado a la desigualdad de 0,38 y una puntuación del índice Happy Planet de 45.1.",
+    "graph": "Pakistan International Airlines | airline accounting code | 214<br>Pakistan International Airlines | country | Pakistan<br>Pakistan International Airlines | callsign of airline | PAKISTAN<br>Pakistan International Airlines | ICAO airline designator | PIA<br>Pakistan International Airlines | official name | پاکِستان اِنٹَرنیشَنَل ایئر لائنزs<br>Pakistan International Airlines | official website | https://www.piac.com.pk/<br>Pakistan | suicide rate | 9.8<br>Pakistan | Inequality-adjusted Human Development Index | 0.38<br>Pakistan | Democracy Index | 4.31<br>Pakistan | Happy Planet Index score | 45.1",
+    "precision_list": [
+      0.75,
+      0.5,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.5,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_33",
+    "question_id": 403,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Imogene Pass es un puerto de montaña ubicado en el territorio de Colorado, en los Estados Unidos, y pertenece a la cordillera de San Juan.",
+    "graph": "Imogene Pass | locatedInArea | Colorado<br>Imogene Pass | country | United States<br>Imogene Pass | instanceOf | Mountain pass<br>Imogene Pass | mountainRange | San Juan Mountains",
+    "precision_list": [
+      1.0,
+      0.75,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      0.75,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_34",
+    "question_id": 404,
+    "level": 2,
+    "language": "Spanish",
+    "text": "La estación Canal Exploration Center es una estación de ferrocarril situada en Valley View, Ohio, en Estados Unidos.",
+    "graph": "Canal Exploration Center station | locatedInArea | Valley View, Ohio<br>Canal Exploration Center station | country | United States<br>Canal Exploration Center station | instanceOf | Train station",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_35",
+    "question_id": 405,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Cathay Pacific, una aerolínea de la República Popular China, tiene el código de contabilidad 160. Su nombre oficial es 國泰航空公司. Su nombre oficial es 國泰航空公司. La compañía tiene el código de llamada de la OACI de CATHAY y el índice de la Democracia de la República Popular China es de 2.21 y el índice de desarrollo humano ajustado por la inequidad es de 0.651.",
+    "graph": "Cathay Pacific | airline accounting code | 160<br>Cathay Pacific | country | People's Republic of China<br>Cathay Pacific | IATA airline designator | CX<br>Cathay Pacific | callsign of airline | CATHAY<br>Cathay Pacific | ICAO airline designator | CPA<br>Cathay Pacific | official name | 國泰航空公司<br>Cathay Pacific | official website | https://www.cathaypacific.com<br>People's Republic of China | Inequality-adjusted Human Development Index | 0.651<br>People's Republic of China | Democracy Index | 2.21<br>People's Republic of China | Happy Planet Index score | 41.9",
+    "precision_list": [
+      1.0,
+      0.5,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.5,
+      0.5,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_36",
+    "question_id": 406,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El US Southwest Soaring Museum se encuentra en Nuevo México, Estados Unidos y es un museo de aviación.",
+    "graph": "US Southwest Soaring Museum | locatedInArea | New Mexico<br>US Southwest Soaring Museum | country | United States<br>US Southwest Soaring Museum | instanceOf | Aviation museum",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_37",
+    "question_id": 407,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El sistema de calificación de películas de la Asociación de la Industria Cinematográfica se formó el 01 de enero de 1968 y está ubicado en Estados Unidos. Es un sistema de calificación de contenido de películas y tiene una o más partes de la categoría de clasificación de MPAA, que es parte del mismo sistema.",
+    "graph": "Motion Picture Association film rating system | formationDate | 01 January 1968<br>Motion Picture Association film rating system | instanceOf | Motion picture content rating system<br>Motion Picture Association film rating system | country | United States<br>Motion Picture Association film rating system | hasPart | MPAA classification category<br>Motion Picture Association film rating system | hasPartsOfTheClass | MPAA classification category",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_38",
+    "question_id": 408,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Imogene Pass es un paso de montaña situado en Colorado, en Estados Unidos, dentro de la Sierra de San Juan.",
+    "graph": "Imogene Pass | locatedInArea | Colorado<br>Imogene Pass | country | United States<br>Imogene Pass | instanceOf | Mountain pass<br>Imogene Pass | mountainRange | San Juan Mountains",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_39",
+    "question_id": 409,
+    "level": 2,
+    "language": "Spanish",
+    "text": "\"El óxido de magnesio es un aditivo alimentario que tiene la fórmula química de \"\"MgO\"\". Tiene el código ATC de \"\"A02AA02\"\" y el código canónico SMILES es O=Mg. El óxido de magnesio tiene el grado de magnesio InChI=1S/Mg.O.\"",
+    "graph": "magnesium oxide | associated hazard | magnesium oxide exposure<br>magnesium oxide | ATC code | A02AA02<br>magnesium oxide | canonical SMILES | O=[Mg]<br>magnesium oxide | InChI | InChI=1S/Mg.O<br>magnesium oxide | chemical formula | MgO<br>magnesium oxide | has use | food additive",
+    "precision_list": [
+      1.0,
+      0.75,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_40",
+    "question_id": 410,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Bulgaria Air, con la designación IATA FB, tiene el indicativo de FLYING BULGARIA. Su nombre oficial es Ł“ y su sitio web oficial es http://www.air.bg/en/. Su código contable es 623.",
+    "graph": "Bulgaria Air | airline accounting code | 623<br>Bulgaria Air | country | Bulgaria<br>Bulgaria Air | IATA airline designator | FB<br>Bulgaria Air | callsign of airline | FLYING BULGARIA<br>Bulgaria Air | official name | „България Еър“ АД<br>Bulgaria Air | official website | http://www.air.bg/en/",
+    "precision_list": [
+      0.75,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.5,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_41",
+    "question_id": 411,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Boo Hewerdine pertenece a Ensign Records y su género es New wave music.",
+    "graph": "Boo Hewerdine | recordLabel | Ensign Records<br>Boo Hewerdine | genre | New wave music",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_42",
+    "question_id": 412,
+    "level": 2,
+    "language": "Spanish",
+    "text": "El Museo de Planeadores del Suroeste de EE. UU. es un museo de aviación situado en Nuevo México, Estados Unidos.",
+    "graph": "US Southwest Soaring Museum | locatedInArea | New Mexico<br>US Southwest Soaring Museum | country | United States<br>US Southwest Soaring Museum | instanceOf | Aviation museum",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_43",
+    "question_id": 413,
+    "level": 2,
+    "language": "Spanish",
+    "text": "\"El nombre oficial de Vanilla Air es \"\"Bahira-e-Kore\"\", pero proviene de Japón. El país tiene un índice de desarrollo humano ajustado por la inequidad de 0.85 y un índice de desarrollo humano de 14.6. El Índice de Democracia de Japón es 8.15 y el Índice de Planeta Feliz es de 47.1. La aerolínea tiene el código de contabilidad 842 y la designación de la OACI es JW.\"",
+    "graph": "Vanilla Air | airline accounting code | 842<br>Vanilla Air | country | Japan<br>Vanilla Air | IATA airline designator | JW<br>Vanilla Air | ICAO airline designator | VNL<br>Vanilla Air | official name | バニラ・エア株式会社<br>Japan | suicide rate | 14.6<br>Japan | Inequality-adjusted Human Development Index | 0.85<br>Japan | Democracy Index | 8.15<br>Japan | Happy Planet Index score | 47.1<br>Japan | official name | 日本国",
+    "precision_list": [
+      0.75,
+      0.5,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.5,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_44",
+    "question_id": 414,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Vanilla Air, con el código de contabilidad 842, se encuentra en Japón y tiene el nombre oficial de. La tasa de suicidio del país es de 14,6 y el índice de desarrollo humano ajustado a la desigualdad es de 0,85. La puntuación del índice del planeta feliz del país es 47.1.",
+    "graph": "Vanilla Air | airline accounting code | 842<br>Vanilla Air | country | Japan<br>Vanilla Air | IATA airline designator | JW<br>Vanilla Air | ICAO airline designator | VNL<br>Vanilla Air | official name | バニラ・エア株式会社<br>Japan | suicide rate | 14.6<br>Japan | Inequality-adjusted Human Development Index | 0.85<br>Japan | Democracy Index | 8.15<br>Japan | Happy Planet Index score | 47.1<br>Japan | official name | 日本国",
+    "precision_list": [
+      1.0,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_45",
+    "question_id": 415,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Bulgaria Air tiene el código de contabilidad de aerolínea 623, es una aerolínea de Bulgaria, tiene el código de identificación de dos caracteres FB, el código de llamada es FLYING BULGARIA y el nombre oficial es „България Еър“ АД. La página web oficial es http://www.air.bg/en/. Bulgaria tiene un Índice de Desarrollo Humano ajustado por la desigualdad de 0.701, un índice de democracia de 6.71 y un puntaje de Índice del Planeta Feliz de 40.1. La tasa de suicidios en Bulgaria es de 6.5 por 100,000 personas y año. El oficial símbolo de Bangladesh es Nymphaea nouchali.",
+    "graph": "Bulgaria Air | airline accounting code | 623<br>Bulgaria Air | country | Bulgaria<br>Bulgaria Air | IATA airline designator | FB<br>Bulgaria Air | callsign of airline | FLYING BULGARIA<br>Bulgaria Air | official name | „България Еър“ АД<br>Bulgaria Air | official website | http://www.air.bg/en/<br>Bulgaria | suicide rate | 6.5<br>Bulgaria | Inequality-adjusted Human Development Index | 0.701<br>Bulgaria | Democracy Index | 6.71<br>Bulgaria | Happy Planet Index score | 40.1",
+    "precision_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_46",
+    "question_id": 416,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Bootleg Series Volume 1: The Quine Tapes es un álbum grabado en los Estados Unidos por The Velvet Underground.",
+    "graph": "Bootleg Series Volume 1: The Quine Tapes | producer | The Velvet Underground<br>Bootleg Series Volume 1: The Quine Tapes | runtime | 230.05<br>Bootleg Series Volume 1: The Quine Tapes | recordedIn | United States",
+    "precision_list": [
+      1.0,
+      0.75,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_47",
+    "question_id": 417,
+    "level": 2,
+    "language": "Spanish",
+    "text": "La meclorectamina es un agente ampolla que se utiliza para producir meclorectamina. Tiene el código ATC L01AA05 y la SMILES canónica CN(CCCl)CCCl. La mezcla química de meclorectamina es C5H11Cl2N.",
+    "graph": "mechlorethamine | associated hazard | mechlorethamine exposure<br>mechlorethamine | ATC code | L01AA05<br>mechlorethamine | canonical SMILES | CN(CCCl)CCCl<br>mechlorethamine | chemical formula | C₅H₁₁Cl₂N<br>mechlorethamine | has use | blister agent",
+    "precision_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_48",
+    "question_id": 418,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Stevinson, California es un lugar designado por el censo ubicado en el condado de Merced en el estado estadounidense de California.",
+    "graph": "Stevinson, California | instanceOf | Census-designated place<br>Stevinson, California | country | United States<br>Stevinson, California | locatedInArea | Merced County, California",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  },
+  {
+    "id": "Spanish_49",
+    "question_id": 419,
+    "level": 2,
+    "language": "Spanish",
+    "text": "Donaustauf tiene una población de +2764 habitantes.",
+    "graph": "Donaustauf | populationTotal | +2764",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_047",
+      "annotator_033",
+      "annotator_041",
+      "annotator_001"
+    ]
+  }
+]

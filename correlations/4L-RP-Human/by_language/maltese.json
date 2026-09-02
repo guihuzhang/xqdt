@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "Maltese_0",
+    "question_id": 320,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Liselotte Grschebina twieldet f’Karlsruhe, il-Ġermanja fit-2 ta’ Mejju, 1908. Iktar tard marret tgħix l-Iżrael u saret ċittadina Iżraeljana. Hija mietet f’Petah Tikva, l-Iżrael fl-14 ta’ Ġunju, 1994.",
+    "graph": "Liselotte Grschebina | birthPlace | Karlsruhe<br>Liselotte Grschebina | birthDate | 1908-05-02<br>Liselotte Grschebina | deathDate | 1994-06-14<br>Liselotte Grschebina | deathPlace | Israel<br>Liselotte Grschebina | nationality | Israel<br>Liselotte Grschebina | birthPlace | German Empire<br>Liselotte Grschebina | deathPlace | Petah Tikva",
+    "precision_list": [
+      0.75,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_1",
+    "question_id": 321,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Abraham A Ribicoff twieled fl-Istati Uniti, fejn l-Amerikani Afrikani huma grupp etniku. Huwa membru tal-Partit Demokratiku fl-Istati Uniti.",
+    "graph": "Abraham A. Ribicoff | spouse | Ruth Ribicoff<br>Abraham A. Ribicoff | party | Democratic Party (United States)<br>Abraham A. Ribicoff | birthPlace | United States<br>United States | ethnicGroup | African Americans",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_2",
+    "question_id": 322,
+    "level": 2,
+    "language": "Maltese",
+    "text": "L-Ingliż mingħajr Tears ġie prodott minn Anatole de Grunwald u miktub minn Anatole de Grunwald.",
+    "graph": "English Without Tears | musicComposer | Nicholas Brodszky<br>English Without Tears | editing | Alan Jaggs<br>English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald<br>English Without Tears | cinematography | Bernard Knowles",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.25
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_3",
+    "question_id": 323,
+    "level": 2,
+    "language": "Maltese",
+    "text": "L-Istat tal-Istati Uniti huwa l-isem qasir ta' l-Istat tal-Istati Uniti.",
+    "graph": "Israel | longName | State of Israel",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_4",
+    "question_id": 324,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Liselotte Grschebina twieled f'Karlsruhe, fl- Imperu Ġermaniż.. Hi kienet ċittadin taʼ Iżrael u miet f'Iżrael.",
+    "graph": "Liselotte Grschebina | birthPlace | Karlsruhe<br>Liselotte Grschebina | deathPlace | Israel<br>Liselotte Grschebina | nationality | Israel<br>Liselotte Grschebina | birthPlace | German Empire",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_5",
+    "question_id": 325,
+    "level": 2,
+    "language": "Maltese",
+    "text": "San Pietruburgu twaqqaf fis-1703-05-27 u twaqqaf fis-1703-05",
+    "graph": "Saint Petersburg | foundingDate | 1703-05-27",
+    "precision_list": [
+      0.75,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_6",
+    "question_id": 326,
+    "level": 2,
+    "language": "Maltese",
+    "text": "L-Università tat-Tessas f’Ostina hija l-President tal-Università",
+    "graph": "Acharya Institute of Technology | affiliation | Visvesvaraya Technological University<br>Acharya Institute of Technology | city | Bangalore<br>Acharya Institute of Technology | president | B.M. Reddy",
+    "precision_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_7",
+    "question_id": 327,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-mużikisti, l-Ayr u l-Alb",
+    "graph": "Year of No Light | associatedBand/associatedMusicalArtist | Altar of Plagues",
+    "precision_list": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_8",
+    "question_id": 328,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-Viċi President huwa l-mexxej tal-Istati Uniti",
+    "graph": "United States | leaderTitle | Vice President<br>Darinka Dentcheva | residence | United States",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.25
+    ],
+    "recall_list": [
+      0.5,
+      0.5,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_9",
+    "question_id": 329,
+    "level": 2,
+    "language": "Maltese",
+    "text": "L-Universali tal-Post tal-ICAO tal-futbol hija l-kum",
+    "graph": "Super Capers | distributor | Roadside Attractions<br>Lionsgate | type | Public company<br>Super Capers | distributor | Lionsgate",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_10",
+    "question_id": 330,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-punk li ġej minn mużika post-metall.",
+    "graph": "Noise rock | derivative | Post-hardcore",
+    "precision_list": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_11",
+    "question_id": 331,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Warner huwa l-sid tal-runway fl-ajruport nazzjonali",
+    "graph": "HBO | owner | Time Warner",
+    "precision_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_12",
+    "question_id": 332,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Olga Nikolaevna Bondareva twieldet fis-27 ta' April, 1937 u twieldet f'San Pietruburgu.",
+    "graph": "Olga Bondareva | deathPlace | Saint Petersburg<br>Olga Bondareva | birthDate | 1937-04-27<br>Olga Bondareva | birthName | Olga Nikolaevna Bondareva",
+    "precision_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.25,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_13",
+    "question_id": 333,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Mermaid (Train singing) hija band mużikali. Johnny Colt kien membru tal-band u Charlie Colin kien membru tal-band.",
+    "graph": "Train (band) | formerBandMember | Johnny Colt<br>Train (band) | formerBandMember | Charlie Colin<br>Mermaid (Train song) | musicalBand | Train (band)",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_14",
+    "question_id": 334,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Darinka Dentcheva twieled fl-1 ta’ Jannar 1958 f’New Jersey, l-Istati Uniti.",
+    "graph": "Darinka Dentcheva | influencedBy | Andrzej Piotr Ruszczyński<br>Darinka Dentcheva | citizenship | United States<br>Darinka Dentcheva | birthDate | 1958-01-01<br>Darinka Dentcheva | professionalField | Mathematical optimization<br>Darinka Dentcheva | knownFor | Stochastic programming<br>Darinka Dentcheva | almaMater | Humboldt University<br>Darinka Dentcheva | residence | New Jersey",
+    "precision_list": [
+      0.75,
+      1.0,
+      0.25
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_15",
+    "question_id": 335,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-belt ta' Buenos Aires tinsab f'Messiku u hija 1147.0 metru fuq il-livell tal-baħar. Hija għandha żona ta' UTC ta' 6 u popolazzjoni ta' 2777539. Id-data tal-epoca tagħha hija l-31 ta' Diċembru 2016.",
+    "graph": "Ciudad Ayala | populationMetro | 1777539<br>Ciudad Ayala | utcOffset | −6<br>Ciudad Ayala | isPartOf | Morelos<br>Ciudad Ayala | country | Mexico<br>Ciudad Ayala | elevationAboveTheSeaLevel | 1147.0<br>Ciudad Ayala | timeZone | Pacific Daylight Time",
+    "precision_list": [
+      0.5,
+      0.75,
+      0.25
+    ],
+    "recall_list": [
+      0.25,
+      0.75,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_16",
+    "question_id": 336,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Olga Bondareva, li kienet gradwat fl- Università tal-Istat taʼ Leningrad, mietet f'San Pietroburgu, fir- Russja.. Il-mexxej ta' San Pietroburgu huwa Georgy Poltavchenko.",
+    "graph": "Olga Bondareva | almaMater | Leningrad State University<br>Saint Petersburg | country | Russia<br>Olga Bondareva | deathPlace | Saint Petersburg<br>Saint Petersburg | leader | Georgy Poltavchenko",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_17",
+    "question_id": 337,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Istanbul għandha densità tal-popolazzjoni ta' 2691.0 u densità tal-popolazzjoni ta' 2691.0",
+    "graph": "Istanbul | populationMetroDensity | 2691.0",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_18",
+    "question_id": 338,
+    "level": 2,
+    "language": "Maltese",
+    "text": "L-Ajruport ta’ Bdew huwa għoli ta’ 83.",
+    "graph": "Bedford Aerodrome | elevationAboveTheSeaLevel | 83.2104",
+    "precision_list": [
+      0.75,
+      1.0,
+      0.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_19",
+    "question_id": 339,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-post tat-twelid ta’ Linnellun fiktjonali kien il",
+    "graph": "Liselotte Grschebina | birthPlace | German Empire<br>German Empire | currency | German Papiermark<br>Liselotte Grschebina | birthPlace | Karlsruhe<br>Karlsruhe | elevationAboveTheSeaLevel | 115.0",
+    "precision_list": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_20",
+    "question_id": 340,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-Gvern ta’ Londra hija l-Gvern ta’ Londra.",
+    "graph": "Kingdom of England | governmentType | Unitary state",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_21",
+    "question_id": 341,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-film, John Monroe miet f' Denham, il-Pensilvanja",
+    "graph": "It's Great to Be Young (1956 film) | starring | John Mills<br>It's Great to Be Young (1956 film) | starring | Cecil Parker<br>John Mills | deathPlace | Denham, Buckinghamshire",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_22",
+    "question_id": 342,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-munita ta’ comic book, il-Ġeorġja hija l",
+    "graph": "German Empire | currency | South German gulden",
+    "precision_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_23",
+    "question_id": 343,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Id-demonimu tal-abitanti tal-belt ta’ Turkmen huwa ta",
+    "graph": "Turkey | demonym | Turk",
+    "precision_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_24",
+    "question_id": 344,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Liselotte Grschebina twieldet fl-Imperu Ġermaniż u aktar tard saret ċittadina Iżraeljana. Mietet fl-Iżrael fl-14 ta’ Ġunju, 1994.",
+    "graph": "Liselotte Grschebina | deathDate | 1994-06-14<br>Liselotte Grschebina | deathPlace | Israel<br>Liselotte Grschebina | nationality | Israel<br>Liselotte Grschebina | birthPlace | German Empire",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_25",
+    "question_id": 345,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-Bionico hija varjazzjoni tal-għasel u ġejja mill-Messiku.",
+    "graph": "Bionico | dishVariation | Honey<br>Bionico | country | Mexico",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_26",
+    "question_id": 346,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Alan B. Miller Hall jinsab fi 101 Ukrop Way, Williamsburg, il-Virġinja.",
+    "graph": "Alan B. Miller Hall | architect | Robert A. M. Stern<br>Alan B. Miller Hall | address | 101 Ukrop Way<br>Alan B. Miller Hall | buildingStartDate | 30 March 2007<br>Alan B. Miller Hall | currentTenants | Mason School of Business<br>Alan B. Miller Hall | location | Williamsburg, Virginia<br>Mason School of Business | country | United States",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.25
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_27",
+    "question_id": 347,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-mexxej ta' Buenos Aires huwa l-maniġer tal-belt. Hija tinsab f'Messiku l-Ġdid, għandha densità ta' popolazzjoni ta' 1604.0 u żona totali ta' 2777539 persuna.",
+    "graph": "Ciudad Ayala | populationMetro | 1777539<br>Ciudad Ayala | leaderTitle | City Manager<br>Ciudad Ayala | type | City<br>Ciudad Ayala | populationDensity | 1604.0<br>Ciudad Ayala | governmentType | Council-manager government<br>Ciudad Ayala | isPartOf | Morelos",
+    "precision_list": [
+      0.25,
+      0.5,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_28",
+    "question_id": 348,
+    "level": 2,
+    "language": "Maltese",
+    "text": "McVeagh tal-Baħar tan-Nofsinhar kien miktub minn Harry Carey (attur imwieled 1878) u dirett minn Cyril Bruce.",
+    "graph": "McVeagh of the South Seas | director | Cyril Bruce<br>McVeagh of the South Seas | director | Harry Carey (actor born 1878)<br>McVeagh of the South Seas | writer | Harry Carey (actor born 1878)",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_29",
+    "question_id": 349,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-popolazzjoni tal-Istati Uniti hija 32472079 u l-popolazzjoni totali hija 3247207",
+    "graph": "United States | populationTotal | 324720797",
+    "precision_list": [
+      0.5,
+      1.0,
+      0.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_30",
+    "question_id": 350,
+    "level": 2,
+    "language": "Maltese",
+    "text": "John Mitchell huwa l-post tat-twelid ta’ John Mitchell",
+    "graph": "John Mills | child | Juliet Mills",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_31",
+    "question_id": 351,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Alan Shepard twieled fl-1963.",
+    "graph": "Alan Shepard | birthDate | 1923-11-18<br>Alan Shepard | nationality | United States<br>Alan Shepard | servedAsChiefOfTheAstronautOfficeIn | 1963<br>Alan Shepard | deathPlace | California<br>Distinguished Service Medal (United States Navy) | higher | Department of Commerce Gold Medal<br>Alan Shepard | birthPlace | New Hampshire<br>Alan Shepard | award | Distinguished Service Medal (United States Navy)",
+    "precision_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_32",
+    "question_id": 352,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-post tat-twelid ta’ Londra huwa l-Ingi",
+    "graph": "Lady Anne Monson | birthPlace | Darlington<br>Lady Anne Monson | nationality | Kingdom of England",
+    "precision_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_33",
+    "question_id": 353,
+    "level": 2,
+    "language": "Maltese",
+    "text": "L-ewwel isem ta’ Pontiac Rahous huwa l-ħol",
+    "graph": "Pontiac Rageous | assembly | Detroit",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_34",
+    "question_id": 354,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-karattru ta’ comic book The F-16 Fighting Falcons huwa George",
+    "graph": "The Fellowship of the Ring | publisher | George Allen & Unwin<br>The Fellowship of the Ring | followedBy | The Two Towers<br>The Fellowship of the Ring | author | J. R. R. Tolkien",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_35",
+    "question_id": 355,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Ipermarkas hija kumpanija farmaċewtika.",
+    "graph": "Hypermarcas | keyPerson | CEO",
+    "precision_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_36",
+    "question_id": 356,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-metall iswed huwa ġeneru tal-fużjoni tal-mużika, u Aaron Turner huwa artist tal-ġeneru assoċjat miegħu. Huwa wkoll assoċjat mal-band Old Man Gloom.",
+    "graph": "Black metal | musicFusionGenre | Death metal<br>Aaron Turner | genre | Black metal<br>Aaron Turner | associatedBand/associatedMusicalArtist | Old Man Gloom",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.25
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_37",
+    "question_id": 357,
+    "level": 2,
+    "language": "Maltese",
+    "text": "L-ID tal-Postizzjoni tal-ICAO għal Bedford Erodrome huwa EGBF u l-kodiċi postali huwa MK44.",
+    "graph": "Bedford Aerodrome | location | Thurleigh<br>Bedford Aerodrome | icaoLocationIdentifier | EGBF<br>Thurleigh | postalCode | MK44",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_38",
+    "question_id": 358,
+    "level": 2,
+    "language": "Maltese",
+    "text": "L-album tal-metall tal-ħama Nord ġie rilaxxat fis-6 ta’ Settembru 2006 u kien segwit minn Live at Roadburn 2008.",
+    "graph": "Nord (Year of No Light album) | releaseDate | 2006-09-06<br>Nord (Year of No Light album) | followedBy | Live at Roadburn 2008 (Year of No Light album)<br>Nord (Year of No Light album) | genre | Sludge metal",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_39",
+    "question_id": 359,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il- ċittadin tal- I.S.A., li twieled f'Karlsruhe fit-2 ta' Mejju 1908, kienet magħrufa bħala l- arkitett. Huwa miet fl-14 ta' Ġunju 1994 fl-Istati Uniti.",
+    "graph": "Liselotte Grschebina | birthPlace | Karlsruhe<br>Liselotte Grschebina | birthDate | 1908-05-02<br>Liselotte Grschebina | deathDate | 1994-06-14<br>Liselotte Grschebina | deathPlace | Israel<br>Liselotte Grschebina | nationality | Israel<br>Liselotte Grschebina | professionalField | Photographer",
+    "precision_list": [
+      0.75,
+      0.5,
+      0.25
+    ],
+    "recall_list": [
+      0.25,
+      0.5,
+      0.25
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_40",
+    "question_id": 360,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Is-serje ta' HBO Death on a Factory Farm ġie prodott minn Tom Simon u dirett minn Jamie Lawrence.",
+    "graph": "Death on a Factory Farm | director | Tom Simon<br>Death on a Factory Farm | producer | Tom Simon<br>Death on a Factory Farm | broadcastedBy | HBO<br>Death on a Factory Farm | musicComposer | Jamie Lawrence",
+    "precision_list": [
+      1.0,
+      0.75,
+      0.5
+    ],
+    "recall_list": [
+      0.75,
+      0.5,
+      0.5
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_41",
+    "question_id": 361,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Juliet Mills kien it - tifel taʼ John Mills u John Mills.",
+    "graph": "John Mills | child | Juliet Mills",
+    "precision_list": [
+      1.0,
+      0.75,
+      0.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_42",
+    "question_id": 362,
+    "level": 2,
+    "language": "Maltese",
+    "text": "L-isem sħiħ tat-Turkmenistan Airlines huwa l-Turkmen.",
+    "graph": "Turkey | demonym | Turk",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_43",
+    "question_id": 363,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-mużika ta’ John Lenon hija l- Imagine.",
+    "graph": "Imagine (John Lennon song) | album | Imagine (John Lennon album)",
+    "precision_list": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_44",
+    "question_id": 364,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-membri tal-ekwipaġġ ta’ M Gafton huwa asso",
+    "graph": "Mermaid (Train song) | writer | Espen Lind<br>Stargate (production team) | associatedBand/associatedMusicalArtist | Benny Blanco<br>Mermaid (Train song) | writer | Stargate (production team)<br>Stargate (production team) | associatedBand/associatedMusicalArtist | Michael Jackson",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_45",
+    "question_id": 365,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Marriott International huwa l-mexxej ta’ Mexico.",
+    "graph": "Mexico | leader | Roberto Gil Zuarth",
+    "precision_list": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_46",
+    "question_id": 366,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Alan Shepard twieled fit-18 ta’ Novembru 1868.",
+    "graph": "Alan Shepard | birthDate | 1923-11-18<br>Alan Shepard | servedAsChiefOfTheAstronautOfficeIn | 1963<br>Alan Shepard | deathPlace | California<br>Alan Shepard | birthPlace | New Hampshire<br>Alan Shepard | mission | Apollo 14",
+    "precision_list": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.25,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_47",
+    "question_id": 367,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Michigan hija parti minn Scott.",
+    "graph": "Detroit | isPartOf | Michigan",
+    "precision_list": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.75,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_48",
+    "question_id": 368,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Aaron Turner huwa artist assoċjat mal-band Lotus Eaters u huwa attiv fil-ġeneru black metal mill-1995.",
+    "graph": "Aaron Turner | associatedBand/associatedMusicalArtist | Lotus Eaters (band)<br>Aaron Turner | genre | Black metal<br>Aaron Turner | activeYearsStartYear | 1995",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  },
+  {
+    "id": "Maltese_49",
+    "question_id": 369,
+    "level": 2,
+    "language": "Maltese",
+    "text": "Il-Pontiac Steeles, immanifatturat minn Pontiac, beda l-produzzjoni fl-1997. Il-Pontiac Steeles ġie mibnija f'Detroit u temm il-produzzjoni fl-1997.",
+    "graph": "Pontiac Rageous | productionStartYear | 1997<br>Pontiac Rageous | assembly | Michigan<br>Pontiac Rageous | assembly | Detroit<br>Pontiac Rageous | productionEndYear | 1997<br>Pontiac Rageous | manufacturer | Pontiac",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 3,
+    "annotator_ids": [
+      "annotator_052",
+      "annotator_060",
+      "annotator_043"
+    ]
+  }
+]

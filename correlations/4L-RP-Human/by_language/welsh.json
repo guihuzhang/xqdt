@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "Welsh_0",
+    "question_id": 270,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Bionico yn amrywiad dysgl o Fecsico sy'n cynnwys mêl.",
+    "graph": "Bionico | dishVariation | Honey<br>Bionico | country | Mexico",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_1",
+    "question_id": 271,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Ysgrifennwyd Mermaid (Train singing) gan Espen Lind ac mae'n aelod o dîm cynhyrchu Stargate sy'n gysylltiedig â Benny Lanco a Michael Jackson.",
+    "graph": "Mermaid (Train song) | writer | Espen Lind<br>Stargate (production team) | associatedBand/associatedMusicalArtist | Benny Blanco<br>Mermaid (Train song) | writer | Stargate (production team)<br>Stargate (production team) | associatedBand/associatedMusicalArtist | Michael Jackson",
+    "precision_list": [
+      1.0,
+      0.75,
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      0.75,
+      0.75,
+      0.5
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_2",
+    "question_id": 272,
+    "level": 2,
+    "language": "Welsh",
+    "text": "'@ info",
+    "graph": "Abraham A. Ribicoff | spouse | Casey Ribicoff<br>Abraham A. Ribicoff | nationality | American",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_3",
+    "question_id": 273,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Roedd y sgôr gerddorol o'r ffilm It's Great to Be Young (1956 film) wedi'i gyfansoddi gan Louis Levy ac yn chwarae John Mills.. Cyfarwyddwyd y ffilm gan Gilbert Taylor ac mae gan yr ffilm amser rhedeg o 94 munud ac un o 282838.0.",
+    "graph": "It's Great to Be Young (1956 film) | starring | John Mills<br>It's Great to Be Young (1956 film) | cinematography | Gilbert Taylor<br>It's Great to Be Young (1956 film) | runtime | 94.0<br>It's Great to Be Young (1956 film) | gross | 282838.0<br>It's Great to Be Young (1956 film) | musicComposer | Louis Levy",
+    "precision_list": [
+      0.75,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_4",
+    "question_id": 274,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cafodd Hamov yn Zakaro, y cwblwyd yn Zaeidau, Zakoilla",
+    "graph": "Nie Haisheng | birthPlace | Zaoyang<br>Zaoyang | isPartOf | Hubei",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_5",
+    "question_id": 275,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Ciudad Ayala ym Mharth Amser Safonol y Môr Tawel.",
+    "graph": "Ciudad Ayala | timeZone | Pacific Standard Time Zone",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_6",
+    "question_id": 276,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Ganed y ddinesydd Israel, Liselotte Gorschebina, ar 2 Gorffennaf 1908 yn Israel.",
+    "graph": "Liselotte Grschebina | birthDate | 1908-05-02<br>Liselotte Grschebina | nationality | Israel",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_7",
+    "question_id": 277,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Ciudad Ayala yn rhan o Morelos yn Mexico.",
+    "graph": "Ciudad Ayala | populationMetro | 1777539<br>Ciudad Ayala | isPartOf | Morelos<br>Ciudad Ayala | country | Mexico<br>Ciudad Ayala | elevationAboveTheSeaLevel | 1147.0<br>Ciudad Ayala | timeZone | Pacific Daylight Time<br>Ciudad Ayala | populationDensity | 1604.0",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      1.0,
+      0.25
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_8",
+    "question_id": 278,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Year of No Light yn gynhyrchwr albwm Year of No Light a ryddhawyd ar 6fed Medi 2006 ac mae wedi'i llofnodi i'r labell gofnodi Crucial Blast.",
+    "graph": "Nord (Year of No Light album) | releaseDate | 2006-09-06<br>Nord (Year of No Light album) | producer | Year of No Light<br>Nord (Year of No Light album) | artist | Year of No Light<br>Nord (Year of No Light album) | recordLabel | Crucial Blast",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      1.0,
+      0.5
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_9",
+    "question_id": 279,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae'r Gweriniaeth Texas, wedi ei weithredu gan Motorport Unol Daleithiau, yn lleoli yn Hapleigh a mae'n cael ei weithredu a mae ynigh a mae'n cael ei weithredu",
+    "graph": "Bedford Aerodrome | operatingOrganisation | MotorSport Vision<br>Bedford Aerodrome | location | Thurleigh",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_10",
+    "question_id": 280,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Ciudad Ayala wedi'i leoli ym Mecsico ac mae o fewn Parth Amser Safonol y Môr Tawel a'r Parth Amser Safonol yn y Môr Tawel.",
+    "graph": "Ciudad Ayala | country | Mexico<br>Ciudad Ayala | timeZone | Pacific Daylight Time<br>Ciudad Ayala | timeZone | Pacific Standard Time Zone",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_11",
+    "question_id": 281,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Ganed Liselotte Gorschebina ar 2 Gorffennaf 1908 yn Israel. Bu farw yn Israel.",
+    "graph": "Liselotte Grschebina | birthDate | 1908-05-02<br>Liselotte Grschebina | deathPlace | Israel",
+    "precision_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.5
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.5
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_12",
+    "question_id": 282,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cynhyrchwyd yr albwm Blwyddyn o No Golau gan Blwyddyn o'r Golau a gyhoeddiwyd ar y 6 E-sweithfull 2006.",
+    "graph": "Nord (Year of No Light album) | genre | Sludge metal<br>Nord (Year of No Light album) | producer | Year of No Light<br>Nord (Year of No Light album) | genre | Post-metal<br>Nord (Year of No Light album) | recordLabel | Crucial Blast<br>Nord (Year of No Light album) | releaseDate | 2006-09-06",
+    "precision_list": [
+      1.0,
+      0.25,
+      0.25,
+      0.75
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_13",
+    "question_id": 283,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Andrew Rayel wedi perfformio'r gener o gerddoriaeth Trance ac wedi bod yn gysylltiedig â'r artistiaid cerddorol canlynol: Armin Van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, Christian Burns, Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun",
+    "graph": "Andrew Rayel | genre | Trance music<br>Andrew Rayel | associatedBand/associatedMusicalArtist | Armin Van Buuren, Bobina, Mark Sixma, Jonathan Mendelsohn, Christian Burns, Jwaydan, Alexander Popov, Jano, Alexandre Bergheau, Jonny Rose, Sylvia Tosun, Lira Yin, Alexandra Badoi",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      0.75,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_14",
+    "question_id": 284,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae'r Gwiraf Veil yw'r turchwr tudalen mynodol: Y Queen The Queens Pe Pe of dan 28ain.",
+    "graph": "Bootleg Series Volume 1: The Quine Tapes | artist | The Velvet Underground<br>Bootleg Series Volume 1: The Quine Tapes | producer | The Velvet Underground<br>Bootleg Series Volume 1: The Quine Tapes | runtime | 230.05<br>Bootleg Series Volume 1: The Quine Tapes | genre | Rock music<br>Bootleg Series Volume 1: The Quine Tapes | precededBy | Squeeze (The Velvet Underground album)<br>Bootleg Series Volume 1: The Quine Tapes | recordLabel | Polydor Records<br>Bootleg Series Volume 1: The Quine Tapes | recordLabel | Universal Music Group",
+    "precision_list": [
+      0.0,
+      0.25,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.25,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_15",
+    "question_id": 285,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Hypermarcas yn gwmni o Frasil sy'n cynhyrchu cyffuriau a chynhyrchion gofal iechyd.",
+    "graph": "Hypermarcas | location | Brazil<br>Hypermarcas | product | Drugs<br>Hypermarcas | product | Healthcare",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_16",
+    "question_id": 286,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Hypermarcas, a sefydlwyd ar 01-01, 2001, yn gwmni fferyllol sy'n berson allweddol yn y diwydiant fferyllol. Prif Swyddog Gweithredol yw person allweddol Hypermarcas.",
+    "graph": "Hypermarcas | industry | Pharmaceuticals<br>Hypermarcas | keyPerson | CEO<br>Hypermarcas | foundingDate | 2001-01-01",
+    "precision_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      0.75,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_17",
+    "question_id": 287,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cafodd Darinka Dentcheva, ymgyrchwyd ar yr Unol Daleithiau.",
+    "graph": "Darinka Dentcheva | influencedBy | Andrzej Piotr Ruszczyński<br>Darinka Dentcheva | citizenship | United States<br>Darinka Dentcheva | birthDate | 1958-01-01<br>Darinka Dentcheva | almaMater | Humboldt University",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_18",
+    "question_id": 288,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Prifysgol Burgundaidd yn cael ei leoli yn Dijon, Ffrainc.",
+    "graph": "University of Burgundy | campus | Dijon<br>University of Burgundy | city | Dijon<br>University of Burgundy | country | France",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_19",
+    "question_id": 289,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cyril yw'r ddyrchiad McCamiant e-bost o'r De Seao sy'n cynnwys Cyril yw'r President Mcmetrio'r Unol Daleithiau.",
+    "graph": "McVeagh of the South Seas | imdbId | 0004319<br>McVeagh of the South Seas | director | Cyril Bruce<br>McVeagh of the South Seas | director | Harry Carey (actor born 1878)<br>McVeagh of the South Seas | starring | Harry Carey (actor born 1878)<br>McVeagh of the South Seas | writer | Harry Carey (actor born 1878)",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_20",
+    "question_id": 290,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Sefydliad Technoleg Acharya wedi'i leoli yn Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore, India.",
+    "graph": "Acharya Institute of Technology | campus | In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.<br>Acharya Institute of Technology | city | Bangalore",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_21",
+    "question_id": 291,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Nie Haisheng yn ddinesydd o Gweriniaeth Dadlwon Tsieina. Roedd yn aelod o griw Shenzhou 10.",
+    "graph": "Nie Haisheng | mission | Shenzhou 10<br>Nie Haisheng | nationality | People's Republic of China",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_22",
+    "question_id": 292,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Bionico yw bresher a ganfodwyd yn Guadalajara, Mexico",
+    "graph": "Mexico | currency | Mexican peso<br>Mexico | demonym | Mexicans<br>Bionico | course | Dessert<br>Bionico | region | Guadalajara<br>Dessert | dishVariation | Cookie<br>Bionico | mainIngredient | Chopped Fruits, Sour Cream, Condensed Milk, Granola, Shredded Coconut, Raisins<br>Bionico | country | Mexico",
+    "precision_list": [
+      0.5,
+      0.25,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.5,
+      0.75,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_23",
+    "question_id": 293,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Alan B. Miller Hall yn cael ei leoli ar 101 Ukrop Way, Williamsburg, Virginia.. Dechreuodd ei adeiladu ar 30 Mawrth 2007 ac mae ei argitekt yn Robert A.M. Stern.. Mae'r tenantiaid presennol yn Ysgol Busnes Mason.",
+    "graph": "Alan B. Miller Hall | architect | Robert A. M. Stern<br>Alan B. Miller Hall | address | 101 Ukrop Way<br>Alan B. Miller Hall | buildingStartDate | 30 March 2007<br>Alan B. Miller Hall | currentTenants | Mason School of Business<br>Alan B. Miller Hall | location | Williamsburg, Virginia<br>Mason School of Business | country | United States",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_24",
+    "question_id": 294,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cafodd Gabrielpas Grasso, ymblwyd yn 1996e ar 2 Mai 1908 a farwodd 1986 a farwodd.",
+    "graph": "Liselotte Grschebina | birthPlace | Karlsruhe<br>Liselotte Grschebina | birthDate | 1908-05-02<br>Liselotte Grschebina | deathDate | 1994-06-14",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.75
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_25",
+    "question_id": 295,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Ciudad Ayala yn rhan o dalaith Morelos ym Mecsico, sy'n cael ei harwain gan Graco Ramírez.",
+    "graph": "Ciudad Ayala | isPartOf | Morelos<br>Morelos | leader | Graco Ramírez",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75,
+      0.5
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_26",
+    "question_id": 296,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Nicholas Brodszky yn gyfansoddwr Saesneg Dian Tarts, a ysgrifennwyd gan Anatole de Grunwald a chyfideo Bernard Knowles. Mae Alan Jaggs yn gynhyrchydd Saesneg Dian Tarts.",
+    "graph": "English Without Tears | musicComposer | Nicholas Brodszky<br>English Without Tears | editing | Alan Jaggs<br>English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald<br>English Without Tears | cinematography | Bernard Knowles",
+    "precision_list": [
+      0.75,
+      1.0,
+      0.5,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_27",
+    "question_id": 297,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cafodd Abraham A. Ribicoff yn y Unol Daleithiau ac wedi'i ddisgryptio â Ruth Ribicoff.",
+    "graph": "Abraham A. Ribicoff | spouse | Ruth Ribicoff<br>Abraham A. Ribicoff | inOfficeWhilePresident | John F. Kennedy<br>Abraham A. Ribicoff | nationality | American<br>Abraham A. Ribicoff | successor | John N. Dempsey<br>Abraham A. Ribicoff | birthPlace | United States",
+    "precision_list": [
+      1.0,
+      0.25,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_28",
+    "question_id": 298,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Ysgrifennodd Harry Carey (a anwyd yn 1878) McVeagh of the South Seas a cyfarwyddodd Cyril Bruce.. Mae gan y ddata IMDb 0004319.",
+    "graph": "McVeagh of the South Seas | imdbId | 0004319<br>McVeagh of the South Seas | director | Cyril Bruce<br>McVeagh of the South Seas | director | Harry Carey (actor born 1878)<br>McVeagh of the South Seas | writer | Harry Carey (actor born 1878)",
+    "precision_list": [
+      1.0,
+      1.0,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.5
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_29",
+    "question_id": 299,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cafodd raked Batchoy ymblwyd 1910-01-01 a cwblwyd ar1001-01.",
+    "graph": "Nurhan Atasoy | birthDate | 1934-01-01",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_30",
+    "question_id": 300,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Roedd Bananaman yn gyfres deledu Brydeinig gyda Bill Oddie yn serennu a gafodd ei darlledu gan y BBC o Broadcasting House yn y ddinas. Darlledwyd ddiwethaf ar Ebrill 15, 1986.",
+    "graph": "BBC | city | Broadcasting House<br>Bananaman | starring | Bill Oddie<br>Bananaman | lastAired | 1986-04-15<br>Bananaman | broadcastedBy | BBC",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_31",
+    "question_id": 301,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Prifysgol Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Gwlad Wlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gwlad gorfa gorfa gorfa gorfa gorfa gorfa gorfa gwlad gorfa gwlad gorfa gwlad gorfa gwlad gorfa gwlad gorfa gwlad gorfa gwlad gorfa serland gwlad gorfa ser",
+    "graph": "University of Burgundy | staff | 2900<br>University of Burgundy | numberOfDoctoralStudents | 1299<br>University of Burgundy | campus | Dijon<br>University of Burgundy | numberOfStudents | 27400<br>University of Burgundy | numberOfPostgraduateStudents | 9400",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.75
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_32",
+    "question_id": 302,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Ciudad Ayala yw'r dinas gyda'r poblil 1777539 a'r cyfansawdd wedi'i rheoli gan y golygu.",
+    "graph": "Ciudad Ayala | populationMetro | 1777539<br>Ciudad Ayala | leaderTitle | City Manager<br>Ciudad Ayala | type | City<br>Ciudad Ayala | governmentType | Council-manager government",
+    "precision_list": [
+      1.0,
+      0.5,
+      0.75,
+      0.5
+    ],
+    "recall_list": [
+      0.75,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_33",
+    "question_id": 303,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cynhyrchwyd English Without Tears gan Anatole de Grunwald, a gyfarwyddwyd gan Harold French ac ysgrifenedig gan Nicholas Brodszky.",
+    "graph": "English Without Tears | musicComposer | Nicholas Brodszky<br>English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | director | Harold French",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_34",
+    "question_id": 304,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Zaleo wedi'i cwblwyd Halov gwasanaeth fel aelod lr o Shehanous.",
+    "graph": "Nie Haisheng | mission | Shenzhou 10<br>Nie Haisheng | mission | Shenzhou 6<br>Nie Haisheng | birthPlace | Zaoyang",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.5
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_35",
+    "question_id": 305,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Ciudad Ayala yn rhan o dalaith Morelos ym Mecsico.",
+    "graph": "Ciudad Ayala | isPartOf | Morelos",
+    "precision_list": [
+      0.75,
+      0.75,
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_36",
+    "question_id": 306,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Dechreuodd Pontiac Steeles, a gynhyrchwyd ym Michigan, ei gynhyrchu yn 1997. Mae ganddo gyfanswm arwynebedd o 250493000000.0.",
+    "graph": "Pontiac Rageous | productionStartYear | 1997<br>Pontiac Rageous | manufacturer | Pontiac<br>Pontiac Rageous | assembly | Michigan<br>Michigan | areaTotal | 250493000000.0",
+    "precision_list": [
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      0.5,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_37",
+    "question_id": 307,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cafodd Olga Bondareva, ymddogwyd 27-ebrill 1937 o dan enw Olga Nikolaevna Bondareva. Dydlwyddodd yn yr Unedolol Leningrad a'n hysbys ar gyfer y thema Bondareva-Shapley.",
+    "graph": "Olga Bondareva | deathPlace | Saint Petersburg<br>Olga Bondareva | birthDate | 1937-04-27<br>Olga Bondareva | knownFor | Bondareva–Shapley theorem<br>Olga Bondareva | birthName | Olga Nikolaevna Bondareva<br>Olga Bondareva | almaMater | Leningrad State University",
+    "precision_list": [
+      1.0,
+      0.75,
+      0.5,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_38",
+    "question_id": 308,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Brandon Carter yn adnabyddus am gyson Carter a'r teorem heb gwallt.",
+    "graph": "Brandon Carter | knownFor | Carter constant<br>Brandon Carter | knownFor | No-hair theorem",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_39",
+    "question_id": 309,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae'r label maes ardal Twip (coedd o 507 Golau) yw Lipter Nation.",
+    "graph": "Nord (Year of No Light album) | recordLabel | Crucial Blast",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.25
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_40",
+    "question_id": 310,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Agremiação Sportiva Arapiraquense yn glwb pêl-droed o Frasil gyda 17,000 o aelodau sy'n cystadlu yn y Campeonato Brasileiro Série C.",
+    "graph": "Agremiação Sportiva Arapiraquense | league | Campeonato Brasileiro Série C<br>Agremiação Sportiva Arapiraquense | numberOfMembers | 17000",
+    "precision_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_41",
+    "question_id": 311,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Anatole de Grunwald yw awdur Saesneg Dianheulaw sy'n cael ei ysgrifennu gan Anatole de Grunwald. Alan Jaggs yw chyfrifydd Saesneg Dianheulaw.",
+    "graph": "English Without Tears | editing | Alan Jaggs<br>English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      1.0,
+      0.25
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_42",
+    "question_id": 312,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cafodd Abraham A. Ribicoff yn y Unol Daleithiau ac wedi'i ddisgryptio â Ruth Ribicoff.",
+    "graph": "Abraham A. Ribicoff | spouse | Ruth Ribicoff<br>Abraham A. Ribicoff | inOfficeWhilePresident | John F. Kennedy<br>Abraham A. Ribicoff | nationality | American<br>Abraham A. Ribicoff | party | Democratic Party (United States)<br>Abraham A. Ribicoff | birthPlace | United States",
+    "precision_list": [
+      1.0,
+      0.75,
+      1.0,
+      0.25
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_43",
+    "question_id": 313,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Dechreuodd Aaron Turner perfformio yn 1995 ac mae'n seinnog yn y band Lotus Eaters.. Mae ei gerddoriaeth yn post-metal.",
+    "graph": "Aaron Turner | genre | Post-metal<br>Aaron Turner | associatedBand/associatedMusicalArtist | Lotus Eaters (band)<br>Aaron Turner | instrument | Singing<br>Aaron Turner | activeYearsStartYear | 1995",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_44",
+    "question_id": 314,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cafodd Gabrielpas Grasso, ymblwyd yn 1996e ar 2 Mai 1908 a farwodd 1986 a farwodd.",
+    "graph": "Liselotte Grschebina | birthPlace | Karlsruhe<br>Liselotte Grschebina | birthDate | 1908-05-02<br>Liselotte Grschebina | deathDate | 1994-06-14<br>Liselotte Grschebina | deathPlace | Israel<br>Liselotte Grschebina | nationality | Israel",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.75,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_45",
+    "question_id": 315,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae 11eg Cofeb Troedfilwyr Mississippi wedi'i lleoli yn Sir Adams, Pennsylvania, sydd â Sir Frederick, Maryland i'r de-orllewin.",
+    "graph": "11th Mississippi Infantry Monument | location | Adams County, Pennsylvania<br>Adams County, Pennsylvania | hasToItsSouthwest | Frederick County, Maryland",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_46",
+    "question_id": 316,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Ciudad Ayala wedi'i lleoli ym Mecsico ac mae'n rhan o Faes Awyr Gofod y Mrwsig.",
+    "graph": "Ciudad Ayala | country | Mexico<br>Ciudad Ayala | timeZone | Pacific Daylight Time<br>Ciudad Ayala | timeZone | Pacific Standard Time Zone",
+    "precision_list": [
+      0.5,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.75,
+      0.5
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_47",
+    "question_id": 317,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Roedd Brandon Carter wedi'i cwblhau ar gyfer Dennis William Sciama.",
+    "graph": "Brandon Carter | professionalField | General relativity<br>Brandon Carter | doctoralAdvisor | Dennis William Sciama<br>Brandon Carter | birthDate | 1942-01-01",
+    "precision_list": [
+      1.0,
+      0.5,
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_48",
+    "question_id": 318,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Mae Ciudad Ayala yn cael ei arwain gan y Llywodraethwr, mae ganddi densedd boblogaeth o 1604.0 a gwrthdaro UTC o -6.",
+    "graph": "Ciudad Ayala | populationDensity | 1604.0<br>Ciudad Ayala | utcOffset | −6<br>Ciudad Ayala | leaderTitle | Governator",
+    "precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  },
+  {
+    "id": "Welsh_49",
+    "question_id": 319,
+    "level": 2,
+    "language": "Welsh",
+    "text": "Cafodd Henrytts Gerona wedi'i cwblwyd yn enw 900e, ac mae'n ddinasol o 1986.",
+    "graph": "Liselotte Grschebina | birthPlace | Karlsruhe<br>Liselotte Grschebina | nationality | Israel<br>Israel | language | Modern Hebrew",
+    "precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "num_annotators": 4,
+    "annotator_ids": [
+      "annotator_050",
+      "annotator_040",
+      "annotator_037",
+      "annotator_042"
+    ]
+  }
+]

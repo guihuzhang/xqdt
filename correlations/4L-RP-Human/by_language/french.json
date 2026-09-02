@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "French_0",
+    "question_id": 420,
+    "level": 2,
+    "language": "French",
+    "text": "Le col Imogene est un col des montagnes de San Juan, dans le Colorado, aux États-Unis.",
+    "graph": "Imogene Pass | locatedInArea | Colorado<br>Imogene Pass | country | United States<br>Imogene Pass | instanceOf | Mountain pass<br>Imogene Pass | mountainRange | San Juan Mountains",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_1",
+    "question_id": 421,
+    "level": 2,
+    "language": "French",
+    "text": "Le tramway d'Oklahoma City est localisé à Oklahoma City et est opéré par Embark (transit authority). Il est situé aux États-Unis et a un écartement standard des rails.",
+    "graph": "Oklahoma City Streetcar | isPartOf | Embark (transit authority)<br>Oklahoma City Streetcar | country | United States<br>Oklahoma City Streetcar | locatedInArea | Oklahoma City<br>Oklahoma City Streetcar | operator | Embark (transit authority)<br>Oklahoma City Streetcar | trackGauge | Standard-gauge railway",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_2",
+    "question_id": 422,
+    "level": 2,
+    "language": "French",
+    "text": "La mort sur une ferme industrielle a été réalisé par Sarah Teale et dure 83.0 minutes.",
+    "graph": "Death on a Factory Farm | producer | Sarah Teale<br>Death on a Factory Farm | director | Sarah Teale<br>Death on a Factory Farm | runtime | 83.0",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_3",
+    "question_id": 423,
+    "level": 2,
+    "language": "French",
+    "text": "La station de Canal Thermermeur Exploration &Center est située dans l'État de l'Ohio, dans la région de Valleygodie, dans l'Ohio. C'est une station de train.",
+    "graph": "Canal Exploration Center station | locatedInArea | Valley View, Ohio<br>Canal Exploration Center station | country | United States<br>Canal Exploration Center station | instanceOf | Train station",
+    "precision_list": [
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_4",
+    "question_id": 424,
+    "level": 2,
+    "language": "French",
+    "text": "Millers, New York est une communauté non constituée en société située à Somerset, New York et Yates, New York, aux États-Unis.",
+    "graph": "Millers, New York | country | United States<br>Millers, New York | locatedInArea | Somerset, New York<br>Millers, New York | instanceOf | unincorporated community<br>Millers, New York | locatedInArea | Yates, New York",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_5",
+    "question_id": 425,
+    "level": 2,
+    "language": "French",
+    "text": "Le collège endiablé est un film réalisé par Gilbert Taylor, avec John Mills et Cecil Parker dans la distribution. Le film a duré 94.0 minutes et a rapporté 282838.0 dollars.",
+    "graph": "It's Great to Be Young (1956 film) | starring | John Mills<br>It's Great to Be Young (1956 film) | cinematography | Gilbert Taylor<br>It's Great to Be Young (1956 film) | runtime | 94.0<br>It's Great to Be Young (1956 film) | gross | 282838.0<br>It's Great to Be Young (1956 film) | starring | Cecil Parker",
+    "precision_list": [
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_6",
+    "question_id": 426,
+    "level": 2,
+    "language": "French",
+    "text": "La Western Goals Foundation a été fondée le 01 janvier 1979 et est basée aux États-Unis.",
+    "graph": "Western Goals Foundation | formationDate | 01 January 1979<br>Western Goals Foundation | country | United States",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_7",
+    "question_id": 427,
+    "level": 2,
+    "language": "French",
+    "text": "Roger Ciervois, aussi connu sous le nom de Roger, est un être humain qui joue pour l'équipe de football américaine Roger Ciervois.",
+    "graph": "Roger Robinson (American football coach) | instanceOf | Human<br>Roger Robinson (American football coach) | givenName | Roger",
+    "precision_list": [
+      0.0,
+      0.75
+    ],
+    "recall_list": [
+      0.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_8",
+    "question_id": 428,
+    "level": 2,
+    "language": "French",
+    "text": "La station Canal Exploration Center est située à Valley View, dans l'Ohio, aux États-Unis.",
+    "graph": "Canal Exploration Center station | locatedInArea | Valley View, Ohio<br>Canal Exploration Center station | country | United States<br>Canal Exploration Center station | instanceOf | Train station",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_9",
+    "question_id": 429,
+    "level": 2,
+    "language": "French",
+    "text": "Le collège endiablé, réalisé par un directeur de la photographie de Gilbert Taylor, dure 94 minutes et a un chiffre d'affaires de 282838.0. Le film est joué par John Mills et la musique est composée par Louis Levy.",
+    "graph": "It's Great to Be Young (1956 film) | starring | John Mills<br>It's Great to Be Young (1956 film) | cinematography | Gilbert Taylor<br>It's Great to Be Young (1956 film) | runtime | 94.0<br>It's Great to Be Young (1956 film) | gross | 282838.0<br>It's Great to Be Young (1956 film) | musicComposer | Louis Levy",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_10",
+    "question_id": 430,
+    "level": 2,
+    "language": "French",
+    "text": "Le Cardinal Spellman High School est situé dans l'État du Massachusetts, il est un lycée aux États-Unis fondé en 1958 par Richard Cushing.",
+    "graph": "Cardinal Spellman High School (Brockton, Massachusetts) | locatedInArea | Massachusetts<br>Cardinal Spellman High School (Brockton, Massachusetts) | country | United States<br>Cardinal Spellman High School (Brockton, Massachusetts) | instanceOf | High school in the United States<br>Cardinal Spellman High School (Brockton, Massachusetts) | formationDate | 00 1958<br>Cardinal Spellman High School (Brockton, Massachusetts) | foundedBy | Richard Cushing",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_11",
+    "question_id": 431,
+    "level": 2,
+    "language": "French",
+    "text": "Le Pakistan a un taux de sépulture de 9,8 et un مؤشر de développement humain de 3,58. Il a également un مؤشر de développement humain de 0,28 et un مؤشر de bien-être de 46,0.",
+    "graph": "Pakistan | suicide rate | 9.8<br>Pakistan | Inequality-adjusted Human Development Index | 0.38<br>Pakistan | Democracy Index | 4.31<br>Pakistan | Happy Planet Index score | 45.1",
+    "precision_list": [
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_12",
+    "question_id": 432,
+    "level": 2,
+    "language": "French",
+    "text": "Le Hartley High School est situé à Hartley, au Texas, aux États-Unis et fait partie du Hartley Independent School District.",
+    "graph": "Hartley High School | instanceOf | High school in the United States<br>Hartley High School | country | United States<br>Hartley High School | locatedInArea | Hartley, Texas<br>Hartley High School | schoolDistrict | Hartley Independent School District",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_13",
+    "question_id": 433,
+    "level": 2,
+    "language": "French",
+    "text": "La Corée du Sud a un taux de suicide de 21.2 pour 100 000 habitants et par an, un Indice de développement humain ajusté de 0.838 et un score de l'Indice du bonheur planétaire de 39,8.",
+    "graph": "South Korea | suicide rate | 21.2<br>South Korea | Inequality-adjusted Human Development Index | 0.838<br>South Korea | Happy Planet Index score | 39.8",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_14",
+    "question_id": 434,
+    "level": 2,
+    "language": "French",
+    "text": "Darinka Dentcheva est un citoyen des États-Unis, née le 1er janvier 1958, qui a fréquenté l'Université Humboldt et a été influencée par Andrzej Piotr Ruszczyński.",
+    "graph": "Darinka Dentcheva | influencedBy | Andrzej Piotr Ruszczyński<br>Darinka Dentcheva | citizenship | United States<br>Darinka Dentcheva | birthDate | 1958-01-01<br>Darinka Dentcheva | almaMater | Humboldt University",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_15",
+    "question_id": 435,
+    "level": 2,
+    "language": "French",
+    "text": "Lecrater de Bellogodie, nommé d'après Andresgodie Bello, est situé sur la planète Mercury, dans le quartier de Beethovengodie. Lecrater est un impactgodie.",
+    "graph": "Bello (crater) | locatedOnAstronomicalLocation | Mercury (planet)<br>Bello (crater) | instanceOf | Impact crater<br>Bello (crater) | location | Beethoven quadrangle<br>Bello (crater) | namedAfter | Andrés Bello",
+    "precision_list": [
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_16",
+    "question_id": 436,
+    "level": 2,
+    "language": "French",
+    "text": "Stevinson, en Californie, est une ville du comté de Merced, en Californie, aux États-Unis.",
+    "graph": "Stevinson, California | instanceOf | Census-designated place<br>Stevinson, California | country | United States<br>Stevinson, California | locatedInArea | Merced County, California",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_17",
+    "question_id": 437,
+    "level": 2,
+    "language": "French",
+    "text": "Andrew Cyrille, qui joue de la batterie, est signé avec les labels DIW Records et BYG Records.",
+    "graph": "Andrew Cyrille | recordLabel | DIW Records<br>Andrew Cyrille | instrument | Drum kit<br>Andrew Cyrille | recordLabel | BYG Records",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_18",
+    "question_id": 438,
+    "level": 2,
+    "language": "French",
+    "text": "Le dioxyde de carbone est associé à l'exposition au dioxyde de carbone. Il a le code ATC V03AN02 et la représentation SMILES C(=O)=O. Il a l'identifiant chimique InChI=1S/CO2/c2-1-3. Sa formule chimique est CO₂. Le dioxyde de carbone est utilisé comme réfrigérant.",
+    "graph": "carbon dioxide | associated hazard | carbon dioxide exposure<br>carbon dioxide | ATC code | V03AN02<br>carbon dioxide | canonical SMILES | C(=O)=O<br>carbon dioxide | InChI | InChI=1S/CO2/c2-1-3<br>carbon dioxide | chemical formula | CO₂<br>carbon dioxide | has use | coolant",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_19",
+    "question_id": 439,
+    "level": 2,
+    "language": "French",
+    "text": "Le minerai de méthion est associé à l'exposition au minerai de méthion. Son code ATC est A02AA02, sa composition chimique est MgO et son SMILS est O=Mg.O. Il est également utilisé comme un ingrédient d'ingrédient alimentaire.",
+    "graph": "magnesium oxide | associated hazard | magnesium oxide exposure<br>magnesium oxide | ATC code | A02AA02<br>magnesium oxide | canonical SMILES | O=[Mg]<br>magnesium oxide | InChI | InChI=1S/Mg.O<br>magnesium oxide | chemical formula | MgO<br>magnesium oxide | has use | food additive",
+    "precision_list": [
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_20",
+    "question_id": 440,
+    "level": 2,
+    "language": "French",
+    "text": "Le Cardinal Spellman High School (Brockton, Massachusetts) est une école secondaire américaine fondée par Richard Cushing en 0058.",
+    "graph": "Cardinal Spellman High School (Brockton, Massachusetts) | locatedInArea | Massachusetts<br>Cardinal Spellman High School (Brockton, Massachusetts) | country | United States<br>Cardinal Spellman High School (Brockton, Massachusetts) | instanceOf | High school in the United States<br>Cardinal Spellman High School (Brockton, Massachusetts) | formationDate | 00 1958<br>Cardinal Spellman High School (Brockton, Massachusetts) | foundedBy | Richard Cushing",
+    "precision_list": [
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.25
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_21",
+    "question_id": 441,
+    "level": 2,
+    "language": "French",
+    "text": "Karaosmaniye, Hopa est une localité située dans la localisation administrative de Hopa, en Turquie.",
+    "graph": "Karaosmaniye, Hopa | instanceOf | Human settlement<br>Karaosmaniye, Hopa | country | Turkey<br>Karaosmaniye, Hopa | locatedInArea | Hopa",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_22",
+    "question_id": 442,
+    "level": 2,
+    "language": "French",
+    "text": "Buzz Aldrin a participé à la mission Apollo 11 et est né le 20 janvier 1930.",
+    "graph": "Buzz Aldrin | mission | Apollo 11<br>Buzz Aldrin | birthDate | 1930-01-20",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_23",
+    "question_id": 443,
+    "level": 2,
+    "language": "French",
+    "text": "La ville de Brockton,Massachusetts, aux États-Unis, est l'emplacement de la ville de Cardinal Cialdique Spellman Century High School (Brockton,Massachusetts) qui a été fondée par Richard CialdiqueCushing en 1958.",
+    "graph": "Cardinal Spellman High School (Brockton, Massachusetts) | locatedInArea | Massachusetts<br>Cardinal Spellman High School (Brockton, Massachusetts) | country | United States<br>Cardinal Spellman High School (Brockton, Massachusetts) | instanceOf | High school in the United States<br>Cardinal Spellman High School (Brockton, Massachusetts) | formationDate | 00 1958<br>Cardinal Spellman High School (Brockton, Massachusetts) | foundedBy | Richard Cushing",
+    "precision_list": [
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_24",
+    "question_id": 444,
+    "level": 2,
+    "language": "French",
+    "text": "Le code ATC du dioxyde de carbone (CO2) est V03AN02. Il a les SMILES canoniques de C(=O)=O. Il a le inChI=1S/CO2/c2-1-3 et est utilisé comme liquide de refroidissement.",
+    "graph": "carbon dioxide | associated hazard | carbon dioxide exposure<br>carbon dioxide | ATC code | V03AN02<br>carbon dioxide | canonical SMILES | C(=O)=O<br>carbon dioxide | InChI | InChI=1S/CO2/c2-1-3<br>carbon dioxide | chemical formula | CO₂<br>carbon dioxide | has use | coolant",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_25",
+    "question_id": 445,
+    "level": 2,
+    "language": "French",
+    "text": "Le col Imogene est un col routier situé dans les monts San Juan, dans l'État de Colorado, aux États-Unis.",
+    "graph": "Imogene Pass | locatedInArea | Colorado<br>Imogene Pass | country | United States<br>Imogene Pass | instanceOf | Mountain pass<br>Imogene Pass | mountainRange | San Juan Mountains",
+    "precision_list": [
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_26",
+    "question_id": 446,
+    "level": 2,
+    "language": "French",
+    "text": "L'orbite de (1857) Parchomenko a un demi-grand axe de 2,2435713 unités astronomiques.",
+    "graph": "1857 Parchomenko | semiMajorAxis | +2.2435713 astronomical unit",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_27",
+    "question_id": 447,
+    "level": 2,
+    "language": "French",
+    "text": "Millers,Mr.New,York est une communauté non constituée en société située à Yates,Mr.New,York, à côté de Somerset,Mr.New,York.",
+    "graph": "Millers, New York | country | United States<br>Millers, New York | locatedInArea | Somerset, New York<br>Millers, New York | instanceOf | unincorporated community<br>Millers, New York | locatedInArea | Yates, New York",
+    "precision_list": [
+      0.75,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_28",
+    "question_id": 448,
+    "level": 2,
+    "language": "French",
+    "text": "Bello (cratère), nommé d'après Andrés Bello, est situé dans le quadrangle Beethoven sur Mercure (planète) et est un exemple du cratère Impact.",
+    "graph": "Bello (crater) | locatedOnAstronomicalLocation | Mercury (planet)<br>Bello (crater) | instanceOf | Impact crater<br>Bello (crater) | location | Beethoven quadrangle<br>Bello (crater) | namedAfter | Andrés Bello",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_29",
+    "question_id": 449,
+    "level": 2,
+    "language": "French",
+    "text": "Le musée de la montée en flèche du sud-ouest des États-Unis est un musée aéronautique situé à Nouveau-Mexique, aux États-Unis.",
+    "graph": "US Southwest Soaring Museum | locatedInArea | New Mexico<br>US Southwest Soaring Museum | country | United States<br>US Southwest Soaring Museum | instanceOf | Aviation museum",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_30",
+    "question_id": 450,
+    "level": 2,
+    "language": "French",
+    "text": "Cathay Pacific a le code de comptabilité aérienne 160 et est identifié par le code CX, désigné par le code CATHAY dans les transmissions radio et connu sous le nom officiel de 國泰航空公司. Il a pour site officiel https://www.cathaypacific.com. La compagnie aérienne est basée en Chine et a le code ICAO CPA. La République populaire de Chine a un Indice de développement humain corrigé pour l'inégalité de 0,651, une note de 2.21 dans l'indice de démocratie et un score d'Indice du bonheur de la planète de 41,9.",
+    "graph": "Cathay Pacific | airline accounting code | 160<br>Cathay Pacific | country | People's Republic of China<br>Cathay Pacific | IATA airline designator | CX<br>Cathay Pacific | callsign of airline | CATHAY<br>Cathay Pacific | ICAO airline designator | CPA<br>Cathay Pacific | official name | 國泰航空公司<br>Cathay Pacific | official website | https://www.cathaypacific.com<br>People's Republic of China | Inequality-adjusted Human Development Index | 0.651<br>People's Republic of China | Democracy Index | 2.21<br>People's Republic of China | Happy Planet Index score | 41.9",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_31",
+    "question_id": 451,
+    "level": 2,
+    "language": "French",
+    "text": "\"L'aéroport d'El AL Israel Airlines Ltd. est situé en Israël. Son code de compte est 114, son designateur d'IATA est LY et son nom officiel est \"\"Universal name is Israel\"\". Le pays a un taux de séisme de 5,2 et une note de bien-être de 48.2. Il a également le nom officiel de \"\"Universal name is Israel Airlines Ltd.\"\", qui est également connu comme \"\"Universal name is Israel Airlines Ltd.\"\". Le pays a une note de démocratie de 7.97 et un taux de séisme de 0.815.\"",
+    "graph": "EL AL Israel Airlines Ltd. | airline accounting code | 114<br>EL AL Israel Airlines Ltd. | country | Israel<br>EL AL Israel Airlines Ltd. | IATA airline designator | LY<br>EL AL Israel Airlines Ltd. | callsign of airline | ELAL<br>EL AL Israel Airlines Ltd. | official name | אל על נתיבי אויר לישראל בע''מ<br>Israel | suicide rate | 5.2<br>Israel | Inequality-adjusted Human Development Index | 0.815<br>Israel | Democracy Index | 7.97<br>Israel | Happy Planet Index score | 48.2<br>Israel | official name | ישראל",
+    "precision_list": [
+      0.75,
+      0.5
+    ],
+    "recall_list": [
+      0.75,
+      0.5
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_32",
+    "question_id": 452,
+    "level": 2,
+    "language": "French",
+    "text": "Georgios Fotou est un humain et son sport est l'aviron.",
+    "graph": "Georgios Fotou | sport | Rowing (sport)<br>Georgios Fotou | instanceOf | Human",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_33",
+    "question_id": 453,
+    "level": 2,
+    "language": "French",
+    "text": "ENTER24 - 31st Annual International eTourism Conference est un événement qui a reçu 75 soumissions, dont 46 ont été acceptées. La langue utilisée est l'anglais.",
+    "graph": "ENTER24 - 31st Annual International eTourism Conference | number of submissions | 75<br>ENTER24 - 31st Annual International eTourism Conference | number of accepted contributions | 46<br>ENTER24 - 31st Annual International eTourism Conference | language used | English<br>ENTER24 - 31st Annual International eTourism Conference | country | Turke",
+    "precision_list": [
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_34",
+    "question_id": 454,
+    "level": 2,
+    "language": "French",
+    "text": "Le US Southwest Soaring Museum est un musée de l'aviation situé aux États-Unis, plus précisément dans l'État du Nouveau-Mexique.",
+    "graph": "US Southwest Soaring Museum | locatedInArea | New Mexico<br>US Southwest Soaring Museum | country | United States<br>US Southwest Soaring Museum | instanceOf | Aviation museum",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_35",
+    "question_id": 455,
+    "level": 2,
+    "language": "French",
+    "text": "Cathay Pacific est une compagnie aérienne chinoise basée en République populaire de Chine. Son nom officiel est 國泰航空公司. Son site officiel est http://www.cathaypacific.com. CX est le designateur de la compagnie aérienne Cathay Pacific et CPA est le designateur de la compagnie aérienne Cathay Pacific. La République populaire de Chine a une note de bien-être planète de 41,9 et l'indice d'équipage est de 2.21. L'indice d'équipage de la République populaire de Chine est de 0.",
+    "graph": "Cathay Pacific | airline accounting code | 160<br>Cathay Pacific | country | People's Republic of China<br>Cathay Pacific | IATA airline designator | CX<br>Cathay Pacific | callsign of airline | CATHAY<br>Cathay Pacific | ICAO airline designator | CPA<br>Cathay Pacific | official name | 國泰航空公司<br>Cathay Pacific | official website | https://www.cathaypacific.com<br>People's Republic of China | Inequality-adjusted Human Development Index | 0.651<br>People's Republic of China | Democracy Index | 2.21<br>People's Republic of China | Happy Planet Index score | 41.9",
+    "precision_list": [
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_36",
+    "question_id": 456,
+    "level": 2,
+    "language": "French",
+    "text": "John Lennon est l'artiste musical d'Imagine (John Lennon) qui a été produit par Espionage (équipe de production).",
+    "graph": "Mermaid (Train song) | followedBy | Imagine (John Lennon song)<br>Imagine (John Lennon song) | certification | FIMI<br>Mermaid (Train song) | producer | Espionage (production team)<br>Imagine (John Lennon song) | musicalArtist | John Lennon",
+    "precision_list": [
+      1.0,
+      0.5
+    ],
+    "recall_list": [
+      0.5,
+      0.25
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_37",
+    "question_id": 457,
+    "level": 2,
+    "language": "French",
+    "text": "La ville de Ciudad Ayala est gérée par un gouvernement à gérance municipale, a une densité de population de 1604 habitants par km² et est située en UTC-6.",
+    "graph": "Ciudad Ayala | governmentType | Council-manager government<br>Ciudad Ayala | populationDensity | 1604.0<br>Ciudad Ayala | utcOffset | −6",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_38",
+    "question_id": 458,
+    "level": 2,
+    "language": "French",
+    "text": "Le Oklahoma City Streetcar est situé dans la ville d'Oklahoma City, aux États-Unis, et fait partie de l'autorité de transport Embark, qui l'opère, et il a un écartement standard.",
+    "graph": "Oklahoma City Streetcar | isPartOf | Embark (transit authority)<br>Oklahoma City Streetcar | country | United States<br>Oklahoma City Streetcar | locatedInArea | Oklahoma City<br>Oklahoma City Streetcar | operator | Embark (transit authority)<br>Oklahoma City Streetcar | trackGauge | Standard-gauge railway",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_39",
+    "question_id": 459,
+    "level": 2,
+    "language": "French",
+    "text": "\"La République tchèque est connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connue sous le nom de \"\"Pourêtre connu\"",
+    "graph": "Czech Airlines | airline accounting code | 064<br>Czech Airlines | country | Czech Republic<br>Czech Airlines | IATA airline designator | OK<br>Czech Airlines | callsign of airline | CSA-LINES<br>Czech Republic | suicide rate | 9.5<br>Czech Republic | Inequality-adjusted Human Development Index | 0.85<br>Czech Republic | Democracy Index | 7.67<br>Czech Republic | Happy Planet Index score | 46.8<br>Czech Republic | official name | Česká republika<br>Czech Republic | official website | https://www.czechia.eu/",
+    "precision_list": [
+      0.0,
+      0.0
+    ],
+    "recall_list": [
+      0.0,
+      0.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_40",
+    "question_id": 460,
+    "level": 2,
+    "language": "French",
+    "text": "Thurleigh est situé dans le comté de Bedfordshire.",
+    "graph": "Thurleigh | ceremonialCounty | Bedfordshire",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_41",
+    "question_id": 461,
+    "level": 2,
+    "language": "French",
+    "text": "Olga Bondareva, née à Saint-Pétersbourg, a fréquenté l'université d'État de Saint-Pétersbourg et a travaillé dans les domaines de l'économie et des mathématiques.",
+    "graph": "Olga Bondareva | almaMater | Leningrad State University<br>Olga Bondareva | birthPlace | Leningrad, USSR<br>Olga Bondareva | professionalField | Economics<br>Olga Bondareva | professionalField | Mathematics",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_42",
+    "question_id": 462,
+    "level": 2,
+    "language": "French",
+    "text": "FK Ogre, un club de football fondé en 2011, est situé en Lettonie et pratique le football dans la Ligue lettone première division.",
+    "graph": "FK Ogre | formationDate | 00 2011<br>FK Ogre | instanceOf | Association football club<br>FK Ogre | country | Latvia<br>FK Ogre | sport | Association football<br>FK Ogre | league | Latvian First League",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_43",
+    "question_id": 463,
+    "level": 2,
+    "language": "French",
+    "text": "Le siège de Vanilla Air au Japon est connu sous le nom de バニラ・エア株式会社. Son code d'immatriculation est 836, et le designateur de l'ICAO est VNL. La compagnie aérienne a le nom de JW.",
+    "graph": "Vanilla Air | airline accounting code | 842<br>Vanilla Air | country | Japan<br>Vanilla Air | IATA airline designator | JW<br>Vanilla Air | ICAO airline designator | VNL<br>Vanilla Air | official name | バニラ・エア株式会社",
+    "precision_list": [
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_44",
+    "question_id": 464,
+    "level": 2,
+    "language": "French",
+    "text": "Le US Southwest Soaring Museum est situé au Nouveau-Mexique, aux États-Unis et est un musée de l'aviation.",
+    "graph": "US Southwest Soaring Museum | locatedInArea | New Mexico<br>US Southwest Soaring Museum | country | United States<br>US Southwest Soaring Museum | instanceOf | Aviation museum",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_45",
+    "question_id": 465,
+    "level": 2,
+    "language": "French",
+    "text": "Liselotte Grschebina, photographe, est née dans l'Empire allemand et est citoyenne d'Israël, un pays dont la densité de population est de 387,63.",
+    "graph": "Liselotte Grschebina | nationality | Israel<br>Israel | populationDensity | 387.63<br>German Empire | foundingDate | 1871-01-01<br>Liselotte Grschebina | birthPlace | German Empire<br>Liselotte Grschebina | professionalField | Photographer",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.75,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_46",
+    "question_id": 466,
+    "level": 2,
+    "language": "French",
+    "text": "Bello est un cratère d'impact situé sur la planète Mercure, dans le Beethoven quadrangle, nommé en référence à Andrés Bello.",
+    "graph": "Bello (crater) | locatedOnAstronomicalLocation | Mercury (planet)<br>Bello (crater) | instanceOf | Impact crater<br>Bello (crater) | location | Beethoven quadrangle<br>Bello (crater) | namedAfter | Andrés Bello",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      1.0,
+      1.0
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_47",
+    "question_id": 467,
+    "level": 2,
+    "language": "French",
+    "text": "L'IATA Airline designateur de Bulgarie est FB. L'aéroport est connu sous le nom de FLYinging BULGARIA et a un code d'enregistrement de 623. Le site officiel de l'Airline est http://www.air.bg/en/. La Bulgarie a un taux de séisme de 6,71 et un score de bien-être de 40.1.",
+    "graph": "Bulgaria Air | airline accounting code | 623<br>Bulgaria Air | country | Bulgaria<br>Bulgaria Air | IATA airline designator | FB<br>Bulgaria Air | callsign of airline | FLYING BULGARIA<br>Bulgaria Air | official name | „България Еър“ АД<br>Bulgaria Air | official website | http://www.air.bg/en/<br>Bulgaria | suicide rate | 6.5<br>Bulgaria | Inequality-adjusted Human Development Index | 0.701<br>Bulgaria | Democracy Index | 6.71<br>Bulgaria | Happy Planet Index score | 40.1",
+    "precision_list": [
+      0.75,
+      0.75
+    ],
+    "recall_list": [
+      0.75,
+      0.5
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_48",
+    "question_id": 468,
+    "level": 2,
+    "language": "French",
+    "text": "' est le nom officiel d'Israël, où le taux de suicide est de 5,2 et le score de Happy Planet Index est de 48.2. Le pays est le domicile d'EL AL Israel Airlines Ltd. qui a le callsign d'ELAL.",
+    "graph": "EL AL Israel Airlines Ltd. | airline accounting code | 114<br>EL AL Israel Airlines Ltd. | country | Israel<br>EL AL Israel Airlines Ltd. | IATA airline designator | LY<br>EL AL Israel Airlines Ltd. | callsign of airline | ELAL<br>EL AL Israel Airlines Ltd. | official name | אל על נתיבי אויר לישראל בע''מ<br>Israel | suicide rate | 5.2<br>Israel | Inequality-adjusted Human Development Index | 0.815<br>Israel | Democracy Index | 7.97<br>Israel | Happy Planet Index score | 48.2<br>Israel | official name | ישראל",
+    "precision_list": [
+      1.0,
+      1.0
+    ],
+    "recall_list": [
+      0.5,
+      0.5
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  },
+  {
+    "id": "French_49",
+    "question_id": 469,
+    "level": 2,
+    "language": "French",
+    "text": "La gare de Canal Exploration Center est une gare ferroviaire située à Valley View, Ohio, aux États-Unis.",
+    "graph": "Canal Exploration Center station | locatedInArea | Valley View, Ohio<br>Canal Exploration Center station | country | United States<br>Canal Exploration Center station | instanceOf | Train station",
+    "precision_list": [
+      1.0,
+      0.75
+    ],
+    "recall_list": [
+      1.0,
+      0.75
+    ],
+    "num_annotators": 2,
+    "annotator_ids": [
+      "annotator_030",
+      "annotator_035"
+    ]
+  }
+]

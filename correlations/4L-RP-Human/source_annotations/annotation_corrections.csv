@@ -1,0 +1,2 @@
+item_id,annotator_id,field,raw_value,corrected_value,reason
+English_173,annotator_011,precision,0,5,Correction retained from the processed evaluation input
