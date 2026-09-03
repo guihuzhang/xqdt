@@ -1,0 +1,27 @@
+annotator_id,groups,excluded,reason
+annotator_003,publication_exclusion,true,publication-time exclusion list
+annotator_008,E,true,ceiling-effect rating pattern
+annotator_013,E,true,ceiling-effect rating pattern
+annotator_026,D,true,fixed-value rating pattern
+annotator_029,E,true,ceiling-effect rating pattern
+annotator_084,C,true,coarse/fine label mismatch
+annotator_087,B,false,out-of-range score; handled by dropping individual scores above 100
+annotator_098,E,true,ceiling-effect rating pattern
+annotator_105,C,true,coarse/fine label mismatch
+annotator_107,D,true,fixed-value rating pattern
+annotator_117,D,true,fixed-value rating pattern
+annotator_120,E,true,ceiling-effect rating pattern
+annotator_123,A,true,repeated-key input error
+annotator_127,E,true,ceiling-effect rating pattern
+annotator_132,B,false,out-of-range score; handled by dropping individual scores above 100
+annotator_133,C,true,coarse/fine label mismatch
+annotator_134,publication_exclusion,true,publication-time exclusion list
+annotator_135,B,false,out-of-range score; handled by dropping individual scores above 100
+annotator_140,D,true,fixed-value rating pattern
+annotator_142,C,true,coarse/fine label mismatch
+annotator_143,A,true,repeated-key input error
+annotator_144,C,true,coarse/fine label mismatch
+annotator_148,A,true,repeated-key input error
+annotator_151,C,true,coarse/fine label mismatch
+annotator_152,D,true,fixed-value rating pattern
+annotator_153,F,true,wrong rating scale
