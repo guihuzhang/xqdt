@@ -6,7 +6,7 @@ from collections import Counter
 from pathlib import Path
 from tqdm import tqdm
 
-HERE=Path(__file__).resolve().parent; COMMON=HERE.parent/'prompted_llm'; sys.path.insert(0,str(COMMON))
+HERE=Path(__file__).resolve().parent; COMMON=HERE.parent; sys.path.insert(0,str(COMMON))
 from prompted_llm_common import add_backend_args, append_jsonl, build_prompt, load_jsonl, make_backend, model_slug, parse_response
 DEFAULT_INPUT=HERE/'human_ratings/converted.json'; DEFAULT_OUTPUT=HERE/'prompted_llm_results'
 

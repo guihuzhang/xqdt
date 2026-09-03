@@ -1,0 +1,41 @@
+sample_id,error_type,gpt_unit,previous_automatic_class,annotator,human_decision,notes
+Id5895,incorrect,[S] St Jude Thaddaeus ( painting by Master Theodoric ) [P] depicts [O] Beard,automatic_exact_tp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id901,incorrect,[S] Gilhac-et-Bruzac [P] shares border with [O] Saint-Laurent-du-Pape,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id16854,incorrect,"[S] Blanzac , Haute-Loire [P] different from [O] Blanzac , Haute-Vienne",automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id16854,incorrect,"[S] Blanzac , Haute-Loire [P] shares border with [O] Lavoûte-sur-Loire",automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id15918,incorrect,[S] Amanita subjunquillea [P] hymenium type [O] Lamella ( mycology ),automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id19290,incorrect,[S] Hikone-Serikawa Station [P] adjacent station [O] Hikoneguchi Station,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id19290,incorrect,[S] Hikone-Serikawa Station [P] towards [O] Kibukawa Station,automatic_exact_tp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id14340,missing,[S] Arrietty [P] point in time [O] 00  2011,automatic_exact_tp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id14383,missing,[S] Kristi Addis [P] statement is subject of [O] Miss Teen USA 1987,automatic_exact_fp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id13405,incorrect,[S] Special Reserve Long Service and Good Conduct Medal [P] inception [O] 00 1908,automatic_exact_fp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id13405,incorrect,[S] Special Reserve Long Service and Good Conduct Medal [P] next lower rank [O] Decoration for Officers of the Royal Naval Volunteer Reserve,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id13848,missing,[S] Hell Hath No Fury ( film ) [P] distributor [O] NBC,automatic_exact_tp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id20237,missing,[S] Shut Up and Dance : Mixes [P] different from [O] Shut Up and Dance ( duo ),automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id20805,incorrect,[S] Golden Delicious [P] followed by [O] Granny Smith,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id20805,incorrect,[S] Golden Delicious [P] criterion used [O] total produced,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id20805,incorrect,[S] Golden Delicious [P] country [O] United States,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id20038,missing,[S] Fire on the Water [P] characters [O] Lone Wolf,automatic_exact_tp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id20317,incorrect,[S] Helen Hunt [P] point in time [O] 01 January 2012,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id20245,incorrect,[S] Polk Creek Shale [P] underlies [O] Blaylock Sandstone,automatic_exact_fp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id20245,incorrect,[S] Polk Creek Shale [P] overlies [O] Bigfork Chert,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id20592,missing,"[S] Schuyler County , Missouri [P] contains administrative territorial entity [O] Lancaster , Missouri",automatic_exact_tp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id20592,incorrect,"[S] Schuyler County , Missouri [P] different from [O] Schuyler County , New York",automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id20109,missing,"[S] Teenage Mutant Ninja Turtles ( 1987 TV series , season 7 ) [P] located on astronomical location [O] Earth",automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id15545,missing,[S] The Glory of Walküre [P] publisher [O] Bandai Namco Entertainment,automatic_exact_tp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id14963,incorrect,[S] Seren Gomer [P] place of publication [O] Swansea,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id14963,incorrect,[S] Seren Gomer [P] contributor(s) to the creative work or subject [O] Henry Charles,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id15753,incorrect,[S] Broye [P] tributary [O] Bressonnaz,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id15753,incorrect,[S] Broye [P] mouth of the watercourse [O] Lake Neuchâtel,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id15753,incorrect,[S] Broye [P] tributary [O] Mionne,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id15137,incorrect,[S] François Hus [P] child [O] Auguste Hus I,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id12489,incorrect,[S] Max Frisch [P] award received [O] Heinrich Heine Prize,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id15267,incorrect,[S] Otto Schuhart [P] commander of [O] Mürwik Naval School,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id11960,missing,[S] Andreas Güntner [P] member of sports team [O] SSV Jahn Regensburg,automatic_exact_tp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id13043,missing,[S] Propylaea ( Munich ) [P] heritage designation [O] architectural heritage monument in Bavaria,automatic_exact_tp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id13043,missing,[S] Propylaea ( Munich ) [P] significant event [O] start of manufacturing or construction,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id13043,incorrect,"[S] Propylaea ( Munich ) [P] located on street [O] Königsplatz , Munich",automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id12611,missing,[S] Kelsey Weems [P] sex or gender [O] male,automatic_exact_tp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id12611,missing,[S] Kelsey Weems [P] sport [O] Basketball,automatic_exact_fp,annotator_1,FP,Strict semantic and error-type re-audit of the automatic exact match.
+Id12076,incorrect,[S] German submarine U-844 [P] use [O] deployment,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.
+Id8758,incorrect,[S] LMS Royal Scot Class 6100 Royal Scot [P] service retirement [O] 00 October 1962,automatic_exact_tp,annotator_1,TP,Strict semantic and error-type re-audit of the automatic exact match.

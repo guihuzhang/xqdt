@@ -10,7 +10,7 @@ import sys
 
 from tqdm import tqdm
 
-COMMON_DIR = Path(__file__).resolve().parents[1] / "prompted_llm"
+COMMON_DIR = Path(__file__).resolve().parents[1]
 if str(COMMON_DIR) not in sys.path:
     sys.path.insert(0, str(COMMON_DIR))
 

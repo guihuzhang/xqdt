@@ -1,0 +1,18 @@
+missed_id,sample_id,error_type,gold_unit,decision,reason
+M001,Id15918,incorrect,[S] Amanita subjunquillea [P] spore print color [O] White,FN,spore-print colour relation remains incorrectly verbalised
+M002,Id19290,incorrect,[S] Hikone-Serikawa Station [P] adjacent station [O] Hikoneguchi Station,FN,adjacent-station relation is incorrectly verbalised
+M003,Id19290,incorrect,[S] Hikone-Serikawa Station [P] towards [O] Kibukawa Station,FN,towards relation is attached to the wrong station
+M004,Id19290,extra,[S] Hikoneguchi Station [P] towards [O] Kibukawa Station,FN,unsupported text-side relation
+M005,Id19212,extra,[S] Albena Denkova / Maxim Staviski [P] competed at [O] 1994 Winter Olympics in ice dance,FN,unsupported competition content
+M006,Id14340,incorrect,[S] Arrietty [P] winner [O] Hiromasa Yonebayashi,FN,winner relation has the wrong subject
+M007,Id20805,incorrect,[S] Golden Delicious [P] approved by [O] US Apple Association,FN,approval relation is attached to the wrong apple cultivar
+M008,Id20805,incorrect,[S] Golden Delicious [P] criterion used [O] total produced,FN,criterion-used relation is attached to the wrong apple cultivar
+M009,Id20805,incorrect,[S] Golden Delicious [P] country [O] United States,FN,country relation is attached to the wrong apple cultivar
+M010,Id20109,incorrect,"[S] Teenage Mutant Ninja Turtles ( 1987 TV series , season 7 ) [P] located in the administrative territorial entity [O] Tuscany",FN,administrative-location relation is not supported as stated
+M011,Id20109,incorrect,"[S] Teenage Mutant Ninja Turtles ( 1987 TV series , season 7 ) [P] country [O] Italy",FN,country relation is not supported as stated
+M012,Id15545,incorrect,[S] The Glory of Walküre [P] platform [O] Mobile phone,FN,publisher relation is not expressed; developer is expressed instead
+M013,Id14963,incorrect,[S] Seren Gomer [P] place of publication [O] Swansea,FN,place-of-publication relation is confused with birthplace
+M014,Id15753,incorrect,[S] Broye [P] lakes on river [O] Lake Morat,FN,lake-on-river relation is verbalised as a flow relation
+M015,Id13043,missing,[S] Propylaea ( Munich ) [P] significant event [O] start of manufacturing or construction,FN,construction-event data unit is omitted
+M016,Id12041,extra,[S] David Trezeguet [P] played for [O] men's national football team,FN,unsupported team content
+M017,Id8758,incorrect,[S] LMS Royal Scot Class 6100 Royal Scot [P] service retirement [O] 00 October 1962,FN,exact service-retirement date is not correctly expressed
