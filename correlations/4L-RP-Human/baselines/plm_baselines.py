@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Unified Baseline Evaluation with Multiple FactSpotter Versions
+Unified 4L-RP-Human Baseline Evaluation
 - MonoLR (William's method)
-- NLI-Based (Dusek's method)
-- FactSpotter-ELECTRA (Your trained version) - RECALL ONLY
-- FactSpotter-DeBERTa-Base (Inria-CEDAR) - RECALL ONLY
-- FactSpotter-DeBERTa-Large (Inria-CEDAR) - RECALL ONLY
-Compare all baselines with bootstrap correlation analysis
+- NLI (Dusek's method)
+- legacy FactSpotter-ELECTRA - RECALL ONLY (paper FS row)
+- optional FactSpotter-DeBERTa variants - RECALL ONLY (not the paper FS row)
+Compare enabled baselines with bootstrap correlation analysis
 """
 
+import argparse
 import json
 import torch
 import re
@@ -35,11 +35,10 @@ np.random.seed(RANDOM_SEED)
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 CORRELATION_ROOT = SCRIPT_DIR.parent
-PROJECT_ROOT = SCRIPT_DIR.parents[2]
 DEFAULT_INPUT_JSON = CORRELATION_ROOT / "by_language" / "english.json"
 DEFAULT_TEMPLATE_FILE = SCRIPT_DIR / "webnlg_templates.json"
-DEFAULT_FACTSPOTTER_ELECTRA_PATH = PROJECT_ROOT / "checkpoints" / "fact_spotter_electra.pt"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "results"
+DEFAULT_FACTSPOTTER_ELECTRA_PATH = CORRELATION_ROOT.parents[1] / "checkpoints" / "fact_spotter_electra.pt"
 
 
 def ensure_dir(path: Path) -> Path:
@@ -285,7 +284,7 @@ def nli_dusek_compute_scores(tokenizer, model, use_gpu, text: str, triples: list
 
 
 # ============================================================================
-# FACTSPOTTER-ELECTRA BASELINE (Your Trained Model) - RECALL ONLY
+# FACTSPOTTER-ELECTRA BASELINE (legacy paper model) - RECALL ONLY
 # ============================================================================
 
 def factspotter_electra_load_model(model_path: str, base_model_name: str = "google/electra-small-discriminator"):
@@ -532,7 +531,7 @@ def run_inference(input_json: str, template_file: str = None,
     nli_tokenizer, nli_model, nli_use_gpu = nli_dusek_load_model()
     nli_templates = nli_dusek_load_templates(template_file)
 
-    # FactSpotter-ELECTRA (Your method) - RECALL ONLY
+    # legacy FactSpotter-ELECTRA (paper FS row) - RECALL ONLY
     fs_electra_tokenizer, fs_electra_model, fs_electra_use_gpu = None, None, None
     if factspotter_electra_path:
         fs_electra_tokenizer, fs_electra_model, fs_electra_use_gpu = factspotter_electra_load_model(
@@ -943,13 +942,23 @@ def compute_correlations_full(results: list, model_name: str, n_bootstrap: int =
 # ============================================================================
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--factspotter-electra-path', type=Path, default=DEFAULT_FACTSPOTTER_ELECTRA_PATH,
+                        help='Path to the original FactSpotter-ELECTRA weights (default: bundled checkpoints/fact_spotter_electra.pt).')
+    parser.add_argument('--factspotter-deberta-small', action='store_true',
+                        help='Also run the optional FactSpotter-DeBERTaV3-Small variant (not used for the paper FS row).')
+    parser.add_argument('--factspotter-deberta-base', action='store_true',
+                        help='Also run the optional FactSpotter-DeBERTaV3-Base variant (not used for the paper FS row).')
+    parser.add_argument('--factspotter-deberta-large', action='store_true',
+                        help='Also run the optional FactSpotter-DeBERTaV3-Large variant (not used for the paper FS row).')
+    args = parser.parse_args()
     input_json = DEFAULT_INPUT_JSON
     template_file = DEFAULT_TEMPLATE_FILE
-    factspotter_electra_path = DEFAULT_FACTSPOTTER_ELECTRA_PATH
+    factspotter_electra_path = args.factspotter_electra_path.expanduser().resolve()
     factspotter_electra_base = "google/electra-small-discriminator"
-    use_factspotter_deberta_small = True
-    use_factspotter_deberta_base = True
-    use_factspotter_deberta_large = True
+    use_factspotter_deberta_small = args.factspotter_deberta_small
+    use_factspotter_deberta_base = args.factspotter_deberta_base
+    use_factspotter_deberta_large = args.factspotter_deberta_large
     output_dir = ensure_dir(DEFAULT_OUTPUT_DIR)
 
     if not input_json.exists():
@@ -1000,9 +1009,12 @@ if __name__ == '__main__':
     save_json(output_dir / "monolr_results.json", results_monolr)
     save_json(output_dir / "nli_results.json", results_nli)
     save_json(output_dir / "factspotter_electra_results.json", results_fs_electra)
-    save_json(output_dir / "factspotter_deberta_small_results.json", results_fs_deberta_small)
-    save_json(output_dir / "factspotter_deberta_base_results.json", results_fs_deberta_base)
-    save_json(output_dir / "factspotter_deberta_large_results.json", results_fs_deberta_large)
+    if use_factspotter_deberta_small:
+        save_json(output_dir / "factspotter_deberta_small_results.json", results_fs_deberta_small)
+    if use_factspotter_deberta_base:
+        save_json(output_dir / "factspotter_deberta_base_results.json", results_fs_deberta_base)
+    if use_factspotter_deberta_large:
+        save_json(output_dir / "factspotter_deberta_large_results.json", results_fs_deberta_large)
 
     correlations = {
         "MonoLR": corr_monolr,

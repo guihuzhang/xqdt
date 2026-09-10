@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "English_0",
+    "question_id": 170,
+    "text": "The director of Death on a Factory Farm is Tom Simon and Sarah Teale. It was produced by Tom Simon and Sarah Teale.",
+    "graph": "Death on a Factory Farm | director | Tom Simon<br>Death on a Factory Farm | producer | Tom Simon<br>Death on a Factory Farm | producer | Sarah Teale<br>Death on a Factory Farm | director | Sarah Teale",
+    "precision": 0.9389862418174744,
+    "recall": 0.6041473653167486,
+    "f1": 0.7352390764351483,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "English_1",
+    "question_id": 171,
+    "text": "the 11th Mississippi Infantry Monument is categorized as a Contributing property and was established in 2000. it is located in Gettysburg, Pennsylvania, which is located in Carroll County, Maryland. the county is located in Frederick County, Maryland.",
+    "graph": "11th Mississippi Infantry Monument | established | 2000<br>11th Mississippi Infantry Monument | location | Adams County, Pennsylvania<br>Adams County, Pennsylvania | hasToItsSouthwest | Frederick County, Maryland<br>11th Mississippi Infantry Monument | municipality | Gettysburg, Pennsylvania<br>Adams County, Pennsylvania | hasToItsSoutheast | Carroll County, Maryland<br>11th Mississippi Infantry Monument | category | Contributing property",
+    "precision": 0.9719789624214172,
+    "recall": 0.5382883918258207,
+    "f1": 0.6928640695291137,
+    "human_precision_list": [
+      0.5,
+      0.75,
+      0.5,
+      0.25
+    ],
+    "human_recall_list": [
+      0.5,
+      0.75,
+      0.5,
+      0.25
+    ]
+  },
+  {
+    "id": "English_2",
+    "question_id": 172,
+    "text": "The musical genre of the musician, AmeriGas, is instrumental music. It was preceded by The Brian kelly artist, and has a total of 3,807,000 members. It also has an annual income of $1,800,000,000.",
+    "graph": "Expect a Miracle | runtime | 54.56<br>Expect a Miracle | type | Compilation Album<br>Expect a Miracle | precededBy | Pools of Light (Brian Kelly album)<br>Expect a Miracle | genre | Instrumental music",
+    "precision": 0.017313700169324875,
+    "recall": 0.04521990171633661,
+    "f1": 0.02504009992690059,
+    "human_precision_list": [
+      0.0,
+      0.25,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.25,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "English_3",
+    "question_id": 173,
+    "text": "McVeagh of the South Seas was written by Harry Carey who was born in 1878.",
+    "graph": "McVeagh of the South Seas | starring | Harry Carey (actor born 1878)<br>McVeagh of the South Seas | writer | Harry Carey (actor born 1878)",
+    "precision": 0.9734476208686829,
+    "recall": 0.12382759153842926,
+    "f1": 0.21970727674883495,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ]
+  },
+  {
+    "id": "English_4",
+    "question_id": 174,
+    "text": "Sandesh (confectionery) and Bionico are served as a dessert. The latter dish is from the Guadalajara region of Mexico, where the currency is the peso and Mexicans live.",
+    "graph": "Mexico | currency | Mexican peso<br>Mexico | demonym | Mexicans<br>Bionico | course | Dessert<br>Bionico | region | Guadalajara<br>Dessert | dishVariation | Sandesh (confectionery)<br>Bionico | country | Mexico",
+    "precision": 0.9639198780059814,
+    "recall": 0.8774695992469788,
+    "f1": 0.9186653877504616,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ]
+  },
+  {
+    "id": "English_5",
+    "question_id": 175,
+    "text": "Aleksandr Prudnikov was born on 24 February 1989 in Grozny. He played for FC Spartak Moscow and currently plays for FC Amkar Perm.",
+    "graph": "FC Terek Grozny | ground | Grozny<br>Aleksandr Prudnikov | currentclub | FC Amkar Perm<br>Aleksandr Prudnikov | club | FC Terek Grozny<br>Aleksandr Prudnikov | birthDate | 1989-02-24<br>Aleksandr Prudnikov | youthclub | FC Spartak Moscow",
+    "precision": 0.387068510055542,
+    "recall": 0.4209708403330296,
+    "f1": 0.4033084672576357,
+    "human_precision_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.75
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      0.5,
+      0.75
+    ]
+  },
+  {
+    "id": "English_6",
+    "question_id": 176,
+    "text": "Mermaid is a train song written by Espen Lind and produced by Stargate. Stargate is associated with Michael Jackson and Benny Blanco.",
+    "graph": "Mermaid (Train song) | writer | Espen Lind<br>Stargate (production team) | associatedBand/associatedMusicalArtist | Benny Blanco<br>Mermaid (Train song) | writer | Stargate (production team)<br>Stargate (production team) | associatedBand/associatedMusicalArtist | Michael Jackson",
+    "precision": 0.86806321144104,
+    "recall": 0.713200269266963,
+    "f1": 0.7830483960374448,
+    "human_precision_list": [
+      0.75,
+      1.0,
+      1.0,
+      0.75
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      1.0,
+      0.75
+    ]
+  },
+  {
+    "id": "English_7",
+    "question_id": 177,
+    "text": "The Estadio Municipal Coaracy da Mata Fonseca is located in Arapiraca and is the home ground of Agremiacao Sportiva Arapiraquense. They play in the Campeonato Brasileiro Série C league in Brazil and are nicknamed Alvinegro.",
+    "graph": "Estádio Municipal Coaracy da Mata Fonseca | location | Arapiraca<br>Agremiação Sportiva Arapiraquense | league | Campeonato Brasileiro Série C<br>Campeonato Brasileiro Série C | country | Brazil<br>Agremiação Sportiva Arapiraquense | nickname | ''Alvinegro<br>Agremiação Sportiva Arapiraquense | ground | Estádio Municipal Coaracy da Mata Fonseca",
+    "precision": 0.9598100185394287,
+    "recall": 0.9767904639244079,
+    "f1": 0.9682257975022789,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      0.25,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ]
+  },
+  {
+    "id": "English_8",
+    "question_id": 178,
+    "text": "The College of William & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & &",
+    "graph": "Alan B. Miller Hall | architect | Robert A. M. Stern<br>Alan B. Miller Hall | address | 101 Ukrop Way<br>Alan B. Miller Hall | buildingStartDate | 30 March 2007<br>Alan B. Miller Hall | currentTenants | Mason School of Business<br>Alan B. Miller Hall | completionDate | 2009-06-01<br>Alan B. Miller Hall | location | Virginia<br>Alan B. Miller Hall | owner | College of William & Mary",
+    "precision": 0.2702966630458832,
+    "recall": 0.0242898385040462,
+    "f1": 0.044574087807986794,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "English_9",
+    "question_id": 179,
+    "text": "Death on a Factory Farm director Tom Simon. Death on a Factory Farm producer Tom Simon. Death on a Factory Farm producer Sarah Teale. Death on a Factory Farm director Sarah Teale",
+    "graph": "Death on a Factory Farm | director | Tom Simon<br>Death on a Factory Farm | producer | Tom Simon<br>Death on a Factory Farm | producer | Sarah Teale<br>Death on a Factory Farm | director | Sarah Teale",
+    "precision": 0.8921415209770203,
+    "recall": 0.4742460437119007,
+    "f1": 0.619289281735806,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "English_10",
+    "question_id": 180,
+    "text": "Death on a Factory Farm director is Tom Simon and Sarah Teale and producer is Tom Simon and Sarah Teale.",
+    "graph": "Death on a Factory Farm | director | Tom Simon<br>Death on a Factory Farm | producer | Tom Simon<br>Death on a Factory Farm | producer | Sarah Teale<br>Death on a Factory Farm | director | Sarah Teale",
+    "precision": 0.7146793007850647,
+    "recall": 0.4996937969699502,
+    "f1": 0.588156661384083,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "English_11",
+    "question_id": 181,
+    "text": "Lady Anne Monson lives in Kingdom of England and lives in India. India has a total area of 3287590000000.0 and is governed by Chief Justice.",
+    "graph": "Lady Anne Monson | nationality | Kingdom of England<br>India | areaTotal | 3287590000000.0<br>Lady Anne Monson | residence | India<br>India | leaderTitle | Chief Justice",
+    "precision": 0.9654984474182129,
+    "recall": 0.6797456219792366,
+    "f1": 0.7978066657315347,
+    "human_precision_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.75
+    ],
+    "human_recall_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.75
+    ]
+  },
+  {
+    "id": "English_12",
+    "question_id": 182,
+    "text": "\"The Imaid song \"\"Train\"\" was preceded by Lind Mermaid \"\", which was written on 27th December, 2012. The song was followed by the song, Train's Train song, followed by Train - 12 - 27. It was written by John Amund.\"",
+    "graph": "Mermaid (Train song) | releaseDate | 2012-12-27<br>Mermaid (Train song) | precededBy | This'll Be My Year<br>Mermaid (Train song) | writer | Espen Lind<br>Mermaid (Train song) | runtime | 3.16<br>Mermaid (Train song) | writer | Amund Bjørklund<br>Mermaid (Train song) | followedBy | Imagine (John Lennon song)",
+    "precision": 0.17655593156814575,
+    "recall": 0.1861632128323739,
+    "f1": 0.18123233897489127,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "id": "English_13",
+    "question_id": 183,
+    "text": "Bionico is a dessert found in Mexico and it contains raisins. The currency of Mexico is the peso.",
+    "graph": "Mexico | currency | Mexican peso<br>Bionico | course | Dessert<br>Bionico | ingredient | Raisin<br>Bionico | country | Mexico",
+    "precision": 0.9891712069511414,
+    "recall": 0.7350805238820612,
+    "f1": 0.8434040993113373,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "English_14",
+    "question_id": 184,
+    "text": "The director of it's called Cyril Bütüner el and it's also where it's also where it's also where it's also where it's also where you will find the film's Great to MBAs.",
+    "graph": "It's Great to Be Young (1956 film) | director | Cyril Frankel",
+    "precision": 0.0046861316077411175,
+    "recall": 0.003164616646245122,
+    "f1": 0.0037779354559797735,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "English_15",
+    "question_id": 185,
+    "text": "The Turkish language is spoken in Turkey where the leader is known as the Republic of Turkey. The country is the location of the Ataturk Atasoy which is a citizenship of the Turkish people.",
+    "graph": "Turkey | longName | Republic of Turkey<br>Nurhan Atasoy | nationality | Turkish people<br>Nurhan Atasoy | citizenship | Turkey<br>Turkey | language | Turkish language",
+    "precision": 0.8218106031417847,
+    "recall": 0.6395590007305145,
+    "f1": 0.7193202414261111,
+    "human_precision_list": [
+      0.25,
+      0.0,
+      0.25,
+      0.25
+    ],
+    "human_recall_list": [
+      0.25,
+      0.0,
+      0.5,
+      0.25
+    ]
+  },
+  {
+    "id": "English_16",
+    "question_id": 186,
+    "text": "Anatole de Grunwald is the publisher of English (OCLC) which is published by Anatole de Grunwald.",
+    "graph": "English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald",
+    "precision": 0.0538787916302681,
+    "recall": 0.23797603696584702,
+    "f1": 0.08786465086327869,
+    "human_precision_list": [
+      0.0,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "id": "English_17",
+    "question_id": 187,
+    "text": "The kingdom of England is the nationality of the English national, who died in 1776-02-18. The country is the birthplace of architect, George Davutoglu, who resides in India.",
+    "graph": "Lady Anne Monson | nationality | Kingdom of England<br>Lady Anne Monson | residence | India<br>Lady Anne Monson | spouse | George Monson<br>Lady Anne Monson | deathDate | 1776-02-18",
+    "precision": 0.03829045221209526,
+    "recall": 0.027698227670043707,
+    "f1": 0.03214423033931939,
+    "human_precision_list": [
+      0.25,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.25,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "English_18",
+    "question_id": 188,
+    "text": "1777539 is the population metro in the country.",
+    "graph": "Ciudad Ayala | populationMetro | 1777539",
+    "precision": 0.0023532540071755648,
+    "recall": 0.007670603692531586,
+    "f1": 0.003601583226272855,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "id": "English_19",
+    "question_id": 189,
+    "text": "Shapenley University is the alma mater of the celestial body known as, of which, is the same name of the asteroid, is Shional Lapenator.",
+    "graph": "Olga Bondareva | knownFor | Bondareva–Shapley theorem<br>Olga Bondareva | almaMater | Leningrad State University<br>Olga Bondareva | professionalField | Economics",
+    "precision": 0.018304569646716118,
+    "recall": 0.016643289709463716,
+    "f1": 0.017434444412314558,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "English_20",
+    "question_id": 190,
+    "text": "Harry Carey stars in the South Seas band which was born in 1878 and whose director is Cyril Bruce. He was born in 1878 and included Harry Carey as as the Dean.",
+    "graph": "McVeagh of the South Seas | director | Cyril Bruce<br>McVeagh of the South Seas | director | Harry Carey (actor born 1878)<br>McVeagh of the South Seas | starring | Harry Carey (actor born 1878)",
+    "precision": 0.15178164839744568,
+    "recall": 0.1349126479278008,
+    "f1": 0.1428508648732584,
+    "human_precision_list": [
+      0.0,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.25,
+      0.5,
+      0.0
+    ]
+  },
+  {
+    "id": "English_21",
+    "question_id": 191,
+    "text": "Bananaman was shown on the BBC which is based in Broadcasting House in London and created by Steve Bright.",
+    "graph": "BBC | city | Broadcasting House<br>Bananaman | creator | Steve Bright<br>Bananaman | broadcastedBy | BBC",
+    "precision": 0.47868838906288147,
+    "recall": 0.968696653842926,
+    "f1": 0.6407470396235824,
+    "human_precision_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.5
+    ],
+    "human_recall_list": [
+      1.0,
+      0.75,
+      1.0,
+      0.75
+    ]
+  },
+  {
+    "id": "English_22",
+    "question_id": 192,
+    "text": "The expection of the Instrumental music genre is Easy Lira acle.",
+    "graph": "Expect a Miracle | genre | Instrumental music<br>Expect a Miracle | genre | Easy listening",
+    "precision": 0.20448380708694458,
+    "recall": 0.11332577094435692,
+    "f1": 0.14583125673753472,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "English_23",
+    "question_id": 193,
+    "text": "The 11th Mississippi Infantry Monument is located in the municipality of Gettysburg, Adams County, Pennsylvania. It is categorised as a contributing property. Adams County is south of Cumberland County and south of Carroll County, Maryland.",
+    "graph": "11th Mississippi Infantry Monument | location | Adams County, Pennsylvania<br>11th Mississippi Infantry Monument | state | Pennsylvania<br>11th Mississippi Infantry Monument | municipality | Gettysburg, Pennsylvania<br>Adams County, Pennsylvania | hasToItsSoutheast | Carroll County, Maryland<br>11th Mississippi Infantry Monument | category | Contributing property<br>Adams County, Pennsylvania | hasToItsNorth | Cumberland County, Pennsylvania",
+    "precision": 0.98089200258255,
+    "recall": 0.9476585388183594,
+    "f1": 0.9639889253104699,
+    "human_precision_list": [
+      1.0,
+      0.75,
+      1.0,
+      0.75
+    ],
+    "human_recall_list": [
+      1.0,
+      0.75,
+      1.0,
+      0.5
+    ]
+  },
+  {
+    "id": "English_24",
+    "question_id": 194,
+    "text": "An important member of the Apollo 6 crew was on Haog Shenzie.",
+    "graph": "Nie Haisheng | mission | Shenzhou 6<br>Shenzhou 6 | cosparId | 2005-040A",
+    "precision": 0.01262623444199562,
+    "recall": 0.16003787890076637,
+    "f1": 0.02340585706526592,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "English_25",
+    "question_id": 195,
+    "text": "Imagine is on the Imagine album.",
+    "graph": "Imagine (John Lennon song) | album | Imagine (John Lennon album)",
+    "precision": 0.9641139507293701,
+    "recall": 0.6850301623344421,
+    "f1": 0.8009574553797474,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.0
+    ]
+  },
+  {
+    "id": "English_26",
+    "question_id": 196,
+    "text": "\"\"\"The musical genre of \"\"\"\"Mermaid\"\"\"\" is trance music. It was written by Espen Lind and Amund Bjørklund. It was released on 27 December 2012 and has a runtime of 3.16. It is followed by \"\"\"\"Imagine\"\"\"\" and \"\"\"\"This'll be My Year\"\"\"\".\"\"\"",
+    "graph": "Mermaid (Train song) | releaseDate | 2012-12-27<br>Mermaid (Train song) | precededBy | This'll Be My Year<br>Mermaid (Train song) | writer | Espen Lind<br>Mermaid (Train song) | runtime | 3.16<br>Mermaid (Train song) | writer | Amund Bjørklund<br>Mermaid (Train song) | followedBy | Imagine (John Lennon song)",
+    "precision": 0.04049745574593544,
+    "recall": 0.3633643326659997,
+    "f1": 0.07287310364100696,
+    "human_precision_list": [
+      0.75,
+      0.25,
+      0.75,
+      0.75
+    ],
+    "human_recall_list": [
+      0.75,
+      0.25,
+      1.0,
+      0.75
+    ]
+  },
+  {
+    "id": "English_27",
+    "question_id": 197,
+    "text": "It's Great to Be Young (1956 film), who starred John Mills, Gilbert Taylor, 94.0, 282838.0, Louis Levy, is his draft team.",
+    "graph": "It's Great to Be Young (1956 film) | starring | John Mills<br>It's Great to Be Young (1956 film) | cinematography | Gilbert Taylor<br>It's Great to Be Young (1956 film) | runtime | 94.0<br>It's Great to Be Young (1956 film) | gross | 282838.0<br>It's Great to Be Young (1956 film) | musicComposer | Louis Levy",
+    "precision": 0.03441324830055237,
+    "recall": 0.5355116695165634,
+    "f1": 0.06467061002175888,
+    "human_precision_list": [
+      0.25,
+      0.25,
+      1.0,
+      0.25
+    ],
+    "human_recall_list": [
+      0.25,
+      0.25,
+      1.0,
+      0.25
+    ]
+  },
+  {
+    "id": "English_28",
+    "question_id": 198,
+    "text": "The 11th Mississippi Infantry Monument was established in 2000 in Adams County, Pennsylvania.",
+    "graph": "11th Mississippi Infantry Monument | established | 2000<br>11th Mississippi Infantry Monument | location | Adams County, Pennsylvania<br>11th Mississippi Infantry Monument | state | Pennsylvania",
+    "precision": 0.9905043244361877,
+    "recall": 0.9746058185895284,
+    "f1": 0.9824907589629857,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "English_29",
+    "question_id": 199,
+    "text": "English Without Tears, whose draft team is Anatole de Grunwald, has the following number Anatole de Grunwald, and the draft of Bernard Knowles.",
+    "graph": "English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald<br>English Without Tears | cinematography | Bernard Knowles",
+    "precision": 0.7346040606498718,
+    "recall": 0.2655872777104378,
+    "f1": 0.39012833880940745,
+    "human_precision_list": [
+      0.0,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "id": "English_30",
+    "question_id": 200,
+    "text": "Imagine is on the album, Imagine.",
+    "graph": "Imagine (John Lennon song) | album | Imagine (John Lennon album)",
+    "precision": 0.9740415215492249,
+    "recall": 0.7381172180175781,
+    "f1": 0.8398249549004172,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "English_31",
+    "question_id": 201,
+    "text": "English Without Tears was written by Anatole de Grunwald and edited by Alan Jaggs. It was composed by Nicholas Brodszky and has Bernard Knowles as a cinematographer.",
+    "graph": "English Without Tears | musicComposer | Nicholas Brodszky<br>English Without Tears | editing | Alan Jaggs<br>English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald<br>English Without Tears | cinematography | Bernard Knowles",
+    "precision": 0.9714997410774231,
+    "recall": 0.8157242655754089,
+    "f1": 0.8868232631691806,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      1.0,
+      0.75
+    ]
+  },
+  {
+    "id": "English_32",
+    "question_id": 202,
+    "text": "GMA New Media is a mass media company that produces online games and web services. It is also a company in the entertainment industry that produces web services.",
+    "graph": "GMA New Media | industry | Mass Media<br>GMA New Media | product | Online Game<br>GMA New Media | industry | Entertainment<br>GMA New Media | product | World Wide Web",
+    "precision": 0.96181720495224,
+    "recall": 0.6331327892839909,
+    "f1": 0.7636076515920533,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ]
+  },
+  {
+    "id": "English_33",
+    "question_id": 203,
+    "text": "Mermaid is a pop rock song written by Espen Lind. It was released on 27 December 2012 and has a run time of 3.16.",
+    "graph": "Mermaid (Train song) | genre | Pop rock<br>Mermaid (Train song) | runtime | 3.16<br>Mermaid (Train song) | releaseDate | 2012-12-27<br>Mermaid (Train song) | precededBy | This'll Be My Year<br>Mermaid (Train song) | writer | Espen Lind",
+    "precision": 0.9911981225013733,
+    "recall": 0.3872468091547489,
+    "f1": 0.5569149718845497,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      0.25,
+      0.75
+    ]
+  },
+  {
+    "id": "English_34",
+    "question_id": 204,
+    "text": "Ciudad Ayala is located in Mexico, is part of the Greater Los and is located in Ciudad Ayala. Mexico is part of Ciudad Ayala. Mexico is part of Ciudad",
+    "graph": "Ciudad Ayala | populationDensity | 1604.0<br>Ciudad Ayala | leaderTitle | Governator<br>Ciudad Ayala | isPartOf | Morelos<br>Ciudad Ayala | country | Mexico",
+    "precision": 0.16902011632919312,
+    "recall": 0.3076644338434562,
+    "f1": 0.2181798356155743,
+    "human_precision_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.5
+    ],
+    "human_recall_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  },
+  {
+    "id": "English_35",
+    "question_id": 205,
+    "text": "awh engineering college in india was created in 2001 and is led by the ganges . the ganges is a river in india . mumbai is mumbai .",
+    "graph": "India | largestCity | Mumbai<br>AWH Engineering College | country | India<br>AWH Engineering College | established | 2001<br>Kerala | leaderName | Kochi<br>AWH Engineering College | state | Kerala<br>India | river | Ganges",
+    "precision": 0.7443646788597107,
+    "recall": 0.32529801374766976,
+    "f1": 0.4527415104040906,
+    "human_precision_list": [
+      0.5,
+      0.75,
+      0.5,
+      0.5
+    ],
+    "human_recall_list": [
+      0.5,
+      0.25,
+      0.25,
+      0.5
+    ]
+  },
+  {
+    "id": "English_36",
+    "question_id": 206,
+    "text": "the birth place of antwerp is stellendam , netherlands .",
+    "graph": "Ab Klink | birthPlace | Stellendam, Netherlands",
+    "precision": 0.09953640401363373,
+    "recall": 0.199476420879364,
+    "f1": 0.13280477602890262,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ]
+  },
+  {
+    "id": "English_37",
+    "question_id": 207,
+    "text": "united states buzz aldrin was born on january 20th 1930 . glen ridge born a member was fighter pilot on apollo 11 .",
+    "graph": "Buzz Aldrin | birthPlace | Glen Ridge, New Jersey<br>Buzz Aldrin | nationality | United States<br>Buzz Aldrin | was a crew member of | Apollo 11<br>Buzz Aldrin | occupation | Fighter pilot<br>Buzz Aldrin | birthDate | 1930-01-20",
+    "precision": 0.9683505892753601,
+    "recall": 0.6894526481628418,
+    "f1": 0.8054416387286525,
+    "human_precision_list": [
+      0.25,
+      0.25,
+      0.5,
+      0.5
+    ],
+    "human_recall_list": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  },
+  {
+    "id": "English_38",
+    "question_id": 208,
+    "text": "created by roger mckenzie , the full name of ben urich is '' benjamin urich '' .",
+    "graph": "Ben Urich | creator | Roger McKenzie (comic book writer)<br>Ben Urich | fullName | Benjamin Urich",
+    "precision": 0.9864311814308167,
+    "recall": 0.47342928405851126,
+    "f1": 0.6397945817941556,
+    "human_precision_list": [
+      1.0,
+      0.75,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "English_39",
+    "question_id": 209,
+    "text": "antioch , california is 13.0 antioch , california has a total area of 75.324 square km .",
+    "graph": "Antioch, California | elevationAboveTheSeaLevel | 13.0<br>Antioch, California | areaTotal | 75.324 (square kilometres)",
+    "precision": 0.986914336681366,
+    "recall": 0.5108158253133297,
+    "f1": 0.673193976055127,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.5
+    ]
+  },
+  {
+    "id": "English_40",
+    "question_id": 210,
+    "text": "the diameter of alv x-1 , which has 2 stages , is 5.0 foots . it was launched .",
+    "graph": "ALV X-1 | diameter | 1.524 (metres)<br>ALV X-1 | rocketStages | 2<br>ALV X-1 | totalLaunches | 1",
+    "precision": 0.04274452105164528,
+    "recall": 0.23107408607999483,
+    "f1": 0.0721437541473398,
+    "human_precision_list": [
+      0.25,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "human_recall_list": [
+      0.25,
+      0.25,
+      0.5,
+      1.0
+    ]
+  },
+  {
+    "id": "English_41",
+    "question_id": 211,
+    "text": "the odbeme of odbeme , genre , ranger e records , is the genre of renre , odbete .",
+    "graph": "Anders Osborne | genre | Rhythm and blues<br>Anders Osborne | recordLabel | Shanachie Records",
+    "precision": 0.05685655027627945,
+    "recall": 0.04343004943802953,
+    "f1": 0.049244521130619376,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "English_42",
+    "question_id": 212,
+    "text": "oyster sauce is an ingredient of the dish beef kway teow which is a food that comes from and is found in singapore .",
+    "graph": "Beef kway teow | region | Singapore<br>Beef kway teow | ingredient | Oyster sauce<br>Beef kway teow | country | Singapore and Indonesia",
+    "precision": 0.9751878976821899,
+    "recall": 0.6578005140957733,
+    "f1": 0.7856505236762727,
+    "human_precision_list": [
+      1.0,
+      0.75,
+      0.75,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      1.0,
+      0.75,
+      0.75
+    ]
+  },
+  {
+    "id": "English_43",
+    "question_id": 213,
+    "text": "alfred garth jones was born in england and died in london .",
+    "graph": "Alfred Garth Jones | deathPlace | London<br>Alfred Garth Jones | birthPlace | England<br>Alfred Garth Jones | nationality | United Kingdom",
+    "precision": 0.9809963703155518,
+    "recall": 0.8216973841190338,
+    "f1": 0.8943084751202052,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      0.75,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ]
+  },
+  {
+    "id": "English_44",
+    "question_id": 214,
+    "text": "Binignit is located in Mexico and is a variation of a Cottage cheese dish.",
+    "graph": "Bionico | country | Mexico<br>Bionico | dishVariation | Cottage cheese",
+    "precision": 0.7011605501174927,
+    "recall": 0.3321489468216896,
+    "f1": 0.4507647301496716,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.25,
+      1.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.25,
+      1.0
+    ]
+  },
+  {
+    "id": "English_45",
+    "question_id": 215,
+    "text": "the 11th Mississippi Infantry Monument is located in Cumberland County, Pennsylvania, Cumberland County, Pennsylvania, United States. it was established in 2000 and is categorised as a Contributing property.",
+    "graph": "11th Mississippi Infantry Monument | established | 2000<br>11th Mississippi Infantry Monument | location | Adams County, Pennsylvania<br>11th Mississippi Infantry Monument | category | Contributing property<br>Adams County, Pennsylvania | hasToItsNorth | Cumberland County, Pennsylvania<br>11th Mississippi Infantry Monument | country | United States",
+    "precision": 0.1257496029138565,
+    "recall": 0.5792438809061423,
+    "f1": 0.2066393227340134,
+    "human_precision_list": [
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "human_recall_list": [
+      0.75,
+      0.5,
+      0.75,
+      0.5
+    ]
+  },
+  {
+    "id": "English_46",
+    "question_id": 216,
+    "text": "The director of Super capers is ray lister Jr. and the company is affiliated with the Visvesvaraya Technological University. The company is owned by lionsgate and has a revenue of $9,997,000,000. the company also has a net income of $98.0.",
+    "graph": "Super Capers | distributor | Lionsgate<br>Super Capers | director | Ray Griggs (director)<br>Super Capers | runtime | 98.0<br>Super Capers | starring | Tom Lister, Jr.<br>Super Capers | gross | 30955.0",
+    "precision": 0.01662842556834221,
+    "recall": 0.23351273040752857,
+    "f1": 0.031046063105397242,
+    "human_precision_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ],
+    "human_recall_list": [
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "id": "English_47",
+    "question_id": 217,
+    "text": "Mermaid is a Train song which was produced by Espionage. It was followed by Imagine which was certified by FIMI.",
+    "graph": "Mermaid (Train song) | musicalBand | Train (band)<br>Mermaid (Train song) | producer | Espionage (production team)<br>Mermaid (Train song) | followedBy | Imagine (John Lennon song)<br>Imagine (John Lennon song) | certification | FIMI",
+    "precision": 0.9884291291236877,
+    "recall": 0.3551311893388629,
+    "f1": 0.5225251257860156,
+    "human_precision_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "id": "English_48",
+    "question_id": 218,
+    "text": "Anatole de Grunwald is the producer of English Without Tears along with the cinematographer Bernard Knowles.",
+    "graph": "English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald<br>English Without Tears | cinematography | Bernard Knowles",
+    "precision": 0.9516160488128662,
+    "recall": 0.6708239081005255,
+    "f1": 0.7869219371178299,
+    "human_precision_list": [
+      1.0,
+      0.5,
+      1.0,
+      1.0
+    ],
+    "human_recall_list": [
+      0.75,
+      0.5,
+      0.75,
+      0.75
+    ]
+  },
+  {
+    "id": "English_49",
+    "question_id": 219,
+    "text": "Anatole de Grunwald is the writer of English Without Tears, which was edited by Alan Jaggs. It was created by Nicholas Brodszky and Bernard Knowles.",
+    "graph": "English Without Tears | musicComposer | Nicholas Brodszky<br>English Without Tears | editing | Alan Jaggs<br>English Without Tears | producer | Anatole de Grunwald<br>English Without Tears | writer | Anatole de Grunwald<br>English Without Tears | cinematography | Bernard Knowles",
+    "precision": 0.8815413117408752,
+    "recall": 0.5407600164413452,
+    "f1": 0.6703253168440368,
+    "human_precision_list": [
+      0.25,
+      0.5,
+      1.0,
+      0.5
+    ],
+    "human_recall_list": [
+      0.25,
+      0.75,
+      0.75,
+      0.25
+    ]
+  }
+]

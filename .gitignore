@@ -1,0 +1,64 @@
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+!.env.example
+.venv/
+
+# Model and training artifacts belong on Hugging Face, not in Git.
+*.safetensors
+*.pt
+*.pth
+optimizer.pt
+scheduler.pt
+rng_state.pth
+training_args.bin
+checkpoints/**
+!checkpoints/README.md
+# The legacy FactSpotter checkpoint is an intentional release asset.
+!checkpoints/fact_spotter_electra.pt
+
+# Generated predictions, caches, and repair runs.
+verifier_train_eval_webnlg/xqdt_outputs/eval/
+verifier_train_eval_webnlg/xqdt_outputs/eval_logs/
+verifier_train_eval_webnlg/xqdt_outputs/*.jsonl
+verifier_train_eval_e2e19/xqdt_outputs/
+**/prompt_baselines/eval/
+**/prompt_baselines/eval_logs/
+**/prompt_baselines/test_predictions_*.json
+!verifier_train_eval_webnlg/prompt_baselines/test_predictions_*.json
+**/prompt_baselines/test_predictions_*.jsonl
+**/cross_dataset_results/
+**/exports/
+results/raw/
+results/tables/
+
+repair_d2t/baseline_outputs/**
+!repair_d2t/baseline_outputs/**/
+!repair_d2t/baseline_outputs/self_refine_group_a/webnlg_merged_multiround_metrics.json
+!repair_d2t/baseline_outputs/fs_single/webnlg_factspotter_multiround_metrics.json
+!repair_d2t/baseline_outputs/nli_single/webnlg_nli_multiround_metrics.json
+repair_d2t/xqdt_outputs/**
+!repair_d2t/xqdt_outputs/**/
+!repair_d2t/xqdt_outputs/webnlg_control_prefix_p1c_p2b_multimodel_r3_metrics.json
+repair_t2d/t2d_repair_output/**
+!repair_t2d/t2d_repair_output/**/
+!repair_t2d/t2d_repair_output/**/eval_summary_text_to_data_repair.json
+
+# Processed and raw datasets are released separately.
+data/error_prediction_e2e19/
+repair_d2t/inputs/*
+!repair_d2t/inputs/webnlg20_control_prefix_20_eval_input.json
+
+# Local release audits, exploratory files, and reconstructed runtime outputs.
+/.xqdt_scratch/
+/.repro_tmp/
+/.ruff_cache/
+/_ablation_scratch/
+/_tmp_*
+/repair_t2d/reconstructed/
+/repair_d2t/reconstructed/
