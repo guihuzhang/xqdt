@@ -9,17 +9,22 @@ Two-stage pipeline (mirrors baseline_eval_e2e19.py):
   Stage 1  Compute & cache per-sample scores  →  ref_baseline_scores_e2e19.json
   Stage 2  Apply worker filtering, compute text/system-level correlations
 
-Reference source : data/e2e/refs_e2e19.json   (refs_2019 ∪ refs_2017 per MR)
+Reference source : human_ratings/refs_e2e19.json   (refs_2019 ∪ refs_2017 per MR)
 Human quality    : filtered fine_score / 100   (strategy: drop_gt100_all + A+C+D+E+F)
 
-Downloads needed (place in this directory, baselines/):
+Cached reproduction uses the bundled per-sample scores and requires NumPy,
+SciPy and tqdm; it does not load BARTScore or BLEURT models.
+
+Fresh metric recomputation additionally requires the metric implementations
+and their dependencies. BARTScore's bart_score module and the bleurt package
+are not bundled here and must be installed or made importable separately.
+Downloads needed for fresh recomputation (place in baselines/):
   bart_score.pth    BARTScore fine-tuned weights
   BLEURT-20/        BLEURT checkpoint directory
 
-Required packages:
+Additional packages for fresh recomputation:
   sacrebleu  nltk  bert-score  torch  scipy  tqdm  transformers
   tensorflow (for BLEURT)
-  (bart_score.py and bleurt/ are already in this directory)
 """
 
 import json
@@ -37,10 +42,10 @@ from tqdm import tqdm
 THIS_DIR   = Path(__file__).resolve().parent            # baselines/
 BASE       = THIS_DIR.parent                            # err_pred_e2e19/
 CONVERTED  = BASE / 'human_ratings' / 'converted.json'
-REFS_JSON  = BASE.parent / 'e2e' / 'refs_e2e19.json'
-RESULTS_DIR = BASE / 'llm_evaluation_results'
+REFS_JSON  = BASE / 'human_ratings' / 'refs_e2e19.json'
+RESULTS_DIR = THIS_DIR / 'results'
 LOG_FILE   = RESULTS_DIR / 'ref_baseline_eval_e2e19.log'
-CACHE_FILE = RESULTS_DIR / 'ref_baseline_scores_e2e19.json'
+CACHE_FILE = THIS_DIR / 'ref_baseline_scores_e2e19.json'
 
 sys.path.insert(0, str(THIS_DIR))   # make bart_score, bleurt importable
 sys.path.insert(0, str(BASE))

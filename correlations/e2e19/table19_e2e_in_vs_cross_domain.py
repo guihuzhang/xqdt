@@ -19,6 +19,7 @@ Outputs:
                                               row per model)
 """
 
+import argparse
 import json
 from pathlib import Path
 
@@ -59,6 +60,12 @@ def score(path, converted):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output-dir', type=Path, default=Path(__file__).resolve().parent)
+    args = parser.parse_args()
+    args.output_dir.mkdir(parents=True, exist_ok=True)
+    output_json = args.output_dir / OUT_JSON.name
+    output_md = args.output_dir / OUT_MD.name
     converted = json.load(open(CONVERTED, encoding='utf-8'))
 
     summary = {}
@@ -67,9 +74,9 @@ def main():
         indomain = score(INDOMAIN_DIR / in_file, converted)
         summary[name] = {'cross_domain': cross, 'in_domain': indomain}
 
-    with open(OUT_JSON, 'w', encoding='utf-8') as f:
+    with open(output_json, 'w', encoding='utf-8') as f:
         json.dump(summary, f, indent=2)
-    print(f'Summary saved: {OUT_JSON}')
+    print(f'Summary saved: {output_json}')
 
     def f1_row(entry):
         sl, tl = entry['system_level'], entry['text_level']
@@ -96,9 +103,9 @@ def main():
             f'| {tr:.1f} | {trho:.1f} | {ttau:.1f} |'
         )
 
-    with open(OUT_MD, 'w', encoding='utf-8') as f:
+    with open(output_md, 'w', encoding='utf-8') as f:
         f.write('\n'.join(lines) + '\n')
-    print(f'Markdown saved: {OUT_MD}')
+    print(f'Markdown saved: {output_md}')
 
 
 if __name__ == '__main__':

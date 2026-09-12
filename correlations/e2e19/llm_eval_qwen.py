@@ -35,7 +35,7 @@ INPUT_JSON = (SCRIPT_DIR / "human_ratings/converted.json").resolve()
 OUTPUT_DIR = (SCRIPT_DIR / "xqdt_results").resolve()
 MAX_TOKENS = 1024
 TEMPERATURE = 0.3
-GPU_ID = '0'
+GPU_ID = os.environ.get('CUDA_VISIBLE_DEVICES', '')
 RANDOM_SEED = 2023
 
 # ALL CHECKPOINTS
@@ -154,8 +154,8 @@ def normalize_for_keyword_match(text: str) -> str:
 def parse_model_response(response: str) -> Dict[str, List[str]]:
     """Parse model response markdown table to extract error types"""
     result = {'missing': [], 'extra': [], 'incorrect': []}
-    if not response:
-        return result
+    if not response or not response.strip():
+        raise ValueError("Empty model response")
 
     normalized_response = normalize_for_keyword_match(response)
     negative_all_correct_patterns = (
@@ -186,9 +186,6 @@ def parse_model_response(response: str) -> Dict[str, List[str]]:
     has_positive_marker = any(
         re.search(pattern, normalized_response) for pattern in positive_all_correct_patterns
     )
-    if has_positive_marker and not has_negative_marker:
-        return result
-
     for line in response.strip().split('\n'):
         line = line.strip()
         if not line or '|' not in line:
@@ -211,6 +208,12 @@ def parse_model_response(response: str) -> Dict[str, List[str]]:
             result['extra'].append(attr)
         elif 'incorrect' in error_type or 'wrong' in error_type or 'error' in error_type:
             result['incorrect'].append(attr)
+
+    if not any(result.values()) and has_positive_marker and not has_negative_marker:
+        return result
+
+    if not any(result.values()):
+        raise ValueError("Unrecognized model response; no valid error rows or all-correct marker")
 
     for key in result:
         result[key] = list(dict.fromkeys(result[key]))
@@ -397,6 +400,9 @@ def run_evaluation(data: List[Dict], engine, request_config, batch_size: int) ->
 
             resp_list = engine.infer(infer_requests, request_config, use_tqdm=False)
 
+            if len(resp_list) != len(batch):
+                raise RuntimeError(f"Expected {len(batch)} responses, received {len(resp_list)}")
+
             for entry, resp, triples in zip(batch, resp_list, batch_triples):
                 response = resp.choices[0].message.content
                 parsed_errors = parse_model_response(response)
@@ -437,8 +443,12 @@ def run_evaluation(data: List[Dict], engine, request_config, batch_size: int) ->
         except Exception as e:
             print(f"\n❌ Error at batch {i}: {e}")
             traceback.print_exc()
-            continue
+            raise
 
+    expected = [(str(row['mr_id']), row['sys_name']) for row in data]
+    actual = [(str(row['mr_id']), row['sys_name']) for row in results]
+    if len(set(expected)) != len(expected) or len(actual) != len(expected) or len(set(actual)) != len(actual) or set(actual) != set(expected):
+        raise RuntimeError("Incomplete or duplicate inference results")
     return results
 
 
@@ -720,7 +730,6 @@ def main():
     print("LLM EVALUATION - E2E HUMAN RATINGS")
 
     set_random_seed(RANDOM_SEED)
-    os.environ['CUDA_VISIBLE_DEVICES'] = GPU_ID
     os.environ.setdefault('PYTORCH_CUDA_ALLOC_CONF', 'expandable_segments:True')
     torch.backends.cudnn.benchmark = True
     torch.backends.cuda.matmul.allow_tf32 = True
@@ -776,7 +785,7 @@ def main():
         except Exception as e:
             print(f"❌ Error during evaluation: {e}")
             traceback.print_exc()
-            continue
+            raise
         finally:
             if engine is not None:
                 del engine

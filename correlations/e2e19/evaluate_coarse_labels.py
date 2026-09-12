@@ -140,6 +140,10 @@ def prf(tp, fp, fn):
 
 
 def evaluate(results, converted):
+    expected = {(str(mr_id), system) for mr_id, record in converted.items() for system in record['systems']}
+    actual = [(str(row['mr_id']), row['sys_name']) for row in results]
+    if len(actual) != len(set(actual)) or set(actual) != expected:
+        raise ValueError("Prediction keys must exactly match the input MR/system pairs without duplicates")
     counts = {
         'ok': {'tp': 0, 'fp': 0, 'fn': 0},
         'miss': {'tp': 0, 'fp': 0, 'fn': 0},
