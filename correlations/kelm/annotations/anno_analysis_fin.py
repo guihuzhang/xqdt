@@ -103,11 +103,11 @@ def build_ground_truth():
 
     ground_truth = []
 
-    for iid in overlap_ids:
+    for iid in sorted(overlap_ids):
         entries = [annotator_1[iid], annotator_2[iid], annotator_3[iid]]
         ground_truth.append(merge_multi_annotator(entries))
 
-    for iid in annotator_1_only_ids:
+    for iid in sorted(annotator_1_only_ids):
         ground_truth.append({**annotator_1[iid], 'n_annotators': 1})
 
     for d in load_jsonl(file_2):

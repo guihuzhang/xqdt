@@ -19,28 +19,26 @@ Tables 21--24, annotation agreement, and the prompted baselines.
 
 ## Fine-Tuned Qwen3 Results
 
-Run from the repository root:
+With Python 3.11, run from the repository root:
 
 ```bash
+python -m pip install -r correlations/requirements.txt
 python correlations/kelm/annotations/anno_analysis_fin.py
 ```
 
-The bundled `correlations/kelm/annotations/analysis_output.txt` contains the frozen
-paper run. Running the script writes a new `analysis_output.log` in the same
-directory. The historical script iterates over
-an unordered overlap set, so a fresh process can shift bootstrap-only values
-by a few tenths of a point; the underlying judgments and non-bootstrap counts
-are unchanged.
+The script writes `annotations/analysis_output.log`. Sample IDs are sorted before
+1,000 bootstrap resamples with seed 2023, so repeated runs give the same results.
+The table below uses this fixed ordering; `annotations/analysis_output.txt`
+preserves the original paper run. Annotation decisions are unchanged.
 
 ### Main-Text Fine-Grained Error Detection
 
-The reported P/R/F1 values are means over bootstrap replicates from the frozen
-paper run.
+The reported P/R/F1 values are means over bootstrap replicates.
 
 | Model | P | R | F1 | F1 95% CI |
 | --- | ---: | ---: | ---: | --- |
-| Q3-0.6B | 43.0 | 53.0 | 45.3 | [34.9, 55.9] |
-| Q3-4B | 56.7 | 63.1 | 57.6 | [47.3, 67.7] |
+| Q3-0.6B | 43.3 | 53.4 | 45.5 | [35.4, 56.3] |
+| Q3-4B | 56.5 | 62.9 | 57.4 | [46.7, 67.3] |
 | Q3-8B | 69.4 | 74.1 | 68.9 | [59.3, 78.4] |
 | Q3-14B | 46.6 | 52.8 | 47.6 | [36.1, 58.3] |
 
