@@ -1,0 +1,1257 @@
+audit_set,audit_id,sample_id,dataset,target_error_category,target_construction,construction_complexity,text,data_units,synthetic_error_types,omitted_units,extra_units,incorrect_mappings,label_validity_yes_no,label_completeness_yes_no,error_pattern_plausibility_yes_no,plausible_task_direction_d2t_t2d_both_neither,problematic_unit_or_error,short_note,adjudication_note
+audit_180,A001,webnlg_train:2662:3_neg,webnlg_train,Omitted,made_up_triple,multi_construction,Adolfo Suárez Madrid-Barajas Airport in Madrid has an elevation of 610.0 metres above sea level. Madrid is part of the community of Madrid and located in Spain.,"Adolfo Suárez Madrid–Barajas Airport | location | Madrid
+Adolfo Suárez Madrid–Barajas Airport | apparent magnitude | +80 inch
+Madrid | municipality | South Korea","missing_triple:made_up_triple_2
+extra_contents:dropped_3","Adolfo Suárez Madrid–Barajas Airport | apparent magnitude | +80 inch
+Madrid | municipality | South Korea","Madrid | is part of | Community of Madrid
+Madrid | country | Spain
+Adolfo Suárez Madrid–Barajas Airport | elevation above the sea level | 610.0",[],Yes,Yes,Yes,Both,,The omitted fabricated units and unsupported text units are all correctly identified; the combined case is complex but reflects plausible alignment failures.,
+audit_180,A002,e2e_train:6201_neg,e2e_train,Extra,dropped,single_construction,for a pub that is not child friendly in the city centre that does Fast food then there is The Olive Grove which is in the moderate price range,The Olive Grove | area | city centre,extra_contents:dropped_4,,"The Olive Grove | food | Fast food
+The Olive Grove | eat type | pub
+The Olive Grove | family friendly | no
+The Olive Grove | price range | moderate",[],Yes,Yes,Yes,Both,,Four unsupported restaurant attributes are correctly localized after input units are removed.,
+audit_180,A003,e2e_train:2119_neg,e2e_train,Omitted,existing_related_graph,single_construction,The Rice Boat is a family-friendly Japanese restaurant in city centre that is usually less than £20 but has a low rating. It is near the Express by Holiday Inn.,"The Rice Boat | area | city centre
+The Rice Boat | customer rating | low
+The Rice Boat | eat type | restaurant
+The Rice Boat | family friendly | yes
+The Rice Boat | food | Japanese
+The Rice Boat | near | Express by Holiday Inn
+The Rice Boat | price range | less than £20
+Loch Fyne | area | riverside
+Loch Fyne | customer rating | 5 out of 5
+Loch Fyne | food | Italian",missing_triple:existing_graph_3,"Loch Fyne | area | riverside
+Loch Fyne | customer rating | 5 out of 5
+Loch Fyne | food | Italian",,[],Yes,Yes,Yes,Both,,The additional Loch Fyne units are absent from the text and are correctly labeled as omitted.,
+audit_180,A004,webnlg_train:12245:1_neg,webnlg_train,Extra,merged_text,multi_construction,Adonis Georgiadis was born in Athens in Greece and was succeeded by Makis Voridis. Strada is a cheap family friendly Italian restaurant near Rainbow Vegetarian Café with an average customer rating.,"Adonis Georgiadis | birth place | Greece
+Adonis Georgiadis | birth place | Athens
+Adonis Georgiadis | successor | Makis Voridis
+Athanasios Kanakaris | birth place | Ohio University
+Adonis Georgiadis | time zone | Edinburgh","missing_triple:made_up_triple_2
+extra_contents:merged_unrelated_6","Athanasios Kanakaris | birth place | Ohio University
+Adonis Georgiadis | time zone | Edinburgh","Strada | customer rating | average
+Strada | eat type | restaurant
+Strada | family friendly | yes
+Strada | food | Italian
+Strada | near | Rainbow Vegetarian Café
+Strada | price range | cheap",[],Yes,Yes,Yes,Both,,"The unrelated restaurant description is correctly marked as Extra, and the fabricated input units are correctly marked as Omitted.",
+audit_180,A005,e2e_train:136_neg,e2e_train,Extra,merged_text,multi_construction,"The Bibimbap House is near Clare Hall and the riverside, has a moderate price range, and serves Italian. In the city centre near Burger King, there is a French family-friendly coffee shop called The Eagle. The price range is more than 30 pounds, and it has a 5 out of 5 customer rating.","Bibimbap House | shares border with | riverside
+Bicky Chakraborty | price range | moderate","extra_contents:dropped_2
+extra_contents:merged_unrelated_7
+incorrect_triple:entity_1
+incorrect_triple:predicate_1",,"Bibimbap House | food | Italian
+Bibimbap House | near | Clare Hall
+The Eagle | area | city centre
+The Eagle | customer rating | 5 out of 5
+The Eagle | eat type | coffee shop
+The Eagle | family friendly | yes
+The Eagle | food | French
+The Eagle | near | Burger King
+The Eagle | price range | more than £30","[{""original"":""Bibimbap House | price range | moderate"",""incorrect"":""Bicky Chakraborty | price range | moderate"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""Bibimbap House | area | riverside"",""incorrect"":""Bibimbap House | shares border with | riverside"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,All unsupported attributes and both entity/predicate substitutions are covered; the sample is dense but the error mechanisms are realistic.,
+audit_180,A006,webnlg_train:10837:2_neg,webnlg_train,Omitted,made_up_triple,multi_construction,"A Loyal Character Dancer is published by Soho Press, that is based in United States, where there is an ethnic group called Asian Americans. There is a cheap coffee shop Clowns located in city center near Clare Hall that offers Indian food.","A Loyal Character Dancer | publisher | Soho Press
+Soho Press | bird | United States
+United States | ethnic group | Asian Americans
+Methuen Publishing | brand | United States
+Tate Modern | mountain range | United States","missing_triple:made_up_triple_2
+extra_contents:merged_unrelated_5
+incorrect_triple:predicate_1","Methuen Publishing | brand | United States
+Tate Modern | mountain range | United States","Clowns | area | city centre
+Clowns | eat type | coffee shop
+Clowns | food | Indian
+Clowns | near | Clare Hall
+Clowns | price range | cheap","[{""original"":""Soho Press | country | United States"",""incorrect"":""Soho Press | bird | United States"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The wrong predicate, fabricated omitted units, and merged unsupported restaurant content are consistently annotated.",
+audit_180,A007,webnlg_train:11141:1_neg,webnlg_train,Omitted,made_up_triple,single_construction,"Akita Museum of Art is located in Japan, Akita Prefecture and has an ethnic group of Koreans.","Akita Museum of Art | country | Japan
+Akita Museum of Art | location | Akita Prefecture
+Japan | ethnic group | Koreans in Japan
+West Japan Railway Company | ethnic group | Districts of Japan",missing_triple:made_up_triple_1,West Japan Railway Company | ethnic group | Districts of Japan,,[],Yes,No,Yes,Both,Akita Museum of Art / ethnic group / Koreans,"The listed omitted unit is valid, but the source lexicalization also attributes an ethnic group to the museum without a matching data unit.",
+audit_180,A008,webnlg_train:10897:2_neg,webnlg_train,Incorrect,entity_replacement,single_construction,"Cornell University, in Ithaca, New York, is the publisher of Administrative Science Quarterly and is affiliated with the Association of Public and Land-grant Universities.","Administrative Science Quarterly | publisher | Cornell University
+International Skating Union | affiliation | Association of Public and Land-grant Universities
+Cornell University | city | Cornell University College of Agriculture and Life Sciences",incorrect_triple:entity_2,,,"[{""original"":""Cornell University | city | Ithaca, New York"",""incorrect"":""Cornell University | city | Cornell University College of Agriculture and Life Sciences"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""Cornell University | affiliation | Association of Public and Land-grant Universities"",""incorrect"":""International Skating Union | affiliation | Association of Public and Land-grant Universities"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,Both entity substitutions conflict with the text and no additional alignment error is evident.,
+audit_180,A009,e2e_train:4037_neg,e2e_train,Omitted,made_up_triple,multi_construction,"A children friendly, French restaurant, located along the riverside, is Alimentum, with a price range over 30 euros.","Alimentum | area | riverside
+Alimentum | game mode | restaurant
+yes | family friendly | Alimentum
+Alimentum | food | Silver
+Alimentum | elevation above the sea level | more than £30
+Salad | order | more than £30
+The Eagle | near | Burger King
+The Eagle | eat type | coffee shop
+The Eagle | food | Chinese","missing_triple:made_up_triple_1
+missing_triple:existing_graph_3
+incorrect_triple:swap_1
+incorrect_triple:entity_1
+incorrect_triple:predicate_2","Salad | order | more than £30
+The Eagle | near | Burger King
+The Eagle | eat type | coffee shop
+The Eagle | food | Chinese",,"[{""original"":""Alimentum | food | French"",""incorrect"":""Alimentum | food | Silver"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""Alimentum | eat type | restaurant"",""incorrect"":""Alimentum | game mode | restaurant"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Alimentum | price range | more than £30"",""incorrect"":""Alimentum | elevation above the sea level | more than £30"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Alimentum | family friendly | yes"",""incorrect"":""yes | family friendly | Alimentum"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,"The entity, predicate, and direction errors are all supported by the text-data contrast; the high error density is synthetic but the individual mechanisms are plausible.",
+audit_180,A010,webnlg_train:6706:1_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,"Javanese people are an ethnic group found in Java. Ayam Penyet is a type of dish found in this place, and also Malaysia, and its main ingredient is fried chicken.","Ayam penyet | represents | Malaysia
+Javanese people | ethnic group | Java
+Andrés Ayala | ingredient | Fried chicken
+Fried chicken | main ingredient | Texan
+Andrés Ayala | country | Java","incorrect_triple:swap_1
+incorrect_triple:entity_3
+incorrect_triple:predicate_1",,,"[{""original"":""Fried chicken | main ingredient | Chicken"",""incorrect"":""Fried chicken | main ingredient | Texan"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""Java | ethnic group | Javanese people"",""incorrect"":""Javanese people | ethnic group | Java"",""error_type"":""swap""},{""original"":""Ayam penyet | region | Malaysia"",""incorrect"":""Ayam penyet | represents | Malaysia"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Ayam penyet | ingredient | Fried chicken"",""incorrect"":""Andrés Ayala | ingredient | Fried chicken"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""Ayam penyet | country | Java"",""incorrect"":""Andrés Ayala | country | Java"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",No,No,Yes,Both,Fried chicken / main ingredient / Chicken,"The corrupted units are invalid as labeled, but the underlying reference relation about the main ingredient is not cleanly expressed by the lexicalization.",Reconstructed final rebuttal decision: label_validity_yes_no changed from Yes to No.
+audit_180,A011,e2e_train:1750_neg,e2e_train,Incorrect,swap,single_construction,Strada is a low price restaurant near Rainbow Vegetarian Café that serving French food with a customer Rating of 5 out of 5 but it's not family-friendly,"Strada | customer rating | 5 out of 5
+restaurant | eat type | Strada
+no | family friendly | Strada
+Strada | food | French
+Strada | near | Rainbow Vegetarian Café
+Strada | price range | cheap",incorrect_triple:swap_2,,,"[{""original"":""Strada | eat type | restaurant"",""incorrect"":""restaurant | eat type | Strada"",""error_type"":""swap""},{""original"":""Strada | family friendly | no"",""incorrect"":""no | family friendly | Strada"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,Both reversed non-symmetric slot-value units are correctly labeled as Incorrect.,
+audit_180,A012,e2e_train:2265_neg,e2e_train,Extra,merged_text,multi_construction,For a well priced Japanese meal in a coffee shop setting try Wildwood. It is very well rated and located near Ranch. There is a restaurant near Raja Indian Cuisine in riverside called The Waterman with a high price range Italian food.,Wildwood | near | Ranch,"extra_contents:dropped_3
+extra_contents:merged_unrelated_5",,"Wildwood | customer rating | high
+Wildwood | eat type | coffee shop
+Wildwood | food | Japanese
+The Waterman | area | riverside
+The Waterman | eat type | restaurant
+The Waterman | food | Italian
+The Waterman | near | Raja Indian Cuisine
+The Waterman | price range | high",[],Yes,No,Yes,Both,Wildwood / price range / moderate,"The Extra labels are valid, but the well-priced/moderate attribute is also unsupported by the retained data and is not listed.",
+audit_180,A013,webnlg_train:11393:1_neg,webnlg_train,Omitted,made_up_triple,single_construction,The manager of 1. FC Koln is Peter Stoger who played football for SK Vorwärts Steyr and is attached to the club First Vienna FC.,"Peter Stöger | club | SK Vorwärts Steyr
+1. FC Köln | manager | Peter Stöger
+Peter Stöger | club | First Vienna FC
+Peter Goldreich | mumbai city fc | First Vienna FC
+Peter Stöger | year | Eintracht Braunschweig",missing_triple:made_up_triple_2,"Peter Goldreich | mumbai city fc | First Vienna FC
+Peter Stöger | year | Eintracht Braunschweig",,[],Yes,Yes,Yes,Both,,The two fabricated data units are absent from the text and correctly treated as omitted.,
+audit_180,A014,e2e_train:6640_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,High rated Japanese themed coffee shop called The Eagle  in the area of Riverside near Burger King. The Wildwood is an expensive Italian restaurant with average customer ratings and is located near the Ranch.,"The Ivory Ape | area | riverside
+The Eagle | customer rating | high
+The Eagle | eat type | Philadelphia
+Japanese | food | The Eagle
+The Eagle | address | Burger King","extra_contents:merged_unrelated_5
+incorrect_triple:swap_1
+incorrect_triple:entity_2
+incorrect_triple:predicate_1",,"Wildwood | customer rating | average
+Wildwood | eat type | restaurant
+Wildwood | food | Italian
+Wildwood | near | Ranch
+Wildwood | price range | high","[{""original"":""The Eagle | near | Burger King"",""incorrect"":""The Eagle | address | Burger King"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""The Eagle | area | riverside"",""incorrect"":""The Ivory Ape | area | riverside"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Eagle | eat type | coffee shop"",""incorrect"":""The Eagle | eat type | Philadelphia"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""The Eagle | food | Japanese"",""incorrect"":""Japanese | food | The Eagle"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The merged Wildwood content and all four Eagle corruptions are correctly and completely represented.,
+audit_180,A015,e2e_train:3509_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,The Eagle is a high priced Italian coffee shop. It is kid friendly with a customer rating of  out of 5 near Burger King in the riverside area. The Eagle is a five star establishment.,"The Eagle | area | riverside
+The Eagle | eat type | coffee shop
+The Eagle | family friendly | 0
+The Eagle | food | Alvinegro
+The Eagle | club | Burger King
+The Eagle | area of land | high
+The Ivory Ape | native language | yes
+The Eagle | customer rating | 5 out of 5","missing_triple:made_up_triple_1
+missing_triple:existing_graph_1
+extra_contents:merged_unrelated_1
+incorrect_triple:entity_2
+incorrect_triple:predicate_2","The Ivory Ape | native language | yes
+The Eagle | customer rating | 5 out of 5",The Eagle | customer rating | 5 out of 5,"[{""original"":""The Eagle | price range | high"",""incorrect"":""The Eagle | area of land | high"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""The Eagle | food | Italian"",""incorrect"":""The Eagle | food | Alvinegro"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""The Eagle | near | Burger King"",""incorrect"":""The Eagle | club | Burger King"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""The Eagle | family friendly | yes"",""incorrect"":""The Eagle | family friendly | 0"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",No,No,No,Neither,The Eagle / customer rating / 5 out of 5,The same rating unit is labeled both Omitted and Extra even though the final sentence supports a five-star rating; the malformed rating phrase makes the example unsuitable.,
+audit_180,A016,webnlg_train:12160:3_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,"Abdul Taib Mahmud was born in Miri, Malaysia and was succeeded by Abdul Rahman Ya'kub who was in office whilst Tuanku Bujang Tuanku Othman was Vice President.","Tuanku Bujang Tuanku Othman | in office while vice president | Abdul Rahman Yakub
+Abdul Taib Mahmud | guest of honor | Miri, Malaysia
+Abdul Taib Mahmud | sponsor | Abdul Rahman Yakub","incorrect_triple:swap_1
+incorrect_triple:predicate_2",,,"[{""original"":""Abdul Taib Mahmud | birth place | Miri, Malaysia"",""incorrect"":""Abdul Taib Mahmud | guest of honor | Miri, Malaysia"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Abdul Taib Mahmud | successor | Abdul Rahman Yakub"",""incorrect"":""Abdul Taib Mahmud | sponsor | Abdul Rahman Yakub"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Abdul Rahman Yakub | in office while vice president | Tuanku Bujang Tuanku Othman"",""incorrect"":""Tuanku Bujang Tuanku Othman | in office while vice president | Abdul Rahman Yakub"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The two predicate substitutions and the reversed office relation are correctly labeled.,
+audit_180,A017,e2e_train:8161_neg,e2e_train,Omitted,existing_related_graph,single_construction,The Waterman offer kid-friendly Italian in the riverside area.  The price range is above average and customer ratings are average.,"The Waterman | area | riverside
+The Waterman | customer rating | average
+The Waterman | family friendly | yes
+The Waterman | food | Italian
+The Waterman | price range | moderate
+Alimentum | area | city centre
+Alimentum | eat type | restaurant
+Alimentum | family friendly | no
+Alimentum | price range | less than £20",missing_triple:existing_graph_4,"Alimentum | area | city centre
+Alimentum | eat type | restaurant
+Alimentum | family friendly | no
+Alimentum | price range | less than £20",,[],Yes,Yes,Yes,Both,,The entire added Alimentum graph is absent from the text and is correctly labeled as omitted.,
+audit_180,A018,webnlg_train:3497:1_neg,webnlg_train,Extra,merged_text,multi_construction,"The Albuquerque City Council has a leadership role in Albuquerque, New Mexico, United States and is led by Richard J. Berry. African Americans are an ethnic group within the United States. The Eagle, a Japanese restaurant with a customer rating of 5 out of 5.","United States | ethnic group | Boston
+Massachusetts | country | United States","extra_contents:dropped_2
+extra_contents:merged_unrelated_3
+incorrect_triple:entity_2",,"Albuquerque, New Mexico | leader title | Albuquerque City Council
+Albuquerque City Council | leader | Richard J. Berry
+The Eagle | customer rating | 5 out of 5
+The Eagle | eat type | restaurant
+The Eagle | food | Japanese","[{""original"":""Albuquerque, New Mexico | country | United States"",""incorrect"":""Massachusetts | country | United States"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""United States | ethnic group | African Americans"",""incorrect"":""United States | ethnic group | Boston"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,The merged restaurant content is Extra and both entity substitutions are correctly localized.,
+audit_180,A019,e2e_train:2868_neg,e2e_train,Incorrect,swap,single_construction,There is a coffee shop named Wildwood that serves French food near Ranch. The average rating is 3 out of 5 and it has a high price range.,"Wildwood | customer rating | 3 out of 5
+Wildwood | eat type | coffee shop
+Wildwood | food | French
+Wildwood | near | Ranch
+high | price range | Wildwood",incorrect_triple:swap_1,,,"[{""original"":""Wildwood | price range | high"",""incorrect"":""high | price range | Wildwood"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The reversed price-range unit is a clear non-symmetric direction error.,
+audit_180,A020,e2e_train:5708_neg,e2e_train,Omitted,made_up_triple,multi_construction,"The Rice Boat  is a French  food restaurant located in the city centre, near Express by Holiday Inn. It is family-friendly, cheaply priced and averagely rated.","The Rice Boat | area | city centre
+The Rice Boat | customer rating | average
+The Rice Boat | eat type | restaurant
+The Rice Boat | family friendly | yes
+The Rice Boat | food | French
+The Rice Boat | near | Express by Holiday Inn
+The Rice Boat | price range | less than £20
+The Rice Boat | higher | +0.830
+The Rice Boat | award | Tower Hill
+Fitzbillies | eat type | coffee shop
+Fitzbillies | family friendly | no
+Fitzbillies | food | Indian
+Fitzbillies | price range | cheap","missing_triple:made_up_triple_2
+missing_triple:existing_graph_4","The Rice Boat | higher | +0.830
+The Rice Boat | award | Tower Hill
+Fitzbillies | eat type | coffee shop
+Fitzbillies | family friendly | no
+Fitzbillies | food | Indian
+Fitzbillies | price range | cheap",,[],Yes,Yes,Yes,Both,,Both fabricated Rice Boat units and the unrelated Fitzbillies graph are correctly marked as omitted.,
+audit_180,A021,e2e_train:7212_neg,e2e_train,Extra,dropped,single_construction,Japanese food can be found in the city centre area at The Wrestlers coffee shop.  This average-priced option is not a good location to bring children.  This coffee shop can be found next to Raja Indian Cuisine.,"The Wrestlers | area | city centre
+The Wrestlers | eat type | coffee shop
+The Wrestlers | near | Raja Indian Cuisine",extra_contents:dropped_2,,"The Wrestlers | food | Japanese
+The Wrestlers | price range | moderate",[],Yes,No,Yes,Both,,The removed food and price attributes remain in the text and are correctly marked as Extra.,Reconstructed final rebuttal decision: label_completeness_yes_no changed from Yes to No.
+audit_180,A022,webnlg_train:7027:1_neg,webnlg_train,Extra,dropped,single_construction,"Guiana Space Centre, French Guiana, is the location of the ELA-3 launchpad, operated by Arianespace, located in Courcouronnes. The ELA-3 is where the Ariane 5 was launched.","Arianespace | city | Courcouronnes
+ELA-3 | site | Guiana Space Centre
+Ariane 5 | launch site | ELA-3",extra_contents:dropped_2,,"Guiana Space Centre | location | French Guiana
+ELA-3 | operator | Arianespace",[],Yes,Yes,Yes,Both,,The dropped location and operator units remain explicitly stated in the text and are correctly marked as Extra.,
+audit_180,A023,webnlg_train:10636:1_neg,webnlg_train,Incorrect,entity_replacement,single_construction,"The Port Authority of New York and New Jersey is the operating organisation of Atlantic City International airport., This airport has a runway length of 1873.0 metres and a runway named 13/31.","Atlantic City International Airport | runway length | 00  1847
+Atlantic City International Airport | operating organisation | Port Authority of New York and New Jersey
+Atlantic City International Airport | runway name | 13/31",incorrect_triple:entity_1,,,"[{""original"":""Atlantic City International Airport | runway length | 1873.0"",""incorrect"":""Atlantic City International Airport | runway length | 00  1847"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,The numerical runway-length replacement is a clear entity/value error.,
+audit_180,A024,webnlg_train:1954:1_neg,webnlg_train,Extra,dropped,single_construction,Ajoblanco has almond (of the Rosales order) as one of its ingredients.,Ajoblanco | ingredient | Almond,extra_contents:dropped_1,,Almond | order | Rosales,[],Yes,Yes,Yes,Both,,The Rosales order fact is explicitly stated but absent from the retained data and is correctly marked as Extra.,
+audit_180,A025,webnlg_train:7980:1_neg,webnlg_train,Omitted,made_up_triple,multi_construction,Alan Martin is a footballer for Leeds United FC. Cotto is a high priced coffee shop . It is located in The Portland Arms.,"Leeds United F.C. | club | Alan Martin (footballer)
+Kurt Martin | club | Qatar Stars League","missing_triple:made_up_triple_1
+extra_contents:merged_unrelated_3
+incorrect_triple:swap_1",Kurt Martin | club | Qatar Stars League,"Cotto | eat type | coffee shop
+Cotto | near | The Portland Arms
+Cotto | price range | more than £30","[{""original"":""Alan Martin (footballer) | club | Leeds United F.C."",""incorrect"":""Leeds United F.C. | club | Alan Martin (footballer)"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,"The swapped football-club relation, fabricated omitted unit, and merged restaurant extras are all correctly identified.",
+audit_180,A026,e2e_train:7468_neg,e2e_train,Omitted,made_up_triple,multi_construction,"Alimentum  is a moderate-priced restaurant in the city centre that allows children to enjoy a Chinese dinner. in the riverside area of the city near The Sorrento you can find The Mill, The Mill is a French coffee shop with prices starting at more than £30","Alimentum | eat type | restaurant
+Bacon,sausage | country of origin | Chinese
+Milk | culture | yes","missing_triple:made_up_triple_2
+extra_contents:dropped_4
+extra_contents:merged_unrelated_5","Bacon,sausage | country of origin | Chinese
+Milk | culture | yes","Alimentum | food | Chinese
+Alimentum | family friendly | yes
+Alimentum | price range | moderate
+Alimentum | area | city centre
+The Mill | area | riverside
+The Mill | eat type | coffee shop
+The Mill | food | French
+The Mill | near | The Sorrento
+The Mill | price range | more than £30",[],Yes,Yes,Yes,Both,,The two fabricated omitted units and all unsupported Alimentum and The Mill attributes are correctly covered.,
+audit_180,A027,e2e_train:1765_neg,e2e_train,Extra,dropped,single_construction,In riverside is a fast food restaurant called Blue Spice that has a price range of less than £20.,"Blue Spice | area | riverside
+Blue Spice | food | Fast food",extra_contents:dropped_2,,"Blue Spice | eat type | restaurant
+Blue Spice | price range | less than £20",[],Yes,Yes,Yes,Both,,Restaurant type and price remain explicit in the text after being removed from the data.,
+audit_180,A028,webnlg_train:10604:1_neg,webnlg_train,Incorrect,entity_replacement,single_construction,"Appleton, Wisconsin is part of Grand and Little Chute, Wisconsin; it is served by Appleton International Airport.","Appleton, Wisconsin | is part of | Little Chute, Wisconsin
+Appleton International Airport | city served | Appleton, Wisconsin
+San Jose , California | is part of | Grand Chute, Wisconsin",incorrect_triple:entity_1,,,"[{""original"":""Appleton, Wisconsin | is part of | Grand Chute, Wisconsin"",""incorrect"":""San Jose , California | is part of | Grand Chute, Wisconsin"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,"The substituted subject conflicts with the Appleton statement, while the retained Little Chute and airport units remain supported.",
+audit_180,A029,e2e_train:3222_neg,e2e_train,Omitted,existing_related_graph,single_construction,The family friendly Indian coffee shop The Cricketers is near to The Portland Arms and has a customer rating of 5 out of 5.,"The Cricketers | customer rating | 5 out of 5
+The Cricketers | eat type | coffee shop
+The Cricketers | family friendly | yes
+The Cricketers | food | Indian
+The Cricketers | near | The Portland Arms
+Aromi | area | city centre
+Aromi | food | Fast food",missing_triple:existing_graph_2,"Aromi | area | city centre
+Aromi | food | Fast food",,[],Yes,Yes,Yes,Both,,The additional Aromi units are absent from the text and correctly labeled as omitted.,
+audit_180,A030,webnlg_train:4639:3_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,"The main ingredients of Bionico, a dish from the Guadalajara region of Mexico, are chopped fruits, sour cream, condensed milk, granola, shredded coconut and raisins.","Bionico | temperature | Mexico
+Bionico | parent company | Chopped Fruits, Sour Cream, Condensed Milk, Granola, Shredded Coconut, Raisins
+Guadalajara | region | Bionico
+Bionico | ingredient | Condensed milk","incorrect_triple:swap_1
+incorrect_triple:predicate_2",,,"[{""original"":""Bionico | main ingredient | Chopped Fruits, Sour Cream, Condensed Milk, Granola, Shredded Coconut, Raisins"",""incorrect"":""Bionico | parent company | Chopped Fruits, Sour Cream, Condensed Milk, Granola, Shredded Coconut, Raisins"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Bionico | country | Mexico"",""incorrect"":""Bionico | temperature | Mexico"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Bionico | region | Guadalajara"",""incorrect"":""Guadalajara | region | Bionico"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,Both predicate substitutions and the reversed region relation contradict the text; the retained ingredient unit is supported.,
+audit_180,A031,e2e_train:1647_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,"Green Man, Not family-friendly.  Price Range: less than £20.  Italian Food.  Near All Bar One.  Area is Riverside.","Green Man | area | Road
+Green Man | family friendly | no
+Green Man | food | Italian
+Green Man | commemorates | All Bar One
+Green Man | price range | less than £20","incorrect_triple:entity_1
+incorrect_triple:predicate_1",,,"[{""original"":""Green Man | near | All Bar One"",""incorrect"":""Green Man | commemorates | All Bar One"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Green Man | area | riverside"",""incorrect"":""Green Man | area | Road"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,The area value and near predicate substitutions are clear and completely annotated.,
+audit_180,A032,e2e_train:8035_neg,e2e_train,Omitted,existing_related_graph,single_construction,There is a fast food coffee shop in the city centre called The Golden Palace. It has a 3 out of 5 customer rating.,"The Golden Palace | area | city centre
+The Golden Palace | customer rating | 3 out of 5
+The Golden Palace | eat type | coffee shop
+The Golden Palace | food | Fast food
+The Wrestlers | family friendly | no
+The Wrestlers | price range | moderate
+The Wrestlers | eat type | pub",missing_triple:existing_graph_3,"The Wrestlers | family friendly | no
+The Wrestlers | price range | moderate
+The Wrestlers | eat type | pub",,[],Yes,Yes,Yes,Both,,The added Wrestlers graph is wholly absent from the text.,
+audit_180,A033,e2e_train:3102_neg,e2e_train,Extra,dropped,single_construction,A restaurant called Loch Fyne serves French food at above average prices. The restaurant is not family-friendly.,"Loch Fyne | eat type | restaurant
+Loch Fyne | food | French
+Loch Fyne | price range | moderate",extra_contents:dropped_1,,Loch Fyne | family friendly | no,[],Yes,Yes,Yes,Both,,The family-friendly value remains in the text but is absent from the retained data.,
+audit_180,A034,webnlg_train:11944:2_neg,webnlg_train,Omitted,made_up_triple,single_construction,103 Hera was discovered by James Craig Watson who was a Canadian national who died of peritonitis.,"103 Hera | discoverer | James Craig Watson
+James Craig Watson | nationality | Canada
+James Craig Watson | death cause | Peritonitis
+James Parrott | nationality | South Australia
+Jim Pearson | death cause | 0",missing_triple:made_up_triple_2,"James Parrott | nationality | South Australia
+Jim Pearson | death cause | 0",,[],Yes,Yes,Yes,Both,,Both fabricated biographical units are absent from the text and correctly labeled.,
+audit_180,A035,webnlg_train:61:3_neg,webnlg_train,Extra,dropped,single_construction,"In Iraq, the Al Asad Airbase has a runway length of 3,990 metres.",Al Asad Airbase | runway length | 3990.0,extra_contents:dropped_1,,Al Asad Airbase | location | Iraq,[],Yes,Yes,Yes,Both,,The dropped Iraq location is explicitly stated and correctly labeled as Extra.,
+audit_180,A036,webnlg_train:5537:1_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,A Wizard of Mars was published in English (language of Great Britain) in the United States. The president of the US was previously Barack Obama and many Asian Americans live there. The Phoenix is a cheap restaurant that serves Japanese food in the city centre. It has a customer rating 5 out of 5.,"Barack Obama | leader | United States
+A Wizard of Mars | literary genre | English language
+English language | spoken in | Great Britain
+New York City | ethnic group | Asian Americans
+A Wizard of Mars | city served | United States
+Futurism | allegiance | Asian Americans
+Human rights | lieutenant | Barack Obama","missing_triple:made_up_triple_2
+extra_contents:merged_unrelated_5
+incorrect_triple:swap_1
+incorrect_triple:entity_1
+incorrect_triple:predicate_2","Futurism | allegiance | Asian Americans
+Human rights | lieutenant | Barack Obama","The Phoenix | area | city centre
+The Phoenix | customer rating | 5 out of 5
+The Phoenix | eat type | restaurant
+The Phoenix | food | Japanese
+The Phoenix | price range | cheap","[{""original"":""United States | leader | Barack Obama"",""incorrect"":""Barack Obama | leader | United States"",""error_type"":""swap""},{""original"":""United States | ethnic group | Asian Americans"",""incorrect"":""New York City | ethnic group | Asian Americans"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""A Wizard of Mars | country | United States"",""incorrect"":""A Wizard of Mars | city served | United States"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""A Wizard of Mars | language | English language"",""incorrect"":""A Wizard of Mars | literary genre | English language"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The omitted fabricated units, restaurant extras, and four relation corruptions are consistently annotated.",
+audit_180,A037,e2e_train:7072_neg,e2e_train,Extra,dropped,single_construction,"With great prices and a friendly atmosphere, The Vaults is a great family friendly place serving great Japanese food at low prices.",The Vaults | food | Japanese,extra_contents:dropped_2,,"The Vaults | family friendly | yes
+The Vaults | price range | cheap",[],Yes,Yes,Yes,Both,,Family friendliness and cheap price are explicit in the text and absent from the data.,
+audit_180,A038,e2e_train:6117_neg,e2e_train,Extra,merged_text,multi_construction,The Rice Boat is providing Chinese food in the £20-25 price range. It is located in the city centre. It is near Express by Holiday Inn. Its customer rating is high. The Rice Boat is not a family-friendly  restaurant.,The Rice Boat | customer rating | high,"extra_contents:dropped_4
+extra_contents:merged_unrelated_2",,"The Rice Boat | area | city centre
+The Rice Boat | near | Express by Holiday Inn
+The Rice Boat | price range | £20-25
+The Rice Boat | food | Chinese
+The Rice Boat | eat type | restaurant
+The Rice Boat | family friendly | no",[],Yes,Yes,Yes,Both,,All unsupported Rice Boat attributes are listed; the retained customer rating is supported.,
+audit_180,A039,e2e_train:6487_neg,e2e_train,Incorrect,swap,single_construction,"For reasonable riverside, fast food. visit The Golden Palace coffee shop.","riverside | area | The Golden Palace
+The Golden Palace | eat type | coffee shop
+The Golden Palace | food | Fast food",incorrect_triple:swap_1,,,"[{""original"":""The Golden Palace | area | riverside"",""incorrect"":""riverside | area | The Golden Palace"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The non-symmetric area relation is clearly reversed.,
+audit_180,A040,webnlg_train:12897:2_neg,webnlg_train,Extra,merged_text,multi_construction,Batchoy is eaten in the Philippines where the language used is Philippine Spanish and one of the ethnic groups are the Zamboangans. on city centre there is a pub that sells Italian named The Waterman food has a high price and close to Raja Indian Cuisine,"Philippines | ethnic group | Zamboangans
+Philippines | language | Philippine Spanish","extra_contents:dropped_1
+extra_contents:merged_unrelated_5",,"Batchoy | country | Philippines
+The Waterman | area | city centre
+The Waterman | eat type | pub
+The Waterman | food | Italian
+The Waterman | near | Raja Indian Cuisine
+The Waterman | price range | high",[],Yes,Yes,Yes,Both,,The Batchoy country fact and all Waterman attributes are unsupported by the retained data and fully listed.,
+audit_180,A041,webnlg_train:1339:1_neg,webnlg_train,Omitted,made_up_triple,multi_construction,The escape velocity of 1089 Tama is 0.0068 km/sec and has an apoapsis of 373513000.0 kilometres.,"373513000.0 (kilometres) | apoapsis | 1089 Tama
+9 | time of spacecraft launch | 0.0068 (kilometrePerSeconds)
++419 | apoapsis | +144","missing_triple:made_up_triple_2
+extra_contents:dropped_1
+incorrect_triple:swap_1","9 | time of spacecraft launch | 0.0068 (kilometrePerSeconds)
++419 | apoapsis | +144",1089 Tama | escape velocity | 0.0068 (kilometrePerSeconds),"[{""original"":""1089 Tama | apoapsis | 373513000.0 (kilometres)"",""incorrect"":""373513000.0 (kilometres) | apoapsis | 1089 Tama"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,"The apoapsis swap, fabricated omitted units, and dropped escape-velocity unit are correctly separated.",
+audit_180,A042,webnlg_train:12279:2_neg,webnlg_train,Incorrect,entity_replacement,single_construction,"Albert B White was born 1856-09-22 and died in Parkersburg, West Virginia.","Albert B. White | birth year | 1856
+Brett White | birth date | 1856-09-22
+Al Green | death place | Parkersburg, West Virginia",incorrect_triple:entity_2,,,"[{""original"":""Albert B. White | death place | Parkersburg, West Virginia"",""incorrect"":""Al Green | death place | Parkersburg, West Virginia"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""Albert B. White | birth date | 1856-09-22"",""incorrect"":""Brett White | birth date | 1856-09-22"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,Both substituted person entities conflict with the text; the retained birth-year unit remains supported.,
+audit_180,A043,e2e_train:6326_neg,e2e_train,Omitted,made_up_triple,multi_construction,Wildwood is a pub that serves sushi.  They are high priced and are rated 3 out of 5. Cotto is in the high price range.  It has an excellent rating.  It is located near The Portland Arms.,"Wildwood | customer rating | 3 out of 5
+Wildwood | eat type | pub
+high | price range | Wildwood
+Linwood College | comparable | 3 out of 5
+Rochdale | price range | Cat
+Fitzbillies | eat type | coffee shop
+Fitzbillies | area | riverside
+Fitzbillies | customer rating | high","missing_triple:made_up_triple_2
+missing_triple:existing_graph_3
+extra_contents:merged_unrelated_3
+incorrect_triple:swap_1","Linwood College | comparable | 3 out of 5
+Rochdale | price range | Cat
+Fitzbillies | eat type | coffee shop
+Fitzbillies | area | riverside
+Fitzbillies | customer rating | high","Cotto | customer rating | high
+Cotto | near | The Portland Arms
+Cotto | price range | more than £30","[{""original"":""Wildwood | price range | high"",""incorrect"":""high | price range | Wildwood"",""error_type"":""swap""}]",Yes,No,Yes,Both,Wildwood | food | sushi,"The listed errors are valid, but the unsupported Wildwood food value is not included among the Extra units.",
+audit_180,A044,e2e_train:726_neg,e2e_train,Extra,merged_text,multi_construction,Cocum is a coffee shop providing Indian food in the more than £30 price range. Its customer rating is high. Bibimbap House offers Japanese food in the high price range. It is near Clare Hall in the riverside area.,"coffee shop | eat type | Cocum
+Cocum | price range | more than £30
+Cultivar | outlook ranking | high","missing_triple:made_up_triple_1
+extra_contents:dropped_2
+extra_contents:merged_unrelated_4
+incorrect_triple:swap_1",Cultivar | outlook ranking | high,"Cocum | customer rating | high
+Cocum | food | Indian
+Bibimbap House | area | riverside
+Bibimbap House | food | Japanese
+Bibimbap House | near | Clare Hall
+Bibimbap House | price range | high","[{""original"":""Cocum | eat type | coffee shop"",""incorrect"":""coffee shop | eat type | Cocum"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,"The Cocum swap, fabricated omitted unit, and unsupported Cocum/Bibimbap attributes are correctly covered.",
+audit_180,A045,webnlg_train:339:2_neg,webnlg_train,Extra,merged_text,multi_construction,A Glastonbury Romance has 1174 pages and the ISBN number 0-7156-3648-0. The Eagle is children friendly in the riverside area near Café Brazil,A Glastonbury Romance | national register of historic places reference number | 0-7156-3648-0,"extra_contents:dropped_1
+extra_contents:merged_unrelated_3
+incorrect_triple:predicate_1",,"A Glastonbury Romance | number of pages | 1174
+The Eagle | area | riverside
+The Eagle | family friendly | yes
+The Eagle | near | Café Brazil","[{""original"":""A Glastonbury Romance | isbn number | 0-7156-3648-0"",""incorrect"":""A Glastonbury Romance | national register of historic places reference number | 0-7156-3648-0"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The ISBN predicate corruption, dropped page count, and merged Eagle facts are all correctly annotated.",
+audit_180,A046,e2e_train:3012_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,"Near the Yippee Noodle Bar is a Fast food place called Alimentum and is on the riverside, serves fast food, and also has a customer rating of 1 out of 5.","Alimentum | elevation above sea level | riverside
+Alimentum | customer rating | 1C1 3900
+Alimentum | food | Fast food
+Yippee Noodle Bar | near | Alimentum","incorrect_triple:entity_1
+incorrect_triple:predicate_1",,,"[{""original"":""Alimentum | area | riverside"",""incorrect"":""Alimentum | elevation above sea level | riverside"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Alimentum | customer rating | 1 out of 5"",""incorrect"":""Alimentum | customer rating | 1C1 3900"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,The area predicate and rating value substitutions are clear; the near relation is symmetric and correctly retained.,
+audit_180,A047,webnlg_train:11166:1_neg,webnlg_train,Omitted,made_up_triple,single_construction,"Amdavad ni Gufa was completed in 1995 and is located in Gujarat, India.","Amdavad ni Gufa | location | Gujarat
+Amdavad ni Gufa | country | India
+Amdavad ni Gufa | completion date | 1995
+Gudem Kotha Veedhi | total production | 1995",missing_triple:made_up_triple_1,Gudem Kotha Veedhi | total production | 1995,,[],Yes,Yes,Yes,Both,,The fabricated production unit is absent from an otherwise aligned example.,
+audit_180,A048,webnlg_train:12387:2_neg,webnlg_train,Extra,dropped,single_construction,"Albert B. White died in Parkersburg, West Virginia, United States and was succeeded by William M.O. Dawson.",Albert B. White | successor | William M. O. Dawson,extra_contents:dropped_2,,"Albert B. White | death place | Parkersburg, West Virginia
+Parkersburg, West Virginia | country | United States",[],Yes,Yes,Yes,Both,,Death place and nested country information remain explicit after being dropped from the data.,
+audit_180,A049,e2e_train:6628_neg,e2e_train,Omitted,made_up_triple,multi_construction,Aromi is a city centre coffee shop offering Japanese meals. It has a low rating and does not welcome families.,"Aromi | place of birth | city centre
+Neemi | eat type | coffee shop
+Aromi | family friendly | no
+Soy | customer rating | +37 metre","missing_triple:made_up_triple_1
+extra_contents:dropped_2
+incorrect_triple:entity_1
+incorrect_triple:predicate_1",Soy | customer rating | +37 metre,"Aromi | food | Japanese
+Aromi | customer rating | low","[{""original"":""Aromi | eat type | coffee shop"",""incorrect"":""Neemi | eat type | coffee shop"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""Aromi | area | city centre"",""incorrect"":""Aromi | place of birth | city centre"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The fabricated omitted unit, two substitutions, and two dropped Aromi attributes are all covered.",
+audit_180,A050,e2e_train:7831_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,"The Phoenix, located in the city centre, offers English food at a range of £20-25.","The Phoenix | height | city centre
+Arizona Dream | food | English
+The Cartoon | price range | £20-25","incorrect_triple:entity_2
+incorrect_triple:predicate_1",,,"[{""original"":""The Phoenix | area | city centre"",""incorrect"":""The Phoenix | height | city centre"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""The Phoenix | food | English"",""incorrect"":""Arizona Dream | food | English"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Phoenix | price range | £20-25"",""incorrect"":""The Cartoon | price range | £20-25"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,One predicate and two subject substitutions contradict the text and exhaust the mismatches.,
+audit_180,A051,webnlg_train:2897:3_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,"1634 The Ram Rebellion was written in the United States. The leader of the country is known as the President, the capital city is Washington DC and the population includes many Asian Americans. Giraffe is a restaurant, located near the Rainbow Vegetarian Café on the river.  It is not family friendly.","United States | leader title | Governor
+United States | revenue | Washington, D.C.
+United States | country | 1634: The Ram Rebellion
+00  1776 | main subject | United States
+Human rights | capital | Texas Longhorns","missing_triple:made_up_triple_2
+extra_contents:dropped_1
+extra_contents:merged_unrelated_4
+incorrect_triple:swap_1
+incorrect_triple:entity_1
+incorrect_triple:predicate_1","00  1776 | main subject | United States
+Human rights | capital | Texas Longhorns","United States | ethnic group | Asian Americans
+Giraffe | area | riverside
+Giraffe | eat type | restaurant
+Giraffe | family friendly | no
+Giraffe | near | Rainbow Vegetarian Café","[{""original"":""1634: The Ram Rebellion | country | United States"",""incorrect"":""United States | country | 1634: The Ram Rebellion"",""error_type"":""swap""},{""original"":""United States | leader title | President of the United States"",""incorrect"":""United States | leader title | Governor"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""United States | capital | Washington, D.C."",""incorrect"":""United States | revenue | Washington, D.C."",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The omitted fabricated units, ethnic/restaurant extras, swap, value replacement, and predicate replacement are consistently annotated.",
+audit_180,A052,webnlg_train:8936:2_neg,webnlg_train,Incorrect,entity_replacement,single_construction,Agra airport is located in India.,Aldan Airport | location | India,incorrect_triple:entity_1,,,"[{""original"":""Agra Airport | location | India"",""incorrect"":""Aldan Airport | location | India"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,The airport subject replacement is a clear entity error.,
+audit_180,A053,e2e_train:4913_neg,e2e_train,Incorrect,swap,single_construction,In the city centre near to The Sorrento is a Chinese called Browns Cambridge. It is very family friendly.,"Browns Cambridge | area | city centre
+yes | family friendly | Browns Cambridge
+Browns Cambridge | food | Chinese
+Browns Cambridge | near | The Sorrento",incorrect_triple:swap_1,,,"[{""original"":""Browns Cambridge | family friendly | yes"",""incorrect"":""yes | family friendly | Browns Cambridge"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The family-friendly slot-value relation is non-symmetric and clearly reversed.,
+audit_180,A054,e2e_train:3548_neg,e2e_train,Incorrect,swap,single_construction,"The Waterman is a cheap, non family-friendly Indian restaurant located near the riverside. The customer rating for this restaurant is average.","The Waterman | area | riverside
+The Waterman | eat type | restaurant
+The Waterman | family friendly | no
+Indian | food | The Waterman
+The Waterman | price range | cheap",incorrect_triple:swap_1,,,"[{""original"":""The Waterman | food | Indian"",""incorrect"":""Indian | food | The Waterman"",""error_type"":""swap""}]",Yes,No,Yes,Both,The Waterman | customer rating | average,"The food swap is valid, but the average customer rating is expressed in the text and absent from both data and Extra labels.",
+audit_180,A055,webnlg_train:12903:3_neg,webnlg_train,Omitted,made_up_triple,multi_construction,"Philippines is the country Batchoy comes from, in this country there is a ethnic group called Ilocano and they speak Philippine English.","Philippine English | language | Philippines
+Batchoy | country | Philippines
+Philippines | ethnic group | Ilocano people
+Flibbertigibbet | country | Katowice","missing_triple:made_up_triple_1
+incorrect_triple:swap_1",Flibbertigibbet | country | Katowice,,"[{""original"":""Philippines | language | Philippine English"",""incorrect"":""Philippine English | language | Philippines"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The language relation is reversed and the fabricated country unit is absent from the text.,
+audit_180,A056,e2e_train:5420_neg,e2e_train,Extra,merged_text,multi_construction,Near Avalon there is a coffee shop named Blue Spice. It is family friendly and has an average customer rating. The price range is high. Try Blue Spice in the riverside area for great Chinese food less that £20.,"Blue Spice | customer rating | average
+Blue Spice | language | coffee shop
+Blue Spice | food | yes
+Blue Spice | near | Avalon
+Blue Spice | price range | high","extra_contents:merged_unrelated_2
+incorrect_triple:predicate_2",,"Blue Spice | area | riverside
+Blue Spice | food | Chinese","[{""original"":""Blue Spice | eat type | coffee shop"",""incorrect"":""Blue Spice | language | coffee shop"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Blue Spice | family friendly | yes"",""incorrect"":""Blue Spice | food | yes"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,No,No,Neither,Blue Spice | price range | less than £20,"The listed errors are valid, but the merged descriptions assign both high and less-than-£20 prices to the same restaurant and the latter is not annotated.",
+audit_180,A057,webnlg_train:2052:1_neg,webnlg_train,Extra,merged_text,multi_construction,"Bacon Explosion includes sausage and bacon. On the riverside is The Waterman offering fast food. It is children friend, but rather expensive and only as a 1 out of 5 customer rating.","Bacon Explosion | main ingredient | Bacon,sausage","extra_contents:dropped_1
+extra_contents:merged_unrelated_4",,"Bacon Explosion | ingredient | Bacon
+The Waterman | area | riverside
+The Waterman | customer rating | 1 out of 5
+The Waterman | food | Fast food
+The Waterman | price range | high",[],No,No,No,Neither,Bacon Explosion | ingredient | Bacon,"The retained aggregate main-ingredient unit already covers bacon and sausage, making the separate Bacon Extra label semantically redundant and leaving an asymmetric treatment of sausage.",
+audit_180,A058,webnlg_train:1895:2_neg,webnlg_train,Omitted,made_up_triple,single_construction,Alessio Romagnoli is with the club U.C. Sampdoria. He is part of the club which is Italy's national under 19 football team.,"Alessio Romagnoli | club | Italy national under-19 football team
+Alessio Romagnoli | club | U.C. Sampdoria
+Alessio Romagnoli | essex county cricket club | Rancho Cucamonga Quakes
+Mariusz Lewandowski | club | Kosovo national football team",missing_triple:made_up_triple_2,"Alessio Romagnoli | essex county cricket club | Rancho Cucamonga Quakes
+Mariusz Lewandowski | club | Kosovo national football team",,[],Yes,Yes,Yes,Both,,Both fabricated football relations are absent from the text.,
+audit_180,A059,webnlg_train:6800:1_neg,webnlg_train,Extra,dropped,single_construction,"Indian people are from the country India, where Sumitra Mahajan and Narendra Modi are leaders. Bhajji originates from the Karnataka region of India.",Bhajji | region | Karnataka,extra_contents:dropped_4,,"India | demonym | Indian people
+India | leader | Sumitra Mahajan
+India | leader | Narendra Modi
+Bhajji | country | India",[],Yes,Yes,Yes,Both,,All four dropped facts are explicitly stated in the text and absent from the retained data.,
+audit_180,A060,e2e_train:2641_neg,e2e_train,Omitted,existing_related_graph,single_construction,The Waterman is an average Italian pub in the city centre.,"The Waterman | area | city centre
+The Waterman | eat type | pub
+The Waterman | food | Italian
+Fitzbillies | food | Indian
+Fitzbillies | area | riverside
+Fitzbillies | price range | cheap",missing_triple:existing_graph_3,"Fitzbillies | food | Indian
+Fitzbillies | area | riverside
+Fitzbillies | price range | cheap",,[],Yes,No,Yes,Both,The Waterman | customer rating | average,"The added Fitzbillies units are valid omissions, but the text also expresses an average rating absent from the data and labels.",
+audit_180,A061,webnlg_train:4818:2_neg,webnlg_train,Omitted,made_up_triple,multi_construction,"The ALCO RS-3, built by the American Locomotive Company, has a four-stroke engine and is 17068.8mm long. It was produced from May 1950 to August 1956.","ALCO RS-3 | builder | American Locomotive Company
+ALCO RS-3 | length | 17068.8 (millimetres)
+ALCO RS-3 | build date | May 1950 - August 1956
+NER Bogie Tank Passenger | build date | 00 February 1948
+Southern Pacific 4294 | builder | A&M Records, Inc.","missing_triple:made_up_triple_2
+extra_contents:dropped_1","NER Bogie Tank Passenger | build date | 00 February 1948
+Southern Pacific 4294 | builder | A&M Records, Inc.",ALCO RS-3 | engine | Four-stroke engine,[],Yes,Yes,Yes,Both,,"The fabricated omitted units, dropped engine fact, and retained locomotive facts are consistently annotated.",
+audit_180,A062,webnlg_train:1740:1_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,Both Aaron S. Daggett and Robert .E. Lee (commander) were at the Battle of Antietam.,"Robert E. Lee | commander | Battle of Antietam
+Aaron S. Daggett | student | Battle of Antietam","incorrect_triple:swap_1
+incorrect_triple:predicate_1",,,"[{""original"":""Battle of Antietam | commander | Robert E. Lee"",""incorrect"":""Robert E. Lee | commander | Battle of Antietam"",""error_type"":""swap""},{""original"":""Aaron S. Daggett | battle | Battle of Antietam"",""incorrect"":""Aaron S. Daggett | student | Battle of Antietam"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,The battle relation and commander relation are each corrupted in a way directly contradicted by the text.,
+audit_180,A063,e2e_train:5021_neg,e2e_train,Incorrect,swap,single_construction,Located riverside near Burger King you will find The Eagle coffee shop offering Indian food. They have a customer rating of 1 out of 5 and are price ranged high. They are not children friendly.,"The Eagle | area | riverside
+The Eagle | customer rating | 1 out of 5
+coffee shop | eat type | The Eagle
+The Eagle | family friendly | no
+The Eagle | food | Indian
+The Eagle | near | Burger King
+The Eagle | price range | high",incorrect_triple:swap_1,,,"[{""original"":""The Eagle | eat type | coffee shop"",""incorrect"":""coffee shop | eat type | The Eagle"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The non-symmetric eat-type slot is clearly reversed.,
+audit_180,A064,webnlg_train:12039:1_neg,webnlg_train,Omitted,made_up_triple,multi_construction,"The BBC broadcast Bananaman, which was first aired on 10/03/1983 and starred Tim Brooke-Taylor. Fitzbillies is an English coffee shop with a moderate price range. Located in the city centre, Fitzbillies is not child friendly and boasts a customer rating of 3 out of 5.","Bananaman | starring | Tim Brooke-Taylor
+Bananaman | broadcasted by | BBC
+Bananaman | first aired | 1983-10-03
+Bananaman | members have occupation | Hamish Scott","missing_triple:made_up_triple_1
+extra_contents:merged_unrelated_6",Bananaman | members have occupation | Hamish Scott,"Fitzbillies | area | city centre
+Fitzbillies | customer rating | 3 out of 5
+Fitzbillies | eat type | coffee shop
+Fitzbillies | family friendly | no
+Fitzbillies | food | English
+Fitzbillies | price range | moderate",[],Yes,Yes,Yes,Both,,The fabricated Bananaman unit is omitted and all merged Fitzbillies facts are correctly marked Extra.,
+audit_180,A065,webnlg_train:3475:1_neg,webnlg_train,Incorrect,entity_replacement,single_construction,"In the United States, Washington, D.C. is the capital and English is spoken. It is also the country where Abilene (Taylor County, Texas) is located.","United States | capital | Washington, D.C.
+Abilene, Texas | is part of | Taylor County, Texas
+Alma , Texas | country | United States
+Northeastern University | language | English language",incorrect_triple:entity_2,,,"[{""original"":""United States | language | English language"",""incorrect"":""Northeastern University | language | English language"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""Abilene, Texas | country | United States"",""incorrect"":""Alma , Texas | country | United States"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,"Both subject substitutions conflict with the stated country, language, and location relations.",
+audit_180,A066,e2e_train:132_neg,e2e_train,Incorrect,swap,single_construction,The Loch Fyne is a family friendly Japanese restaurant in the less than £20 price range.,"Loch Fyne | eat type | restaurant
+Loch Fyne | family friendly | yes
+Loch Fyne | food | Japanese
+less than £20 | price range | Loch Fyne",incorrect_triple:swap_1,,,"[{""original"":""Loch Fyne | price range | less than £20"",""incorrect"":""less than £20 | price range | Loch Fyne"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The price-range slot-value relation is clearly reversed.,
+audit_180,A067,webnlg_train:4814:1_neg,webnlg_train,Extra,merged_text,multi_construction,The American Locomotive Company built the ALCO RS-3 which has a four-stroke engine. It also has a diesel-electric transmission and is 17068.8 (millimetres) in length. Browns Cambridge is in the city centre near The Sorrento.  They serve French food but are not family-friendly.,"ALCO RS-3 | builder | Great Northern Railway ( U.S. )
+ALCO RS-3 | engine | Mid-size car
+ALCO RS-3 | power type | commercial vehicle manufacturer","extra_contents:dropped_1
+extra_contents:merged_unrelated_4
+incorrect_triple:entity_3",,"ALCO RS-3 | length | 17068.8 (millimetres)
+Browns Cambridge | area | city centre
+Browns Cambridge | family friendly | no
+Browns Cambridge | food | French
+Browns Cambridge | near | The Sorrento","[{""original"":""ALCO RS-3 | builder | American Locomotive Company"",""incorrect"":""ALCO RS-3 | builder | Great Northern Railway ( U.S. )"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""ALCO RS-3 | engine | Four-stroke engine"",""incorrect"":""ALCO RS-3 | engine | Mid-size car"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""ALCO RS-3 | power type | Diesel-electric transmission"",""incorrect"":""ALCO RS-3 | power type | commercial vehicle manufacturer"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,Three value substitutions and all unsupported ALCO/Browns facts are covered.,
+audit_180,A068,webnlg_train:34:2_neg,webnlg_train,Extra,merged_text,multi_construction,Adolfo Suarez Madrid-Barajas Airport is located in San Sebastian de los Reyes and its runway is 4349 metres long. Cotto provides Chinese food. It is near Ranch. Its customer rating is 3 out of 5.,Adolfo Suárez Madrid–Barajas Airport | runway length | 4349.0,"extra_contents:dropped_1
+extra_contents:merged_unrelated_3",,"Adolfo Suárez Madrid–Barajas Airport | location | San Sebastián de los Reyes
+Cotto | customer rating | 3 out of 5
+Cotto | food | Chinese
+Cotto | near | Ranch",[],Yes,Yes,Yes,Both,,The airport location and all Cotto facts remain in the text after being removed from the data.,
+audit_180,A069,webnlg_train:1517:2_neg,webnlg_train,Extra,dropped,single_construction,"Awarded the Purple Heart, Aaron S. Daggett, was part of a number of battles, including, the Battle of the Wilderness.",Aaron S. Daggett | award | Purple Heart,extra_contents:dropped_1,,Aaron S. Daggett | battle | Battle of the Wilderness,[],Yes,Yes,Yes,Both,,The dropped battle relation is explicit in the text.,
+audit_180,A070,e2e_train:4273_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,"The Phoenix is a cheap restaurant, located in the city centre, that serves Indian food and has an average customer rating.","The Phoenix | area | Modern architecture
+Apollyon Sun | customer rating | average
+restaurant | eat type | The Phoenix
+The Phoenix | season | Indian
+The Phoenix | height | cheap
+Soho Theatre | area | India Square
+Grand Canyon | color | restaurant","missing_triple:made_up_triple_2
+incorrect_triple:swap_1
+incorrect_triple:entity_2
+incorrect_triple:predicate_2","Soho Theatre | area | India Square
+Grand Canyon | color | restaurant",,"[{""original"":""The Phoenix | price range | cheap"",""incorrect"":""The Phoenix | height | cheap"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""The Phoenix | eat type | restaurant"",""incorrect"":""restaurant | eat type | The Phoenix"",""error_type"":""swap""},{""original"":""The Phoenix | customer rating | average"",""incorrect"":""Apollyon Sun | customer rating | average"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Phoenix | food | Indian"",""incorrect"":""The Phoenix | season | Indian"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""The Phoenix | area | city centre"",""incorrect"":""The Phoenix | area | Modern architecture"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,All Phoenix corruptions and both fabricated omitted units are correctly identified.,
+audit_180,A071,e2e_train:2792_neg,e2e_train,Incorrect,swap,single_construction,The Cricketers is located near All Bar One. It serves fast food.,"Fast food | food | The Cricketers
+The Cricketers | near | All Bar One",incorrect_triple:swap_1,,,"[{""original"":""The Cricketers | food | Fast food"",""incorrect"":""Fast food | food | The Cricketers"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The food relation is non-symmetric and clearly reversed.,
+audit_180,A072,webnlg_train:2491:2_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,"Abilene, Texas is served by the Abilene Regional Airport whose runway name is 17L/35R. The airport is 546 meters above sea level and 2194 meters in length.","Abilene, Texas | city served | Abilene Regional Airport
+Abilene Regional Airport | transport aircraft | 2194.0
+Abilene Regional Airport | elevation above the sea level | 00  1818
+Abilene Regional Airport | runway name | 17L/35R","incorrect_triple:swap_1
+incorrect_triple:entity_1
+incorrect_triple:predicate_1",,,"[{""original"":""Abilene Regional Airport | city served | Abilene, Texas"",""incorrect"":""Abilene, Texas | city served | Abilene Regional Airport"",""error_type"":""swap""},{""original"":""Abilene Regional Airport | elevation above the sea level | 546"",""incorrect"":""Abilene Regional Airport | elevation above the sea level | 00  1818"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""Abilene Regional Airport | runway length | 2194.0"",""incorrect"":""Abilene Regional Airport | transport aircraft | 2194.0"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The city-served swap, elevation value replacement, and runway predicate replacement are all valid.",
+audit_180,A073,e2e_train:1686_neg,e2e_train,Incorrect,swap,single_construction,"The Loch Fyne, a French restaurant, is child friendly, and prices are usually more than £30.","restaurant | eat type | Loch Fyne
+Loch Fyne | family friendly | yes
+Loch Fyne | food | French
+Loch Fyne | price range | more than £30",incorrect_triple:swap_1,,,"[{""original"":""Loch Fyne | eat type | restaurant"",""incorrect"":""restaurant | eat type | Loch Fyne"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The eat-type relation is clearly reversed.,
+audit_180,A074,webnlg_train:566:1_neg,webnlg_train,Incorrect,entity_replacement,single_construction,"The 3Arena, designed by the company Populous, is located at East Link Bridge.","3Arena | location | East Link Bridge
+3Arena | architect | GMA Network (company)",incorrect_triple:entity_1,,,"[{""original"":""3Arena | architect | Populous (company)"",""incorrect"":""3Arena | architect | GMA Network (company)"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,The architect replacement directly conflicts with the text.,
+audit_180,A075,e2e_train:8733_neg,e2e_train,Extra,merged_text,multi_construction,Alimentum serves Indian food with a price range of less than £20. It is on the riverside and is family friendly. Strada pub near Yippee Noodle Bar sells French food and customer rating is cheap,"Alimentum | area | riverside
+Alimentum | family friendly | yes
+Alimentum | food | Indian
+Alimentum | price range | less than £20
+Alimentum | eat type | restaurant
+Alimentum | near | Yippee Noodle Bar","missing_triple:existing_graph_2
+extra_contents:merged_unrelated_4","Alimentum | eat type | restaurant
+Alimentum | near | Yippee Noodle Bar","Strada | eat type | pub
+Strada | food | French
+Strada | near | Yippee Noodle Bar
+Strada | price range | cheap",[],No,No,Yes,Both,Strada | price range | cheap,"The merged Strada clause says its customer rating is cheap, so the annotated price-range Extra is not cleanly supported by the actual wording.",
+audit_180,A076,e2e_train:8586_neg,e2e_train,Extra,merged_text,multi_construction,"Near the Rainbow Vegetarian Café is a restaurant called The Rice Boat, it has a 5 out of 5 customer rating but costs more than £30. The Rice Boat serves up average Indian food in a family-friendly environment in the riverside area.","The Rice Boat | customer rating | 5 out of 5
+Lake | eat type | restaurant
+The Rice Boat | near | Rainbow Vegetarian Café
+The Rice Boat | price range | more than £30","extra_contents:merged_unrelated_3
+incorrect_triple:entity_1",,"The Rice Boat | area | riverside
+The Rice Boat | family friendly | yes
+The Rice Boat | food | Indian","[{""original"":""The Rice Boat | eat type | restaurant"",""incorrect"":""Lake | eat type | restaurant"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,The Rice Boat entity replacement and all three unsupported attributes are correctly covered.,
+audit_180,A077,webnlg_train:5542:3_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,"1634: The Ram Rebellion was written after 1634: The Galileo Affair and comes from the United States. Native Americans are one of the ethnic groups of the United States where the capital city is Washington D.C., and Barack Obama is the president.","United States | ranking | Barack Obama
+Washington, D.C. | capital | United States
+The Quest for Saint Camber | country | United States
+United States | territory claimed by | Native Americans in the United States
+1634: The Ram Rebellion | abbreviation | 1634: The Galileo Affair","incorrect_triple:swap_1
+incorrect_triple:entity_1
+incorrect_triple:predicate_3",,,"[{""original"":""1634: The Ram Rebellion | preceded by | 1634: The Galileo Affair"",""incorrect"":""1634: The Ram Rebellion | abbreviation | 1634: The Galileo Affair"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""United States | ethnic group | Native Americans in the United States"",""incorrect"":""United States | territory claimed by | Native Americans in the United States"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""United States | capital | Washington, D.C."",""incorrect"":""Washington, D.C. | capital | United States"",""error_type"":""swap""},{""original"":""1634: The Ram Rebellion | country | United States"",""incorrect"":""The Quest for Saint Camber | country | United States"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""United States | leader | Barack Obama"",""incorrect"":""United States | ranking | Barack Obama"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,All five relation corruptions are directly contradicted by the text.,
+audit_180,A078,webnlg_train:2105:3_neg,webnlg_train,Extra,dropped,single_construction,Fried egg is an ingredient of Bandeja paisa which is a dish from Colombian cuisine.,Bandeja paisa | ingredient | Fried egg,extra_contents:dropped_1,,Bandeja paisa | country | Colombian cuisine,[],No,No,Yes,Both,Bandeja paisa | country | Colombian cuisine,The text expresses membership in Colombian cuisine rather than a country relation with Colombian cuisine as its object.,
+audit_180,A079,webnlg_train:6888:1_neg,webnlg_train,Extra,merged_text,multi_construction,"The United Kingdom is led by David Cameron. Among popular sandwiches in the U.K. are bacon sandwiches, which has brown sauce as one of its ingredients. The BLT is one type of a bacon club sandwich. Cotto is near Ranch and is child-friendly. It serves Italian food and has a rating of 1 out of 5.","Bacon sandwich | dish variation | Associated British Foods
+Bacon sandwich | type | Brown sauce
+Bacon sandwich | country | United Kingdom","extra_contents:dropped_2
+extra_contents:merged_unrelated_4
+incorrect_triple:entity_1
+incorrect_triple:predicate_1",,"BLT | dish variation | Club sandwich
+United Kingdom | leader | David Cameron
+Cotto | customer rating | 1 out of 5
+Cotto | family friendly | yes
+Cotto | food | Italian
+Cotto | near | Ranch","[{""original"":""Bacon sandwich | dish variation | BLT"",""incorrect"":""Bacon sandwich | dish variation | Associated British Foods"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""Bacon sandwich | ingredient | Brown sauce"",""incorrect"":""Bacon sandwich | type | Brown sauce"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The two sandwich corruptions and all unsupported leader, BLT, and Cotto facts are covered.",
+audit_180,A080,webnlg_train:11012:2_neg,webnlg_train,Extra,merged_text,multi_construction,"The red granite and white marble Baku Turkish Martyrs memorial, the native name being Turk Sehitleri Aniti, is found in Azerbaijan. The Waterman is in the riverside area and serves cheap Chinese food and is family friendly but it has a customer rating of average.","Baku Turkish Martyrs Memorial | native name | Türk Şehitleri Anıtı
+Baku Turkish Martyrs Memorial | material | Red granite and white marble","extra_contents:dropped_1
+extra_contents:merged_unrelated_5",,"Baku Turkish Martyrs Memorial | location | Azerbaijan
+The Waterman | area | riverside
+The Waterman | customer rating | average
+The Waterman | family friendly | yes
+The Waterman | food | Chinese
+The Waterman | price range | cheap",[],Yes,Yes,Yes,Both,,The memorial location and all Waterman attributes are explicit but absent from the retained data.,
+audit_180,A081,e2e_train:3675_neg,e2e_train,Omitted,existing_related_graph,single_construction,The Rice Boat is located near Rainbow Vegetarian Café. It has a low customer rating and a price range of more than £30.,"The Rice Boat | customer rating | low
+The Rice Boat | near | Rainbow Vegetarian Café
+The Rice Boat | price range | more than £30
+The Wrestlers | eat type | restaurant
+The Wrestlers | family friendly | yes
+The Wrestlers | food | French
+The Wrestlers | price range | less than £20",missing_triple:existing_graph_4,"The Wrestlers | eat type | restaurant
+The Wrestlers | family friendly | yes
+The Wrestlers | food | French
+The Wrestlers | price range | less than £20",,[],Yes,Yes,Yes,Both,,The added Wrestlers graph is wholly absent from the text.,
+audit_180,A082,webnlg_train:11769:1_neg,webnlg_train,Omitted,made_up_triple,single_construction,"Alfred Garth Jones died in Sidcup, London (which has European Parliament as leader).","Alfred Garth Jones | death place | Sidcup
+Alfred Garth Jones | death place | London
+London | leader title | European Parliament
+Tommy Lee Jones | death place | South Shields",missing_triple:made_up_triple_1,Tommy Lee Jones | death place | South Shields,,[],Yes,Yes,Yes,Both,,The fabricated death-place unit is absent from the text.,
+audit_180,A083,e2e_train:8941_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,"The Golden Curry is located at the city centre, near Café Rouge. It offers Fast food, and a non-family-friendly atmosphere. Rated average.","The Golden Curry | area | city centre
+The Golden Curry | customer rating | average
+The Golden Curry | genre | no
+Fast food | food | The Golden Curry
+gold mine | near | Café Rouge","incorrect_triple:swap_1
+incorrect_triple:entity_1
+incorrect_triple:predicate_1",,,"[{""original"":""The Golden Curry | near | Café Rouge"",""incorrect"":""gold mine | near | Café Rouge"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Golden Curry | food | Fast food"",""incorrect"":""Fast food | food | The Golden Curry"",""error_type"":""swap""},{""original"":""The Golden Curry | family friendly | no"",""incorrect"":""The Golden Curry | genre | no"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The near-subject replacement, food swap, and family-friendly predicate replacement are clear.",
+audit_180,A084,webnlg_train:8889:1_neg,webnlg_train,Incorrect,entity_replacement,single_construction,Aarhus Airport is located in Tirstrup.,Aarhus Airport | location | Hellerup IK,incorrect_triple:entity_1,,,"[{""original"":""Aarhus Airport | location | Tirstrup"",""incorrect"":""Aarhus Airport | location | Hellerup IK"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,The airport location value is clearly replaced.,
+audit_180,A085,e2e_train:2733_neg,e2e_train,Extra,dropped,single_construction,"The 5-star, family-friendly coffee shop, Fitzbillies, is located near the river and offers low-priced fare.","Fitzbillies | area | riverside
+Fitzbillies | family friendly | yes",extra_contents:dropped_3,,"Fitzbillies | price range | cheap
+Fitzbillies | eat type | coffee shop
+Fitzbillies | customer rating | 5 out of 5",[],Yes,Yes,Yes,Both,,"Coffee-shop type, price, and rating remain explicit after being removed from the data.",
+audit_180,A086,e2e_train:2032_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,The Waterman is not family-friendly.  They serve cheap French food and is rated 5 out of 5. It is in riverside.,"The Waterman | height | riverside
+The Waterman | customer rating | hot
+Free Watermen and Lightermen s Almshouses | family friendly | no
+French | food | The Waterman
+The Waterman | price range | Spreadsheet","incorrect_triple:swap_1
+incorrect_triple:entity_3
+incorrect_triple:predicate_1",,,"[{""original"":""The Waterman | customer rating | 5 out of 5"",""incorrect"":""The Waterman | customer rating | hot"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""The Waterman | family friendly | no"",""incorrect"":""Free Watermen and Lightermen s Almshouses | family friendly | no"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Waterman | food | French"",""incorrect"":""French | food | The Waterman"",""error_type"":""swap""},{""original"":""The Waterman | area | riverside"",""incorrect"":""The Waterman | height | riverside"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""The Waterman | price range | cheap"",""incorrect"":""The Waterman | price range | Spreadsheet"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,"All five Waterman entity, value, predicate, and direction corruptions are covered.",
+audit_180,A087,webnlg_train:303:2_neg,webnlg_train,Omitted,made_up_triple,single_construction,"ACM Transactions on Information Systems has the ISSN number 1558-2868 and the abbreviation ""ACM Trans. Inf. Syst.""","ACM Transactions on Information Systems | abbreviation | ACM Trans. Inf. Syst.
+ACM Transactions on Information Systems | issn number | 1558-2868
+BusinessObjects | abbreviation | Texas Instruments
+ACM Transactions on Information Systems | anthem | Elsevier",missing_triple:made_up_triple_2,"BusinessObjects | abbreviation | Texas Instruments
+ACM Transactions on Information Systems | anthem | Elsevier",,[],Yes,Yes,Yes,Both,,Both fabricated publication units are absent from the text.,
+audit_180,A088,e2e_train:9177_neg,e2e_train,Extra,dropped,single_construction,"The Eagle is a low-priced, family-friendly, Fast food restaurant and coffee shop with a great customer rating of 5 out of 5. It is located near Burger King in the city centre.","The Eagle | near | Burger King
+The Eagle | price range | cheap",extra_contents:dropped_6,,"The Eagle | area | city centre
+The Eagle | food | Fast food
+The Eagle | family friendly | yes
+The Eagle | eat type | coffee shop
+The Eagle | eat type | restaurant
+The Eagle | customer rating | 5 out of 5",[],Yes,Yes,Yes,Both,,"All six dropped Eagle attributes are expressed in the text, including both stated eat types.",
+audit_180,A089,webnlg_train:5035:1_neg,webnlg_train,Incorrect,entity_replacement,single_construction,"Trane was founded in La Crosse, Wisconsin on January 1, 1913. With 29,000 employees and an operating income of 875.4 million USD, Trane produces building management systems, including HVACs.","Trane | product | Building Management System
+Trane | operating income | +241684
+Trane | founding date | 1913-01-01
+Trane | foundation place | La Crosse, Wisconsin
+Trane | number of employees | 29000
+Trane | product | HVAC",incorrect_triple:entity_1,,,"[{""original"":""Trane | operating income | 875400000"",""incorrect"":""Trane | operating income | +241684"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,The operating-income value replacement is directly contradicted by the stated amount.,
+audit_180,A090,webnlg_train:3611:2_neg,webnlg_train,Extra,merged_text,multi_construction,"Alan Frew comes from Newmarket, Ontario, Canada. He was born in 1956 and he is a solo singer. The Golden Palace is a coffee shop with Italian food located in the city centre. They have a high price range and a customer rating 1 out of 5.","Alan Frew | place of publication | Canada
+Alan Frew | background | solo singer
+Alan Frew | ingredient | Newmarket, Ontario
+1956 | birth year | Alan Frew","extra_contents:merged_unrelated_5
+incorrect_triple:swap_1
+incorrect_triple:predicate_2",,"The Golden Palace | area | city centre
+The Golden Palace | customer rating | 1 out of 5
+The Golden Palace | eat type | coffee shop
+The Golden Palace | food | Italian
+The Golden Palace | price range | high","[{""original"":""Alan Frew | birth year | 1956"",""incorrect"":""1956 | birth year | Alan Frew"",""error_type"":""swap""},{""original"":""Alan Frew | origin | Canada"",""incorrect"":""Alan Frew | place of publication | Canada"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Alan Frew | origin | Newmarket, Ontario"",""incorrect"":""Alan Frew | ingredient | Newmarket, Ontario"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,The Alan Frew relation corruptions and all merged restaurant facts are consistently annotated.,
+audit_180,A091,e2e_train:1781_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,The Eagle has an average customer rating and serves Italian cuisine. A perfect rating riverside cheap place is called The Eagle.,"The Eagle | payment types accepted | average
+Arena | food | Italian","extra_contents:merged_unrelated_2
+incorrect_triple:entity_1
+incorrect_triple:predicate_1",,"The Eagle | area | riverside
+The Eagle | price range | cheap","[{""original"":""The Eagle | customer rating | average"",""incorrect"":""The Eagle | payment types accepted | average"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""The Eagle | food | Italian"",""incorrect"":""Arena | food | Italian"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,No,No,Neither,The Eagle | customer rating | 5 out of 5,"The two merged clauses describe the same restaurant as both average-rated and perfectly rated, while only the average relation participates in the annotation.",
+audit_180,A092,webnlg_train:6366:1_neg,webnlg_train,Extra,dropped,single_construction,"Alan Bean is a US national who was born in Wheeler, Texas. He was selected by NASA in 1963 and became a member of the Apollo 12 crew. He is retired.","Alan Bean | nationality | United States
+Alan Bean | mission | Apollo 12
+Alan Bean | status | Retired",extra_contents:dropped_2,,"Alan Bean | selected by nasa | 1963
+Alan Bean | birth place | Wheeler, Texas",[],Yes,Yes,Yes,Both,,Both dropped Alan Bean facts are explicit in the text.,
+audit_180,A093,webnlg_train:2660:2_neg,webnlg_train,Omitted,made_up_triple,multi_construction,"The Al Taqaddum Air Base serves the city of Fallujah, Iraq. Two leaders of Iraq are Haider al-Abadi and Fuad Masum.","Iraq | leader | Haider al-Abadi
+Iraq | language | Fuad Masum
+Al-Taqaddum Air Base | city served | Fallujah
+Fallujah | country | Iraq
+Miami | leader | Sam Hain
+Manama | position | Haider al-Abadi","missing_triple:made_up_triple_2
+incorrect_triple:predicate_1","Miami | leader | Sam Hain
+Manama | position | Haider al-Abadi",,"[{""original"":""Iraq | leader | Fuad Masum"",""incorrect"":""Iraq | language | Fuad Masum"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,The Fuad Masum predicate replacement and two fabricated omitted units are correctly identified.,
+audit_180,A094,e2e_train:1269_neg,e2e_train,Extra,merged_text,multi_construction,The Wrestlers has high ratings from previous customers.  This establishment has higher-priced Chinese food and is family friendly. The Rice Boat serves Indian food and is not children friendly with a high price range and a customer rating of 1 out of 5.  It is located in the city center near the Express by Holiday Inn.,"The Wrestlers | temperature | high
+gymnast | sponsor | yes
+Cotto | eat type | restaurant
+Cotto | food | Japanese
+Cotto | near | Ranch
+Cotto | price range | cheap","missing_triple:made_up_triple_1
+missing_triple:existing_graph_4
+extra_contents:dropped_2
+extra_contents:merged_unrelated_6
+incorrect_triple:predicate_1","gymnast | sponsor | yes
+Cotto | eat type | restaurant
+Cotto | food | Japanese
+Cotto | near | Ranch
+Cotto | price range | cheap","The Wrestlers | food | Chinese
+The Wrestlers | family friendly | yes
+The Rice Boat | area | city centre
+The Rice Boat | customer rating | 1 out of 5
+The Rice Boat | family friendly | no
+The Rice Boat | food | Indian
+The Rice Boat | near | Express by Holiday Inn
+The Rice Boat | price range | high","[{""original"":""The Wrestlers | customer rating | high"",""incorrect"":""The Wrestlers | temperature | high"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,No,Yes,Both,The Wrestlers | price range | high,"The listed errors are valid, but the higher-priced attribute is absent from the data and is not included among the Extra units.",
+audit_180,A095,e2e_train:6820_neg,e2e_train,Omitted,existing_related_graph,single_construction,Clowns is a low customer rating coffee shop that serves fast food. It is in riverside near Clare Hall.,"Clowns | area | riverside
+Clowns | customer rating | low
+Clowns | eat type | coffee shop
+Clowns | food | Fast food
+Clowns | near | Clare Hall
+Strada | family friendly | no",missing_triple:existing_graph_1,Strada | family friendly | no,,[],Yes,Yes,Yes,Both,,The added Strada family-friendly unit is absent from the text.,
+audit_180,A096,webnlg_train:2397:1_neg,webnlg_train,Extra,dropped,single_construction,The rocket Antares was launched from the Mid-Atlantic Regional Spaceport and took its final flight on 28 October 2014.,Antares (rocket) | launch site | Mid-Atlantic Regional Spaceport,extra_contents:dropped_1,,Antares (rocket) | final flight | 2014-10-28,[],Yes,Yes,Yes,Both,,The final-flight date is explicit and absent from the retained data.,
+audit_180,A097,e2e_train:5063_neg,e2e_train,Omitted,made_up_triple,multi_construction,"The Cricketers, a coffee shop serving Japanese cuisine, is located near The Portland Arms. This establishment is kid friendly and has a customer Rating of 1 out of 5. Strada is a pub offering English food located near Yippee Noodle Bar. Customer stars 3 out of 5","The Cricketers | follows | coffee shop
+The Cricketers | food | Instrumental
+Durham Cricket Board | eat type | Lounge music
+The Cricketers | service | Oregon","missing_triple:made_up_triple_2
+extra_contents:dropped_3
+extra_contents:merged_unrelated_4
+incorrect_triple:entity_1
+incorrect_triple:predicate_1","Durham Cricket Board | eat type | Lounge music
+The Cricketers | service | Oregon","The Cricketers | near | The Portland Arms
+The Cricketers | family friendly | yes
+The Cricketers | customer rating | 1 out of 5
+Strada | customer rating | 3 out of 5
+Strada | eat type | pub
+Strada | food | English
+Strada | near | Yippee Noodle Bar","[{""original"":""The Cricketers | food | Japanese"",""incorrect"":""The Cricketers | food | Instrumental"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""The Cricketers | eat type | coffee shop"",""incorrect"":""The Cricketers | follows | coffee shop"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The Cricketers corruptions, fabricated omissions, and all Cricketers/Strada extras are covered.",
+audit_180,A098,e2e_train:8037_neg,e2e_train,Omitted,made_up_triple,multi_construction,The Golden Palace is a 5 star place located along the river in the city centre.,"The Golden Palace | area | city centre
+The Golden Palace | area | riverside
+The Golden Palace | customer rating | 5 out of 5
+The Golden Palace | architect | Tower Hill
+The Phoenix | eat type | restaurant
+The Phoenix | family friendly | yes
+The Phoenix | food | Fast food
+The Phoenix | near | Raja Indian Cuisine","missing_triple:made_up_triple_1
+missing_triple:existing_graph_4","The Golden Palace | architect | Tower Hill
+The Phoenix | eat type | restaurant
+The Phoenix | family friendly | yes
+The Phoenix | food | Fast food
+The Phoenix | near | Raja Indian Cuisine",,[],Yes,Yes,Yes,Both,,The fabricated architect unit and the entire Phoenix graph are absent from the text.,
+audit_180,A099,e2e_train:1591_neg,e2e_train,Extra,dropped,single_construction,The Rice Boat provides Indian food in the moderate price range. It is located in the city centre. It is near Express by Holiday Inn. Its customer rating is 1 out of 5.,"The Rice Boat | area | city centre
+The Rice Boat | customer rating | 1 out of 5
+The Rice Boat | near | Express by Holiday Inn
+The Rice Boat | price range | moderate",extra_contents:dropped_1,,The Rice Boat | food | Indian,[],Yes,Yes,Yes,Both,,The dropped Indian food unit is explicit in the text.,
+audit_180,A100,webnlg_train:2784:2_neg,webnlg_train,Omitted,made_up_triple,single_construction,"""A Glastonbury Romance "" can be found in hardcover and has 1174 pages. The OCLC number is 76798317 and the ISBN number is 0-7156-3648-0.","A Glastonbury Romance | media type | Hardcover
+A Glastonbury Romance | number of pages | 1174
+A Glastonbury Romance | oclc number | 76798317
+A Glastonbury Romance | isbn number | 0-7156-3648-0
+A Glastonbury Romance | number of households | 111484 (square metres)
+The Wedding of Zein | number of pages | +2360",missing_triple:made_up_triple_2,"A Glastonbury Romance | number of households | 111484 (square metres)
+The Wedding of Zein | number of pages | +2360",,[],Yes,Yes,Yes,Both,,Both fabricated book units are absent from an otherwise aligned example.,
+audit_180,A101,e2e_train:5584_neg,e2e_train,Extra,merged_text,multi_construction,"The city centre hosts a Japanese coffee shop called Fitzbillies. They are kid friendly, moderately priced and named Fitzbillies. Alimentum is a place near Yippee Noodle Bar in Riverside. It is low priced, has a high customer rating, and sells Italian food.","Fitzbillies | parts type | coffee shop
+Fitzbillies | ranking | Japanese
+Strada | price range | high
+Strada | customer rating | average","missing_triple:existing_graph_2
+extra_contents:dropped_3
+extra_contents:merged_unrelated_5
+incorrect_triple:predicate_2","Strada | price range | high
+Strada | customer rating | average","Fitzbillies | area | city centre
+Fitzbillies | family friendly | yes
+Fitzbillies | price range | moderate
+Alimentum | area | riverside
+Alimentum | customer rating | high
+Alimentum | food | Italian
+Alimentum | near | Yippee Noodle Bar
+Alimentum | price range | cheap","[{""original"":""Fitzbillies | eat type | coffee shop"",""incorrect"":""Fitzbillies | parts type | coffee shop"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Fitzbillies | food | Japanese"",""incorrect"":""Fitzbillies | ranking | Japanese"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The Fitzbillies predicate corruptions, Strada omissions, and all merged Alimentum facts are covered.",
+audit_180,A102,e2e_train:1149_neg,e2e_train,Extra,dropped,single_construction,Loch Fyne is a restaurant serving Italian food in the centre of the city near The Rice Boat.  It has a customer rating of 5 out of 5.,"Loch Fyne | eat type | restaurant
+Loch Fyne | food | Italian",extra_contents:dropped_3,,"Loch Fyne | near | The Rice Boat
+Loch Fyne | customer rating | 5 out of 5
+Loch Fyne | area | city centre",[],Yes,Yes,Yes,Both,,All three dropped Loch Fyne attributes are explicit.,
+audit_180,A103,e2e_train:4615_neg,e2e_train,Omitted,existing_related_graph,single_construction,"Near the Burger King in the city centre, there is a cheap, non-family-friendly Fast food and coffee shop named The Eagle.","The Eagle | area | city centre
+The Eagle | eat type | coffee shop
+The Eagle | family friendly | no
+The Eagle | food | Fast food
+The Eagle | near | Burger King
+The Eagle | price range | cheap
+Strada | near | Rainbow Vegetarian Café
+Strada | food | French
+Strada | eat type | restaurant",missing_triple:existing_graph_3,"Strada | near | Rainbow Vegetarian Café
+Strada | food | French
+Strada | eat type | restaurant",,[],Yes,Yes,Yes,Both,,The added Strada graph is wholly absent from the text.,
+audit_180,A104,webnlg_train:3435:3_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,Texas' county seat of Georgetown is located in Williamson County (which is the location of Austin) and has its largest city as Round Rock. The Wrestlers is a high quality restaurant priced high which provides quality food.,"Texas | is part of | Austin, Texas
+Austin, Texas | position | Williamson County, Texas
+Williamson County, Texas | cologne | Round Rock, Texas
+Williamson County, Texas | birth place | Georgetown, Texas","extra_contents:merged_unrelated_2
+incorrect_triple:swap_1
+incorrect_triple:predicate_3",,"The Wrestlers | customer rating | high
+The Wrestlers | eat type | restaurant","[{""original"":""Williamson County, Texas | largest city | Round Rock, Texas"",""incorrect"":""Williamson County, Texas | cologne | Round Rock, Texas"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Austin, Texas | is part of | Williamson County, Texas"",""incorrect"":""Austin, Texas | position | Williamson County, Texas"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Austin, Texas | is part of | Texas"",""incorrect"":""Texas | is part of | Austin, Texas"",""error_type"":""swap""},{""original"":""Williamson County, Texas | county seat | Georgetown, Texas"",""incorrect"":""Williamson County, Texas | birth place | Georgetown, Texas"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,No,Yes,Both,The Wrestlers | price range | high,"The listed relation corruptions and restaurant extras are valid, but the explicitly high price range is not included among the Extra units.",
+audit_180,A105,e2e_train:3559_neg,e2e_train,Omitted,existing_related_graph,single_construction,The Golden Curry servers French food for mid range prices. It is located near The Bakers and is child friendly.,"The Golden Curry | family friendly | yes
+The Golden Curry | food | French
+The Golden Curry | near | The Bakers
+The Golden Curry | price range | moderate
+Fitzbillies | family friendly | no
+Fitzbillies | area | riverside
+Fitzbillies | eat type | coffee shop",missing_triple:existing_graph_3,"Fitzbillies | family friendly | no
+Fitzbillies | area | riverside
+Fitzbillies | eat type | coffee shop",,[],Yes,Yes,Yes,Both,,The added Fitzbillies graph is absent from the text.,
+audit_180,A106,webnlg_train:2434:3_neg,webnlg_train,Omitted,made_up_triple,single_construction,The Atlas II is from the US which has an ethnic group called Native Americans.,"Atlas II | country origin | United States
+United States | ethnic group | Native Americans in the United States
+Columbia University | ethnic group | American English
+Arizona State University | located in the administrative territorial entity | Native Americans in the United States",missing_triple:made_up_triple_2,"Columbia University | ethnic group | American English
+Arizona State University | located in the administrative territorial entity | Native Americans in the United States",,[],Yes,Yes,Yes,Both,,Both fabricated university relations are absent from the text.,
+audit_180,A107,webnlg_train:12388:3_neg,webnlg_train,Omitted,made_up_triple,single_construction,Polish is the language spoken in Poland where and ethnic group is Romani people and Adam Koc's nationality is Polish.,"Poland | ethnic group | Romani people
+Poland | language | Polish language
+Adam Koc | nationality | Poland
+Northern Ireland | language | Latvian language",missing_triple:made_up_triple_1,Northern Ireland | language | Latvian language,,[],Yes,Yes,Yes,Both,,The fabricated Northern Ireland language unit is absent from the text.,
+audit_180,A108,webnlg_train:2306:2_neg,webnlg_train,Incorrect,entity_replacement,single_construction,"The American Locomotive Company which is located in the US, built the ALCO RS-3.","ALCO RS-3 | builder | American Locomotive Company
+musical instrument manufacturing company | country | United States",incorrect_triple:entity_1,,,"[{""original"":""American Locomotive Company | country | United States"",""incorrect"":""musical instrument manufacturing company | country | United States"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,The company subject replacement conflicts with the stated US location.,
+audit_180,A109,e2e_train:7304_neg,e2e_train,Extra,merged_text,multi_construction,"The Wildwood, a high-rated pub which serves Japanese food, offers its meals at the average price range of £20 to £25. The Vaults is a high priced family friendly restaurant located in the city centre.","Wildwood | customer rating | high
+Wildwood | eat type | pub
+Wildwood | food | Japanese
+Wildwood | price range | £20-25
+Wildwood | continent | +24 metre
+The Eagle | price range | less than £20
+The Eagle | food | Indian
+The Eagle | eat type | coffee shop
+The Eagle | near | Burger King","missing_triple:made_up_triple_1
+missing_triple:existing_graph_4
+extra_contents:merged_unrelated_4","Wildwood | continent | +24 metre
+The Eagle | price range | less than £20
+The Eagle | food | Indian
+The Eagle | eat type | coffee shop
+The Eagle | near | Burger King","The Vaults | area | city centre
+The Vaults | eat type | restaurant
+The Vaults | family friendly | yes
+The Vaults | price range | high",[],Yes,Yes,Yes,Both,,The fabricated omissions and all merged Vaults attributes are correctly covered.,
+audit_180,A110,e2e_train:3688_neg,e2e_train,Incorrect,swap,single_construction,"Cocum coffee shop is family friendly, expensive prices, and serves fast food and coffee","Cocum | eat type | coffee shop
+Cocum | family friendly | yes
+Fast food | food | Cocum
+Cocum | price range | high",incorrect_triple:swap_1,,,"[{""original"":""Cocum | food | Fast food"",""incorrect"":""Fast food | food | Cocum"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The food slot is clearly reversed; the awkward trailing coffee wording does not introduce a defined E2E slot.,
+audit_180,A111,webnlg_train:8725:2_neg,webnlg_train,Omitted,made_up_triple,multi_construction,"Acoustic music is the genre of Alex Day. Browns Cambridge is a coffee shop that also offers Indian food, located in the city centre near Crowne Plaza Hotel. But it is not family friendly and customers don't rate it highly.","Acoustic music | genre | Alex Day
+Ivan Dayman | genre | Clarinet","missing_triple:made_up_triple_1
+extra_contents:merged_unrelated_5
+incorrect_triple:swap_1",Ivan Dayman | genre | Clarinet,"Browns Cambridge | area | city centre
+Browns Cambridge | eat type | coffee shop
+Browns Cambridge | family friendly | no
+Browns Cambridge | food | Indian
+Browns Cambridge | near | Crowne Plaza Hotel","[{""original"":""Alex Day | genre | Acoustic music"",""incorrect"":""Acoustic music | genre | Alex Day"",""error_type"":""swap""}]",Yes,No,Yes,Both,Browns Cambridge | customer rating | low,"The swap, omission, and listed restaurant extras are valid, but the low customer rating implied by the final clause is not annotated.",
+audit_180,A112,e2e_train:8104_neg,e2e_train,Omitted,existing_related_graph,single_construction,The Phoenix is located in city centre. The serve Japanese in a price range of more than 30. They have a low customer rating.,"The Phoenix | area | city centre
+The Phoenix | customer rating | low
+The Phoenix | food | Japanese
+The Phoenix | price range | more than £30
+The Phoenix | eat type | restaurant",missing_triple:existing_graph_1,The Phoenix | eat type | restaurant,,[],Yes,Yes,Yes,Both,,The restaurant-type unit is absent from the text and correctly labeled Omitted.,
+audit_180,A113,e2e_train:2471_neg,e2e_train,Extra,dropped,single_construction,There is a coffee shop called Fitzbillies providing Indian food located in the riverside area with low customer rating and it's price range is less than £20 and also it is family friendly.,Fitzbillies | customer rating | low,extra_contents:dropped_5,,"Fitzbillies | eat type | coffee shop
+Fitzbillies | family friendly | yes
+Fitzbillies | price range | less than £20
+Fitzbillies | area | riverside
+Fitzbillies | food | Indian",[],Yes,Yes,Yes,Both,,All five unsupported Fitzbillies attributes are explicit and correctly listed.,
+audit_180,A114,e2e_train:6644_neg,e2e_train,Omitted,made_up_triple,multi_construction,"The Rice Boat is a non family-friendly, Japanese restaurant near Express by Holiday Inn in riverside with  a price range of less than 20 and an average customer rating.","The Rice Boat | area | riverside
+The Rice Boat | near | Express by Holiday Inn
+The Rice Boat | price range | less than £20
+working ship | population total | riverside
+The Punter | eat type | coffee shop
+The Punter | near | Café Sicilia","missing_triple:made_up_triple_1
+missing_triple:existing_graph_2
+extra_contents:dropped_4","working ship | population total | riverside
+The Punter | eat type | coffee shop
+The Punter | near | Café Sicilia","The Rice Boat | eat type | restaurant
+The Rice Boat | family friendly | no
+The Rice Boat | customer rating | average
+The Rice Boat | food | Japanese",[],Yes,Yes,Yes,Both,,The fabricated omissions and four dropped Rice Boat attributes are completely covered.,
+audit_180,A115,webnlg_train:1287:1_neg,webnlg_train,Extra,dropped,single_construction,(66391) 1999 KW4 has a peripsis of 29919600000.0 and an epoch date of 2004-07.14.,(66391) 1999 KW4 | periapsis | 29919600000.0,extra_contents:dropped_1,,(66391) 1999 KW4 | epoch | 2004-07-14,[],Yes,Yes,Yes,Both,,The dropped epoch date is explicit in the text.,
+audit_180,A116,e2e_train:1349_neg,e2e_train,Omitted,made_up_triple,multi_construction,"The Rice Boat is located in riverside, it serves an average rated Japanese food. Loch Fyne offers English food with a very good reputation. Not far away is The Rice Boat","riverside | area | The Rice Boat
+General Dynamics Electric Boat | customer rating | average
+Japanese | food | The Rice Boat
+Museum ship | customer rating | April
+General Dynamics Electric Boat | area | Costa Rica","missing_triple:made_up_triple_2
+extra_contents:merged_unrelated_2
+incorrect_triple:swap_2
+incorrect_triple:entity_1","Museum ship | customer rating | April
+General Dynamics Electric Boat | area | Costa Rica","Loch Fyne | food | English
+Loch Fyne | near | The Rice Boat","[{""original"":""The Rice Boat | customer rating | average"",""incorrect"":""General Dynamics Electric Boat | customer rating | average"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Rice Boat | food | Japanese"",""incorrect"":""Japanese | food | The Rice Boat"",""error_type"":""swap""},{""original"":""The Rice Boat | area | riverside"",""incorrect"":""riverside | area | The Rice Boat"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,"The two swaps, entity replacement, fabricated omissions, and Loch Fyne extras are consistently annotated.",
+audit_180,A117,webnlg_train:6960:3_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,"AIDAluna, owned by the German company AIDA Cruises, has a Caterpillar Inc. engine. Caterpillar Inc., founded in the United States, includes key figure, Douglas R Oberhelman. Wildwood is a pub serving Indian food with an average customer rating and a high price range.","AIDA Cruises | location | Germany
+Douglas R. Oberhelman | key person | Caterpillar Inc.
+Caterpillar Inc. | foundation place | United Kingdom
+AIDAluna | patron saint | AIDA Cruises
+El Salvador | power type | Caterpillar Inc.","extra_contents:merged_unrelated_5
+incorrect_triple:swap_1
+incorrect_triple:entity_2
+incorrect_triple:predicate_1",,"Wildwood | customer rating | 5 out of 5
+Wildwood | customer rating | average
+Wildwood | eat type | pub
+Wildwood | food | Indian
+Wildwood | price range | high","[{""original"":""AIDAluna | power type | Caterpillar Inc."",""incorrect"":""El Salvador | power type | Caterpillar Inc."",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""AIDAluna | owner | AIDA Cruises"",""incorrect"":""AIDAluna | patron saint | AIDA Cruises"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Caterpillar Inc. | foundation place | United States"",""incorrect"":""Caterpillar Inc. | foundation place | United Kingdom"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""Caterpillar Inc. | key person | Douglas R. Oberhelman"",""incorrect"":""Douglas R. Oberhelman | key person | Caterpillar Inc."",""error_type"":""swap""}]",No,Yes,Yes,Both,Wildwood | customer rating | 5 out of 5,"The text states only an average Wildwood rating, but the annotation additionally includes an unsupported 5-out-of-5 Extra unit.",
+audit_180,A118,e2e_train:5712_neg,e2e_train,Omitted,made_up_triple,multi_construction,"The Rice Boat in city centre has fast food. If you're walking by the riverside, try out The Twenty Two. Located near The Rice Boat, The Twenty Two offers a kids-free atmosphere, and the prices range from £20-25. Rated high.","The Rice Boat | area | city centre
+The Rice Boat | food | Fast food
+Sumatra | food | potato dish","missing_triple:made_up_triple_1
+extra_contents:merged_unrelated_4",Sumatra | food | potato dish,"The Twenty Two | area | riverside
+The Twenty Two | customer rating | high
+The Twenty Two | near | The Rice Boat
+The Twenty Two | price range | £20-25",[],Yes,No,Yes,Both,The Twenty Two | family friendly | no,"The listed omission and extras are valid, but the kids-free attribute is not included among the Extra units.",
+audit_180,A119,webnlg_train:12058:1_neg,webnlg_train,Omitted,made_up_triple,multi_construction,"The comic book character Blockbuster, aka Mark Desmond, was created by Gardner Fox and Tom Lyle. There is this place called The Waterman that provides Chinese food that has a price Range of £20-25 and has a high customer rating but is not kids friendly. It is located in the riverside","Blockbuster (comicsCharacter) | creator | Gardner Fox
+Blockbuster (comicsCharacter) | creator | Tom Lyle
+Blockbuster (comicsCharacter) | alternative name | Mark Desmond
+Hardcover | named after | Tom Lyle","missing_triple:made_up_triple_1
+extra_contents:merged_unrelated_5",Hardcover | named after | Tom Lyle,"The Waterman | area | riverside
+The Waterman | customer rating | high
+The Waterman | family friendly | no
+The Waterman | food | Chinese
+The Waterman | price range | £20-25",[],Yes,Yes,Yes,Both,,The fabricated omitted unit and all merged Waterman facts are covered.,
+audit_180,A120,e2e_train:8118_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,You can find an Italian restaurant in the more than £30 price range that is kid friendly around The Bakers called The Golden Curry Families welcome at The Golden Curry.  5 star rating,"The Golden Curry | eat type | restaurant
+The Golden Curry | family friendly | yes
+The Golden Curry | florence | Italian
+The Bakers | near | The Golden Curry
+Khun Chai Ronapee | price range | more than £30
+Zizzi | area | riverside
+Zizzi | customer rating | high
+Zizzi | eat type | coffee shop","missing_triple:existing_graph_3
+extra_contents:merged_unrelated_1
+incorrect_triple:entity_1
+incorrect_triple:predicate_1","Zizzi | area | riverside
+Zizzi | customer rating | high
+Zizzi | eat type | coffee shop",The Golden Curry | customer rating | 5 out of 5,"[{""original"":""The Golden Curry | price range | more than £30"",""incorrect"":""Khun Chai Ronapee | price range | more than £30"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Golden Curry | food | Italian"",""incorrect"":""The Golden Curry | florence | Italian"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The price subject and food predicate corruptions, Zizzi omissions, and five-star Extra are all covered.",
+audit_180,A121,e2e_train:6309_neg,e2e_train,Extra,merged_text,multi_construction,Alimentum is a Fast food place near the river where anyone can eat for cheap. Not family friendly Alimentum across from Burger King,"Alimentum | area | riverside
+Sweet potato | food | Fast food
+Alimentum | price range | Prison","extra_contents:merged_unrelated_2
+incorrect_triple:entity_2",,"Alimentum | family friendly | no
+Alimentum | near | Burger King","[{""original"":""Alimentum | food | Fast food"",""incorrect"":""Sweet potato | food | Fast food"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""Alimentum | price range | cheap"",""incorrect"":""Alimentum | price range | Prison"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,The two substitutions and both unsupported Alimentum attributes are correctly covered.,
+audit_180,A122,e2e_train:3354_neg,e2e_train,Omitted,existing_related_graph,single_construction,"The Rice Boat serves Japanese food in the less than £20 price range, it is not family-friendly, has an average customer rating and is located near Express by Holiday Inn in the riverside area.","The Rice Boat | area | riverside
+The Rice Boat | customer rating | average
+The Rice Boat | family friendly | no
+The Rice Boat | food | Japanese
+The Rice Boat | near | Express by Holiday Inn
+The Rice Boat | price range | less than £20
+The Mill | near | Café Sicilia
+The Mill | area | city centre
+The Mill | food | Fast food",missing_triple:existing_graph_3,"The Mill | near | Café Sicilia
+The Mill | area | city centre
+The Mill | food | Fast food",,[],Yes,Yes,Yes,Both,,The added The Mill graph is wholly absent from the text.,
+audit_180,A123,webnlg_train:6899:1_neg,webnlg_train,Extra,dropped,single_construction,"The Accademia di Architettura di Mendrisio in Mendrisio, Switzerland was established in 1996. The Swiss leader is Federal Chancellor Johann Schneider-Ammann.",Accademia di Architettura di Mendrisio | established | 1996,extra_contents:dropped_4,,"Accademia di Architettura di Mendrisio | city | Mendrisio
+Switzerland | leader | Johann Schneider-Ammann
+Switzerland | leader title | Federal Chancellor of Switzerland
+Accademia di Architettura di Mendrisio | country | Switzerland",[],Yes,Yes,Yes,Both,,All four dropped institution and Switzerland facts are explicit in the text.,
+audit_180,A124,e2e_train:6104_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,The Golden Curry is an Indian restaurant near The Bakers with high price range and friendly with kid,"The Golden Curry | architectural style | restaurant
+The Golden Curry | food | Indian
+The Great Indian Novel | near | The Bakers
+The Golden Curry | price range | Hard rock
+Garlic | tributary | The Bakers
+The Cricketers | near | The Portland Arms
+The Cricketers | food | Chinese
+The Cricketers | customer rating | high","missing_triple:made_up_triple_1
+missing_triple:existing_graph_3
+incorrect_triple:entity_2
+incorrect_triple:predicate_1","Garlic | tributary | The Bakers
+The Cricketers | near | The Portland Arms
+The Cricketers | food | Chinese
+The Cricketers | customer rating | high",,"[{""original"":""The Golden Curry | price range | high"",""incorrect"":""The Golden Curry | price range | Hard rock"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""The Golden Curry | near | The Bakers"",""incorrect"":""The Great Indian Novel | near | The Bakers"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Golden Curry | eat type | restaurant"",""incorrect"":""The Golden Curry | architectural style | restaurant"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,No,Yes,Both,The Golden Curry | family friendly | yes,"The listed corruptions and omissions are valid, but the kid-friendly statement is unsupported by the data and not annotated.",
+audit_180,A125,e2e_train:2520_neg,e2e_train,Omitted,made_up_triple,multi_construction,Clowns coffee shop which serves Italian food and has a low customer rating can be found in the city centre near Clare Hall. The Phoenix is in the Riverside area and have an average customer rating. They serve cheap English food.,"Clowns | customer rating | +5 metre
+UglyDolls | daily patronage | low
+UglyDolls | organizer | city centre","missing_triple:made_up_triple_2
+extra_contents:dropped_4
+extra_contents:merged_unrelated_4
+incorrect_triple:entity_1","UglyDolls | daily patronage | low
+UglyDolls | organizer | city centre","Clowns | food | Italian
+Clowns | eat type | coffee shop
+Clowns | near | Clare Hall
+Clowns | area | city centre
+The Phoenix | area | riverside
+The Phoenix | customer rating | average
+The Phoenix | food | English
+The Phoenix | price range | cheap","[{""original"":""Clowns | customer rating | low"",""incorrect"":""Clowns | customer rating | +5 metre"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,"The rating replacement, fabricated omissions, and all Clowns/Phoenix extras are covered.",
+audit_180,A126,webnlg_train:667:2_neg,webnlg_train,Incorrect,entity_replacement,single_construction,"The tenant of the AC Hotel Bella Sky Copenhagen is the Marriott International Hotel which was founded in Washington, D.C.","Grand Central Terminal | foundation place | Washington, D.C.
+AC Hotel Bella Sky Copenhagen | tenant | Marriott International",incorrect_triple:entity_1,,,"[{""original"":""Marriott International | foundation place | Washington, D.C."",""incorrect"":""Grand Central Terminal | foundation place | Washington, D.C."",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,The company subject replacement conflicts with the text.,
+audit_180,A127,e2e_train:3990_neg,e2e_train,Extra,dropped,single_construction,For a 1 star high priced restaurant The Phoenix is located in city centre.,"The Phoenix | area | city centre
+The Phoenix | customer rating | 1 out of 5
+The Phoenix | price range | high",extra_contents:dropped_1,,The Phoenix | eat type | restaurant,[],Yes,Yes,Yes,Both,,The dropped restaurant type is explicit.,
+audit_180,A128,e2e_train:64_neg,e2e_train,Extra,merged_text,multi_construction,"The Cambridge Blue serves traditional English food, and has been given a rating of five stars. Theres a restaurant called The Cambridge Blue, They have a coffee shop inside, they are near to Burger King and the customer rating is really great, they have a yes average","The Cambridge Blue | food | English
+Coloured | order | 5 out of 5
+Charles River | customer rating | part of","missing_triple:made_up_triple_2
+extra_contents:dropped_1
+extra_contents:merged_unrelated_3","Coloured | order | 5 out of 5
+Charles River | customer rating | part of","The Cambridge Blue | customer rating | 5 out of 5
+The Cambridge Blue | eat type | coffee shop
+The Cambridge Blue | eat type | restaurant
+The Cambridge Blue | near | Burger King",[],Yes,Yes,Yes,Both,,The fabricated omissions and all interpretable Cambridge Blue extras are covered despite noisy wording.,
+audit_180,A129,e2e_train:4851_neg,e2e_train,Omitted,existing_related_graph,single_construction,Strada serves Japanese food and is located near Yippee Noodle Bar. It is a pub and is rated one out of five by customers.,"Strada | customer rating | 1 out of 5
+Strada | eat type | pub
+Strada | food | Japanese
+Strada | near | Yippee Noodle Bar
+Alimentum | area | riverside
+Alimentum | food | Chinese
+Alimentum | price range | high",missing_triple:existing_graph_3,"Alimentum | area | riverside
+Alimentum | food | Chinese
+Alimentum | price range | high",,[],Yes,Yes,Yes,Both,,The added Alimentum graph is absent from the text.,
+audit_180,A130,e2e_train:4337_neg,e2e_train,Omitted,made_up_triple,multi_construction,"The Golden Curry provides Chinese food Its customer rating is low. Along the river in the City center., there are two establishments, The Golden Curry and Café Rouge.","The Golden Curry | food | Chinese
+Cooking | food | River","missing_triple:made_up_triple_1
+extra_contents:dropped_1
+extra_contents:merged_unrelated_3",Cooking | food | River,"The Golden Curry | customer rating | low
+The Golden Curry | area | city centre
+The Golden Curry | area | riverside
+The Golden Curry | near | Café Rouge",[],No,Yes,Yes,Both,,The fabricated omission and all dropped Golden Curry attributes are covered.,Reconstructed final rebuttal decision: label_validity_yes_no changed from Yes to No.
+audit_180,A131,e2e_train:4518_neg,e2e_train,Extra,dropped,single_construction,The Vaults does not welcome children. It offers fast food in moderate prices.,The Vaults | food | Fast food,extra_contents:dropped_2,,"The Vaults | family friendly | no
+The Vaults | price range | moderate",[],Yes,Yes,Yes,Both,,Both dropped Vaults attributes are explicit.,
+audit_180,A132,e2e_train:1291_neg,e2e_train,Incorrect,swap,single_construction,The Waterman is a cheap Indian place on the riverside.  They have an average customer rating and are family friendly.,"The Waterman | area | riverside
+The Waterman | customer rating | average
+The Waterman | family friendly | yes
+The Waterman | food | Indian
+cheap | price range | The Waterman",incorrect_triple:swap_1,,,"[{""original"":""The Waterman | price range | cheap"",""incorrect"":""cheap | price range | The Waterman"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The price-range slot is clearly reversed.,
+audit_180,A133,e2e_train:7293_neg,e2e_train,Omitted,existing_related_graph,single_construction,"No, Zizzi coffee shop in the riverside its not high price range but only £20-25","Zizzi | area | riverside
+Zizzi | eat type | coffee shop
+Zizzi | price range | more than £30
+Zizzi | price range | £20-25
+The Mill | eat type | restaurant
+The Mill | family friendly | yes
+The Mill | food | Fast food
+The Mill | near | Raja Indian Cuisine",missing_triple:existing_graph_4,"The Mill | eat type | restaurant
+The Mill | family friendly | yes
+The Mill | food | Fast food
+The Mill | near | Raja Indian Cuisine",,[],Yes,No,Yes,Both,Zizzi | price range | more than £30,"The added The Mill units are valid omissions, but the data also contains a price value explicitly rejected by the text and this is not annotated.",
+audit_180,A134,e2e_train:9127_neg,e2e_train,Incorrect,swap,single_construction,Loch Fyne offers English food in the vicinity of The Rice Boat. Consumer ratings high,"Loch Fyne | customer rating | 5 out of 5
+English | food | Loch Fyne
+Loch Fyne | near | The Rice Boat",incorrect_triple:swap_1,,,"[{""original"":""Loch Fyne | food | English"",""incorrect"":""English | food | Loch Fyne"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The food relation is clearly reversed; high rating and five-out-of-five are compatible in this lexicalization.,
+audit_180,A135,webnlg_train:9801:1_neg,webnlg_train,Omitted,made_up_triple,multi_construction,"There are 600 students at the Accademia di Architettura di Mendrisio. Cotto is coffee shop with fast food, cheap prices, and average customer ratings in riverside, near The Portland Arms.","Accademia di Architettura di Mendrisio | number of students | 600
+Italianate architecture | total fertility rate | 600","missing_triple:made_up_triple_1
+extra_contents:merged_unrelated_6",Italianate architecture | total fertility rate | 600,"Cotto | area | riverside
+Cotto | customer rating | average
+Cotto | eat type | coffee shop
+Cotto | food | Fast food
+Cotto | near | The Portland Arms
+Cotto | price range | cheap",[],Yes,Yes,Yes,Both,,The fabricated omitted unit and all merged Cotto facts are covered.,
+audit_180,A136,e2e_train:3691_neg,e2e_train,Omitted,made_up_triple,multi_construction,A high priced English pub near Café Rouge is The Plough. It is not child friendly. The Rice Boat is an expensive restaurant in City centre. They are  highly rated and have a family-friendly atmosphere. They are located near Express by Holiday Inn.,"The Plough | eat type | pub
+The Plough | family friendly | no
+The Plough | food | English
+The Plough | near | Café Rouge
+The Plough | price range | high
+Plasenzuela | sex or gender | pub
+The Forge | eat type | Magdeburg","missing_triple:made_up_triple_2
+extra_contents:merged_unrelated_6","Plasenzuela | sex or gender | pub
+The Forge | eat type | Magdeburg","The Rice Boat | area | city centre
+The Rice Boat | customer rating | high
+The Rice Boat | eat type | restaurant
+The Rice Boat | family friendly | yes
+The Rice Boat | near | Express by Holiday Inn
+The Rice Boat | price range | more than £30",[],Yes,Yes,Yes,Both,,Both fabricated omissions and all Rice Boat extras are covered.,
+audit_180,A137,webnlg_train:11813:2_neg,webnlg_train,Omitted,made_up_triple,multi_construction,"Anders Osborne has played with Galactic and associated with artists Tab Benoit and Billy Iuso. A reasonably priced pub, The Punter serves British food and can be found in the city center.","Billy Iuso | associated band/associated musical artist | Anders Osborne
+Anders Osborne | contributor(s) to the creative work or subject | Tab Benoit
+Anders Osborne | associated band/associated musical artist | Desert
+Brian Muller | associated band/associated musical artist | Incheon","missing_triple:made_up_triple_1
+extra_contents:merged_unrelated_3
+incorrect_triple:swap_1
+incorrect_triple:entity_1
+incorrect_triple:predicate_1",Brian Muller | associated band/associated musical artist | Incheon,"The Punter | area | city centre
+The Punter | eat type | pub
+The Punter | food | English","[{""original"":""Anders Osborne | associated band/associated musical artist | Billy Iuso"",""incorrect"":""Billy Iuso | associated band/associated musical artist | Anders Osborne"",""error_type"":""swap""},{""original"":""Anders Osborne | associated band/associated musical artist | Galactic"",""incorrect"":""Anders Osborne | associated band/associated musical artist | Desert"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""Anders Osborne | associated band/associated musical artist | Tab Benoit"",""incorrect"":""Anders Osborne | contributor(s) to the creative work or subject | Tab Benoit"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",No,Yes,No,Neither,Billy Iuso | associated band/associated musical artist | Anders Osborne,"Associated-artist relations are semantically symmetric here, so swapping the two artists does not create a genuine Incorrect relation.",
+audit_180,A138,webnlg_train:10429:2_neg,webnlg_train,Extra,merged_text,multi_construction,"The Accademia di Architettura di Mendrisio is located in Mendrisio, Ticino, Switzerland. It has 600 students and its dean is Mario Botta. It was established in 1996. The leader of Switzerland is the Federal Chancellor. Green Man is a moderately priced Indian restaurant in Riverside that is located near All Bar One.","Accademia di Architettura di Mendrisio | city | Mendrisio
+Switzerland | leader title | Federal Chancellor of Switzerland","extra_contents:dropped_5
+extra_contents:merged_unrelated_5",,"Accademia di Architettura di Mendrisio | established | 1996
+Accademia di Architettura di Mendrisio | country | Switzerland
+Accademia di Architettura di Mendrisio | dean | Mario Botta
+Accademia di Architettura di Mendrisio | location | Ticino
+Accademia di Architettura di Mendrisio | number of students | 600
+Green Man | area | riverside
+Green Man | eat type | restaurant
+Green Man | food | Indian
+Green Man | near | All Bar One
+Green Man | price range | £20-25",[],Yes,Yes,Yes,Both,,All dropped institution attributes and merged restaurant facts are explicit.,
+audit_180,A139,e2e_train:4484_neg,e2e_train,Extra,merged_text,multi_construction,"Alimentum offers high priced Chinese cuisine in a non-child friendly environment at the Riverside. Midsummer House is a high-rated, fast food place near All Bar One. Prices are more than £30.","Alimentum | website | Chinese
+Bacon | price range | high","extra_contents:dropped_2
+extra_contents:merged_unrelated_4
+incorrect_triple:entity_1
+incorrect_triple:predicate_1",,"Alimentum | area | riverside
+Alimentum | family friendly | no
+Midsummer House | customer rating | high
+Midsummer House | food | Fast food
+Midsummer House | near | All Bar One
+Midsummer House | price range | more than £30","[{""original"":""Alimentum | food | Chinese"",""incorrect"":""Alimentum | website | Chinese"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Alimentum | price range | high"",""incorrect"":""Bacon | price range | high"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,Both Alimentum corruptions and all unsupported Alimentum/Midsummer attributes are covered.,
+audit_180,A140,webnlg_train:7187:2_neg,webnlg_train,Incorrect,entity_replacement,single_construction,"Anderson is part of Lafayette Township, Madison County, Indiana.","Marilyn Anderson | is part of | Lafayette Township, Madison County, Indiana",incorrect_triple:entity_1,,,"[{""original"":""Anderson, Indiana | is part of | Lafayette Township, Madison County, Indiana"",""incorrect"":""Marilyn Anderson | is part of | Lafayette Township, Madison County, Indiana"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,The person-name substitution conflicts with the Anderson location statement.,
+audit_180,A141,webnlg_train:7897:1_neg,webnlg_train,Incorrect,entity_replacement,single_construction,Adam McQuaid was born on Prince Edward Island.,Freddie McLennan | birth place | Prince Edward Island,incorrect_triple:entity_1,,,"[{""original"":""Adam McQuaid | birth place | Prince Edward Island"",""incorrect"":""Freddie McLennan | birth place | Prince Edward Island"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,The birth-place subject replacement is clear.,
+audit_180,A142,e2e_train:4590_neg,e2e_train,Omitted,made_up_triple,multi_construction,Fast food at high rates at The Phoenix. price £20-25 in riverside,"The Phoenix | material | riverside
+The Phoenix | food | Department store
+The Phoenix | higher | £20-25
+Antalya | price range | Nice Package
+Durban | movement | Fast food
+Alimentum | customer rating | 1 out of 5
+Alimentum | food | Japanese
+Alimentum | near | Yippee Noodle Bar
+Alimentum | price range | moderate","missing_triple:made_up_triple_2
+missing_triple:existing_graph_4
+incorrect_triple:entity_1
+incorrect_triple:predicate_2","Antalya | price range | Nice Package
+Durban | movement | Fast food
+Alimentum | customer rating | 1 out of 5
+Alimentum | food | Japanese
+Alimentum | near | Yippee Noodle Bar
+Alimentum | price range | moderate",,"[{""original"":""The Phoenix | food | Fast food"",""incorrect"":""The Phoenix | food | Department store"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""The Phoenix | price range | £20-25"",""incorrect"":""The Phoenix | higher | £20-25"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""The Phoenix | area | riverside"",""incorrect"":""The Phoenix | material | riverside"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,No,Yes,Both,The Phoenix | customer rating | high,"The listed corruptions and omissions are valid, but the phrase high rates plausibly introduces an unannotated high rating.",
+audit_180,A143,webnlg_train:4278:2_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,"Adam McQuaid plays for the Boston Bruins which are from Boston. His draft team was the Columbus Blue Jackets, the general manager of which, is Jarmo Kekalainen.","Columbus Blue Jackets | draft team | Adam McQuaid
+Columbus Blue Jackets | senior advisor | Jarmo Kekäläinen
+Adam McQuaid | relegated | Boston Bruins
+Boston | city | Boston Bruins","incorrect_triple:swap_2
+incorrect_triple:predicate_2",,,"[{""original"":""Adam McQuaid | draft team | Columbus Blue Jackets"",""incorrect"":""Columbus Blue Jackets | draft team | Adam McQuaid"",""error_type"":""swap""},{""original"":""Boston Bruins | city | Boston"",""incorrect"":""Boston | city | Boston Bruins"",""error_type"":""swap""},{""original"":""Adam McQuaid | club | Boston Bruins"",""incorrect"":""Adam McQuaid | relegated | Boston Bruins"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Columbus Blue Jackets | general manager | Jarmo Kekäläinen"",""incorrect"":""Columbus Blue Jackets | senior advisor | Jarmo Kekäläinen"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,Both swaps and both predicate replacements are directly contradicted by the text.,
+audit_180,A144,e2e_train:623_neg,e2e_train,Incorrect,swap,single_construction,The Mill is a river side pub with English food with high prices.,"pub | eat type | The Mill
+The Mill | food | English
+The Mill | price range | high",incorrect_triple:swap_1,,,"[{""original"":""The Mill | eat type | pub"",""incorrect"":""pub | eat type | The Mill"",""error_type"":""swap""}]",Yes,No,Yes,Both,The Mill | area | riverside,"The eat-type swap is valid, but riverside is stated in the text and absent from both data and Extra labels.",
+audit_180,A145,webnlg_train:1666:3_neg,webnlg_train,Omitted,made_up_triple,single_construction,"Albert Jennings Fountain died in Dona Ana County, New Mexico and he was born in Staten Island.","Albert Jennings Fountain | death place | Doña Ana County, New Mexico
+Albert Jennings Fountain | birth place | Staten Island
+Arthur Erickson | birth place | Fukuoka",missing_triple:made_up_triple_1,Arthur Erickson | birth place | Fukuoka,,[],Yes,Yes,Yes,Both,,The fabricated birth-place unit is absent.,
+audit_180,A146,webnlg_train:644:1_neg,webnlg_train,Omitted,made_up_triple,single_construction,"Asilomar Conference Grounds, which is located at Asilomar Blvd., Pacific Grove, California, was added to the National Register of Historic Places on February the 27nd 1987.","Asilomar Conference Grounds | location | Asilomar Blvd., Pacific Grove, California
+Asilomar Conference Grounds | added to the national register of historic places | 1987-02-27
+horse racing venue | location | Pasadena , California
+Sun Devil Stadium | location | Newport Beach , California",missing_triple:made_up_triple_2,"horse racing venue | location | Pasadena , California
+Sun Devil Stadium | location | Newport Beach , California",,[],Yes,Yes,Yes,Both,,Both fabricated venue-location units are absent.,
+audit_180,A147,webnlg_train:11360:2_neg,webnlg_train,Extra,dropped,single_construction,"Agremiacao Sportiva Arapiraquense play in the Campeonato Brasileiro Serie C League in Brazil, specifically in 2015.",Agremiação Sportiva Arapiraquense | league | Campeonato Brasileiro Série C,extra_contents:dropped_2,,"Agremiação Sportiva Arapiraquense | season | 2015 Campeonato Brasileiro Série C
+Campeonato Brasileiro Série C | country | Brazil",[],Yes,Yes,Yes,Both,,The season and country facts are explicit and absent from the retained data.,
+audit_180,A148,webnlg_train:289:2_neg,webnlg_train,Incorrect,entity_replacement,single_construction,"1634: The Galileo Affair and its sequel 1634: The Ram Rebellion were both written by Eric Flint, Virginia DeMarce, et al.","1634: The Ram Rebellion | author | Eric Flint, Virginia DeMarce, et al.
+1634: The Ram Rebellion | preceded by | Secrets of the Orient",incorrect_triple:entity_1,,,"[{""original"":""1634: The Ram Rebellion | preceded by | 1634: The Galileo Affair"",""incorrect"":""1634: The Ram Rebellion | preceded by | Secrets of the Orient"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,The preceding-book value replacement is clear.,
+audit_180,A149,webnlg_train:2771:2_neg,webnlg_train,Omitted,made_up_triple,single_construction,"Published by American Institute of Physics, AIP Advances is edited by A.T. Charlie Johnson who is from the US and whos almaMater is Harvard University.","AIP Advances | editor | A.T. Charlie Johnson
+A.T. Charlie Johnson | alma mater | Harvard University
+A.T. Charlie Johnson | nationality | United States
+AIP Advances | publisher | American Institute of Physics
+American Association for the Advancement of Science | production company | American Institute of Physics
+Tom Johnson ( rugby union ) | characters | United States",missing_triple:made_up_triple_2,"American Association for the Advancement of Science | production company | American Institute of Physics
+Tom Johnson ( rugby union ) | characters | United States",,[],Yes,Yes,Yes,Both,,Both fabricated publication units are absent.,
+audit_180,A150,webnlg_train:5761:3_neg,webnlg_train,Extra,merged_text,multi_construction,A.E Dimitra Efxeinoupolis is located in Greece where the leaders are Alexis Tsipras and Nikos Voutsis. The capital of the country is Athens and the currency used is the euro. In the riverside area is a coffee shop name The Eagle. It is near the Burger King. The customer rating is a 1 out of 5 and is in the moderate price range. It is kid friendly.,"Greece | currency | Euro
+Greece | capital | Athens","extra_contents:dropped_3
+extra_contents:merged_unrelated_6",,"Greece | leader | Nikos Voutsis
+A.E Dimitra Efxeinoupolis | location | Greece
+Greece | leader | Alexis Tsipras
+The Eagle | area | riverside
+The Eagle | customer rating | 1 out of 5
+The Eagle | eat type | coffee shop
+The Eagle | family friendly | yes
+The Eagle | near | Burger King
+The Eagle | price range | moderate",[],Yes,Yes,Yes,Both,,All dropped Greece and Eagle facts are explicit and covered.,
+audit_180,A151,e2e_train:8569_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,"The fast food coffee shop called The Eagle located in riverside near Burger King is not family-friendly but is cheap and has a average customer rating. The Mill, Is a pub and is family-friendly, cheap and reasonable priced is very good for the family , We provide full English food. Located near Raja Indian Cuisine In the city centre.","The Eagle | area | Costa
+The Eagle | serving temperature | average
+The Eagle | movement | Burger King","extra_contents:dropped_4
+extra_contents:merged_unrelated_7
+incorrect_triple:entity_1
+incorrect_triple:predicate_2",,"The Eagle | family friendly | no
+The Eagle | eat type | coffee shop
+The Eagle | price range | cheap
+The Eagle | food | Fast food
+The Mill | area | city centre
+The Mill | eat type | pub
+The Mill | family friendly | yes
+The Mill | food | English
+The Mill | near | Raja Indian Cuisine
+The Mill | price range | less than £20
+The Mill | price range | moderate","[{""original"":""The Eagle | area | riverside"",""incorrect"":""The Eagle | area | Costa"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""The Eagle | customer rating | average"",""incorrect"":""The Eagle | serving temperature | average"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""The Eagle | near | Burger King"",""incorrect"":""The Eagle | movement | Burger King"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The Eagle corruptions and all Eagle/Mill extras are covered, including both stated price descriptions.",
+audit_180,A152,e2e_train:321_neg,e2e_train,Omitted,existing_related_graph,single_construction,"Riverside coffee shop, The Taste of Cambridge features French cuisine is family friendly and is located near the Crown Plaza Hotel","Taste of Cambridge | area | riverside
+Taste of Cambridge | eat type | coffee shop
+Taste of Cambridge | family friendly | yes
+Taste of Cambridge | food | French
+Taste of Cambridge | near | Crowne Plaza Hotel",missing_triple:existing_graph_1,Taste of Cambridge | near | Crowne Plaza Hotel,,[],No,No,No,Neither,Taste of Cambridge | near | Crowne Plaza Hotel,The near relation is present in both text and data but is simultaneously labeled Omitted.,
+audit_180,A153,webnlg_train:911:3_neg,webnlg_train,Extra,dropped,single_construction,"Anderson, is part of the Anderson/Adams Township, Madison County in Indiana.","Anderson, Indiana | is part of | Adams Township, Madison County, Indiana",extra_contents:dropped_1,,"Anderson, Indiana | is part of | Anderson Township, Madison County, Indiana",[],Yes,Yes,Yes,Both,,The second township relation is explicit and absent from the retained data.,
+audit_180,A154,e2e_train:4839_neg,e2e_train,Incorrect,swap,single_construction,The Punter is a fast food coffee shop next to Café Sicilia that is family friendly.,"coffee shop | eat type | The Punter
+The Punter | family friendly | yes
+The Punter | food | Fast food
+The Punter | near | Café Sicilia",incorrect_triple:swap_1,,,"[{""original"":""The Punter | eat type | coffee shop"",""incorrect"":""coffee shop | eat type | The Punter"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The eat-type relation is clearly reversed.,
+audit_180,A155,webnlg_train:10944:2_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,A Wizard of Mars comes from the United States where Native Americans are one of the ethnic groups and the capital city is Washington D.C.,"United States | capital | United States Capitol
+A Wizard of Mars | netherlands | United States
+Native Americans in the United States | ethnic group | United States","incorrect_triple:swap_1
+incorrect_triple:entity_1
+incorrect_triple:predicate_1",,,"[{""original"":""United States | ethnic group | Native Americans in the United States"",""incorrect"":""Native Americans in the United States | ethnic group | United States"",""error_type"":""swap""},{""original"":""United States | capital | Washington, D.C."",""incorrect"":""United States | capital | United States Capitol"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""A Wizard of Mars | country | United States"",""incorrect"":""A Wizard of Mars | netherlands | United States"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"The ethnic-group swap, capital value replacement, and country predicate replacement are clear.",
+audit_180,A156,e2e_train:7344_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,"The Wrestlers offers Japanese food in a low price range.  However, they are not family-friendly and have a low customer rating.","mens singles | customer rating | low
+The Wrestlers | family friendly | June
+The Wrestlers | food | genre
+The Wrestlers | continent | less than £20","incorrect_triple:entity_3
+incorrect_triple:predicate_1",,,"[{""original"":""The Wrestlers | customer rating | low"",""incorrect"":""mens singles | customer rating | low"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Wrestlers | price range | less than £20"",""incorrect"":""The Wrestlers | continent | less than £20"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""The Wrestlers | family friendly | no"",""incorrect"":""The Wrestlers | family friendly | June"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""The Wrestlers | food | Japanese"",""incorrect"":""The Wrestlers | food | genre"",""error_type"":""wrong_entity"",""replaced_element"":""object""}]",Yes,Yes,Yes,Both,,All four Wrestlers corruptions are directly contradicted by the text.,
+audit_180,A157,webnlg_train:1727:2_neg,webnlg_train,Omitted,made_up_triple,multi_construction,Alvah Sabin was a member of the United States Whig Party who was led by Daniel Webster. The Olive Grove restaurant is a pub that serves French food that is in City Centre that is family-friendly that costs less than £20,"Whig Party (United States) | leader | Daniel Webster
+Marat Anvaryevich Safin | party | German Empire","missing_triple:made_up_triple_1
+extra_contents:dropped_1
+extra_contents:merged_unrelated_6",Marat Anvaryevich Safin | party | German Empire,"Alvah Sabin | party | Whig Party (United States)
+The Olive Grove | area | city centre
+The Olive Grove | eat type | pub
+The Olive Grove | eat type | restaurant
+The Olive Grove | family friendly | yes
+The Olive Grove | food | French
+The Olive Grove | price range | less than £20",[],Yes,Yes,Yes,Both,,The fabricated omission and all Alvah/Olive Grove extras are covered.,
+audit_180,A158,e2e_train:1923_neg,e2e_train,Omitted,made_up_triple,multi_construction,Loch Fyne is an average priced family friendly restaurant.,"Loch Fyne | colour | restaurant
+Loch Fyne | family friendly | yes
+Loch Fyne | price range | moderate
+Irvine , North Ayrshire | near | yes
+Fitzbillies | area | riverside
+Fitzbillies | customer rating | 1 out of 5
+Fitzbillies | eat type | coffee shop
+Fitzbillies | food | Fast food","missing_triple:made_up_triple_1
+missing_triple:existing_graph_4
+incorrect_triple:predicate_1","Irvine , North Ayrshire | near | yes
+Fitzbillies | area | riverside
+Fitzbillies | customer rating | 1 out of 5
+Fitzbillies | eat type | coffee shop
+Fitzbillies | food | Fast food",,"[{""original"":""Loch Fyne | eat type | restaurant"",""incorrect"":""Loch Fyne | colour | restaurant"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,The eat-type predicate replacement and all fabricated omissions are covered.,
+audit_180,A159,webnlg_train:7712:3_neg,webnlg_train,Omitted,made_up_triple,multi_construction,"The Akita Museum of Art is located in Akita, Akita. Fitzbillies, a moderately priced coffee shop in Riverside that serves English food and is not kid friendly, received 3 out of 5 points.","Akita Museum of Art | location | Akita, Akita
+Akihito | location | Nara , Nara","missing_triple:made_up_triple_1
+extra_contents:merged_unrelated_6","Akihito | location | Nara , Nara","Fitzbillies | area | riverside
+Fitzbillies | customer rating | 3 out of 5
+Fitzbillies | eat type | coffee shop
+Fitzbillies | family friendly | no
+Fitzbillies | food | English
+Fitzbillies | price range | moderate",[],Yes,Yes,Yes,Both,,The fabricated location and all Fitzbillies extras are covered.,
+audit_180,A160,webnlg_train:5903:1_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,"The leader in Atlantic City, New Jersey is Don Guardian which is the Clerk a municipal official. Atlantic City has the area code of 609 with a population density of 1421.2 people per Sq.Km. and an area of 44.125 Sq.Km. Strada is a restaurant rated 1 out of 5 by the customers.","Atlantic City, New Jersey | leader | Don Sharp
+Atlantic City, New Jersey | leader title | city hall
+609 | area code | Atlantic City, New Jersey
+Atlantic City, New Jersey | chief | 1421.2 (inhabitants per square kilometre)
+Atlantic City, New Jersey | width | 44.125 (square kilometres)
+Avalon | ethnic group | 1421.2 (inhabitants per square kilometre)
+Miami | secretary general | Clerk (municipal official)","missing_triple:made_up_triple_2
+extra_contents:merged_unrelated_2
+incorrect_triple:swap_1
+incorrect_triple:entity_2
+incorrect_triple:predicate_2","Avalon | ethnic group | 1421.2 (inhabitants per square kilometre)
+Miami | secretary general | Clerk (municipal official)","Strada | customer rating | 1 out of 5
+Strada | eat type | restaurant","[{""original"":""Atlantic City, New Jersey | leader | Don Guardian"",""incorrect"":""Atlantic City, New Jersey | leader | Don Sharp"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""Atlantic City, New Jersey | area code | 609"",""incorrect"":""609 | area code | Atlantic City, New Jersey"",""error_type"":""swap""},{""original"":""Atlantic City, New Jersey | leader title | Clerk (municipal official)"",""incorrect"":""Atlantic City, New Jersey | leader title | city hall"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""Atlantic City, New Jersey | area total | 44.125 (square kilometres)"",""incorrect"":""Atlantic City, New Jersey | width | 44.125 (square kilometres)"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""Atlantic City, New Jersey | population density | 1421.2 (inhabitants per square kilometre)"",""incorrect"":""Atlantic City, New Jersey | chief | 1421.2 (inhabitants per square kilometre)"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,"All Atlantic City corruptions, fabricated omissions, and Strada extras are covered.",
+audit_180,A161,webnlg_train:2748:3_neg,webnlg_train,Extra,merged_text,multi_construction,"Eric Flint (born in Burbank, California) is the author of 1634: The Bavarian Crisis, which was preceded by 1634 The Ram Rebellion. Eric Flint was influenced by Robert A. Heinlein. The Eagle is situated on the riverside near Café Brazil. Its customers rate it very highly - 5 out of 5. However, no, it is not family-friendly.","1634: The Bavarian Crisis | author | Eric Flint
+Eric Flint | educated at | Robert A. Heinlein
+1634: The Bavarian Crisis | preceded by | 1634: The Ram Rebellion
+Eric Flint | birth place | Burbank, California","extra_contents:merged_unrelated_4
+incorrect_triple:predicate_1",,"The Eagle | area | riverside
+The Eagle | customer rating | 5 out of 5
+The Eagle | family friendly | no
+The Eagle | near | Café Brazil","[{""original"":""Eric Flint | influenced by | Robert A. Heinlein"",""incorrect"":""Eric Flint | educated at | Robert A. Heinlein"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,The influenced-by predicate replacement and all Eagle extras are covered.,
+audit_180,A162,e2e_train:3745_neg,e2e_train,Extra,dropped,single_construction,In the city centre there is a low priced place called The Blue Spice which is not family friendly.,"Blue Spice | area | city centre
+Blue Spice | price range | less than £20",extra_contents:dropped_1,,Blue Spice | family friendly | no,[],Yes,Yes,Yes,Both,,The dropped family-friendly value is explicit.,
+audit_180,A163,e2e_train:1055_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,The Rice Boat provides family friendly Fast food at the riverside. This venue has been rated average by customers.,"The Rice Boat | area | riverside
+The Rice Boat | player number | average
+Yangtze | family friendly | yes
+The Rice Boat | food | Fast food","incorrect_triple:entity_1
+incorrect_triple:predicate_1",,,"[{""original"":""The Rice Boat | family friendly | yes"",""incorrect"":""Yangtze | family friendly | yes"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Rice Boat | customer rating | average"",""incorrect"":""The Rice Boat | player number | average"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,Both Rice Boat corruptions are clear.,
+audit_180,A164,webnlg_train:4681:3_neg,webnlg_train,Omitted,made_up_triple,multi_construction,"Batchoy is found in Arabic speaking Philippines, home to the Ilocano and Chinese Filipino people.","Philippines | language | Arabic
+Batchoy | country | Philippines
+Philippines | ethnic group | Chinese Filipino
+Andorra | ethnic group | Bulacan","missing_triple:made_up_triple_1
+extra_contents:dropped_1",Andorra | ethnic group | Bulacan,Philippines | ethnic group | Ilocano people,[],Yes,Yes,Yes,Both,,The fabricated omission and dropped Ilocano relation are covered.,
+audit_180,A165,e2e_train:3746_neg,e2e_train,Extra,merged_text,multi_construction,"Perhaps because it isn't place for children or the average price more than £30, The Eagle coffee shop that serves French food has a low customer rating.  Located near Burger King in the city centre area. There is a Chinese pub with a 1 out of 5 customer rating called Wildwood. It is highly priced.","The Eagle | customer rating | low
+The Eagle | family friendly | yes","extra_contents:dropped_6
+extra_contents:merged_unrelated_3",,"The Eagle | near | Burger King
+The Eagle | area | city centre
+The Eagle | food | French
+The Eagle | price range | more than £30
+The Eagle | price range | moderate
+The Eagle | eat type | coffee shop
+Wildwood | customer rating | 1 out of 5
+Wildwood | eat type | pub
+Wildwood | food | Chinese",[],No,No,No,Neither,The Eagle | family friendly; The Eagle | price range,"The text states that the restaurant is not child-friendly while the retained data says yes, and the moderate-price Extra is not cleanly supported by the wording.",
+audit_180,A166,webnlg_train:1217:3_neg,webnlg_train,Incorrect,entity_replacement,single_construction,Anders Osborne’s musical genre is rock music and his record label is Shanachie Records.,"Anders Osborne | record label | Shanachie Records
+Adam Ruud | genre | Rock music",incorrect_triple:entity_1,,,"[{""original"":""Anders Osborne | genre | Rock music"",""incorrect"":""Adam Ruud | genre | Rock music"",""error_type"":""wrong_entity"",""replaced_element"":""subject""}]",Yes,Yes,Yes,Both,,The genre subject replacement conflicts with the text.,
+audit_180,A167,e2e_train:3408_neg,e2e_train,Incorrect,entity_and_predicate_replacement,multi_construction,"For French food in the centre of the city, you'll pay more than £30 at The Phoenix, which has low customer ratings.","The Sorrento | area | city centre
+The Script | customer rating | low
+The Phoenix | food | French
+The Phoenix | elevation above sea level | more than £30","incorrect_triple:entity_2
+incorrect_triple:predicate_1",,,"[{""original"":""The Phoenix | area | city centre"",""incorrect"":""The Sorrento | area | city centre"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Phoenix | customer rating | low"",""incorrect"":""The Script | customer rating | low"",""error_type"":""wrong_entity"",""replaced_element"":""subject""},{""original"":""The Phoenix | price range | more than £30"",""incorrect"":""The Phoenix | elevation above sea level | more than £30"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,Both subject replacements and the price predicate replacement are clear.,
+audit_180,A168,e2e_train:224_neg,e2e_train,Incorrect,swap,single_construction,"For a French restaurant in the Riverside area, The Phoenix has a 3 out of 5 customer rating.","riverside | area | The Phoenix
+The Phoenix | customer rating | 3 out of 5
+The Phoenix | eat type | restaurant
+The Phoenix | food | French",incorrect_triple:swap_1,,,"[{""original"":""The Phoenix | area | riverside"",""incorrect"":""riverside | area | The Phoenix"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,The area relation is clearly reversed.,
+audit_180,A169,webnlg_train:4491:1_neg,webnlg_train,Extra,dropped,single_construction,Bacon sandwiches come from the UK. The main ingredient is bacon and other variations include the BLT and a Club Sandwich.,"Bacon sandwich | dish variation | BLT
+BLT | dish variation | Club sandwich
+Bacon sandwich | country | United Kingdom",extra_contents:dropped_1,,Bacon sandwich | ingredient | Bacon,[],Yes,Yes,Yes,Both,,The dropped bacon ingredient is explicit.,
+audit_180,A170,webnlg_train:604:2_neg,webnlg_train,Extra,merged_text,multi_construction,"Adisham Hall was completed in 1931 and is located in Sri Lanka. Cotto, a coffee shop with price range of £20-£25 near The Portland Arms in the city centre has a high customer rating  and serves English food","Adisham Hall | death place | Sri Lanka
+Stydd Hall | location | Rhode Island
+Adisham Hall | date of retirement | 30 September 1979","missing_triple:made_up_triple_2
+extra_contents:dropped_1
+extra_contents:merged_unrelated_5
+incorrect_triple:predicate_1","Stydd Hall | location | Rhode Island
+Adisham Hall | date of retirement | 30 September 1979","Adisham Hall | completion date | 1931
+Cotto | area | city centre
+Cotto | customer rating | high
+Cotto | eat type | coffee shop
+Cotto | food | English
+Cotto | near | The Portland Arms","[{""original"":""Adisham Hall | location | Sri Lanka"",""incorrect"":""Adisham Hall | death place | Sri Lanka"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,No,Yes,Both,Cotto | price range | £20-25,"The listed Adisham errors and Cotto extras are valid, but the Cotto price range is omitted from the Extra labels.",
+audit_180,A171,e2e_train:4789_neg,e2e_train,Extra,dropped,single_construction,"The Olive Grove is a family friendly Chinese food pub, higher priced at more than £30.","The Olive Grove | eat type | pub
+The Olive Grove | family friendly | yes
+The Olive Grove | price range | more than £30",extra_contents:dropped_1,,The Olive Grove | food | Chinese,[],Yes,Yes,Yes,Both,,The dropped Chinese food unit is explicit.,
+audit_180,A172,e2e_train:7237_neg,e2e_train,Omitted,existing_related_graph,single_construction,Zizzi is an English food serving pub which is not family-friendly and has an average customer rating.,"Zizzi | customer rating | average
+Zizzi | eat type | pub
+Zizzi | family friendly | no
+Zizzi | food | English
+Wildwood | food | French
+Wildwood | near | Ranch
+Wildwood | price range | moderate",missing_triple:existing_graph_3,"Wildwood | food | French
+Wildwood | near | Ranch
+Wildwood | price range | moderate",,[],Yes,Yes,Yes,Both,,The added Wildwood graph is absent.,
+audit_180,A173,webnlg_train:1896:1_neg,webnlg_train,Extra,merged_text,multi_construction,"Alessio Romagnoli's current club is AC Milan, which is managed by Siniša Mihajlović. The Vaults is a pub near Café Adriatic with food in the £20-25 price range and a high customer rating.","Alessio Romagnoli | currentclub | A.C. Milan
+A.C. Milan | manager | Siniša Mihajlović
+Alessio Romagnoli | fc moscow | University of Mumbai","missing_triple:made_up_triple_1
+extra_contents:merged_unrelated_5",Alessio Romagnoli | fc moscow | University of Mumbai,"The Vaults | customer rating | high
+The Vaults | eat type | pub
+The Vaults | near | Café Adriatic
+The Vaults | price range | more than £30
+The Vaults | price range | £20-25",[],No,Yes,Yes,Both,The Vaults | price range | more than £30,The text supports £20-25 but not the additional high-price Extra label.,
+audit_180,A174,webnlg_train:1329:2_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,107 Camilla has an epoch date of December 31st 2006 and was discovered by C Woods.,"C. Woods | discoverer | 107 Camilla
+107 Camilla | end time | 2006-12-31","incorrect_triple:swap_1
+incorrect_triple:predicate_1",,,"[{""original"":""107 Camilla | discoverer | C. Woods"",""incorrect"":""C. Woods | discoverer | 107 Camilla"",""error_type"":""swap""},{""original"":""107 Camilla | epoch | 2006-12-31"",""incorrect"":""107 Camilla | end time | 2006-12-31"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""}]",Yes,Yes,Yes,Both,,The discoverer swap and epoch predicate replacement are clear.,
+audit_180,A175,e2e_train:6908_neg,e2e_train,Extra,merged_text,multi_construction,Strada is not children friendly and costs more than £30. It has a customer rating of five out of five. Strada is an Indian in the cheaper price range. It is located near Rainbow Vegetarian Café.,"Strada | family friendly | no
+Strada | price range | more than £30
+The Punter | near | Café Sicilia
+The Punter | food | Indian","missing_triple:existing_graph_2
+extra_contents:dropped_1
+extra_contents:merged_unrelated_2","The Punter | near | Café Sicilia
+The Punter | food | Indian","Strada | customer rating | 5 out of 5
+Strada | food | Indian
+Strada | near | Rainbow Vegetarian Café",[],Yes,No,No,Neither,Strada | price range | cheap,"The two merged Strada descriptions assign conflicting price ranges, and the cheaper value is not included among the Extra labels.",
+audit_180,A176,webnlg_train:3751:1_neg,webnlg_train,Omitted,made_up_triple,single_construction,"AI Anderson from the band NRBQ plays the guitar and performs rock music. Rock music originated from country music, and a musical fusion of rock music is bhangra music.","Rock music | music fusion genre | Bhangra (music)
+Al Anderson (NRBQ band) | instrument | Guitar
+Al Anderson (NRBQ band) | genre | Rock music
+Rock music | stylistic origin | Country music
+Aric Anderson | title | Rock music
+James Anderson ( basketball ) | academic | Guitar",missing_triple:made_up_triple_2,"Aric Anderson | title | Rock music
+James Anderson ( basketball ) | academic | Guitar",,[],Yes,Yes,Yes,Both,,Both fabricated music-related units are absent.,
+audit_180,A177,e2e_train:4437_neg,e2e_train,Extra,dropped,single_construction,"There is low priced a 5 star rated Indian restaurant near the rivers side and Yippee Noodle Bar, called Alimentum.",Alimentum | customer rating | 5 out of 5,extra_contents:dropped_4,,"Alimentum | eat type | restaurant
+Alimentum | food | Indian
+Alimentum | price range | cheap
+Alimentum | near | Yippee Noodle Bar",[],Yes,No,Yes,Both,Alimentum | area | riverside,"The listed extras are valid, but the riverside location is not included among them.",
+audit_180,A178,webnlg_train:270:1_neg,webnlg_train,Extra,dropped,single_construction,"1634: The Bavarian Crisis, written by Virginia DeMarce and Eric Flint, can be located by its ISBN number ""978-1-4165-4253-7"".",1634: The Bavarian Crisis | isbn number | 978-1-4165-4253-7,extra_contents:dropped_1,,1634: The Bavarian Crisis | author | Virginia DeMarce and Eric Flint,[],Yes,Yes,Yes,Both,,The dropped combined author unit is explicit.,
+audit_180,A179,webnlg_train:12927:3_neg,webnlg_train,Omitted,made_up_triple,single_construction,"The 1 Decembrie 1918 University is also known as Uab and located in Alba Iulia, Alba.","1 Decembrie 1918 University | nickname | Uab
+1 Decembrie 1918 University | city | Alba Iulia
+1 Decembrie 1918 University | state | Alba
+1 Decembrie 1918 University | governor of new jersey | Francia",missing_triple:made_up_triple_1,1 Decembrie 1918 University | governor of new jersey | Francia,,[],Yes,Yes,Yes,Both,,The fabricated university relation is absent.,
+audit_180,A180,webnlg_train:6286:3_neg,webnlg_train,Incorrect,predicate_replacement_and_swap,multi_construction,"James Craig Watson was the discoverer of 101 Helena that has the epoch date of 31 December 2006. He was a Canadian who studied at the University of Michigan and later died in Madison, Wisconsin. Located on the riverside, The Waterman offers excellent English food for low prices.  Families with children are welcome.","James Craig Watson | discoverer | 101 Helena
+James Craig Watson | alma mater | University of Miami
+2006-12-31 | epoch | 101 Helena
+James Craig Watson | nationality | French
+James Craig Watson | region | Madison, Wisconsin","extra_contents:merged_unrelated_4
+incorrect_triple:swap_2
+incorrect_triple:entity_2
+incorrect_triple:predicate_1",,"The Waterman | area | riverside
+The Waterman | family friendly | yes
+The Waterman | food | English
+The Waterman | price range | cheap","[{""original"":""James Craig Watson | alma mater | University of Michigan"",""incorrect"":""James Craig Watson | alma mater | University of Miami"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""101 Helena | epoch | 2006-12-31"",""incorrect"":""2006-12-31 | epoch | 101 Helena"",""error_type"":""swap""},{""original"":""James Craig Watson | death place | Madison, Wisconsin"",""incorrect"":""James Craig Watson | region | Madison, Wisconsin"",""error_type"":""wrong_predicate"",""replaced_element"":""predicate""},{""original"":""James Craig Watson | nationality | Canada"",""incorrect"":""James Craig Watson | nationality | French"",""error_type"":""wrong_entity"",""replaced_element"":""object""},{""original"":""101 Helena | discoverer | James Craig Watson"",""incorrect"":""James Craig Watson | discoverer | 101 Helena"",""error_type"":""swap""}]",Yes,Yes,Yes,Both,,All Watson/Helena corruptions and Waterman extras are covered.,

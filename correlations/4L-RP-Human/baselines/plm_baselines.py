@@ -505,7 +505,7 @@ def factspotter_deberta_compute_recall(tokenizer, model, use_gpu, text: str, tri
 def run_inference(input_json: str, template_file: str = None,
                   factspotter_electra_path: str = None,
                   factspotter_electra_base: str = "google/electra-small-discriminator",
-                  use_factspotter_deberta_small: bool = False,  # ✅ 添加 Small
+                  use_factspotter_deberta_small: bool = False,
                   use_factspotter_deberta_base: bool = False,
                   use_factspotter_deberta_large: bool = False):
     """Run all baselines on the input data"""
@@ -571,7 +571,7 @@ def run_inference(input_json: str, template_file: str = None,
     results_monolr = []
     results_nli = []
     results_fs_electra = []
-    results_fs_deberta_small = []  # ✅ 添加 Small
+    results_fs_deberta_small = []
     results_fs_deberta_base = []
     results_fs_deberta_large = []
 
