@@ -94,12 +94,12 @@ def main():
             continue
         sr, srho, stau, tr, trho, ttau = f1_row(summary[name]['in_domain'])
         lines.append(
-            f'| {name} | In-domain | {sr:.1f} | {srho:.1f} | {stau:.1f} '
+            f'| {name} | WebNLG+E2E | {sr:.1f} | {srho:.1f} | {stau:.1f} '
             f'| {tr:.1f} | {trho:.1f} | {ttau:.1f} |'
         )
         sr, srho, stau, tr, trho, ttau = f1_row(summary[name]['cross_domain'])
         lines.append(
-            f'| {name} | Cross-domain | {sr:.1f} | {srho:.1f} | {stau:.1f} '
+            f'| {name} | WebNLG-only | {sr:.1f} | {srho:.1f} | {stau:.1f} '
             f'| {tr:.1f} | {trho:.1f} | {ttau:.1f} |'
         )
 

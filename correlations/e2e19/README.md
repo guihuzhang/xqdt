@@ -3,6 +3,16 @@
 This directory contains the inputs, cached predictions, and scoring scripts for
 the E2E human-rating experiments in XQDT.
 
+## Scoring setup
+
+Use Python 3.11 and install the lightweight scoring dependencies:
+
+```bash
+python -m pip install -r correlations/requirements.txt
+```
+
+Run all commands in this README from the repository root.
+
 ## Included artifacts
 
 - `human_ratings/converted.json`: E2E inputs, system outputs, and human ratings
@@ -16,16 +26,15 @@ the E2E human-rating experiments in XQDT.
 - `paired_cluster_bootstrap_results/`: saved paired-bootstrap results
 - `paired_cluster_bootstrap_transfer.py`: paired cluster-bootstrap analysis for the WebNLG-only versus WebNLG+E2E training comparison
 
-Annotator identifiers are stable within this release. The annotation-quality
-categories and filtering decisions are documented in
-`human_ratings/annotator_quality/README.md`.
+Annotation issues, cleaning rules, and flagged cases are documented in
+[Annotation quality](human_ratings/annotator_quality/README.md).
 
 ## Reproduce the saved XQDT rows
 
 ```bash
 python correlations/e2e19/evaluate_coarse_labels.py \
   --results-dir correlations/e2e19/xqdt_results_repaired \
-  --output-dir correlations/e2e19/xqdt_results_repaired
+  --output-dir /tmp/xqdt-e2e19/coarse-labels
 ```
 
 The scorer writes:
@@ -64,7 +73,7 @@ precision, recall, and F1 scores are available in
 ```bash
 python correlations/e2e19/baselines/evaluate_coarse_labels_baselines.py \
   --scores-file correlations/e2e19/baselines/baseline_scores_e2e19.json \
-  --output-dir correlations/e2e19/baselines
+  --output-dir /tmp/xqdt-e2e19/baselines
 ```
 
 This reproduces the NLI, DQE, and FactSpotter rows reported in Table 7.
@@ -75,26 +84,21 @@ Recompute all twelve XQDT models (P/R/F1), the traditional baselines, and the
 six reference-based metrics from their example-level caches:
 
 ```bash
-python correlations/e2e19/score_cached_correlations.py
+python correlations/e2e19/score_cached_correlations.py \
+  --output-dir /tmp/xqdt-e2e19/correlations
 ```
 
-This does not run model inference or change the input caches. It writes
-`correlation_results/correlations.json` with full-precision coefficients and
-`correlation_results/correlations.md` with the readable table. Each row includes
-the number of valid evaluation pairs. Use `--output-dir` to choose another
-output directory.
+The command writes
+`correlations.json` with full-precision coefficients and `correlations.md` with
+the readable table in the chosen output directory. Each row includes the number
+of valid evaluation pairs.
 
 The inputs contain 6,012 MR--system pairs. After human-rating filtering, 5,515
-pairs remain. The historical DQE cache has scores for 4,280 input pairs, of
+pairs remain. The DQE cache has scores for 4,280 input pairs, of
 which 3,896 have retained human ratings; its correlations use those 3,896 pairs.
-The original experiment log reports the same count. Missing DQE scores are
-excluded, not treated as zero.
+Pairs without DQE scores are excluded.
 
-The generated table rounds full-precision coefficients directly. Across the
-52 rows, 301 of the 312 coefficients match the published one-decimal values;
-the remaining 11 differ by 0.1 and are consistent with rounding the historical
-four-decimal coefficients before converting to percentages. The underlying
-cached predictions are unchanged.
+Coefficients are computed at full precision and rounded to one decimal.
 
 ### Reference-based metrics only
 
@@ -107,19 +111,18 @@ python correlations/e2e19/baselines/ref_baseline_eval_e2e19.py
 
 The script reuses the example-level scores, applies the human-rating filters,
 and writes the text- and system-level correlations to
-`baselines/results/ref_baseline_eval_e2e19.log`. The cache and reference file
-were exported unchanged from the original experiment repository at commit
-`18ee56f`.
+`baselines/results/ref_baseline_eval_e2e19.log`.
 
 ## Score a prompted-LLM output
 
-```bash
-python correlations/e2e19/score_prompted_llm_e2e.py \
-  --results correlations/e2e19/prompted_llm_results/Gemma3-27B_results.json
-```
+The cached outputs cover Gemma 3 27B, Qwen3 32B, and Llama 3.3 70B.
 
-The prompted-LLM directory contains the final JSON outputs used for scoring.
-Incremental JSONL generation checkpoints are not included.
+```bash
+mkdir -p /tmp/xqdt-e2e19/prompted
+python correlations/e2e19/score_prompted_llm_e2e.py \
+  --results correlations/e2e19/prompted_llm_results/Gemma3-27B_results.json \
+  --output /tmp/xqdt-e2e19/prompted/Gemma3-27B_correlation.json
+```
 
 ## Re-run inference
 
@@ -133,17 +136,17 @@ The E2E LoRA adapters are available in the
 The inference scripts download the corresponding published adapters from
 Hugging Face.
 
-Inference respects the externally configured `CUDA_VISIBLE_DEVICES`. Failed
-batches, missing responses and unrecognized output formats raise an error;
-incomplete predictions are not written as completed results.
+Inference uses the GPUs selected by `CUDA_VISIBLE_DEVICES`.
 
 ## Environment
 
 Full inference shares the WebNLG verifier dependencies in
-`verifier_train_eval_webnlg/requirements-py311.txt` and needs a compatible
-PyTorch/CUDA environment. Cached correlation reproduction needs NumPy and
-SciPy; Table 7 scoring requires NumPy and the bundled
-worker-filtering helper.
+[`verifier_train_eval_webnlg/requirements-py311.txt`](../../verifier_train_eval_webnlg/requirements-py311.txt)
+and needs a compatible PyTorch/CUDA environment:
+
+```bash
+python -m pip install -r verifier_train_eval_webnlg/requirements-py311.txt
+```
 
 ## Repaired score fields
 
@@ -155,23 +158,64 @@ caches, 498 sample/model records have different old and current P/R/F1 values.
 
 ## WebNLG-only transfer
 
-The twelve WebNLG-only prediction caches are bundled under
+This experiment compares WebNLG-only and WebNLG+E2E training on the same
+human-rated E2E outputs, using correlations and coarse-label F1.
+
+The twelve WebNLG-only prediction caches are stored under
 `verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e_human/`.
-Each contains the same 6,012 MR/system pairs as the E2E-trained caches.
-`table19_e2e_in_vs_cross_domain.py` uses these inputs for the training-setting
-comparison; `paired_cluster_bootstrap_transfer.py` uses the 4B and 8B pairs.
-Their command-line options, including output locations, are available with
-`--help`. Saved bootstrap results are in `paired_cluster_bootstrap_results/`.
+Each contains the same 6,012 MR/system pairs as the WebNLG+E2E caches.
 
-## Annotator-quality analysis
+Recompute F1 correlations for all twelve models under WebNLG+E2E and
+WebNLG-only training:
 
-The publication-time filtering strategy is:
+```bash
+python correlations/e2e19/table19_e2e_in_vs_cross_domain.py \
+  --output-dir /tmp/xqdt-e2e19/transfer
+```
 
-- exclude annotators in groups A, C, D, E, and F
-- retain group B annotators while removing individual scores above 100
+This writes `table19_in_vs_cross_domain_summary.json` for all twelve models and
+`table19_in_vs_cross_domain_qwen.md` for the five Qwen models, using the same
+human-rating filters as the correlation tables above.
 
-The six diagnostic groups, annotator-level flags, and flagged rating cases are
-provided under `human_ratings/annotator_quality/`.
+For paired 95% confidence intervals comparing WebNLG-only and WebNLG+E2E
+training on Qwen3-4B and Qwen3-8B:
+
+```bash
+python correlations/e2e19/paired_cluster_bootstrap_transfer.py \
+  --repo-root . \
+  --models Qwen3-4B Qwen3-8B \
+  --n-bootstrap 10000 \
+  --seed 42 \
+  --chunk-size 250 \
+  --output-root /tmp/xqdt-e2e19/transfer-bootstrap
+```
+
+Coarse-label F1 and text-level correlations use paired MR-cluster resampling;
+system-level correlations use paired system resampling. Differences are
+WebNLG-only minus WebNLG+E2E. Each run creates a timestamped output
+directory. Existing results are in `paired_cluster_bootstrap_results/`.
+
+## Annotation issues and cleaning
+
+We use the E2E NLG Challenge human evaluation described by
+[Dušek, Novikova and Rieser (2020)](https://arxiv.org/abs/1901.07931), with
+system-generated restaurant descriptions, their input meaning representations,
+and human ratings released in the [original repository](https://github.com/tuetschek/e2e-eval).
+
+The quality scores use a 0–100 scale. While preparing the XQDT evaluation,
+we found problems in some of these ratings, including scores above 100,
+repeated-digit entries, and disagreement between numeric scores and error
+labels. Some annotators also used a very limited set of scores or always or
+almost always gave 100.
+
+The scoring scripts exclude the 23 annotators in
+`human_ratings/excluded_workers.txt` and remove individual scores above 100
+among the remaining annotators. For correlations, they average the remaining
+quality ratings for each input–output pair. Pairs without any remaining
+ratings are omitted, leaving 5,515 of the original 6,012 pairs. The source
+ratings remain in `human_ratings/converted.json`. The
+[cleaning notes](human_ratings/annotator_quality/README.md) describe the six
+groups, examples, and files used to inspect these cases.
 
 ## Sanity checks
 
