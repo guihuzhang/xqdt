@@ -1,0 +1,450 @@
+{
+  "dataset": "WebNLG 2017",
+  "human_dimension": "semantic adequacy",
+  "systems": 9,
+  "examples_per_system": 223,
+  "bootstrap_samples": 1000,
+  "seed": 10,
+  "rows": [
+    {
+      "label": "BLEU",
+      "directory": "bleu",
+      "raw": {
+        "system_pearson": 0.7696198212864656,
+        "system_spearman": 0.7156862745098039,
+        "system_kendall": 0.5682730923694778,
+        "text_pearson": 0.7761666179359823,
+        "text_spearman": 0.7955802542933595,
+        "text_kendall": 0.6699400662754802
+      },
+      "rounded": [
+        77.0,
+        71.6,
+        56.8,
+        77.6,
+        79.6,
+        67.0
+      ]
+    },
+    {
+      "label": "METEOR",
+      "directory": "meteor",
+      "raw": {
+        "system_pearson": 0.8680861603946978,
+        "system_spearman": 0.8352242302543508,
+        "system_kendall": 0.6775533108866441,
+        "text_pearson": 0.7993837712470749,
+        "text_spearman": 0.8019555576397136,
+        "text_kendall": 0.6931922349352952
+      },
+      "rounded": [
+        86.8,
+        83.5,
+        67.8,
+        79.9,
+        80.2,
+        69.3
+      ]
+    },
+    {
+      "label": "PARENT",
+      "directory": "parent_f1",
+      "raw": {
+        "system_pearson": 0.8821416777900396,
+        "system_spearman": 0.8259576612903226,
+        "system_kendall": 0.6668381344307268,
+        "text_pearson": 0.7923373438829915,
+        "text_spearman": 0.7959042280804816,
+        "text_kendall": 0.6688407486101708
+      },
+      "rounded": [
+        88.2,
+        82.6,
+        66.7,
+        79.2,
+        79.6,
+        66.9
+      ]
+    },
+    {
+      "label": "BERTScore",
+      "directory": "bert-f1",
+      "raw": {
+        "system_pearson": 0.7009235017466825,
+        "system_spearman": 0.7834200485605273,
+        "system_kendall": 0.6374023551358283,
+        "text_pearson": 0.8001988373794264,
+        "text_spearman": 0.8109089296679302,
+        "text_kendall": 0.6949450935977518
+      },
+      "rounded": [
+        70.1,
+        78.3,
+        63.7,
+        80.0,
+        81.1,
+        69.5
+      ]
+    },
+    {
+      "label": "BARTScore",
+      "directory": "bart",
+      "raw": {
+        "system_pearson": 0.9098679762716426,
+        "system_spearman": 0.8753833333333333,
+        "system_kendall": 0.781611111111111,
+        "text_pearson": 0.8136842185972162,
+        "text_spearman": 0.8179396810781099,
+        "text_kendall": 0.7091045880395782
+      },
+      "rounded": [
+        91.0,
+        87.5,
+        78.2,
+        81.4,
+        81.8,
+        70.9
+      ]
+    },
+    {
+      "label": "BLEURT",
+      "directory": "bleurt",
+      "raw": {
+        "system_pearson": 0.9054909706113538,
+        "system_spearman": 0.8813833333333333,
+        "system_kendall": 0.7212777777777776,
+        "text_pearson": 0.8214719301079233,
+        "text_spearman": 0.8255471236933642,
+        "text_kendall": 0.7136258415108391
+      },
+      "rounded": [
+        90.5,
+        88.1,
+        72.1,
+        82.1,
+        82.6,
+        71.4
+      ]
+    },
+    {
+      "label": "Data-QuestEval-F1",
+      "directory": "questeval",
+      "raw": {
+        "system_pearson": 0.9494120434789459,
+        "system_spearman": 0.9337499999999999,
+        "system_kendall": 0.8592222222222224,
+        "text_pearson": 0.7813997990887015,
+        "text_spearman": 0.792748267636788,
+        "text_kendall": 0.676407227741597
+      },
+      "rounded": [
+        94.9,
+        93.4,
+        85.9,
+        78.1,
+        79.3,
+        67.6
+      ]
+    },
+    {
+      "label": "FactSpotter",
+      "directory": "fact-spotter",
+      "raw": {
+        "system_pearson": 0.972325677396881,
+        "system_spearman": 0.9388999999999998,
+        "system_kendall": 0.8507222222222224,
+        "text_pearson": 0.8474789964291946,
+        "text_spearman": 0.8177464565382645,
+        "text_kendall": 0.7026801948722068
+      },
+      "rounded": [
+        97.2,
+        93.9,
+        85.1,
+        84.7,
+        81.8,
+        70.3
+      ]
+    },
+    {
+      "label": "NLI-F1",
+      "directory": "nli_based_f1",
+      "raw": {
+        "system_pearson": 0.9447202647941022,
+        "system_spearman": 0.9501,
+        "system_kendall": 0.8704444444444447,
+        "text_pearson": 0.8255986193955968,
+        "text_spearman": 0.7854206433943108,
+        "text_kendall": 0.6825391020506634
+      },
+      "rounded": [
+        94.5,
+        95.0,
+        87.0,
+        82.6,
+        78.5,
+        68.3
+      ]
+    },
+    {
+      "label": "MonoLR-F1",
+      "directory": "monolr-f1",
+      "raw": {
+        "system_pearson": 0.9505473051165485,
+        "system_spearman": 0.89755,
+        "system_kendall": 0.7791111111111111,
+        "text_pearson": 0.8406041025961095,
+        "text_spearman": 0.8136230133786612,
+        "text_kendall": 0.703723792604771
+      },
+      "rounded": [
+        95.1,
+        89.8,
+        77.9,
+        84.1,
+        81.4,
+        70.4
+      ]
+    },
+    {
+      "label": "Gemma3-270M-F1",
+      "directory": "dt_gemma3_270_16620_f1",
+      "raw": {
+        "system_pearson": 0.9477131489364329,
+        "system_spearman": 0.8867333333333334,
+        "system_kendall": 0.7960555555555557,
+        "text_pearson": 0.8398323989483648,
+        "text_spearman": 0.8237504655618578,
+        "text_kendall": 0.7518538077655849
+      },
+      "rounded": [
+        94.8,
+        88.7,
+        79.6,
+        84.0,
+        82.4,
+        75.2
+      ]
+    },
+    {
+      "label": "Gemma3-1B-F1",
+      "directory": "dt_gemma3_1b_6648_f1",
+      "raw": {
+        "system_pearson": 0.9301359732765179,
+        "system_spearman": 0.8677999999999999,
+        "system_kendall": 0.7675555555555555,
+        "text_pearson": 0.8350754457967297,
+        "text_spearman": 0.8217556404160882,
+        "text_kendall": 0.7470414345958741
+      },
+      "rounded": [
+        93.0,
+        86.8,
+        76.8,
+        83.5,
+        82.2,
+        74.7
+      ]
+    },
+    {
+      "label": "Gemma3-4B-F1",
+      "directory": "dt_gemma3_4b_6648_f1",
+      "raw": {
+        "system_pearson": 0.9319720848620955,
+        "system_spearman": 0.8772666666666666,
+        "system_kendall": 0.7817777777777778,
+        "text_pearson": 0.8270168189677058,
+        "text_spearman": 0.8223957157023135,
+        "text_kendall": 0.7489416673202225
+      },
+      "rounded": [
+        93.2,
+        87.7,
+        78.2,
+        82.7,
+        82.2,
+        74.9
+      ]
+    },
+    {
+      "label": "Gemma3-12B-F1",
+      "directory": "dt_gemma3_12b_4432_f1",
+      "raw": {
+        "system_pearson": 0.9158438409020324,
+        "system_spearman": 0.8785499999999999,
+        "system_kendall": 0.7824444444444445,
+        "text_pearson": 0.8356787910266896,
+        "text_spearman": 0.824972855488757,
+        "text_kendall": 0.7509669230185116
+      },
+      "rounded": [
+        91.6,
+        87.9,
+        78.2,
+        83.6,
+        82.5,
+        75.1
+      ]
+    },
+    {
+      "label": "Qwen3-0.6B-F1",
+      "directory": "dt_qwen3_0.6b_8864_f1",
+      "raw": {
+        "system_pearson": 0.9293529596850578,
+        "system_spearman": 0.879,
+        "system_kendall": 0.7826666666666667,
+        "text_pearson": 0.8328302777858162,
+        "text_spearman": 0.8295803915384594,
+        "text_kendall": 0.7586707769435369
+      },
+      "rounded": [
+        92.9,
+        87.9,
+        78.3,
+        83.3,
+        83.0,
+        75.9
+      ]
+    },
+    {
+      "label": "Qwen3-1.7B-F1",
+      "directory": "dt_qwen3_1.7b_6648_f1",
+      "raw": {
+        "system_pearson": 0.9248967276822541,
+        "system_spearman": 0.8710666666666668,
+        "system_kendall": 0.7738333333333334,
+        "text_pearson": 0.8364807534814613,
+        "text_spearman": 0.8304177585167903,
+        "text_kendall": 0.7544818319951189
+      },
+      "rounded": [
+        92.5,
+        87.1,
+        77.4,
+        83.6,
+        83.0,
+        75.4
+      ]
+    },
+    {
+      "label": "Qwen3-4B-F1",
+      "directory": "dt_qwen3_4b_4432_f1",
+      "raw": {
+        "system_pearson": 0.9137642859724917,
+        "system_spearman": 0.8531166666666665,
+        "system_kendall": 0.7437777777777778,
+        "text_pearson": 0.8219548277131391,
+        "text_spearman": 0.8250121939721176,
+        "text_kendall": 0.7519697753501035
+      },
+      "rounded": [
+        91.4,
+        85.3,
+        74.4,
+        82.2,
+        82.5,
+        75.2
+      ]
+    },
+    {
+      "label": "Qwen3-8B-F1",
+      "directory": "dt_qwen3_8b_7479_f1",
+      "raw": {
+        "system_pearson": 0.9119381719132641,
+        "system_spearman": 0.8538833333333333,
+        "system_kendall": 0.7358888888888888,
+        "text_pearson": 0.8235748910972593,
+        "text_spearman": 0.8239790584396847,
+        "text_kendall": 0.7520481708648431
+      },
+      "rounded": [
+        91.2,
+        85.4,
+        73.6,
+        82.4,
+        82.4,
+        75.2
+      ]
+    },
+    {
+      "label": "Qwen3-14B-F1",
+      "directory": "dt_qwen3_14b_4432_f1",
+      "raw": {
+        "system_pearson": null,
+        "system_spearman": 0.6757575757575759,
+        "system_kendall": 0.5603864734299516,
+        "text_pearson": 0.812235081485421,
+        "text_spearman": 0.7912074580526546,
+        "text_kendall": 0.7168142177982575
+      },
+      "rounded": [
+        null,
+        67.6,
+        56.0,
+        81.2,
+        79.1,
+        71.7
+      ]
+    },
+    {
+      "label": "Llama3.2-1B-F1",
+      "directory": "dt_llama3.2_1b_8864_f1",
+      "raw": {
+        "system_pearson": 0.9177852476656406,
+        "system_spearman": 0.8704500000000001,
+        "system_kendall": 0.7655,
+        "text_pearson": 0.8364467405901801,
+        "text_spearman": 0.8248920498857253,
+        "text_kendall": 0.75419873511026
+      },
+      "rounded": [
+        91.8,
+        87.0,
+        76.5,
+        83.6,
+        82.5,
+        75.4
+      ]
+    },
+    {
+      "label": "Llama3.2-3B-F1",
+      "directory": "dt_llama3.2_3b_5540_f1",
+      "raw": {
+        "system_pearson": 0.9209465251005127,
+        "system_spearman": 0.8711833333333333,
+        "system_kendall": 0.7717222222222222,
+        "text_pearson": 0.8297849236365699,
+        "text_spearman": 0.8279936398412857,
+        "text_kendall": 0.7549564561555575
+      },
+      "rounded": [
+        92.1,
+        87.1,
+        77.2,
+        83.0,
+        82.8,
+        75.5
+      ]
+    },
+    {
+      "label": "Llama3.1-8B-F1",
+      "directory": "dt_llama3.1_8b_7756_f1",
+      "raw": {
+        "system_pearson": 0.9216702589344539,
+        "system_spearman": 0.8662,
+        "system_kendall": 0.7631666666666667,
+        "text_pearson": 0.8225135544883312,
+        "text_spearman": 0.816228173071581,
+        "text_kendall": 0.748466758077145
+      },
+      "rounded": [
+        92.2,
+        86.6,
+        76.3,
+        82.3,
+        81.6,
+        74.8
+      ]
+    }
+  ]
+}

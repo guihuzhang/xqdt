@@ -1,11 +1,15 @@
 import argparse
 import json
 import random
+import sys
 import warnings
 from pathlib import Path
 
 import numpy as np
 from scipy.stats import ConstantInputWarning, kendalltau, pearsonr, spearmanr
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from reparse_saved_xqdt import refresh_item
 
 
 CORRELATIONS = (pearsonr, spearmanr, kendalltau)
@@ -55,7 +59,48 @@ def parse_args():
     parser.add_argument("--output-dir", type=Path, default=experiment_dir / "results")
     parser.add_argument("--bootstrap-samples", type=int, default=1000)
     parser.add_argument("--seed", type=int, default=10)
+    parser.add_argument("--rebuild-xqdt", action="store_true",
+                        help="Reparse saved responses and rebuild the XQDT metric score files.")
     return parser.parse_args()
+
+
+def rebuild_xqdt_scores(experiment_dir):
+    team_dir = experiment_dir / "webnlg2017_inputs" / "teams-generations"
+    systems = sorted(path.stem for path in team_dir.glob("*.txt"))
+    if len(systems) != 9:
+        raise ValueError(f"Expected 9 system-output files in {team_dir}")
+    expected = {(system, index) for system in systems for index in range(223)}
+    prepared = []
+    for label, directory in WEBLG17_METRICS:
+        if not directory.startswith("dt_"):
+            continue
+        source = experiment_dir / "xqdt_results" / f"{directory[3:-3]}.json"
+        items = json.loads(source.read_text(encoding="utf-8"))
+        keys = [(item["team"], item["entry_id"]) for item in items]
+        if len(keys) != len(expected) or set(keys) != expected:
+            raise ValueError(f"Expected 2,007 distinct system/input pairs in {source}")
+        scores = {}
+        for item in items:
+            try:
+                parsed = refresh_item(item, "webnlg17")["parsed_errors"]
+            except (KeyError, TypeError, ValueError) as error:
+                raise ValueError(f"{source.name}, sample {item['id']}: {error}") from error
+            missing = len(parsed["missing"])
+            extra = len(parsed["extra"])
+            incorrect = len(parsed["incorrect"])
+            correct = max(0, len(item["triples"]) - missing - incorrect)
+            denominator = 2 * correct + extra + missing + 2 * incorrect
+            scores[(item["team"], item["entry_id"])] = (
+                2 * correct / denominator if denominator else 0.0
+            )
+        for system in systems:
+            path = experiment_dir / "metric_results" / directory / f"{system}.txt"
+            contents = "".join(f"{scores[(system, index)]:.12g}\n" for index in range(223))
+            prepared.append((path, contents))
+    for path, contents in prepared:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(contents, encoding="utf-8")
+    print(f"Rebuilt {len(prepared)} XQDT score files from saved responses.")
 
 
 def read_scores(path):
@@ -142,6 +187,10 @@ def markdown_table(rows):
 
 def main():
     args = parse_args()
+    if args.bootstrap_samples <= 0:
+        raise ValueError("--bootstrap-samples must be positive")
+    if args.rebuild_xqdt:
+        rebuild_xqdt_scores(args.experiment_dir)
     generator = random.Random(args.seed)
     population = list(range(223))
     bootstrap_indices = np.asarray(
