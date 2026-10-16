@@ -112,6 +112,7 @@
     "model_response": "| Type | Triple |\n| ---- | ------ |\n| Missing | [S] Expect a Miracle [P] type [O] Compilation Album |\n| Missing | [S] Expect a Miracle [P] runtime [O] 54.56 |\n| Extra | [S] AmeriGas [P] preceded by [O] Brian Kelly (musician) |\n| Extra | [S] AmeriGas [P] annual income [O] 1800000000 |\n| Extra | [S] AmeriGas [P] number of members [O] 3807000 |\n| Incorrect | [S] Expect a Miracle [P] preceded by [O] Pools of Light (Brian Kelly album) |\n| Incorrect | [S] Expect a Miracle [P] genre [O] Instrumental music |",
     "parsed_errors": {
       "missing": [
+        "[S] Expect a Miracle [P] type [O] Compilation Album",
         "[S] Expect a Miracle [P] runtime [O] 54.56"
       ],
       "extra": [
@@ -125,16 +126,16 @@
       ]
     },
     "error_counts": {
-      "missing": 1,
+      "missing": 2,
       "extra": 3,
       "incorrect": 2
     },
-    "precision": 0.16666666666666666,
-    "recall": 0.25,
-    "f1": 0.2,
-    "TP": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
     "FP": 5,
-    "FN": 3,
+    "FN": 4,
     "human_precision_list": [
       0.0,
       0.25,
@@ -154,11 +155,11 @@
     "FP_old": 3,
     "FN_old": 3,
     "prf_fixed": {
-      "num_missing": 1,
+      "num_missing": 2,
       "num_extra": 3,
       "num_incorrect": 2,
-      "num_correct": 1,
-      "denom_precision": 6,
+      "num_correct": 0,
+      "denom_precision": 5,
       "denom_recall": 4
     }
   },

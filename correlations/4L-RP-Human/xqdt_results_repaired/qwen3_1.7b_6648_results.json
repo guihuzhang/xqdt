@@ -114,7 +114,8 @@
       "missing": [
         "[S] Expect a Miracle [P] genre [O] Instrumental music",
         "[S] Expect a Miracle [P] preceded by [O] Pools of Light (Brian Kelly album)",
-        "[S] Expect a Miracle [P] runtime [O] 54.56"
+        "[S] Expect a Miracle [P] runtime [O] 54.56",
+        "[S] Expect a Miracle [P] type [O] Compilation Album"
       ],
       "extra": [
         "[S] AmeriGas [P] annual income [O] 1800000000",
@@ -126,7 +127,7 @@
       ]
     },
     "error_counts": {
-      "missing": 3,
+      "missing": 4,
       "extra": 3,
       "incorrect": 1
     },
@@ -135,7 +136,7 @@
     "f1": 0.0,
     "TP": 0,
     "FP": 4,
-    "FN": 4,
+    "FN": 5,
     "human_precision_list": [
       0.0,
       0.25,
@@ -155,12 +156,12 @@
     "FP_old": 3,
     "FN_old": 4,
     "prf_fixed": {
-      "num_missing": 3,
+      "num_missing": 4,
       "num_extra": 3,
       "num_incorrect": 1,
       "num_correct": 0,
       "denom_precision": 4,
-      "denom_recall": 4
+      "denom_recall": 5
     }
   },
   {
@@ -750,7 +751,8 @@
       "missing": [],
       "extra": [
         "[S] It's Great to Be Young (1956 film) [P] also starring [O] Elia Muñoz",
-        "[S] Cyril Bütüner el [P] broadcasted by [O] Eurosonic"
+        "[S] Cyril Bütüner el [P] broadcasted by [O] Eurosonic",
+        "[S] Cyril Bütüner el [P] media type [O] Film"
       ],
       "incorrect": [
         "[S] It's Great to Be Young (1956 film) [P] director [O] Cyril Frankel"
@@ -758,14 +760,14 @@
     },
     "error_counts": {
       "missing": 0,
-      "extra": 2,
+      "extra": 3,
       "incorrect": 1
     },
     "precision": 0.0,
     "recall": 0.0,
     "f1": 0.0,
     "TP": 0,
-    "FP": 3,
+    "FP": 4,
     "FN": 1,
     "human_precision_list": [
       0.0,
@@ -787,10 +789,10 @@
     "FN_old": 1,
     "prf_fixed": {
       "num_missing": 0,
-      "num_extra": 2,
+      "num_extra": 3,
       "num_incorrect": 1,
       "num_correct": 0,
-      "denom_precision": 3,
+      "denom_precision": 4,
       "denom_recall": 1
     }
   },

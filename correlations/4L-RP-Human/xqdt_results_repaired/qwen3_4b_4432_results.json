@@ -123,7 +123,8 @@
     "parsed_errors": {
       "missing": [
         "[S] Expect a Miracle [P] preceded by [O] Pools of Light (Brian Kelly album)",
-        "[S] Expect a Miracle [P] runtime [O] 54.56"
+        "[S] Expect a Miracle [P] runtime [O] 54.56",
+        "[S] Expect a Miracle [P] type [O] Compilation Album"
       ],
       "extra": [
         "[S] AmeriGas [P] annual revenue [O] 1800000000",
@@ -134,16 +135,16 @@
       ]
     },
     "error_counts": {
-      "missing": 2,
+      "missing": 3,
       "extra": 2,
       "incorrect": 1
     },
-    "precision": 0.25,
-    "recall": 0.25,
-    "f1": 0.25,
-    "TP": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
     "FP": 3,
-    "FN": 3,
+    "FN": 4,
     "human_precision_list": [
       0.0,
       0.25,
@@ -163,11 +164,11 @@
     "FP_old": 2,
     "FN_old": 3,
     "prf_fixed": {
-      "num_missing": 2,
+      "num_missing": 3,
       "num_extra": 2,
       "num_incorrect": 1,
-      "num_correct": 1,
-      "denom_precision": 4,
+      "num_correct": 0,
+      "denom_precision": 3,
       "denom_recall": 4
     }
   },

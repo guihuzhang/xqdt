@@ -861,6 +861,7 @@
         "[S] English Without Tears [P] producer [O] Anatole de Grunwald"
       ],
       "extra": [
+        "[S] English Without Tears [P] media type [O] OCLC number",
         "[S] English Without Tears [P] publisher [O] Anatole de Grunwald"
       ],
       "incorrect": [
@@ -869,14 +870,14 @@
     },
     "error_counts": {
       "missing": 1,
-      "extra": 1,
+      "extra": 2,
       "incorrect": 1
     },
     "precision": 0.0,
     "recall": 0.0,
     "f1": 0.0,
     "TP": 0,
-    "FP": 2,
+    "FP": 3,
     "FN": 2,
     "human_precision_list": [
       0.0,
@@ -898,10 +899,10 @@
     "FN_old": 2,
     "prf_fixed": {
       "num_missing": 1,
-      "num_extra": 1,
+      "num_extra": 2,
       "num_incorrect": 1,
       "num_correct": 0,
-      "denom_precision": 2,
+      "denom_precision": 3,
       "denom_recall": 2
     }
   },

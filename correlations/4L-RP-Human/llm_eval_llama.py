@@ -126,40 +126,43 @@ Output as markdown table with Type and Triple columns."""
 
 
 def parse_model_response(response: str) -> Dict[str, List[str]]:
-    """Parse model response to extract errors"""
     result = {'missing': [], 'extra': [], 'incorrect': []}
-    if not response:
-        return result
-
-    if any(phrase in response.lower() for phrase in ['all correct', 'no error', 'aligned']):
-        return result
-
-    lines = response.strip().split('\n')
-    for line in lines:
-        line = line.strip()
-        if not line or '|' not in line:
+    if not isinstance(response, str) or not response.strip():
+        raise ValueError("Empty model response")
+    response = re.sub(r'<think>\s*</think>', '', response).strip()
+    for line in response.strip().splitlines():
+        if '|' not in line:
             continue
-        if any(keyword in line.lower() for keyword in ['type', '----', '====', '---']):
-            continue
-
-        parts = [p.strip() for p in line.split('|')]
-        parts = [p for p in parts if p]
+        parts = [part.strip() for part in line.strip().strip('|').split('|')]
         if len(parts) < 2:
             continue
-
-        error_type = parts[0].strip().lower()
-        triple = ' '.join(parts[1:]).strip()
-        if not triple:
+        lowered = [part.strip('* ').lower() for part in parts]
+        if lowered[0] == 'type' and lowered[1].startswith('triple'):
             continue
-
-        if 'missing' in error_type or 'omission' in error_type:
-            result['missing'].append(triple)
-        elif 'extra' in error_type or 'additional' in error_type:
-            result['extra'].append(triple)
-        elif 'incorrect' in error_type or 'wrong' in error_type or 'error' in error_type:
-            result['incorrect'].append(triple)
-
-    return result
+        if all(re.fullmatch(r':?[-=]{3,}:?', part) for part in parts):
+            continue
+        error_type = lowered[0]
+        triple = ' '.join(parts[1:]).strip()
+        labels = {
+            'missing': 'missing', 'omission': 'missing', 'omitted': 'missing',
+            'extra': 'extra', 'additional': 'extra',
+            'incorrect': 'incorrect', 'wrong': 'incorrect', 'error': 'incorrect',
+        }
+        if error_type not in labels:
+            raise ValueError(f"Unrecognized error-table row: {line}")
+        if not triple:
+            raise ValueError(f"Missing triple in error-table row: {line}")
+        result[labels[error_type]].append(triple)
+    if any(result.values()):
+        return result
+    positive = re.fullmatch(
+        r'(?:all (?:triples (?:are )?)?correct|no errors?(?: (?:found|detected))?|'
+        r'(?:the triples (?:and (?:the )?text )?are )?fully aligned)[.!]?',
+        response.strip().strip('* ').lower(),
+    )
+    if positive:
+        return result
+    raise ValueError("Response contains neither explicit all-correct text nor error rows")
 
 
 def compute_prf_from_errors(parsed_errors: Dict[str, List[str]], num_triples: int) -> Dict[str, float]:
@@ -262,6 +265,8 @@ def run_evaluation(data: List[Dict], engine: PtEngine, request_config: RequestCo
                     InferRequest(messages=[{'role': 'user', 'content': query}]))
 
             resp_list = engine.infer(infer_requests, request_config, use_tqdm=False)
+            if len(resp_list) != len(batch):
+                raise ValueError(f"Expected {len(batch)} responses, received {len(resp_list)}")
 
             for entry, resp in zip(batch, resp_list):
                 response = resp.choices[0].message.content
@@ -302,10 +307,7 @@ def run_evaluation(data: List[Dict], engine: PtEngine, request_config: RequestCo
                 results.append(result)
 
         except Exception as e:
-            print(f"\n❌ Error at batch {i}: {e}")
-            import traceback
-            traceback.print_exc()
-            continue
+            raise RuntimeError(f"Evaluation failed at batch {i}: {e}") from e
 
     return results
 
@@ -435,8 +437,7 @@ def main():
             engine, request_config = load_model(checkpoint_config)
             print("✅ Model loaded!")
         except Exception as e:
-            print(f"❌ Failed to load model: {e}")
-            continue
+            raise RuntimeError(f"Failed to load model: {e}") from e
 
         # Run evaluation
         print("🚀 Running evaluation...")
@@ -458,10 +459,7 @@ def main():
                 print(f"💾 Correlation saved: {correlation_file}")
 
         except Exception as e:
-            print(f"❌ Error during evaluation: {e}")
-            import traceback
-            traceback.print_exc()
-            continue
+            raise RuntimeError(f"Error during evaluation: {e}") from e
 
         # Clean up
         del engine

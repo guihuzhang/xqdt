@@ -6,9 +6,26 @@ This directory contains the human annotations, example-level model predictions, 
 
 Cached outputs are provided for XQDT, prompted LLM baselines, and four traditional baselines. The XQDT adapters are available in the [WebNLG model collection](https://huggingface.co/collections/Loria-MosAIk/xqdt-webnlg-models-6a94697a0582edd20ad3df04).
 
+## CPU scoring setup
+
+Use Python 3.11 and install the lightweight scoring dependencies:
+
+```bash
+python -m pip install -r correlations/requirements.txt
+```
+
+Run all commands in this README from the repository root. Cached scoring needs
+no GPU or model downloads; full inference uses the [verifier requirements](../../verifier_train_eval_webnlg/requirements-py311.txt).
+
 ## Results
 
 ### XQDT
+
+The released scores include a parser correction that retains error rows containing
+`type`. The original model responses and human annotations are unchanged; the
+largest change in the nine correlations is 0.87 percentage points relative to
+the previous parser. These corrected XQDT scores differ slightly from the
+camera-ready tables.
 
 The table below reports Spearman correlation ($\rho \times 100$) between model-predicted precision, recall, and F1 and the corresponding 4L-RP-Human scores.
 
@@ -16,29 +33,29 @@ The table below reports Spearman correlation ($\rho \times 100$) between model-p
 | --- | ---: | ---: | ---: |
 | Gemma3-270M | 75.7 | 83.5 | 82.8 |
 | Gemma3-1B | 74.3 | 81.5 | 81.3 |
-| Gemma3-4B | 79.0 | 87.6 | 87.4 |
-| Gemma3-12B | 61.5 | 55.7 | 62.7 |
+| Gemma3-4B | 79.4 | 88.0 | 87.8 |
+| Gemma3-12B | 61.8 | 56.1 | 63.1 |
 | Qwen3-0.6B | 71.8 | 79.3 | 78.4 |
 | Qwen3-1.7B | 66.3 | 74.0 | 72.5 |
-| Qwen3-4B | 88.5 | 86.9 | 88.1 |
-| Qwen3-8B | 88.6 | 88.9 | 89.6 |
-| Qwen3-14B | 60.2 | 64.8 | 69.5 |
-| Llama3.2-1B | 71.0 | 77.0 | 76.7 |
+| Qwen3-4B | 88.8 | 87.3 | 88.4 |
+| Qwen3-8B | 88.9 | 89.2 | 89.8 |
+| Qwen3-14B | 60.5 | 65.1 | 69.8 |
+| Llama3.2-1B | 71.6 | 77.7 | 77.3 |
 | Llama3.2-3B | 85.0 | 80.4 | 85.9 |
-| Llama3.1-8B | 82.4 | 78.3 | 84.3 |
+| Llama3.1-8B | 82.6 | 78.6 | 84.5 |
 
-Among the released XQDT models, Qwen3-8B gives the strongest overall correlations, reaching 88.6, 88.9, and 89.6 for precision, recall, and F1 respectively.
+Among the released XQDT models, Qwen3-8B gives the strongest overall correlations, reaching 88.9, 89.2, and 89.8 for precision, recall, and F1 respectively.
 
 ### Traditional baselines
 
-The release also includes the 50 example-level outputs used to score DQE/QuestEval, MonoLR, NLI, and the original FactSpotter-ELECTRA model.
+The release also includes the 50 example-level outputs used to score DQE/QuestEval, MonoLR, NLI, and the original FactSpotter model.
 
 | Baseline | P | R | F1 |
 | --- | ---: | ---: | ---: |
 | DQE / QuestEval | 61.2 | 58.3 | 62.5 |
 | MonoLR | 71.0 | 63.7 | 70.6 |
 | NLI | 75.6 | 76.6 | 77.5 |
-| FactSpotter-ELECTRA | --- | 86.5 | --- |
+| FactSpotter | --- | 86.5 | --- |
 
 FactSpotter is recall-only. For DQE, the reported values are mean correlations over 1,000 bootstrap resamples with random seed 42.
 
@@ -46,20 +63,30 @@ FactSpotter is recall-only. For DQE, the reported values are mean correlations o
 
 The saved predictions can be rescored directly without rerunning model inference.
 
-From the repository root:
-
 ```bash
 python correlations/4L-RP-Human/score_4lrp_from_results.py \
   --results-dir correlations/4L-RP-Human/xqdt_results_repaired \
   --output-dir correlations/4L-RP-Human/xqdt_correlation_results
 
+python correlations/4L-RP-Human/score_4lrp_from_results.py \
+  --results-dir correlations/4L-RP-Human/prompted_llm_results \
+  --output-dir correlations/4L-RP-Human/prompted_correlation_results
+
 python correlations/4L-RP-Human/baselines/score_saved_baselines.py
 ```
 
-The first command recomputes correlations for the saved XQDT outputs. The second recomputes correlations for the four traditional baselines and writes:
+The baseline command writes
+`correlations/4L-RP-Human/baselines/results/rescored/baseline_correlations.json`.
 
-```text
-correlations/4L-RP-Human/baselines/results/rescored/baseline_correlations.json
+To rebuild the parsed errors and sample-level scores from the saved raw responses:
+
+```bash
+python correlations/reparse_saved_xqdt.py --dataset 4lrp \
+  --results-dir correlations/4L-RP-Human/xqdt_results_repaired \
+  --output-dir /tmp/xqdt-4lrp-reparsed
+python correlations/4L-RP-Human/score_4lrp_from_results.py \
+  --results-dir /tmp/xqdt-4lrp-reparsed \
+  --output-dir /tmp/xqdt-4lrp-correlations
 ```
 
 ## Annotation Data
@@ -115,21 +142,9 @@ These files can be rescored directly without rerunning the corresponding models.
 
 The `llm_eval_*.py` scripts load the published WebNLG XQDT adapters from Hugging Face and evaluate them on the 4L-RP-Human examples.
 
-### Gemma
-
 ```bash
 python correlations/4L-RP-Human/llm_eval_gemma.py
-```
-
-### Qwen
-
-```bash
 USE_HF=1 python correlations/4L-RP-Human/llm_eval_qwen.py
-```
-
-### Llama
-
-```bash
 python correlations/4L-RP-Human/llm_eval_llama.py
 ```
 
@@ -158,28 +173,22 @@ The 4L-RP-Human experiments use the WebNLG XQDT adapters:
 - `Llama3.2-3B` -> `Loria-MosAIk/xqdt-webnlg-llama3.2-3b`
 - `Llama3.1-8B` -> `Loria-MosAIk/xqdt-webnlg-llama3.1-8b`
 
-The complete collection is available at:
-
-https://huggingface.co/collections/Loria-MosAIk/xqdt-webnlg-models-6a94697a0582edd20ad3df04
-
 ## Prompted LLM Baselines
 
-The released prompted baselines are:
+The four prompted baselines below are scored on all 50 English examples, with
+no exclusions. Values are Spearman correlation ($\rho \times 100$) with the
+corresponding human precision, recall, and F1 scores.
 
-- GPT-5.1
-- Gemma 3 27B
-- Qwen3 32B
-- Llama 3.3 70B
+| Model | P | R | F1 |
+| --- | ---: | ---: | ---: |
+| GPT-5.1 | 80.9 | 76.8 | 78.5 |
+| Gemma3-27B | 28.9 | 35.1 | 36.1 |
+| Qwen3-32B | 35.9 | 30.4 | 35.0 |
+| Llama3.3-70B-AWQ | 32.4 | 35.5 | 32.8 |
 
 Each `*_results.json` file contains the input, prompt, raw model response, parsed errors, example-level precision/recall/F1, and human scores. Each `*_correlation.json` stores the corresponding correlations.
 
-Recompute correlations from the saved outputs with:
-
-```bash
-python correlations/4L-RP-Human/score_4lrp_from_results.py \
-  --results-dir correlations/4L-RP-Human/prompted_llm_results \
-  --output-dir correlations/4L-RP-Human/prompted_correlation_results
-```
+Use the prompted-results command in [Quick Start](#quick-start) to recompute these correlations.
 
 To rerun prompted inference, inspect the available options with:
 
@@ -189,24 +198,9 @@ python correlations/4L-RP-Human/prompted_llm_4lrp.py --help
 
 ## Traditional Baselines
 
-The English evaluation uses four traditional metrics:
-
-- **DQE / QuestEval**
-- **MonoLR**
-- **NLI**
-- **FactSpotter-ELECTRA**
-
-All four have 50 example-level outputs under:
-
-```text
-correlations/4L-RP-Human/baselines/results/
-```
-
-Recompute their correlations together with:
-
-```bash
-python correlations/4L-RP-Human/baselines/score_saved_baselines.py
-```
+DQE / QuestEval, MonoLR, NLI, and FactSpotter each have 50 example-level
+outputs under `correlations/4L-RP-Human/baselines/results/`. The scoring command
+is included in [Quick Start](#quick-start).
 
 MonoLR, NLI, and FactSpotter can be rerun with:
 
@@ -214,7 +208,7 @@ MonoLR, NLI, and FactSpotter can be rerun with:
 python correlations/4L-RP-Human/baselines/plm_baselines.py
 ```
 
-FactSpotter uses the original ELECTRA checkpoint:
+FactSpotter uses the original checkpoint:
 
 ```text
 checkpoints/fact_spotter_electra.pt

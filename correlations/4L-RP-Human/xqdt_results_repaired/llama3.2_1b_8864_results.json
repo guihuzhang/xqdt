@@ -114,7 +114,8 @@
       "missing": [
         "[S] Expect a Miracle [P] genre [O] Instrumental music",
         "[S] Expect a Miracle [P] runtime [O] 54.56",
-        "[S] Expect a Miracle [P] preceded by [O] Pools of Light (Brian Kelly album)"
+        "[S] Expect a Miracle [P] preceded by [O] Pools of Light (Brian Kelly album)",
+        "[S] Expect a Miracle [P] type [O] Compilation Album"
       ],
       "extra": [
         "[S] AmeriGas [P] genre [O] Instrumental music",
@@ -123,19 +124,21 @@
         "[S] AmeriGas [P] number of members [O] 38070000",
         "[S] AmeriGas [P] preceded by [O] Brian Kelly"
       ],
-      "incorrect": []
+      "incorrect": [
+        "[S] Expect a Miracle [P] type [O] Compilation Album"
+      ]
     },
     "error_counts": {
-      "missing": 3,
+      "missing": 4,
       "extra": 5,
-      "incorrect": 0
+      "incorrect": 1
     },
-    "precision": 0.16666666666666666,
-    "recall": 0.25,
-    "f1": 0.2,
-    "TP": 1,
-    "FP": 5,
-    "FN": 3,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
+    "FP": 6,
+    "FN": 5,
     "human_precision_list": [
       0.0,
       0.25,
@@ -155,12 +158,12 @@
     "FP_old": 5,
     "FN_old": 3,
     "prf_fixed": {
-      "num_missing": 3,
+      "num_missing": 4,
       "num_extra": 5,
-      "num_incorrect": 0,
-      "num_correct": 1,
+      "num_incorrect": 1,
+      "num_correct": 0,
       "denom_precision": 6,
-      "denom_recall": 4
+      "denom_recall": 5
     }
   },
   {

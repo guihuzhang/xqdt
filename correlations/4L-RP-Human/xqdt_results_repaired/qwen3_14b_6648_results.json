@@ -114,7 +114,8 @@
       "missing": [
         "[S] Expect a Miracle [P] genre [O] Instrumental music",
         "[S] Expect a Miracle [P] preceded by [O] Pools of Light (Brian Kelly album)",
-        "[S] Expect a Miracle [P] runtime [O] 54.56"
+        "[S] Expect a Miracle [P] runtime [O] 54.56",
+        "[S] Expect a Miracle [P] type [O] Compilation Album"
       ],
       "extra": [
         "[S] AmeriGas [P] genre [O] Instrumental music",
@@ -124,16 +125,16 @@
       "incorrect": []
     },
     "error_counts": {
-      "missing": 3,
+      "missing": 4,
       "extra": 3,
       "incorrect": 0
     },
-    "precision": 0.25,
-    "recall": 0.25,
-    "f1": 0.25,
-    "TP": 1,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "TP": 0,
     "FP": 3,
-    "FN": 3,
+    "FN": 4,
     "human_precision_list": [
       0.0,
       0.25,
@@ -153,11 +154,11 @@
     "FP_old": 3,
     "FN_old": 3,
     "prf_fixed": {
-      "num_missing": 3,
+      "num_missing": 4,
       "num_extra": 3,
       "num_incorrect": 0,
-      "num_correct": 1,
-      "denom_precision": 4,
+      "num_correct": 0,
+      "denom_precision": 3,
       "denom_recall": 4
     }
   },
