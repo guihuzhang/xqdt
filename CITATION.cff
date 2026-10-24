@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use XQDT, please cite the paper."
+title: "XQDT: eXplainable and Quantitative Data-Text Alignment Metric with Feedback Signals"
+type: software
+license: GPL-3.0-only
+authors:
+  - given-names: Kun
+    family-names: Efimov-Zhang
+  - given-names: Yifei
+    family-names: Song
+  - given-names: Claire
+    family-names: Gardent
+repository-code: "https://github.com/guihuzhang/xqdt"
+url: "https://github.com/guihuzhang/xqdt"
+preferred-citation:
+  type: conference-paper
+  title: "XQDT: eXplainable and Quantitative Data-Text Alignment Metric with Feedback Signals"
+  authors:
+    - given-names: Kun
+      family-names: Efimov-Zhang
+    - given-names: Yifei
+      family-names: Song
+    - given-names: Claire
+      family-names: Gardent
+  collection-title: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing"
+  year: 2026
+  publisher:
+    name: "Association for Computational Linguistics"
+references:
+  - type: conference-paper
+    title: "FactSpotter: Evaluating the Factual Faithfulness of Graph-to-Text Generation"
+    authors:
+      - given-names: Kun
+        family-names: Zhang
+      - given-names: Oana
+        family-names: Balalau
+      - given-names: Ioana
+        family-names: Manolescu
+    collection-title: "Findings of the Association for Computational Linguistics: EMNLP 2023"
+    year: 2023
+    month: 12
+    publisher:
+      name: "Association for Computational Linguistics"
+    start: 10025
+    end: 10042
+    doi: "10.18653/v1/2023.findings-emnlp.672"
+    url: "https://aclanthology.org/2023.findings-emnlp.672/"

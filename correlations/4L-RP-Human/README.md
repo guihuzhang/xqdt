@@ -37,7 +37,7 @@ Among the released XQDT models, Qwen3-8B gives the strongest overall correlation
 
 ### Traditional baselines
 
-The release also includes the 50 example-level outputs used to score DQE/QuestEval, MonoLR, NLI, and the original FactSpotter model.
+The release also includes the 50 example-level outputs used to score DQE/QuestEval, MonoLR, NLI, and FactSpotter.
 
 | Baseline | P | R | F1 |
 | --- | ---: | ---: | ---: |
@@ -208,7 +208,7 @@ MonoLR, NLI, and FactSpotter can be rerun with:
 python correlations/4L-RP-Human/baselines/plm_baselines.py
 ```
 
-FactSpotter uses the original checkpoint:
+FactSpotter loads its weights from:
 
 ```text
 checkpoints/fact_spotter_electra.pt
