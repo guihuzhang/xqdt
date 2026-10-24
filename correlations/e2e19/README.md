@@ -3,6 +3,27 @@
 This directory contains the inputs, cached predictions, and scoring scripts for
 the E2E human-rating experiments in XQDT.
 
+## Expected XQDT F1 scores
+
+The following values provide a quick check of the reproduced results. Full
+precision, recall, and F1 scores are available in
+`table7_majority_lenient_summary.json`.
+
+| Model | Is-ok F1 | Has-missing F1 | Has-added F1 |
+| --- | ---: | ---: | ---: |
+| Gemma3-270M | 88.6 | 74.6 | 24.3 |
+| Gemma3-1B | 89.1 | 75.4 | 23.8 |
+| Gemma3-4B | 89.2 | 75.6 | 20.1 |
+| Gemma3-12B | 89.4 | 76.0 | 21.9 |
+| Qwen3-0.6B | 89.3 | 75.7 | 20.8 |
+| Qwen3-1.7B | 89.3 | 75.7 | 23.4 |
+| Qwen3-4B | 89.4 | 75.8 | 21.1 |
+| Qwen3-8B | 89.4 | 75.7 | 23.3 |
+| Qwen3-14B | 89.1 | 75.5 | 18.7 |
+| Llama3.2-1B | 89.1 | 75.3 | 24.1 |
+| Llama3.2-3B | 89.4 | 76.0 | 21.9 |
+| Llama3.1-8B | 89.3 | 76.0 | 22.3 |
+
 ## Scoring setup
 
 Use Python 3.11 and install the lightweight scoring dependencies:
@@ -46,27 +67,6 @@ Paper-ready values are stored under
 `models.<model_name>.paper_row_percent` in the summary JSON.
 
 The bundled predictions cover twelve XQDT models. The table below reports scores recomputed from these outputs.
-
-### Expected XQDT F1 scores
-
-The following values provide a quick check of the reproduced results. Full
-precision, recall, and F1 scores are available in
-`table7_majority_lenient_summary.json`.
-
-| Model | Is-ok F1 | Has-missing F1 | Has-added F1 |
-| --- | ---: | ---: | ---: |
-| Gemma3-270M | 88.6 | 74.6 | 24.3 |
-| Gemma3-1B | 89.1 | 75.4 | 23.8 |
-| Gemma3-4B | 89.2 | 75.6 | 20.1 |
-| Gemma3-12B | 89.4 | 76.0 | 21.9 |
-| Qwen3-0.6B | 89.3 | 75.7 | 20.8 |
-| Qwen3-1.7B | 89.3 | 75.7 | 23.4 |
-| Qwen3-4B | 89.4 | 75.8 | 21.1 |
-| Qwen3-8B | 89.4 | 75.7 | 23.3 |
-| Qwen3-14B | 89.1 | 75.5 | 18.7 |
-| Llama3.2-1B | 89.1 | 75.3 | 24.1 |
-| Llama3.2-3B | 89.4 | 76.0 | 21.9 |
-| Llama3.1-8B | 89.3 | 76.0 | 22.3 |
 
 ## Reproduce the saved baseline rows
 
@@ -194,6 +194,29 @@ Coarse-label F1 and text-level correlations use paired MR-cluster resampling;
 system-level correlations use paired system resampling. Differences are
 WebNLG-only minus WebNLG+E2E. Each run creates a timestamped output
 directory. Existing results are in `paired_cluster_bootstrap_results/`.
+
+### Saved bootstrap results
+
+The saved run uses 10,000 resamples, seed 42, and percentile 95% confidence
+intervals. Selected results are shown below; scores and correlations are
+multiplied by 100.
+
+| Model | Measure | WebNLG+E2E | WebNLG-only | Difference | 95% CI |
+| --- | --- | ---: | ---: | ---: | --- |
+| Qwen3-4B | Is-ok F1 | 89.36 | 89.83 | +0.46 | [+0.20, +0.73] |
+| Qwen3-4B | Has-missing F1 | 75.82 | 76.42 | +0.60 | [+0.08, +1.12] |
+| Qwen3-4B | Has-added F1 | 21.09 | 23.94 | +2.86 | [-4.20, +9.55] |
+| Qwen3-4B | Text-level Spearman | 51.52 | 51.39 | -0.13 | [-1.08, +0.76] |
+| Qwen3-8B | Is-ok F1 | 89.39 | 89.22 | -0.17 | [-0.63, +0.21] |
+| Qwen3-8B | Has-missing F1 | 75.74 | 75.22 | -0.52 | [-1.46, +0.28] |
+| Qwen3-8B | Has-added F1 | 23.33 | 20.71 | -2.61 | [-9.63, +4.26] |
+| Qwen3-8B | Text-level Spearman | 51.38 | 51.21 | -0.18 | [-0.98, +0.60] |
+
+The complete results are available as
+[JSON](paired_cluster_bootstrap_results/20260825T215729Z/results.json) and
+[CSV](paired_cluster_bootstrap_results/20260825T215729Z/results.csv), with a
+[LaTeX table](paired_cluster_bootstrap_results/20260825T215729Z/table.tex) for
+coarse-label F1 and text-level correlations.
 
 ## Annotation issues and cleaning
 

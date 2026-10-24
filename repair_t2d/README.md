@@ -2,6 +2,44 @@
 
 This directory contains the inputs, saved repair outputs, and code for the text-to-data repair experiments in XQDT. The experiments use GenWiki and WebNLG, with BT5 and ReGen as the base extractors.
 
+## Results
+
+The tables below report Exact F1 (%). BT5 and ReGen are the base extractors; G3, L3.1, and Q3 denote Gemma 3, Llama 3.1, and Qwen3 repair models. SR is Self-Refine, FS is FactSpotter, and R1/R3 denote the first/third repair round.
+
+### Table 9 / GenWiki
+
+| Method | BT5 G3-12B | BT5 L3.1-8B | BT5 Q3-14B | ReGen G3-12B | ReGen L3.1-8B | ReGen Q3-14B |
+| --- | --- | --- | --- | --- | --- | --- |
+| Baseline | 40.73 | 40.73 | 40.73 | 47.34 | 47.34 | 47.34 |
+| XQDT-R1 | 48.58 | 44.65 | 43.19 | 50.57 | 49.59 | 48.32 |
+| XQDT-R3 | **50.81** | **47.76** | **47.04** | **51.86** | **50.41** | **49.36** |
+| SR-R1 | 42.13 | 40.25 | 41.46 | 44.06 | 47.11 | 44.17 |
+| SR-R3 | 41.96 | 40.02 | 40.25 | 43.76 | 45.50 | 40.99 |
+| FS-R1 | 37.73 | 40.13 | 33.67 | 44.56 | 46.49 | 43.41 |
+| FS-R3 | 36.99 | 38.92 | 33.11 | 44.13 | 45.47 | 43.07 |
+| NLI-R1 | 47.04 | 41.09 | 38.33 | 49.35 | 46.71 | 45.33 |
+| NLI-R3 | 49.37 | 41.56 | 40.09 | 51.19 | 46.33 | 45.58 |
+| PiVe-R1 | 40.73 | 40.66 | 40.73 | 47.34 | 47.25 | 47.34 |
+| PiVe-R3 | 40.73 | 40.66 | 40.73 | 47.34 | 47.17 | 47.34 |
+
+### Table 10 / WebNLG
+
+| Method | BT5 G3-12B | BT5 L3.1-8B | BT5 Q3-14B | ReGen G3-12B | ReGen L3.1-8B | ReGen Q3-14B |
+| --- | --- | --- | --- | --- | --- | --- |
+| Baseline | 67.63 | 67.63 | 67.63 | 73.37 | 73.37 | 73.37 |
+| XQDT-R1 | 72.22 | 69.76 | 72.53 | 75.18 | 74.39 | 75.51 |
+| XQDT-R3 | **72.72** | **70.82** | **74.31** | **75.53** | **74.67** | **75.84** |
+| SR-R1 | 58.53 | 62.22 | 62.27 | 61.07 | 66.26 | 65.74 |
+| SR-R3 | 55.18 | 58.16 | 58.94 | 56.69 | 60.68 | 60.36 |
+| FS-R1 | 65.46 | 67.38 | 64.83 | 73.06 | 73.59 | 73.23 |
+| FS-R3 | 65.23 | 67.15 | 64.65 | 73.03 | 73.38 | 73.14 |
+| NLI-R1 | 68.07 | 66.09 | 66.21 | 72.35 | 71.85 | 71.98 |
+| NLI-R3 | 69.04 | 65.93 | 67.08 | 73.01 | 71.25 | 72.17 |
+| PiVe-R1 | 67.63 | 67.52 | 67.63 | 73.37 | 73.23 | 73.37 |
+| PiVe-R3 | 67.63 | 67.50 | 67.63 | 73.37 | 73.12 | 73.37 |
+
+See [Recompute the Main-Text and Appendix Results](#recompute-the-main-text-and-appendix-results) for the full results, including round 2 and the additional repair models.
+
 ## Setup
 
 Use Python 3.11 and run the commands below from the repository root.
@@ -79,44 +117,6 @@ To generate the same table layouts from `results/updated_scores.json` rather tha
 python repair_t2d/export_maintext_tables.py
 python repair_t2d/export_appendix_tables.py
 ```
-
-## Results
-
-The tables below report Exact F1 (%). BT5 and ReGen are the base extractors; G3, L3.1, and Q3 denote Gemma 3, Llama 3.1, and Qwen3 repair models. SR is Self-Refine, FS is FactSpotter, and R1/R3 denote the first/third repair round.
-
-### Table 9 / GenWiki
-
-| Method | BT5 G3-12B | BT5 L3.1-8B | BT5 Q3-14B | ReGen G3-12B | ReGen L3.1-8B | ReGen Q3-14B |
-| --- | --- | --- | --- | --- | --- | --- |
-| Baseline | 40.73 | 40.73 | 40.73 | 47.34 | 47.34 | 47.34 |
-| XQDT-R1 | 48.58 | 44.65 | 43.19 | 50.57 | 49.59 | 48.32 |
-| XQDT-R3 | **50.81** | **47.76** | **47.04** | **51.86** | **50.41** | **49.36** |
-| SR-R1 | 42.13 | 40.25 | 41.46 | 44.06 | 47.11 | 44.17 |
-| SR-R3 | 41.96 | 40.02 | 40.25 | 43.76 | 45.50 | 40.99 |
-| FS-R1 | 37.73 | 40.13 | 33.67 | 44.56 | 46.49 | 43.41 |
-| FS-R3 | 36.99 | 38.92 | 33.11 | 44.13 | 45.47 | 43.07 |
-| NLI-R1 | 47.04 | 41.09 | 38.33 | 49.35 | 46.71 | 45.33 |
-| NLI-R3 | 49.37 | 41.56 | 40.09 | 51.19 | 46.33 | 45.58 |
-| PiVe-R1 | 40.73 | 40.66 | 40.73 | 47.34 | 47.25 | 47.34 |
-| PiVe-R3 | 40.73 | 40.66 | 40.73 | 47.34 | 47.17 | 47.34 |
-
-### Table 10 / WebNLG
-
-| Method | BT5 G3-12B | BT5 L3.1-8B | BT5 Q3-14B | ReGen G3-12B | ReGen L3.1-8B | ReGen Q3-14B |
-| --- | --- | --- | --- | --- | --- | --- |
-| Baseline | 67.63 | 67.63 | 67.63 | 73.37 | 73.37 | 73.37 |
-| XQDT-R1 | 72.22 | 69.76 | 72.53 | 75.18 | 74.39 | 75.51 |
-| XQDT-R3 | **72.72** | **70.82** | **74.31** | **75.53** | **74.67** | **75.84** |
-| SR-R1 | 58.53 | 62.22 | 62.27 | 61.07 | 66.26 | 65.74 |
-| SR-R3 | 55.18 | 58.16 | 58.94 | 56.69 | 60.68 | 60.36 |
-| FS-R1 | 65.46 | 67.38 | 64.83 | 73.06 | 73.59 | 73.23 |
-| FS-R3 | 65.23 | 67.15 | 64.65 | 73.03 | 73.38 | 73.14 |
-| NLI-R1 | 68.07 | 66.09 | 66.21 | 72.35 | 71.85 | 71.98 |
-| NLI-R3 | 69.04 | 65.93 | 67.08 | 73.01 | 71.25 | 72.17 |
-| PiVe-R1 | 67.63 | 67.52 | 67.63 | 73.37 | 73.23 | 73.37 |
-| PiVe-R3 | 67.63 | 67.50 | 67.63 | 73.37 | 73.12 | 73.37 |
-
-The appendix command above exports the full results, including round 2 and the additional repair models.
 
 ## Reconstruct and Score One Setting
 

@@ -473,7 +473,6 @@ def write_outputs(output_dir: Path, records: list[dict], manifest: dict):
     json_path = output_dir / "results.json"
     csv_path = output_dir / "results.csv"
     manifest_path = output_dir / "manifest.json"
-    readme_path = output_dir / "README.md"
     latex_path = output_dir / "table.tex"
     status_path = output_dir / "git_status.txt"
 
@@ -506,51 +505,6 @@ def write_outputs(output_dir: Path, records: list[dict], manifest: dict):
         )
     latex_lines.extend([r"\bottomrule", r"\end{tabular}"])
     latex_path.write_text("\n".join(latex_lines) + "\n", encoding="utf-8")
-
-    key_records = [
-        record for record in records
-        if record["metric"] in {"is_ok_f1", "has_missing_f1", "has_added_f1", "f1_spearman"}
-        and record["level"] in {"coarse_label", "text_correlation"}
-    ]
-    lines = [
-        "# Paired Bootstrap: WebNLG-only to E2E Transfer",
-        "",
-        "This confirmatory analysis compares WebNLG-only transfer with joint WebNLG+E2E training on identical E2E examples. Delta is `cross-domain - joint-training`. Coarse-label F1 and text-level correlations use paired MR-cluster resampling. System-level correlations are handled separately with paired system resampling.",
-        "",
-        f"- Bootstrap replicates: {manifest['analysis']['n_bootstrap']:,}",
-        f"- Seed: {manifest['analysis']['seed']}",
-        f"- Confidence interval: percentile 95%",
-        f"- Git commit: `{manifest['git']['commit']}` (dirty: `{manifest['git']['dirty']}`)",
-        "",
-        "## Key Results",
-        "",
-        "| Model | Level | Metric | Joint | Cross | Delta | 95% CI | CI excludes 0 |",
-        "|---|---|---|---:|---:|---:|---:|:---:|",
-    ]
-    for record in key_records:
-        lines.append(
-            f"| {record['model']} | {record['level']} | {record['metric']} | "
-            f"{100*record['joint']:.2f} | {100*record['cross']:.2f} | "
-            f"{100*record['delta']:+.2f} | "
-            f"[{100*record['ci_low']:+.2f}, {100*record['ci_high']:+.2f}] | "
-            f"{'yes' if record['ci_excludes_zero'] else 'no'} |"
-        )
-    lines.extend([
-        "",
-        "## Interpretation Rule",
-        "",
-        "A 95% CI containing zero is reported as comparable / not reliably distinguishable under this resampling design. A CI excluding zero supports a directional difference for that metric only.",
-        "",
-        "## Files",
-        "",
-        "- `results.json`: complete machine-readable results",
-        "- `results.csv`: flat result table",
-        "- `table.tex`: paste-ready LaTeX table",
-        "- `manifest.json`: estimand, inputs, hashes, software, and command",
-        "- `git_status.txt`: complete repository state at execution time",
-    ])
-    readme_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-
 
 def main():
     args = parse_args()

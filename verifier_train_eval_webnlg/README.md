@@ -4,6 +4,30 @@ This directory contains the WebNLG synthetic data, predictions from 12 fine-tune
 
 Run the commands below from the repository root.
 
+## Strict F1
+
+Scores below are recomputed from the saved predictions against the corrected test annotations and rounded to one decimal place.
+
+| Model | Extra F1 | Omitted F1 | Incorrect F1 | Macro F1 |
+| --- | ---: | ---: | ---: | ---: |
+| Gemma3-270M | 57.1 | 91.9 | 87.7 | 78.9 |
+| Gemma3-1B | 66.8 | 94.5 | 92.3 | 84.5 |
+| Gemma3-4B | 78.3 | 97.6 | 96.5 | 90.8 |
+| Gemma3-12B | 81.3 | 96.5 | 97.0 | 91.6 |
+| Qwen3-0.6B | 69.7 | 96.2 | 95.2 | 87.1 |
+| Qwen3-1.7B | 73.8 | 96.9 | 96.1 | 88.9 |
+| Qwen3-4B | 77.5 | 97.2 | 96.6 | 90.4 |
+| Qwen3-8B | 79.2 | 96.8 | 96.9 | 90.9 |
+| Qwen3-14B | 81.3 | 96.8 | 97.1 | 91.7 |
+| Llama3.2-1B | 71.6 | 92.4 | 93.1 | 85.7 |
+| Llama3.2-3B | 78.6 | 93.7 | 95.0 | 89.1 |
+| Llama3.1-8B | 82.2 | 93.8 | 95.6 | 90.5 |
+| GPT-4.1-Prompt | 16.8 | 30.8 | 64.1 | 37.2 |
+| GPT-5.1-Prompt | 18.0 | 81.7 | 78.1 | 59.2 |
+| Gemma3-27B-Prompt | 4.6 | 14.4 | 43.2 | 20.7 |
+| Qwen3-32B-Prompt | 2.8 | 1.2 | 47.6 | 17.2 |
+| Llama3.3-70B-Prompt | 13.2 | 51.8 | 52.3 | 39.1 |
+
 ## Contents
 
 - `data/`: corrected training, development, and test data, plus the synthetic-data audit.
@@ -31,30 +55,6 @@ python verifier_train_eval_webnlg/score_verifier_release.py --dataset webnlg --s
 ```
 
 The released data include annotation corrections. The published adapters were trained on the earlier data; training with this release uses the corrected version. Details are in [data/README.md](data/README.md).
-
-### Strict F1
-
-Scores below are recomputed from the saved predictions against the corrected test annotations and rounded to one decimal place.
-
-| Model | Extra F1 | Omitted F1 | Incorrect F1 | Macro F1 |
-| --- | ---: | ---: | ---: | ---: |
-| Gemma3-270M | 57.1 | 91.9 | 87.7 | 78.9 |
-| Gemma3-1B | 66.8 | 94.5 | 92.3 | 84.5 |
-| Gemma3-4B | 78.3 | 97.6 | 96.5 | 90.8 |
-| Gemma3-12B | 81.3 | 96.5 | 97.0 | 91.6 |
-| Qwen3-0.6B | 69.7 | 96.2 | 95.2 | 87.1 |
-| Qwen3-1.7B | 73.8 | 96.9 | 96.1 | 88.9 |
-| Qwen3-4B | 77.5 | 97.2 | 96.6 | 90.4 |
-| Qwen3-8B | 79.2 | 96.8 | 96.9 | 90.9 |
-| Qwen3-14B | 81.3 | 96.8 | 97.1 | 91.7 |
-| Llama3.2-1B | 71.6 | 92.4 | 93.1 | 85.7 |
-| Llama3.2-3B | 78.6 | 93.7 | 95.0 | 89.1 |
-| Llama3.1-8B | 82.2 | 93.8 | 95.6 | 90.5 |
-| GPT-4.1-Prompt | 16.8 | 30.8 | 64.1 | 37.2 |
-| GPT-5.1-Prompt | 18.0 | 81.7 | 78.1 | 59.2 |
-| Gemma3-27B-Prompt | 4.6 | 14.4 | 43.2 | 20.7 |
-| Qwen3-32B-Prompt | 2.8 | 1.2 | 47.6 | 17.2 |
-| Llama3.3-70B-Prompt | 13.2 | 51.8 | 52.3 | 39.1 |
 
 ## Run XQDT Inference
 

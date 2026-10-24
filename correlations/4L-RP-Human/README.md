@@ -6,17 +6,6 @@ This directory contains the human annotations, example-level model predictions, 
 
 Cached outputs are provided for XQDT, prompted LLM baselines, and four traditional baselines. The XQDT adapters are available in the [WebNLG model collection](https://huggingface.co/collections/Loria-MosAIk/xqdt-webnlg-models-6a94697a0582edd20ad3df04).
 
-## CPU scoring setup
-
-Use Python 3.11 and install the lightweight scoring dependencies:
-
-```bash
-python -m pip install -r correlations/requirements.txt
-```
-
-Run all commands in this README from the repository root. Cached scoring needs
-no GPU or model downloads; full inference uses the [verifier requirements](../../verifier_train_eval_webnlg/requirements-py311.txt).
-
 ## Results
 
 ### XQDT
@@ -58,6 +47,17 @@ The release also includes the 50 example-level outputs used to score DQE/QuestEv
 | FactSpotter | --- | 86.5 | --- |
 
 FactSpotter is recall-only. For DQE, the reported values are mean correlations over 1,000 bootstrap resamples with random seed 42.
+
+## CPU scoring setup
+
+Use Python 3.11 and install the lightweight scoring dependencies:
+
+```bash
+python -m pip install -r correlations/requirements.txt
+```
+
+Run all commands in this README from the repository root. Cached scoring needs
+no GPU or model downloads; full inference uses the [verifier requirements](../../verifier_train_eval_webnlg/requirements-py311.txt).
 
 ## Quick Start
 

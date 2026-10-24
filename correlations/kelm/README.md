@@ -5,6 +5,17 @@ human annotations, and scoring code used for the KELM results in XQDT. It
 covers the fine-tuned Qwen3 results reported in main-text Table 8, Appendix
 Tables 21--24, annotation agreement, and the prompted baselines.
 
+## Main-Text Fine-Grained Error Detection
+
+The reported P/R/F1 values are means over bootstrap replicates.
+
+| Model | P | R | F1 | F1 95% CI |
+| --- | ---: | ---: | ---: | --- |
+| Q3-0.6B | 43.3 | 53.4 | 45.5 | [35.4, 56.3] |
+| Q3-4B | 56.5 | 62.9 | 57.4 | [46.7, 67.3] |
+| Q3-8B | 69.4 | 74.1 | 68.9 | [59.3, 78.4] |
+| Q3-14B | 46.6 | 52.8 | 47.6 | [36.1, 58.3] |
+
 ## Contents
 
 - `selected_kelm_10per_size_diverse.json`: the 60-example KELM evaluation set.
@@ -15,7 +26,7 @@ Tables 21--24, annotation agreement, and the prompted baselines.
 - `annotations/human_annotations_agreement_*.jsonl`: the independently
   annotated overlap used for agreement analysis.
 - `prompted_llm_results/`: GPT-5.1 and Qwen3-32B prompted predictions, completed
-  item-level reviews, and the frozen Qwen3-32B aggregate result.
+  item-level reviews, and the saved Qwen3-32B aggregate result.
 
 ## Fine-Tuned Qwen3 Results
 
@@ -28,19 +39,8 @@ python correlations/kelm/annotations/anno_analysis_fin.py
 
 The script writes `annotations/analysis_output.log`. Sample IDs are sorted before
 1,000 bootstrap resamples with seed 2023, so repeated runs give the same results.
-The table below uses this fixed ordering; `annotations/analysis_output.txt`
+The reported tables use this ordering; `annotations/analysis_output.txt`
 preserves the original paper run. Annotation decisions are unchanged.
-
-### Main-Text Fine-Grained Error Detection
-
-The reported P/R/F1 values are means over bootstrap replicates.
-
-| Model | P | R | F1 | F1 95% CI |
-| --- | ---: | ---: | ---: | --- |
-| Q3-0.6B | 43.3 | 53.4 | 45.5 | [35.4, 56.3] |
-| Q3-4B | 56.5 | 62.9 | 57.4 | [46.7, 67.3] |
-| Q3-8B | 69.4 | 74.1 | 68.9 | [59.3, 78.4] |
-| Q3-14B | 46.6 | 52.8 | 47.6 | [36.1, 58.3] |
 
 ### Appendix Table 21: Binary Consistency
 

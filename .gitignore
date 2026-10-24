@@ -8,6 +8,16 @@ __pycache__/
 .env.*
 !.env.example
 .venv/
+*.sha256
+*.sha512
+*.sha1
+*.md5
+SHA256SUMS*
+SHA512SUMS*
+checksums.*
+hashes.*
+correlations/e2e19/paired_cluster_bootstrap_results/*/manifest.json
+correlations/e2e19/paired_cluster_bootstrap_results/*/git_status.txt
 
 # Model and training artifacts belong on Hugging Face, not in Git.
 *.safetensors
@@ -42,11 +52,6 @@ verifier_train_eval_e2e19/cross_dataset_results/*
 !verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e_human/
 verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e_human/*
 !verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e_human/*_results.json
-!verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e/
-verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e/*
-!verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e/predictions/
-verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e/predictions/*
-!verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e/predictions/test_predictions_qwen3_*.json
 **/exports/
 results/raw/
 results/tables/

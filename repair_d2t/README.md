@@ -2,6 +2,30 @@
 
 This directory contains the inputs, saved repair outputs, and code for the data-to-text repair experiments in XQDT. The experiments use WebNLG 2020, with Control Prefix as the base generator.
 
+## Results
+
+Scores are percentages. G3 and L3.1 denote Gemma 3 and Llama 3.1 repair models; SR is Self-Refine and FS is FactSpotter. All methods start from the same Control Prefix outputs.
+
+| Model | Method | BLEU | chrF++ | METEOR | PARENT-F1 | BERTScore-F1 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Control Prefix | Baseline | 53.81 | 69.18 | 41.58 | 65.60 | 95.72 |
+| G3-4B | SR-R1 | 51.99 | 67.95 | 40.98 | 65.70 | 95.55 |
+| G3-4B | SR-R3 | 51.54 | 67.62 | 40.82 | 65.65 | 95.51 |
+| G3-4B | FS-R1 | 53.43 | 69.05 | 41.57 | 65.44 | 95.73 |
+| G3-4B | FS-R3 | 53.35 | 69.11 | 41.63 | 65.50 | 95.72 |
+| G3-4B | NLI-R1 | 52.67 | 68.38 | 41.20 | 65.09 | 95.64 |
+| G3-4B | NLI-R3 | 52.48 | 68.38 | 41.22 | 65.18 | 95.64 |
+| G3-4B | XQDT-R1 | 53.73 | 69.45 | 41.80 | 65.76 | 95.73 |
+| G3-4B | XQDT-R3 | 53.69 | 69.49 | 41.85 | 65.81 | 95.73 |
+| L3.1-8B | SR-R1 | 48.51 | 66.47 | 39.86 | 62.93 | 95.19 |
+| L3.1-8B | SR-R3 | 47.26 | 65.98 | 39.72 | 62.65 | 95.09 |
+| L3.1-8B | FS-R1 | 53.52 | 68.88 | 41.44 | 65.30 | 95.71 |
+| L3.1-8B | FS-R3 | 53.45 | 69.21 | 41.65 | 65.21 | 95.72 |
+| L3.1-8B | NLI-R1 | 53.05 | 68.77 | 41.38 | 65.00 | 95.71 |
+| L3.1-8B | NLI-R3 | 53.08 | 69.02 | 41.60 | 65.17 | 95.72 |
+| L3.1-8B | XQDT-R1 | 53.93 | 69.48 | 41.82 | 65.73 | 95.75 |
+| L3.1-8B | XQDT-R3 | 53.88 | 69.55 | 41.86 | 65.71 | 95.75 |
+
 ## Setup
 
 Use Python 3.11 and run the commands below from the repository root.
@@ -76,30 +100,6 @@ python repair_d2t/rescore_saved_outputs.py \
   --metrics bleu,chrf++ \
   --output-dir repair_d2t/results/rescored_bleu_chrf
 ```
-
-## Results
-
-Scores are percentages. G3 and L3.1 denote Gemma 3 and Llama 3.1 repair models; SR is Self-Refine and FS is FactSpotter. All methods start from the same Control Prefix outputs.
-
-| Model | Method | BLEU | chrF++ | METEOR | PARENT-F1 | BERTScore-F1 |
-| --- | --- | ---: | ---: | ---: | ---: | ---: |
-| Control Prefix | Baseline | 53.81 | 69.18 | 41.58 | 65.60 | 95.72 |
-| G3-4B | SR-R1 | 51.99 | 67.95 | 40.98 | 65.70 | 95.55 |
-| G3-4B | SR-R3 | 51.54 | 67.62 | 40.82 | 65.65 | 95.51 |
-| G3-4B | FS-R1 | 53.43 | 69.05 | 41.57 | 65.44 | 95.73 |
-| G3-4B | FS-R3 | 53.35 | 69.11 | 41.63 | 65.50 | 95.72 |
-| G3-4B | NLI-R1 | 52.67 | 68.38 | 41.20 | 65.09 | 95.64 |
-| G3-4B | NLI-R3 | 52.48 | 68.38 | 41.22 | 65.18 | 95.64 |
-| G3-4B | XQDT-R1 | 53.73 | 69.45 | 41.80 | 65.76 | 95.73 |
-| G3-4B | XQDT-R3 | 53.69 | 69.49 | 41.85 | 65.81 | 95.73 |
-| L3.1-8B | SR-R1 | 48.51 | 66.47 | 39.86 | 62.93 | 95.19 |
-| L3.1-8B | SR-R3 | 47.26 | 65.98 | 39.72 | 62.65 | 95.09 |
-| L3.1-8B | FS-R1 | 53.52 | 68.88 | 41.44 | 65.30 | 95.71 |
-| L3.1-8B | FS-R3 | 53.45 | 69.21 | 41.65 | 65.21 | 95.72 |
-| L3.1-8B | NLI-R1 | 53.05 | 68.77 | 41.38 | 65.00 | 95.71 |
-| L3.1-8B | NLI-R3 | 53.08 | 69.02 | 41.60 | 65.17 | 95.72 |
-| L3.1-8B | XQDT-R1 | 53.93 | 69.48 | 41.82 | 65.73 | 95.75 |
-| L3.1-8B | XQDT-R3 | 53.88 | 69.55 | 41.86 | 65.71 | 95.75 |
 
 ## Reconstruct and Score One Setting
 
