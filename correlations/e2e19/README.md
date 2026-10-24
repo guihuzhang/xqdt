@@ -216,12 +216,3 @@ ratings are omitted, leaving 5,515 of the original 6,012 pairs. The source
 ratings remain in `human_ratings/converted.json`. The
 [cleaning notes](human_ratings/annotator_quality/README.md) describe the six
 groups, examples, and files used to inspect these cases.
-
-## Sanity checks
-
-```bash
-ls correlations/e2e19/human_ratings
-ls correlations/e2e19/xqdt_results_repaired
-ls correlations/e2e19/prompted_llm_results
-ls correlations/e2e19/baselines
-```

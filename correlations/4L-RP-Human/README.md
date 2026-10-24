@@ -221,19 +221,3 @@ python -m pip install evaluate bert_score spacy sentencepiece unidecode
 python -m spacy download en_core_web_sm
 python correlations/4L-RP-Human/baselines/quest_eval_corr.py
 ```
-
-## Environment
-
-Model inference was prepared with:
-
-- Python `3.11`
-- `torch==2.9.1`
-- the dependencies in `verifier_train_eval_webnlg/requirements-py311.txt`
-
-A local environment can be created from the repository root with:
-
-```bash
-python3.11 -m venv .venv
-./.venv/bin/python -m pip install -U pip
-./.venv/bin/python -m pip install -r verifier_train_eval_webnlg/requirements-py311.txt
-```

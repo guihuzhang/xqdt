@@ -26,13 +26,27 @@ checkpoints/**
 verifier_train_eval_webnlg/xqdt_outputs/eval/
 verifier_train_eval_webnlg/xqdt_outputs/eval_logs/
 verifier_train_eval_webnlg/xqdt_outputs/*.jsonl
-verifier_train_eval_e2e19/xqdt_outputs/
+# E2E raw cached predictions are intentional release assets.
+!verifier_train_eval_e2e19/xqdt_outputs/
+verifier_train_eval_e2e19/xqdt_outputs/*
+!verifier_train_eval_e2e19/xqdt_outputs/test_predictions_*.json
 **/prompt_baselines/eval/
 **/prompt_baselines/eval_logs/
 **/prompt_baselines/test_predictions_*.json
 !verifier_train_eval_webnlg/prompt_baselines/test_predictions_*.json
+!verifier_train_eval_e2e19/prompt_baselines/test_predictions_*.json
 **/prompt_baselines/test_predictions_*.jsonl
 **/cross_dataset_results/
+!verifier_train_eval_e2e19/cross_dataset_results/
+verifier_train_eval_e2e19/cross_dataset_results/*
+!verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e_human/
+verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e_human/*
+!verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e_human/*_results.json
+!verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e/
+verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e/*
+!verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e/predictions/
+verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e/predictions/*
+!verifier_train_eval_e2e19/cross_dataset_results/webnlg_to_e2e/predictions/test_predictions_qwen3_*.json
 **/exports/
 results/raw/
 results/tables/
@@ -49,8 +63,9 @@ repair_t2d/t2d_repair_output/**
 !repair_t2d/t2d_repair_output/**/
 !repair_t2d/t2d_repair_output/**/eval_summary_text_to_data_repair.json
 
-# Processed and raw datasets are released separately.
-data/error_prediction_e2e19/
+# Generated verifier evaluation results.
+verifier_train_eval_webnlg/evaluation_results/
+verifier_train_eval_e2e19/evaluation_results/
 repair_d2t/inputs/*
 !repair_d2t/inputs/webnlg20_control_prefix_20_eval_input.json
 
@@ -62,3 +77,9 @@ repair_d2t/inputs/*
 /_tmp_*
 /repair_t2d/reconstructed/
 /repair_d2t/reconstructed/
+
+# KELM validation-generated reports and common subsets.
+correlations/kelm/annotations/annotation_process_agreement.txt
+correlations/kelm/annotations/annotator_*_common.jsonl
+correlations/kelm/annotations/common_samples_summary.txt
+correlations/kelm/annotations/prediction_breakdown.txt
