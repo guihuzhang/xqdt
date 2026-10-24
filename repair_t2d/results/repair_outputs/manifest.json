@@ -1,0 +1,77 @@
+{
+  "format": "xqdt-t2d-compact-repair-v1",
+  "datasets": [
+    "genwiki",
+    "webnlg"
+  ],
+  "baselines": [
+    "bt5",
+    "regen"
+  ],
+  "rounds": 3,
+  "paper_models": {
+    "gemma3_4b": "google/gemma-3-4b-it",
+    "gemma3_12b": "google/gemma-3-12b-it",
+    "gemma3_27b": "google/gemma-3-27b-it",
+    "llama3_1_8b": "meta-llama/Meta-Llama-3.1-8B-Instruct",
+    "llama3_3_70b_awq": "casperhansen/llama-3.3-70b-instruct-awq",
+    "qwen3_4b": "Qwen/Qwen3-4B",
+    "qwen3_8b": "Qwen/Qwen3-8B",
+    "qwen3_14b": "Qwen/Qwen3-14B",
+    "qwen3_32b": "Qwen/Qwen3-32B"
+  },
+  "shared_inputs": {
+    "genwiki_unified": "../../t2d_repair_input/genwiki/genwiki_test_unified.json",
+    "genwiki_bt5": "../../t2d_repair_input/genwiki/raw/genwiki_bt5.json",
+    "genwiki_regen": "../../t2d_repair_input/genwiki/raw/genwiki_regen.json",
+    "webnlg_unified": "../../t2d_repair_input/webnlg/webnlg_test_unified.json",
+    "webnlg_bt5": "../../t2d_repair_input/webnlg/raw/webnlg_bt5.json",
+    "webnlg_regen": "../../t2d_repair_input/webnlg/raw/webnlg_regen.json",
+    "genwiki_reference_xml": "../../eval/data/genwiki_test_refs.xml",
+    "webnlg_reference_xml": "../../eval/data/webnlg_test_refs.xml"
+  },
+  "semantics": "Each method JSONL stores sparse per-round feedback and repaired triples. Initialize each dataset/baseline from the shared BT5/ReGen prediction array; apply matching records in ascending round order by sample_id. Samples absent from a round keep their previous triples. A record with fell_back=true also keeps the previous triples and therefore omits the redundant triples field. Source text, gold triples, prompts, raw rendered model output, verifier caches, evaluator intermediates, and mirrored runtime copies are intentionally not duplicated.",
+  "methods": {
+    "xqdt": {
+      "file": "xqdt.jsonl",
+      "prompt_variant": "g_bridge_recover_guard",
+      "feedback": "canonical missing/extra/incorrect verifier feedback"
+    },
+    "factspotter": {
+      "file": "factspotter.jsonl",
+      "mode": "factspotter_binary",
+      "evaluator": "Inria-CEDAR/FactSpotter-DeBERTaV3-Base",
+      "feedback": "unsupported triples used by the repair prompt"
+    },
+    "nli": {
+      "file": "nli.jsonl",
+      "mode": "nli_binary",
+      "evaluator": "roberta-large-mnli",
+      "feedback": "unsupported triples plus the coarse global missing-fact signal"
+    },
+    "pive": {
+      "file": "pive.jsonl",
+      "mode": "pive_missing",
+      "verifier": "jiuzhouh/flan-t5-xxl-lora-verifier",
+      "feedback": "missing triples used by the PiVe repair prompt"
+    },
+    "self_refine": {
+      "files": {
+        "genwiki": "self_refine_genwiki.jsonl",
+        "webnlg": "self_refine_webnlg.jsonl"
+      },
+      "mode": "self_refine_v2",
+      "feedback": "complete model-produced critique; NO_ISSUES unchanged rows omitted"
+    }
+  },
+  "record_counts": {
+    "xqdt": 42208,
+    "factspotter": 22663,
+    "nli": 53863,
+    "pive": 64180,
+    "self_refine": {
+      "genwiki": 36371,
+      "webnlg": 81280
+    }
+  }
+}

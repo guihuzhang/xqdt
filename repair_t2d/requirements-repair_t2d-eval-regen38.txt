@@ -1,0 +1,16 @@
+# Minimal evaluation / score-refresh dependency set for repair_t2d.
+# This file is intentionally trimmed to packages actually used by:
+# - repair_t2d/eval/eval_text_to_data_repair.py
+# - repair_t2d/eval/eval_webnlg_t2g/*
+# - repair_t2d/merge_eval_summaries.py
+# - repair_t2d/export_*.py
+
+# scikit-learn 0.22.2 uses NumPy aliases removed in NumPy 1.24.
+numpy==1.23.5
+beautifulsoup4==4.8.0
+lxml==6.0.2
+nervaluate==0.1.7
+nltk==3.9.1
+regex==2024.11.6
+scikit-learn==0.22.2.post1
+scipy==1.10.1

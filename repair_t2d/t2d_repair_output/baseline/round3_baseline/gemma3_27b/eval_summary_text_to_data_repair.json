@@ -1,0 +1,927 @@
+{
+  "evaluator": "repair_t2d/eval/eval_text_to_data_repair.py",
+  "reference_xmls": {
+    "genwiki": "repair_t2d/eval/data/genwiki_test_refs.xml",
+    "webnlg": "repair_t2d/eval/data/webnlg_test_refs.xml"
+  },
+  "runs": [
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__bt5__pive_missing",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "pive_missing",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_bt5_pive_missing_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__pive_missing/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__pive_missing/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.42927779428986296,
+          "Recall": 0.4500354810955115,
+          "F1": 0.43725563108824045
+        },
+        "Partial": {
+          "Precision": 0.42764324405885284,
+          "Recall": 0.4453949960598897,
+          "F1": 0.4342719454781589
+        },
+        "Strict": {
+          "Precision": 0.38503171094356503,
+          "Recall": 0.39933148791431466,
+          "F1": 0.3904433337064116
+        },
+        "Exact": {
+          "Precision": 0.4036379864647342,
+          "Recall": 0.41792137067592994,
+          "F1": 0.4089374202068366
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__bt5__nli_binary",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "nli_binary",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_bt5_nli_binary_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__nli_binary/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__nli_binary/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5360459335484562,
+          "Recall": 0.5482768527861868,
+          "F1": 0.5408031725517777
+        },
+        "Partial": {
+          "Precision": 0.5376882980093122,
+          "Recall": 0.5484975393621963,
+          "F1": 0.5418363781119391
+        },
+        "Strict": {
+          "Precision": 0.502716011564397,
+          "Recall": 0.5115924270818317,
+          "F1": 0.5061372065638404
+        },
+        "Exact": {
+          "Precision": 0.5199382738295453,
+          "Recall": 0.5290201095574456,
+          "F1": 0.5234083211987289
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__bt5__factspotter_binary",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "factspotter_binary",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_bt5_factspotter_binary_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__factspotter_binary/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__factspotter_binary/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.47730637339162507,
+          "Recall": 0.4896405938272875,
+          "F1": 0.48213573643043284
+        },
+        "Partial": {
+          "Precision": 0.4758752104628654,
+          "Recall": 0.4866085733559804,
+          "F1": 0.48001293739681483
+        },
+        "Strict": {
+          "Precision": 0.44315316538311733,
+          "Recall": 0.4517947837641741,
+          "F1": 0.44648421398990584
+        },
+        "Exact": {
+          "Precision": 0.4578117128395398,
+          "Recall": 0.4666442651707008,
+          "F1": 0.46118452197379595
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__regen__pive_missing",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "pive_missing",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_regen_pive_missing_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__pive_missing/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__pive_missing/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5041130975039745,
+          "Recall": 0.5370854734703021,
+          "F1": 0.51658695832001
+        },
+        "Partial": {
+          "Precision": 0.4920053145639083,
+          "Recall": 0.5202403953853046,
+          "F1": 0.5025279649841873
+        },
+        "Strict": {
+          "Precision": 0.4562574186566122,
+          "Recall": 0.47811509936635943,
+          "F1": 0.4644795143071797
+        },
+        "Exact": {
+          "Precision": 0.4669573034492389,
+          "Recall": 0.4893802203341014,
+          "F1": 0.4752819441242265
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__regen__nli_binary",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "nli_binary",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_regen_nli_binary_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__nli_binary/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__nli_binary/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5471549819844704,
+          "Recall": 0.5694715097673975,
+          "F1": 0.5557356737896696
+        },
+        "Partial": {
+          "Precision": 0.5419422081596104,
+          "Recall": 0.5609572765916798,
+          "F1": 0.5491498021352919
+        },
+        "Strict": {
+          "Precision": 0.5049205155147983,
+          "Recall": 0.5199216697712185,
+          "F1": 0.5106391125130533
+        },
+        "Exact": {
+          "Precision": 0.5199071420611039,
+          "Recall": 0.5349960596073936,
+          "F1": 0.5256122063978824
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__regen__factspotter_binary",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "factspotter_binary",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_regen_factspotter_binary_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__factspotter_binary/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__factspotter_binary/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.498396079938136,
+          "Recall": 0.5230708011081843,
+          "F1": 0.5078128579425278
+        },
+        "Partial": {
+          "Precision": 0.4921606480017695,
+          "Recall": 0.5131814391160185,
+          "F1": 0.5000882144053858
+        },
+        "Strict": {
+          "Precision": 0.4582507407273762,
+          "Recall": 0.47463464799913396,
+          "F1": 0.46444947519713875
+        },
+        "Exact": {
+          "Precision": 0.47137975759471085,
+          "Recall": 0.487996608090066,
+          "F1": 0.47762279537980473
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__bt5__pive_missing",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "pive_missing",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_bt5_pive_missing_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__pive_missing/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__pive_missing/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.714935459825996,
+          "Recall": 0.7418902899019291,
+          "F1": 0.7258647144237947
+        },
+        "Partial": {
+          "Precision": 0.6966710819471662,
+          "Recall": 0.7182225994180408,
+          "F1": 0.7053175813858312
+        },
+        "Strict": {
+          "Precision": 0.6601678566379966,
+          "Recall": 0.6756481609779379,
+          "F1": 0.666330762158424
+        },
+        "Exact": {
+          "Precision": 0.6685129017365403,
+          "Recall": 0.6841350668945237,
+          "F1": 0.6747113774324852
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__bt5__nli_binary",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "nli_binary",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_bt5_nli_binary_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__nli_binary/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__nli_binary/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7297389551633858,
+          "Recall": 0.7555888023486367,
+          "F1": 0.7401043016028049
+        },
+        "Partial": {
+          "Precision": 0.716451147579512,
+          "Recall": 0.7372293973950289,
+          "F1": 0.7246457225859375
+        },
+        "Strict": {
+          "Precision": 0.6726980492094363,
+          "Recall": 0.6872182786157941,
+          "F1": 0.6784302698929419
+        },
+        "Exact": {
+          "Precision": 0.6863917295801354,
+          "Recall": 0.7012785500673699,
+          "F1": 0.6921981767043269
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__bt5__factspotter_binary",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "factspotter_binary",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_bt5_factspotter_binary_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__factspotter_binary/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__factspotter_binary/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7329494646767374,
+          "Recall": 0.7576078366078366,
+          "F1": 0.7428483976698161
+        },
+        "Partial": {
+          "Precision": 0.7177667055167055,
+          "Recall": 0.7374412809412809,
+          "F1": 0.7255674057522388
+        },
+        "Strict": {
+          "Precision": 0.6788333636060909,
+          "Recall": 0.6927215007215007,
+          "F1": 0.6843211882043638
+        },
+        "Exact": {
+          "Precision": 0.6893345291072563,
+          "Recall": 0.7034884004884004,
+          "F1": 0.6948769758510606
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__regen__pive_missing",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "pive_missing",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_regen_pive_missing_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__pive_missing/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__pive_missing/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.783271894235292,
+          "Recall": 0.8182277141980181,
+          "F1": 0.7973043940768934
+        },
+        "Partial": {
+          "Precision": 0.7556394710262113,
+          "Recall": 0.7830518010611243,
+          "F1": 0.766566749550811
+        },
+        "Strict": {
+          "Precision": 0.7201106018751047,
+          "Recall": 0.7393781241778479,
+          "F1": 0.7277693838987093
+        },
+        "Exact": {
+          "Precision": 0.7237907189495587,
+          "Recall": 0.7432974875032886,
+          "F1": 0.731508531491448
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__regen__nli_binary",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "nli_binary",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_regen_nli_binary_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__nli_binary/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__nli_binary/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7723427224329376,
+          "Recall": 0.8036232554553165,
+          "F1": 0.7848591692223673
+        },
+        "Partial": {
+          "Precision": 0.7501548409181997,
+          "Recall": 0.7748708458632123,
+          "F1": 0.7599730570025321
+        },
+        "Strict": {
+          "Precision": 0.7135974696904607,
+          "Recall": 0.7310247513300948,
+          "F1": 0.7205167975269148
+        },
+        "Exact": {
+          "Precision": 0.7198745259675169,
+          "Recall": 0.7374971084894749,
+          "F1": 0.7268338022894435
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__regen__factspotter_binary",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "factspotter_binary",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_regen_factspotter_binary_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__factspotter_binary/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__factspotter_binary/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7840275345396582,
+          "Recall": 0.8154623657341049,
+          "F1": 0.7966220945543467
+        },
+        "Partial": {
+          "Precision": 0.7601721408159535,
+          "Recall": 0.7850145878678487,
+          "F1": 0.7700552129913708
+        },
+        "Strict": {
+          "Precision": 0.726778168490125,
+          "Recall": 0.7444985268354833,
+          "F1": 0.7338170848006265
+        },
+        "Exact": {
+          "Precision": 0.7312421224106007,
+          "Recall": 0.7491668657429527,
+          "F1": 0.7383258308854594
+        }
+      }
+    }
+  ],
+  "grouped": {
+    "genwiki": {
+      "bt5": {
+        "repairs": {
+          "gemma3_27b": {
+            "pive_missing": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__bt5__pive_missing",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "pive_missing",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_bt5_pive_missing_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__pive_missing/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__pive_missing/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.42927779428986296,
+                  "Recall": 0.4500354810955115,
+                  "F1": 0.43725563108824045
+                },
+                "Partial": {
+                  "Precision": 0.42764324405885284,
+                  "Recall": 0.4453949960598897,
+                  "F1": 0.4342719454781589
+                },
+                "Strict": {
+                  "Precision": 0.38503171094356503,
+                  "Recall": 0.39933148791431466,
+                  "F1": 0.3904433337064116
+                },
+                "Exact": {
+                  "Precision": 0.4036379864647342,
+                  "Recall": 0.41792137067592994,
+                  "F1": 0.4089374202068366
+                }
+              }
+            },
+            "nli_binary": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__bt5__nli_binary",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "nli_binary",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_bt5_nli_binary_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__nli_binary/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__nli_binary/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5360459335484562,
+                  "Recall": 0.5482768527861868,
+                  "F1": 0.5408031725517777
+                },
+                "Partial": {
+                  "Precision": 0.5376882980093122,
+                  "Recall": 0.5484975393621963,
+                  "F1": 0.5418363781119391
+                },
+                "Strict": {
+                  "Precision": 0.502716011564397,
+                  "Recall": 0.5115924270818317,
+                  "F1": 0.5061372065638404
+                },
+                "Exact": {
+                  "Precision": 0.5199382738295453,
+                  "Recall": 0.5290201095574456,
+                  "F1": 0.5234083211987289
+                }
+              }
+            },
+            "factspotter_binary": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__bt5__factspotter_binary",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "factspotter_binary",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_bt5_factspotter_binary_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__factspotter_binary/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/bt5/gemma3_27b__bt5__factspotter_binary/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.47730637339162507,
+                  "Recall": 0.4896405938272875,
+                  "F1": 0.48213573643043284
+                },
+                "Partial": {
+                  "Precision": 0.4758752104628654,
+                  "Recall": 0.4866085733559804,
+                  "F1": 0.48001293739681483
+                },
+                "Strict": {
+                  "Precision": 0.44315316538311733,
+                  "Recall": 0.4517947837641741,
+                  "F1": 0.44648421398990584
+                },
+                "Exact": {
+                  "Precision": 0.4578117128395398,
+                  "Recall": 0.4666442651707008,
+                  "F1": 0.46118452197379595
+                }
+              }
+            }
+          }
+        }
+      },
+      "regen": {
+        "repairs": {
+          "gemma3_27b": {
+            "pive_missing": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__regen__pive_missing",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "pive_missing",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_regen_pive_missing_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__pive_missing/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__pive_missing/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5041130975039745,
+                  "Recall": 0.5370854734703021,
+                  "F1": 0.51658695832001
+                },
+                "Partial": {
+                  "Precision": 0.4920053145639083,
+                  "Recall": 0.5202403953853046,
+                  "F1": 0.5025279649841873
+                },
+                "Strict": {
+                  "Precision": 0.4562574186566122,
+                  "Recall": 0.47811509936635943,
+                  "F1": 0.4644795143071797
+                },
+                "Exact": {
+                  "Precision": 0.4669573034492389,
+                  "Recall": 0.4893802203341014,
+                  "F1": 0.4752819441242265
+                }
+              }
+            },
+            "nli_binary": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__regen__nli_binary",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "nli_binary",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_regen_nli_binary_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__nli_binary/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__nli_binary/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5471549819844704,
+                  "Recall": 0.5694715097673975,
+                  "F1": 0.5557356737896696
+                },
+                "Partial": {
+                  "Precision": 0.5419422081596104,
+                  "Recall": 0.5609572765916798,
+                  "F1": 0.5491498021352919
+                },
+                "Strict": {
+                  "Precision": 0.5049205155147983,
+                  "Recall": 0.5199216697712185,
+                  "F1": 0.5106391125130533
+                },
+                "Exact": {
+                  "Precision": 0.5199071420611039,
+                  "Recall": 0.5349960596073936,
+                  "F1": 0.5256122063978824
+                }
+              }
+            },
+            "factspotter_binary": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__regen__factspotter_binary",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "factspotter_binary",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/genwiki/vllm_text_to_data_gemma3_27b_regen_factspotter_binary_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__factspotter_binary/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/genwiki/regen/gemma3_27b__regen__factspotter_binary/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.498396079938136,
+                  "Recall": 0.5230708011081843,
+                  "F1": 0.5078128579425278
+                },
+                "Partial": {
+                  "Precision": 0.4921606480017695,
+                  "Recall": 0.5131814391160185,
+                  "F1": 0.5000882144053858
+                },
+                "Strict": {
+                  "Precision": 0.4582507407273762,
+                  "Recall": 0.47463464799913396,
+                  "F1": 0.46444947519713875
+                },
+                "Exact": {
+                  "Precision": 0.47137975759471085,
+                  "Recall": 0.487996608090066,
+                  "F1": 0.47762279537980473
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "webnlg": {
+      "bt5": {
+        "repairs": {
+          "gemma3_27b": {
+            "pive_missing": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__bt5__pive_missing",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "pive_missing",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_bt5_pive_missing_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__pive_missing/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__pive_missing/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.714935459825996,
+                  "Recall": 0.7418902899019291,
+                  "F1": 0.7258647144237947
+                },
+                "Partial": {
+                  "Precision": 0.6966710819471662,
+                  "Recall": 0.7182225994180408,
+                  "F1": 0.7053175813858312
+                },
+                "Strict": {
+                  "Precision": 0.6601678566379966,
+                  "Recall": 0.6756481609779379,
+                  "F1": 0.666330762158424
+                },
+                "Exact": {
+                  "Precision": 0.6685129017365403,
+                  "Recall": 0.6841350668945237,
+                  "F1": 0.6747113774324852
+                }
+              }
+            },
+            "nli_binary": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__bt5__nli_binary",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "nli_binary",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_bt5_nli_binary_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__nli_binary/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__nli_binary/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7297389551633858,
+                  "Recall": 0.7555888023486367,
+                  "F1": 0.7401043016028049
+                },
+                "Partial": {
+                  "Precision": 0.716451147579512,
+                  "Recall": 0.7372293973950289,
+                  "F1": 0.7246457225859375
+                },
+                "Strict": {
+                  "Precision": 0.6726980492094363,
+                  "Recall": 0.6872182786157941,
+                  "F1": 0.6784302698929419
+                },
+                "Exact": {
+                  "Precision": 0.6863917295801354,
+                  "Recall": 0.7012785500673699,
+                  "F1": 0.6921981767043269
+                }
+              }
+            },
+            "factspotter_binary": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__bt5__factspotter_binary",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "factspotter_binary",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_bt5_factspotter_binary_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__factspotter_binary/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/bt5/gemma3_27b__bt5__factspotter_binary/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7329494646767374,
+                  "Recall": 0.7576078366078366,
+                  "F1": 0.7428483976698161
+                },
+                "Partial": {
+                  "Precision": 0.7177667055167055,
+                  "Recall": 0.7374412809412809,
+                  "F1": 0.7255674057522388
+                },
+                "Strict": {
+                  "Precision": 0.6788333636060909,
+                  "Recall": 0.6927215007215007,
+                  "F1": 0.6843211882043638
+                },
+                "Exact": {
+                  "Precision": 0.6893345291072563,
+                  "Recall": 0.7034884004884004,
+                  "F1": 0.6948769758510606
+                }
+              }
+            }
+          }
+        }
+      },
+      "regen": {
+        "repairs": {
+          "gemma3_27b": {
+            "pive_missing": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__regen__pive_missing",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "pive_missing",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_regen_pive_missing_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__pive_missing/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__pive_missing/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.783271894235292,
+                  "Recall": 0.8182277141980181,
+                  "F1": 0.7973043940768934
+                },
+                "Partial": {
+                  "Precision": 0.7556394710262113,
+                  "Recall": 0.7830518010611243,
+                  "F1": 0.766566749550811
+                },
+                "Strict": {
+                  "Precision": 0.7201106018751047,
+                  "Recall": 0.7393781241778479,
+                  "F1": 0.7277693838987093
+                },
+                "Exact": {
+                  "Precision": 0.7237907189495587,
+                  "Recall": 0.7432974875032886,
+                  "F1": 0.731508531491448
+                }
+              }
+            },
+            "nli_binary": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__regen__nli_binary",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "nli_binary",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_regen_nli_binary_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__nli_binary/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__nli_binary/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7723427224329376,
+                  "Recall": 0.8036232554553165,
+                  "F1": 0.7848591692223673
+                },
+                "Partial": {
+                  "Precision": 0.7501548409181997,
+                  "Recall": 0.7748708458632123,
+                  "F1": 0.7599730570025321
+                },
+                "Strict": {
+                  "Precision": 0.7135974696904607,
+                  "Recall": 0.7310247513300948,
+                  "F1": 0.7205167975269148
+                },
+                "Exact": {
+                  "Precision": 0.7198745259675169,
+                  "Recall": 0.7374971084894749,
+                  "F1": 0.7268338022894435
+                }
+              }
+            },
+            "factspotter_binary": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__regen__factspotter_binary",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "factspotter_binary",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/markdown/webnlg/vllm_text_to_data_gemma3_27b_regen_factspotter_binary_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__factspotter_binary/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round3_baseline/gemma3_27b/eval_results/webnlg/regen/gemma3_27b__regen__factspotter_binary/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7840275345396582,
+                  "Recall": 0.8154623657341049,
+                  "F1": 0.7966220945543467
+                },
+                "Partial": {
+                  "Precision": 0.7601721408159535,
+                  "Recall": 0.7850145878678487,
+                  "F1": 0.7700552129913708
+                },
+                "Strict": {
+                  "Precision": 0.726778168490125,
+                  "Recall": 0.7444985268354833,
+                  "F1": 0.7338170848006265
+                },
+                "Exact": {
+                  "Precision": 0.7312421224106007,
+                  "Recall": 0.7491668657429527,
+                  "F1": 0.7383258308854594
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

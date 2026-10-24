@@ -1,0 +1,3375 @@
+{
+  "evaluator": "repair_t2d/eval/eval_text_to_data_repair.py",
+  "reference_xmls": {
+    "genwiki": "repair_t2d/eval/data/genwiki_test_refs.xml",
+    "webnlg": "repair_t2d/eval/data/webnlg_test_refs.xml"
+  },
+  "runs": [
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_4b__bt5__self_refine_v2",
+      "repair_model": "gemma3_4b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_gemma3_4b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/gemma3_4b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/gemma3_4b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4199736013330834,
+          "Recall": 0.4314605270050815,
+          "F1": 0.42443384103939774
+        },
+        "Partial": {
+          "Precision": 0.42114123112790286,
+          "Recall": 0.4312264513997187,
+          "F1": 0.4250200636565318
+        },
+        "Strict": {
+          "Precision": 0.3895352538916895,
+          "Recall": 0.3975321066905225,
+          "F1": 0.39262285972588284
+        },
+        "Exact": {
+          "Precision": 0.4052849607305053,
+          "Recall": 0.4135344761582385,
+          "F1": 0.40844533940974864
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__bt5__self_refine_v2",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_gemma3_27b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/gemma3_27b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/gemma3_27b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5179993574145036,
+          "Recall": 0.5301540838844013,
+          "F1": 0.522763935264119
+        },
+        "Partial": {
+          "Precision": 0.5166423536612239,
+          "Recall": 0.5272156167307379,
+          "F1": 0.520728725251124
+        },
+        "Strict": {
+          "Precision": 0.48412369587700754,
+          "Recall": 0.4930545980720937,
+          "F1": 0.4875729945025121
+        },
+        "Exact": {
+          "Precision": 0.4990116405575041,
+          "Recall": 0.5079467083778506,
+          "F1": 0.5024319962023036
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_4b__bt5__self_refine_v2",
+      "repair_model": "qwen3_4b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_qwen3_4b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/qwen3_4b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/qwen3_4b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.40640782484492777,
+          "Recall": 0.41757350231301943,
+          "F1": 0.41077340834343207
+        },
+        "Partial": {
+          "Precision": 0.40356771105500455,
+          "Recall": 0.4131701980780761,
+          "F1": 0.4072713598085124
+        },
+        "Strict": {
+          "Precision": 0.3744832698009318,
+          "Recall": 0.38226964691386545,
+          "F1": 0.377485705002693
+        },
+        "Exact": {
+          "Precision": 0.3864515641072185,
+          "Recall": 0.39434080320357323,
+          "F1": 0.38947417396701967
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_14b__bt5__self_refine_v2",
+      "repair_model": "qwen3_14b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_qwen3_14b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/qwen3_14b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/qwen3_14b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.41612889728813296,
+          "Recall": 0.4239986856738449,
+          "F1": 0.4191856110164958
+        },
+        "Partial": {
+          "Precision": 0.4135931110644486,
+          "Recall": 0.4206529167930442,
+          "F1": 0.41629184435445404
+        },
+        "Strict": {
+          "Precision": 0.39067515923566876,
+          "Recall": 0.39673389950460014,
+          "F1": 0.3929948093400993
+        },
+        "Exact": {
+          "Precision": 0.40026326963906583,
+          "Recall": 0.4063729653220099,
+          "F1": 0.4025754565767975
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_4b__regen__self_refine_v2",
+      "repair_model": "gemma3_4b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_gemma3_4b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/gemma3_4b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/gemma3_4b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4503860786700574,
+          "Recall": 0.46446458291560794,
+          "F1": 0.45575023689054944
+        },
+        "Partial": {
+          "Precision": 0.4490349539799046,
+          "Recall": 0.46116499539999917,
+          "F1": 0.453629475762833
+        },
+        "Strict": {
+          "Precision": 0.4190852828096564,
+          "Recall": 0.4290625731590044,
+          "F1": 0.42290032535854205
+        },
+        "Exact": {
+          "Precision": 0.4324742982487857,
+          "Recall": 0.44252751874240104,
+          "F1": 0.4362913495316467
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__regen__self_refine_v2",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_gemma3_27b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/gemma3_27b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/gemma3_27b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5198263943020497,
+          "Recall": 0.5366793492261657,
+          "F1": 0.5263440773327304
+        },
+        "Partial": {
+          "Precision": 0.5159633077423339,
+          "Recall": 0.5302117735919234,
+          "F1": 0.52140009664452
+        },
+        "Strict": {
+          "Precision": 0.48540026279726656,
+          "Recall": 0.4971108230096994,
+          "F1": 0.4898780290411441
+        },
+        "Exact": {
+          "Precision": 0.49808024615140717,
+          "Recall": 0.5097616761099907,
+          "F1": 0.5025056968373512
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_4b__regen__self_refine_v2",
+      "repair_model": "qwen3_4b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_qwen3_4b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/qwen3_4b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/qwen3_4b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.430396748270253,
+          "Recall": 0.44530637061815476,
+          "F1": 0.4360914062357327
+        },
+        "Partial": {
+          "Precision": 0.42600825548140386,
+          "Recall": 0.43863386620449485,
+          "F1": 0.4307231973523726
+        },
+        "Strict": {
+          "Precision": 0.3993809766207323,
+          "Recall": 0.4093008035487038,
+          "F1": 0.40313923018809755
+        },
+        "Exact": {
+          "Precision": 0.4098913451865857,
+          "Recall": 0.42000751433176986,
+          "F1": 0.4136350548860093
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_14b__regen__self_refine_v2",
+      "repair_model": "qwen3_14b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_qwen3_14b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/qwen3_14b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/qwen3_14b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.423969340926804,
+          "Recall": 0.43663045648527055,
+          "F1": 0.4288028916269005
+        },
+        "Partial": {
+          "Precision": 0.4203295187152803,
+          "Recall": 0.4315636901729617,
+          "F1": 0.4245529431529252
+        },
+        "Strict": {
+          "Precision": 0.3961089527442049,
+          "Recall": 0.4053558133155688,
+          "F1": 0.39961430147370036
+        },
+        "Exact": {
+          "Precision": 0.4058049962150828,
+          "Recall": 0.4152895881500059,
+          "F1": 0.40934915822842466
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_4b__bt5__self_refine_v2",
+      "repair_model": "gemma3_4b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_gemma3_4b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/gemma3_4b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/gemma3_4b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5571564087116678,
+          "Recall": 0.5827589089279863,
+          "F1": 0.5674141326950595
+        },
+        "Partial": {
+          "Precision": 0.5623000421694425,
+          "Recall": 0.5832027949971357,
+          "F1": 0.5705338421973485
+        },
+        "Strict": {
+          "Precision": 0.5030487939559699,
+          "Recall": 0.5173782329483776,
+          "F1": 0.5087042598580551
+        },
+        "Exact": {
+          "Precision": 0.5324546090835938,
+          "Recall": 0.5472957806443272,
+          "F1": 0.5382366374805887
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__bt5__self_refine_v2",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_gemma3_27b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/gemma3_27b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/gemma3_27b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.6542673119307485,
+          "Recall": 0.6798037157631808,
+          "F1": 0.6644272000257391
+        },
+        "Partial": {
+          "Precision": 0.6526037392387877,
+          "Recall": 0.6731057775004821,
+          "F1": 0.6605806099090723
+        },
+        "Strict": {
+          "Precision": 0.5956149653843116,
+          "Recall": 0.6094677546192491,
+          "F1": 0.6010483795905923
+        },
+        "Exact": {
+          "Precision": 0.6206714634106473,
+          "Recall": 0.6350365900420493,
+          "F1": 0.6261861779643672
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_4b__bt5__self_refine_v2",
+      "repair_model": "qwen3_4b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_qwen3_4b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/qwen3_4b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/qwen3_4b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.6236584441139525,
+          "Recall": 0.6475959555196843,
+          "F1": 0.6332702486150836
+        },
+        "Partial": {
+          "Precision": 0.6156733381574483,
+          "Recall": 0.6346617506786998,
+          "F1": 0.6230019509580283
+        },
+        "Strict": {
+          "Precision": 0.5698558629067103,
+          "Recall": 0.5830646456493914,
+          "F1": 0.5750783668109408
+        },
+        "Exact": {
+          "Precision": 0.5869191868238478,
+          "Recall": 0.6002962840674705,
+          "F1": 0.5919919844237109
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_14b__bt5__self_refine_v2",
+      "repair_model": "qwen3_14b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_qwen3_14b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/qwen3_14b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/qwen3_14b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.6290890411014775,
+          "Recall": 0.655472107818066,
+          "F1": 0.639640461208549
+        },
+        "Partial": {
+          "Precision": 0.6204764448775896,
+          "Recall": 0.6413594017784238,
+          "F1": 0.6287081562940843
+        },
+        "Strict": {
+          "Precision": 0.5738617602170457,
+          "Recall": 0.5883711540014536,
+          "F1": 0.5795859721990676
+        },
+        "Exact": {
+          "Precision": 0.5909309164078808,
+          "Recall": 0.6057303022961587,
+          "F1": 0.5967365991928263
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_4b__regen__self_refine_v2",
+      "repair_model": "gemma3_4b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_gemma3_4b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/gemma3_4b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/gemma3_4b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5896726058810503,
+          "Recall": 0.6169487695017222,
+          "F1": 0.6003853702051053
+        },
+        "Partial": {
+          "Precision": 0.5866359472808483,
+          "Recall": 0.608072939279981,
+          "F1": 0.59487585016076
+        },
+        "Strict": {
+          "Precision": 0.5383131962876667,
+          "Recall": 0.5526514771990996,
+          "F1": 0.5438769766525907
+        },
+        "Exact": {
+          "Precision": 0.558800441543463,
+          "Recall": 0.5735263077036117,
+          "F1": 0.5643957122926618
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__regen__self_refine_v2",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_gemma3_27b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/gemma3_27b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/gemma3_27b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.6673557106860873,
+          "Recall": 0.6960339121092396,
+          "F1": 0.6787275544429812
+        },
+        "Partial": {
+          "Precision": 0.6646869333738192,
+          "Recall": 0.6875045487627365,
+          "F1": 0.6735894760087823
+        },
+        "Strict": {
+          "Precision": 0.6121213893457343,
+          "Recall": 0.6275104838150689,
+          "F1": 0.6181709958581105
+        },
+        "Exact": {
+          "Precision": 0.635184650229683,
+          "Recall": 0.6510662516462189,
+          "F1": 0.6413234639171015
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_4b__regen__self_refine_v2",
+      "repair_model": "qwen3_4b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_qwen3_4b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/qwen3_4b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/qwen3_4b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.6656940949158329,
+          "Recall": 0.6916525501276626,
+          "F1": 0.6761205354780118
+        },
+        "Partial": {
+          "Precision": 0.6503948809049344,
+          "Recall": 0.6699559597461031,
+          "F1": 0.658059575018983
+        },
+        "Strict": {
+          "Precision": 0.6107715310717279,
+          "Recall": 0.6242975208456085,
+          "F1": 0.6161390579810501
+        },
+        "Exact": {
+          "Precision": 0.6218468765642556,
+          "Recall": 0.6351828789258486,
+          "F1": 0.6269960643667404
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_14b__regen__self_refine_v2",
+      "repair_model": "qwen3_14b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_qwen3_14b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/qwen3_14b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/qwen3_14b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.646238666993384,
+          "Recall": 0.672232223876127,
+          "F1": 0.656526094287151
+        },
+        "Partial": {
+          "Precision": 0.633157336733794,
+          "Recall": 0.653519241170607,
+          "F1": 0.6411041766399739
+        },
+        "Strict": {
+          "Precision": 0.5926578412357066,
+          "Recall": 0.6063400986978852,
+          "F1": 0.5979999581902482
+        },
+        "Exact": {
+          "Precision": 0.6048388499388218,
+          "Recall": 0.6189609566721648,
+          "F1": 0.6103154158168858
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_1_8b__bt5__self_refine_v2",
+      "repair_model": "llama3_1_8b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_llama3_1_8b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/llama3_1_8b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/llama3_1_8b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.41180691998396424,
+          "Recall": 0.4226349246041669,
+          "F1": 0.41600348453282154
+        },
+        "Partial": {
+          "Precision": 0.410391089835951,
+          "Recall": 0.4203916554535459,
+          "F1": 0.4142301811748947
+        },
+        "Strict": {
+          "Precision": 0.37963488888095037,
+          "Recall": 0.38807479647689697,
+          "F1": 0.3828823485425136
+        },
+        "Exact": {
+          "Precision": 0.3926345673720017,
+          "Recall": 0.40135728376538576,
+          "F1": 0.39597175004151747
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_3_70b_awq__bt5__self_refine_v2",
+      "repair_model": "llama3_3_70b_awq",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_llama3_3_70b_awq_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/llama3_3_70b_awq__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/llama3_3_70b_awq__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4820462422859075,
+          "Recall": 0.4918366484306124,
+          "F1": 0.48588983371211
+        },
+        "Partial": {
+          "Precision": 0.47813716491753516,
+          "Recall": 0.48694537033682356,
+          "F1": 0.4815754261022122
+        },
+        "Strict": {
+          "Precision": 0.4509237789291048,
+          "Recall": 0.4583242756904943,
+          "F1": 0.4538036631556794
+        },
+        "Exact": {
+          "Precision": 0.46186299610722636,
+          "Recall": 0.4694410226682608,
+          "F1": 0.4648079123795583
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_1.7b__bt5__self_refine_v2",
+      "repair_model": "qwen3_1.7b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_qwen3_1.7b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/qwen3_1.7b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/qwen3_1.7b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4016144071927317,
+          "Recall": 0.4189002296298977,
+          "F1": 0.4082689882291225
+        },
+        "Partial": {
+          "Precision": 0.4015340694169738,
+          "Recall": 0.4165636649896847,
+          "F1": 0.40714785276544607
+        },
+        "Strict": {
+          "Precision": 0.3628382708696871,
+          "Recall": 0.37507379524734474,
+          "F1": 0.36747764848920955
+        },
+        "Exact": {
+          "Precision": 0.380719351025913,
+          "Recall": 0.39298010142322276,
+          "F1": 0.3852715526398403
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_8b__bt5__self_refine_v2",
+      "repair_model": "qwen3_8b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_qwen3_8b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/qwen3_8b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/qwen3_8b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.41226010649818967,
+          "Recall": 0.4216331216394604,
+          "F1": 0.4159520510448545
+        },
+        "Partial": {
+          "Precision": 0.40779538631021894,
+          "Recall": 0.41603686733314016,
+          "F1": 0.41101225428127264
+        },
+        "Strict": {
+          "Precision": 0.3813986174407067,
+          "Recall": 0.3884451769213432,
+          "F1": 0.3841473787087377
+        },
+        "Exact": {
+          "Precision": 0.39154905692684594,
+          "Recall": 0.39860829389226954,
+          "F1": 0.3942895860618984
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_1_8b__regen__self_refine_v2",
+      "repair_model": "llama3_1_8b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_llama3_1_8b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/llama3_1_8b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/llama3_1_8b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4805335265419299,
+          "Recall": 0.4936830287670624,
+          "F1": 0.4855511736552878
+        },
+        "Partial": {
+          "Precision": 0.47535352524848323,
+          "Recall": 0.48719417059753195,
+          "F1": 0.4797724860020688
+        },
+        "Strict": {
+          "Precision": 0.4470563983169025,
+          "Recall": 0.457219554488462,
+          "F1": 0.45090986923241355
+        },
+        "Exact": {
+          "Precision": 0.45776492415147874,
+          "Recall": 0.46810997126123177,
+          "F1": 0.46160527687205344
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_3_70b_awq__regen__self_refine_v2",
+      "repair_model": "llama3_3_70b_awq",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_llama3_3_70b_awq_regen_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/llama3_3_70b_awq__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/llama3_3_70b_awq__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5000995230384543,
+          "Recall": 0.5125597762429823,
+          "F1": 0.5048498427348899
+        },
+        "Partial": {
+          "Precision": 0.49514846300151644,
+          "Recall": 0.5060510319479785,
+          "F1": 0.49919536723982166
+        },
+        "Strict": {
+          "Precision": 0.4681759158285876,
+          "Recall": 0.47739216042651156,
+          "F1": 0.47165309336840544
+        },
+        "Exact": {
+          "Precision": 0.4787639848136031,
+          "Recall": 0.4880028474494123,
+          "F1": 0.48216280700789005
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_1.7b__regen__self_refine_v2",
+      "repair_model": "qwen3_1.7b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_qwen3_1.7b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/qwen3_1.7b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/qwen3_1.7b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.46870270306346257,
+          "Recall": 0.49514124974884466,
+          "F1": 0.4787381518583266
+        },
+        "Partial": {
+          "Precision": 0.46002169419890937,
+          "Recall": 0.48313728149487645,
+          "F1": 0.4686537665468706
+        },
+        "Strict": {
+          "Precision": 0.4282974866202714,
+          "Recall": 0.44658177617038375,
+          "F1": 0.4351842877896489
+        },
+        "Exact": {
+          "Precision": 0.438686074122783,
+          "Recall": 0.45753958207755674,
+          "F1": 0.44568010701964533
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_8b__regen__self_refine_v2",
+      "repair_model": "qwen3_8b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_qwen3_8b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/qwen3_8b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/qwen3_8b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4261146489222239,
+          "Recall": 0.43668062717376394,
+          "F1": 0.4302169053258968
+        },
+        "Partial": {
+          "Precision": 0.42358545326898145,
+          "Recall": 0.4330484744312909,
+          "F1": 0.42722942445376677
+        },
+        "Strict": {
+          "Precision": 0.39911082463827763,
+          "Recall": 0.4072548236376401,
+          "F1": 0.4022480926604854
+        },
+        "Exact": {
+          "Precision": 0.4090455814591554,
+          "Recall": 0.41721076330888224,
+          "F1": 0.4121761920141058
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_1_8b__bt5__self_refine_v2",
+      "repair_model": "llama3_1_8b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_llama3_1_8b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/llama3_1_8b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/llama3_1_8b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.6285150174492705,
+          "Recall": 0.6571925790354624,
+          "F1": 0.6399008699449276
+        },
+        "Partial": {
+          "Precision": 0.6135820934427157,
+          "Recall": 0.6365641110731214,
+          "F1": 0.6225644161264777
+        },
+        "Strict": {
+          "Precision": 0.5701855088769069,
+          "Recall": 0.5859717780772264,
+          "F1": 0.5763770581790723
+        },
+        "Exact": {
+          "Precision": 0.5825493323451932,
+          "Recall": 0.5988560053990154,
+          "F1": 0.5888724858511858
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_3_70b_awq__bt5__self_refine_v2",
+      "repair_model": "llama3_3_70b_awq",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_llama3_3_70b_awq_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/llama3_3_70b_awq__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/llama3_3_70b_awq__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.6832345918426377,
+          "Recall": 0.7106040348811685,
+          "F1": 0.6942160355701388
+        },
+        "Partial": {
+          "Precision": 0.6760455587543868,
+          "Recall": 0.698298013156932,
+          "F1": 0.6847876230576653
+        },
+        "Strict": {
+          "Precision": 0.6234454879447197,
+          "Recall": 0.6384038739116263,
+          "F1": 0.6293902635355966
+        },
+        "Exact": {
+          "Precision": 0.6439232082967241,
+          "Recall": 0.6597755738697211,
+          "F1": 0.6501292248738036
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_1.7b__bt5__self_refine_v2",
+      "repair_model": "qwen3_1.7b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_qwen3_1.7b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/qwen3_1.7b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/qwen3_1.7b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.6644276793619727,
+          "Recall": 0.6880843646466462,
+          "F1": 0.6739963783891314
+        },
+        "Partial": {
+          "Precision": 0.6510770034833365,
+          "Recall": 0.6697349763336062,
+          "F1": 0.6585069240714656
+        },
+        "Strict": {
+          "Precision": 0.614376650812412,
+          "Recall": 0.6277737834497236,
+          "F1": 0.6196900895831371
+        },
+        "Exact": {
+          "Precision": 0.6248156607516316,
+          "Recall": 0.6383078251105652,
+          "F1": 0.6301140148819401
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_8b__bt5__self_refine_v2",
+      "repair_model": "qwen3_8b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_qwen3_8b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/qwen3_8b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/qwen3_8b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5874146756109808,
+          "Recall": 0.6129834823037474,
+          "F1": 0.5976430103949377
+        },
+        "Partial": {
+          "Precision": 0.5784288070866127,
+          "Recall": 0.5986359581674064,
+          "F1": 0.5863649624565109
+        },
+        "Strict": {
+          "Precision": 0.532096805637209,
+          "Recall": 0.5465880626683052,
+          "F1": 0.5378274880046737
+        },
+        "Exact": {
+          "Precision": 0.5488282761128622,
+          "Recall": 0.5635273754121589,
+          "F1": 0.5545649851398581
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_1_8b__regen__self_refine_v2",
+      "repair_model": "llama3_1_8b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_llama3_1_8b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/llama3_1_8b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/llama3_1_8b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.660267252977337,
+          "Recall": 0.688744775688053,
+          "F1": 0.6715263715824048
+        },
+        "Partial": {
+          "Precision": 0.6432006411733302,
+          "Recall": 0.6654602674403095,
+          "F1": 0.6519032793944662
+        },
+        "Strict": {
+          "Precision": 0.603169454650547,
+          "Recall": 0.6183105464407985,
+          "F1": 0.6091080799797987
+        },
+        "Exact": {
+          "Precision": 0.6132039684560693,
+          "Recall": 0.628614001156018,
+          "F1": 0.6191950743735157
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_3_70b_awq__regen__self_refine_v2",
+      "repair_model": "llama3_3_70b_awq",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_llama3_3_70b_awq_regen_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/llama3_3_70b_awq__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/llama3_3_70b_awq__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7009385722469409,
+          "Recall": 0.7297457619622568,
+          "F1": 0.7123007173347174
+        },
+        "Partial": {
+          "Precision": 0.6918226558273557,
+          "Recall": 0.7147816078228449,
+          "F1": 0.7007259754937016
+        },
+        "Strict": {
+          "Precision": 0.6440926098142593,
+          "Recall": 0.6591677833945875,
+          "F1": 0.6500070878075092
+        },
+        "Exact": {
+          "Precision": 0.6612170243613542,
+          "Recall": 0.6770464868403012,
+          "F1": 0.6673541636597397
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_1.7b__regen__self_refine_v2",
+      "repair_model": "qwen3_1.7b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_qwen3_1.7b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/qwen3_1.7b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/qwen3_1.7b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7297947161593038,
+          "Recall": 0.7594510000642274,
+          "F1": 0.7416863348832241
+        },
+        "Partial": {
+          "Precision": 0.7072051679000193,
+          "Recall": 0.7302661725589729,
+          "F1": 0.7163880120077384
+        },
+        "Strict": {
+          "Precision": 0.673776916849332,
+          "Recall": 0.6898669164889341,
+          "F1": 0.6801616561866392
+        },
+        "Exact": {
+          "Precision": 0.678572042657434,
+          "Recall": 0.6947646953297854,
+          "F1": 0.6849693153894427
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_8b__regen__self_refine_v2",
+      "repair_model": "qwen3_8b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_qwen3_8b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/qwen3_8b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/qwen3_8b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.6058580175879754,
+          "Recall": 0.632170372602862,
+          "F1": 0.6163233143128899
+        },
+        "Partial": {
+          "Precision": 0.5927631194403347,
+          "Recall": 0.6136287198892684,
+          "F1": 0.6008888831630207
+        },
+        "Strict": {
+          "Precision": 0.551673780196987,
+          "Recall": 0.5652206818029603,
+          "F1": 0.5570001387065174
+        },
+        "Exact": {
+          "Precision": 0.5642476198594342,
+          "Recall": 0.5786454356707521,
+          "F1": 0.5697895621288522
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_12b__bt5__self_refine_v2",
+      "repair_model": "gemma3_12b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_gemma3_12b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/gemma3_12b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/gemma3_12b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4298465077824508,
+          "Recall": 0.43862016930140973,
+          "F1": 0.4332823618148234
+        },
+        "Partial": {
+          "Precision": 0.4321075936575428,
+          "Recall": 0.43994858619604427,
+          "F1": 0.4351303554811409
+        },
+        "Strict": {
+          "Precision": 0.40311126553500726,
+          "Recall": 0.4097781045988977,
+          "F1": 0.40568361298490324
+        },
+        "Exact": {
+          "Precision": 0.41804941161194337,
+          "Recall": 0.4247967455072183,
+          "F1": 0.42062740782193647
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_2_3b__bt5__self_refine_v2",
+      "repair_model": "llama3_2_3b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_llama3_2_3b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/llama3_2_3b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/llama3_2_3b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.3629527977782909,
+          "Recall": 0.3743003869900683,
+          "F1": 0.3673494951063436
+        },
+        "Partial": {
+          "Precision": 0.36405125778228964,
+          "Recall": 0.37393512496888826,
+          "F1": 0.36780857824266155
+        },
+        "Strict": {
+          "Precision": 0.33191232908607715,
+          "Recall": 0.3397635306019221,
+          "F1": 0.33490891520102445
+        },
+        "Exact": {
+          "Precision": 0.3469246533548506,
+          "Recall": 0.35498229640870005,
+          "F1": 0.34995718759417693
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_32b__bt5__self_refine_v2",
+      "repair_model": "qwen3_32b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_qwen3_32b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/qwen3_32b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/qwen3_32b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4542744175477441,
+          "Recall": 0.4647070897324447,
+          "F1": 0.45831531766396183
+        },
+        "Partial": {
+          "Precision": 0.4520155149814125,
+          "Recall": 0.46145028413664313,
+          "F1": 0.4556270481309848
+        },
+        "Strict": {
+          "Precision": 0.419814506262275,
+          "Recall": 0.4277125792845874,
+          "F1": 0.42286374179122654
+        },
+        "Exact": {
+          "Precision": 0.43379777198235614,
+          "Recall": 0.4419198139025725,
+          "F1": 0.43690033343938006
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_12b__regen__self_refine_v2",
+      "repair_model": "gemma3_12b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_gemma3_12b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/gemma3_12b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/gemma3_12b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4382608315637235,
+          "Recall": 0.451435286766337,
+          "F1": 0.4432882839351293
+        },
+        "Partial": {
+          "Precision": 0.43701040982243416,
+          "Recall": 0.44859918218936484,
+          "F1": 0.44138367775461246
+        },
+        "Strict": {
+          "Precision": 0.4111757386871542,
+          "Recall": 0.42073770977880565,
+          "F1": 0.41480572746632066
+        },
+        "Exact": {
+          "Precision": 0.4227688386364185,
+          "Recall": 0.43253375239676606,
+          "F1": 0.4264382884900537
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_2_3b__regen__self_refine_v2",
+      "repair_model": "llama3_2_3b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_llama3_2_3b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/llama3_2_3b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/llama3_2_3b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.40897040081450725,
+          "Recall": 0.4240384654072867,
+          "F1": 0.4147215640456657
+        },
+        "Partial": {
+          "Precision": 0.4054305949648155,
+          "Recall": 0.41826739694610415,
+          "F1": 0.4102454042597561
+        },
+        "Strict": {
+          "Precision": 0.37695506577635857,
+          "Recall": 0.38739825376707504,
+          "F1": 0.38087461334609624
+        },
+        "Exact": {
+          "Precision": 0.38879766339842387,
+          "Recall": 0.39929094493733275,
+          "F1": 0.392686869530976
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_32b__regen__self_refine_v2",
+      "repair_model": "qwen3_32b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_qwen3_32b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/qwen3_32b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/qwen3_32b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4845916313252358,
+          "Recall": 0.5001212466006568,
+          "F1": 0.4905857602103817
+        },
+        "Partial": {
+          "Precision": 0.479481708837962,
+          "Recall": 0.4927710497010192,
+          "F1": 0.48455015590288353
+        },
+        "Strict": {
+          "Precision": 0.4498025043080966,
+          "Recall": 0.4604886379225474,
+          "F1": 0.45388066573882535
+        },
+        "Exact": {
+          "Precision": 0.4613485699466889,
+          "Recall": 0.4721392056229372,
+          "F1": 0.46543211632179604
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_12b__bt5__self_refine_v2",
+      "repair_model": "gemma3_12b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_gemma3_12b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/gemma3_12b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/gemma3_12b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5810518585483374,
+          "Recall": 0.6021688464118041,
+          "F1": 0.5895321849420027
+        },
+        "Partial": {
+          "Precision": 0.5819093975273553,
+          "Recall": 0.5996427733065057,
+          "F1": 0.5888253215209719
+        },
+        "Strict": {
+          "Precision": 0.5308363530053671,
+          "Recall": 0.5424312541918176,
+          "F1": 0.5354243556452752
+        },
+        "Exact": {
+          "Precision": 0.5546931605171042,
+          "Recall": 0.5672129443326627,
+          "F1": 0.5595120465146562
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_2_3b__bt5__self_refine_v2",
+      "repair_model": "llama3_2_3b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_llama3_2_3b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/llama3_2_3b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/llama3_2_3b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5429133159238422,
+          "Recall": 0.5673439710387078,
+          "F1": 0.5524779080760853
+        },
+        "Partial": {
+          "Precision": 0.5363474132105711,
+          "Recall": 0.5556779828358775,
+          "F1": 0.5436953393736641
+        },
+        "Strict": {
+          "Precision": 0.48761852728168514,
+          "Recall": 0.5008587782587782,
+          "F1": 0.4926543990233976
+        },
+        "Exact": {
+          "Precision": 0.5062959481064744,
+          "Recall": 0.5197593630540999,
+          "F1": 0.5113047876211546
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_32b__bt5__self_refine_v2",
+      "repair_model": "qwen3_32b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_qwen3_32b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/qwen3_32b__bt5__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/qwen3_32b__bt5__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7107112697948711,
+          "Recall": 0.7352911088476586,
+          "F1": 0.7206356276194366
+        },
+        "Partial": {
+          "Precision": 0.6966426815336364,
+          "Recall": 0.7157660566440099,
+          "F1": 0.7042908839907349
+        },
+        "Strict": {
+          "Precision": 0.6568852381133942,
+          "Recall": 0.6702196214708447,
+          "F1": 0.6621998865226717
+        },
+        "Exact": {
+          "Precision": 0.6679871400792693,
+          "Recall": 0.6813990799731049,
+          "F1": 0.6733180272787266
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_12b__regen__self_refine_v2",
+      "repair_model": "gemma3_12b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_gemma3_12b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/gemma3_12b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/gemma3_12b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.6012300254580288,
+          "Recall": 0.6248908338481096,
+          "F1": 0.610716271641502
+        },
+        "Partial": {
+          "Precision": 0.5969717799825668,
+          "Recall": 0.6159120437515108,
+          "F1": 0.6044480972447163
+        },
+        "Strict": {
+          "Precision": 0.5534850611098496,
+          "Recall": 0.5661387971244147,
+          "F1": 0.5585030309925277
+        },
+        "Exact": {
+          "Precision": 0.571333978736686,
+          "Recall": 0.5845492126160485,
+          "F1": 0.5765087296242839
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_2_3b__regen__self_refine_v2",
+      "repair_model": "llama3_2_3b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_llama3_2_3b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/llama3_2_3b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/llama3_2_3b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5773756682114454,
+          "Recall": 0.6032556750298685,
+          "F1": 0.5875186116351735
+        },
+        "Partial": {
+          "Precision": 0.5657564609125145,
+          "Recall": 0.5859221743438333,
+          "F1": 0.5733911178064266
+        },
+        "Strict": {
+          "Precision": 0.5192836605279002,
+          "Recall": 0.5325741505465008,
+          "F1": 0.5243723906784028
+        },
+        "Exact": {
+          "Precision": 0.5347542541090928,
+          "Recall": 0.5484192373593295,
+          "F1": 0.5398214360394716
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_32b__regen__self_refine_v2",
+      "repair_model": "qwen3_32b",
+      "prompt_variant": "self_refine_v2",
+      "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_qwen3_32b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/qwen3_32b__regen__self_refine_v2/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/qwen3_32b__regen__self_refine_v2/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7487259398708979,
+          "Recall": 0.775871292961629,
+          "F1": 0.7596873147039112
+        },
+        "Partial": {
+          "Precision": 0.7294653366397064,
+          "Recall": 0.7506184973989596,
+          "F1": 0.7378970095110035
+        },
+        "Strict": {
+          "Precision": 0.6926222963933047,
+          "Recall": 0.7069810146280734,
+          "F1": 0.6983507550075245
+        },
+        "Exact": {
+          "Precision": 0.7004095779726032,
+          "Recall": 0.7151009292605931,
+          "F1": 0.7062184910685378
+        }
+      }
+    }
+  ],
+  "grouped": {
+    "genwiki": {
+      "bt5": {
+        "repairs": {
+          "gemma3_4b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_4b__bt5__self_refine_v2",
+              "repair_model": "gemma3_4b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_gemma3_4b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/gemma3_4b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/gemma3_4b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4199736013330834,
+                  "Recall": 0.4314605270050815,
+                  "F1": 0.42443384103939774
+                },
+                "Partial": {
+                  "Precision": 0.42114123112790286,
+                  "Recall": 0.4312264513997187,
+                  "F1": 0.4250200636565318
+                },
+                "Strict": {
+                  "Precision": 0.3895352538916895,
+                  "Recall": 0.3975321066905225,
+                  "F1": 0.39262285972588284
+                },
+                "Exact": {
+                  "Precision": 0.4052849607305053,
+                  "Recall": 0.4135344761582385,
+                  "F1": 0.40844533940974864
+                }
+              }
+            }
+          },
+          "gemma3_27b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__bt5__self_refine_v2",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_gemma3_27b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/gemma3_27b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/gemma3_27b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5179993574145036,
+                  "Recall": 0.5301540838844013,
+                  "F1": 0.522763935264119
+                },
+                "Partial": {
+                  "Precision": 0.5166423536612239,
+                  "Recall": 0.5272156167307379,
+                  "F1": 0.520728725251124
+                },
+                "Strict": {
+                  "Precision": 0.48412369587700754,
+                  "Recall": 0.4930545980720937,
+                  "F1": 0.4875729945025121
+                },
+                "Exact": {
+                  "Precision": 0.4990116405575041,
+                  "Recall": 0.5079467083778506,
+                  "F1": 0.5024319962023036
+                }
+              }
+            }
+          },
+          "qwen3_4b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_4b__bt5__self_refine_v2",
+              "repair_model": "qwen3_4b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_qwen3_4b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/qwen3_4b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/qwen3_4b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.40640782484492777,
+                  "Recall": 0.41757350231301943,
+                  "F1": 0.41077340834343207
+                },
+                "Partial": {
+                  "Precision": 0.40356771105500455,
+                  "Recall": 0.4131701980780761,
+                  "F1": 0.4072713598085124
+                },
+                "Strict": {
+                  "Precision": 0.3744832698009318,
+                  "Recall": 0.38226964691386545,
+                  "F1": 0.377485705002693
+                },
+                "Exact": {
+                  "Precision": 0.3864515641072185,
+                  "Recall": 0.39434080320357323,
+                  "F1": 0.38947417396701967
+                }
+              }
+            }
+          },
+          "qwen3_14b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_14b__bt5__self_refine_v2",
+              "repair_model": "qwen3_14b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_qwen3_14b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/qwen3_14b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/bt5/qwen3_14b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.41612889728813296,
+                  "Recall": 0.4239986856738449,
+                  "F1": 0.4191856110164958
+                },
+                "Partial": {
+                  "Precision": 0.4135931110644486,
+                  "Recall": 0.4206529167930442,
+                  "F1": 0.41629184435445404
+                },
+                "Strict": {
+                  "Precision": 0.39067515923566876,
+                  "Recall": 0.39673389950460014,
+                  "F1": 0.3929948093400993
+                },
+                "Exact": {
+                  "Precision": 0.40026326963906583,
+                  "Recall": 0.4063729653220099,
+                  "F1": 0.4025754565767975
+                }
+              }
+            }
+          },
+          "llama3_1_8b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_1_8b__bt5__self_refine_v2",
+              "repair_model": "llama3_1_8b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_llama3_1_8b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/llama3_1_8b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/llama3_1_8b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.41180691998396424,
+                  "Recall": 0.4226349246041669,
+                  "F1": 0.41600348453282154
+                },
+                "Partial": {
+                  "Precision": 0.410391089835951,
+                  "Recall": 0.4203916554535459,
+                  "F1": 0.4142301811748947
+                },
+                "Strict": {
+                  "Precision": 0.37963488888095037,
+                  "Recall": 0.38807479647689697,
+                  "F1": 0.3828823485425136
+                },
+                "Exact": {
+                  "Precision": 0.3926345673720017,
+                  "Recall": 0.40135728376538576,
+                  "F1": 0.39597175004151747
+                }
+              }
+            }
+          },
+          "llama3_3_70b_awq": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_3_70b_awq__bt5__self_refine_v2",
+              "repair_model": "llama3_3_70b_awq",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_llama3_3_70b_awq_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/llama3_3_70b_awq__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/llama3_3_70b_awq__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4820462422859075,
+                  "Recall": 0.4918366484306124,
+                  "F1": 0.48588983371211
+                },
+                "Partial": {
+                  "Precision": 0.47813716491753516,
+                  "Recall": 0.48694537033682356,
+                  "F1": 0.4815754261022122
+                },
+                "Strict": {
+                  "Precision": 0.4509237789291048,
+                  "Recall": 0.4583242756904943,
+                  "F1": 0.4538036631556794
+                },
+                "Exact": {
+                  "Precision": 0.46186299610722636,
+                  "Recall": 0.4694410226682608,
+                  "F1": 0.4648079123795583
+                }
+              }
+            }
+          },
+          "qwen3_1.7b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_1.7b__bt5__self_refine_v2",
+              "repair_model": "qwen3_1.7b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_qwen3_1.7b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/qwen3_1.7b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/qwen3_1.7b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4016144071927317,
+                  "Recall": 0.4189002296298977,
+                  "F1": 0.4082689882291225
+                },
+                "Partial": {
+                  "Precision": 0.4015340694169738,
+                  "Recall": 0.4165636649896847,
+                  "F1": 0.40714785276544607
+                },
+                "Strict": {
+                  "Precision": 0.3628382708696871,
+                  "Recall": 0.37507379524734474,
+                  "F1": 0.36747764848920955
+                },
+                "Exact": {
+                  "Precision": 0.380719351025913,
+                  "Recall": 0.39298010142322276,
+                  "F1": 0.3852715526398403
+                }
+              }
+            }
+          },
+          "qwen3_8b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_8b__bt5__self_refine_v2",
+              "repair_model": "qwen3_8b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_qwen3_8b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/qwen3_8b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/bt5/qwen3_8b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.41226010649818967,
+                  "Recall": 0.4216331216394604,
+                  "F1": 0.4159520510448545
+                },
+                "Partial": {
+                  "Precision": 0.40779538631021894,
+                  "Recall": 0.41603686733314016,
+                  "F1": 0.41101225428127264
+                },
+                "Strict": {
+                  "Precision": 0.3813986174407067,
+                  "Recall": 0.3884451769213432,
+                  "F1": 0.3841473787087377
+                },
+                "Exact": {
+                  "Precision": 0.39154905692684594,
+                  "Recall": 0.39860829389226954,
+                  "F1": 0.3942895860618984
+                }
+              }
+            }
+          },
+          "gemma3_12b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_12b__bt5__self_refine_v2",
+              "repair_model": "gemma3_12b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_gemma3_12b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/gemma3_12b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/gemma3_12b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4298465077824508,
+                  "Recall": 0.43862016930140973,
+                  "F1": 0.4332823618148234
+                },
+                "Partial": {
+                  "Precision": 0.4321075936575428,
+                  "Recall": 0.43994858619604427,
+                  "F1": 0.4351303554811409
+                },
+                "Strict": {
+                  "Precision": 0.40311126553500726,
+                  "Recall": 0.4097781045988977,
+                  "F1": 0.40568361298490324
+                },
+                "Exact": {
+                  "Precision": 0.41804941161194337,
+                  "Recall": 0.4247967455072183,
+                  "F1": 0.42062740782193647
+                }
+              }
+            }
+          },
+          "llama3_2_3b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_2_3b__bt5__self_refine_v2",
+              "repair_model": "llama3_2_3b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_llama3_2_3b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/llama3_2_3b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/llama3_2_3b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.3629527977782909,
+                  "Recall": 0.3743003869900683,
+                  "F1": 0.3673494951063436
+                },
+                "Partial": {
+                  "Precision": 0.36405125778228964,
+                  "Recall": 0.37393512496888826,
+                  "F1": 0.36780857824266155
+                },
+                "Strict": {
+                  "Precision": 0.33191232908607715,
+                  "Recall": 0.3397635306019221,
+                  "F1": 0.33490891520102445
+                },
+                "Exact": {
+                  "Precision": 0.3469246533548506,
+                  "Recall": 0.35498229640870005,
+                  "F1": 0.34995718759417693
+                }
+              }
+            }
+          },
+          "qwen3_32b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_32b__bt5__self_refine_v2",
+              "repair_model": "qwen3_32b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_qwen3_32b_bt5_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/qwen3_32b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/bt5/qwen3_32b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4542744175477441,
+                  "Recall": 0.4647070897324447,
+                  "F1": 0.45831531766396183
+                },
+                "Partial": {
+                  "Precision": 0.4520155149814125,
+                  "Recall": 0.46145028413664313,
+                  "F1": 0.4556270481309848
+                },
+                "Strict": {
+                  "Precision": 0.419814506262275,
+                  "Recall": 0.4277125792845874,
+                  "F1": 0.42286374179122654
+                },
+                "Exact": {
+                  "Precision": 0.43379777198235614,
+                  "Recall": 0.4419198139025725,
+                  "F1": 0.43690033343938006
+                }
+              }
+            }
+          }
+        }
+      },
+      "regen": {
+        "repairs": {
+          "gemma3_4b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_4b__regen__self_refine_v2",
+              "repair_model": "gemma3_4b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_gemma3_4b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/gemma3_4b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/gemma3_4b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4503860786700574,
+                  "Recall": 0.46446458291560794,
+                  "F1": 0.45575023689054944
+                },
+                "Partial": {
+                  "Precision": 0.4490349539799046,
+                  "Recall": 0.46116499539999917,
+                  "F1": 0.453629475762833
+                },
+                "Strict": {
+                  "Precision": 0.4190852828096564,
+                  "Recall": 0.4290625731590044,
+                  "F1": 0.42290032535854205
+                },
+                "Exact": {
+                  "Precision": 0.4324742982487857,
+                  "Recall": 0.44252751874240104,
+                  "F1": 0.4362913495316467
+                }
+              }
+            }
+          },
+          "gemma3_27b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__regen__self_refine_v2",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_gemma3_27b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/gemma3_27b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/gemma3_27b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5198263943020497,
+                  "Recall": 0.5366793492261657,
+                  "F1": 0.5263440773327304
+                },
+                "Partial": {
+                  "Precision": 0.5159633077423339,
+                  "Recall": 0.5302117735919234,
+                  "F1": 0.52140009664452
+                },
+                "Strict": {
+                  "Precision": 0.48540026279726656,
+                  "Recall": 0.4971108230096994,
+                  "F1": 0.4898780290411441
+                },
+                "Exact": {
+                  "Precision": 0.49808024615140717,
+                  "Recall": 0.5097616761099907,
+                  "F1": 0.5025056968373512
+                }
+              }
+            }
+          },
+          "qwen3_4b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_4b__regen__self_refine_v2",
+              "repair_model": "qwen3_4b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_qwen3_4b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/qwen3_4b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/qwen3_4b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.430396748270253,
+                  "Recall": 0.44530637061815476,
+                  "F1": 0.4360914062357327
+                },
+                "Partial": {
+                  "Precision": 0.42600825548140386,
+                  "Recall": 0.43863386620449485,
+                  "F1": 0.4307231973523726
+                },
+                "Strict": {
+                  "Precision": 0.3993809766207323,
+                  "Recall": 0.4093008035487038,
+                  "F1": 0.40313923018809755
+                },
+                "Exact": {
+                  "Precision": 0.4098913451865857,
+                  "Recall": 0.42000751433176986,
+                  "F1": 0.4136350548860093
+                }
+              }
+            }
+          },
+          "qwen3_14b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_14b__regen__self_refine_v2",
+              "repair_model": "qwen3_14b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/genwiki/vllm_text_to_data_qwen3_14b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/qwen3_14b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/genwiki/regen/qwen3_14b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.423969340926804,
+                  "Recall": 0.43663045648527055,
+                  "F1": 0.4288028916269005
+                },
+                "Partial": {
+                  "Precision": 0.4203295187152803,
+                  "Recall": 0.4315636901729617,
+                  "F1": 0.4245529431529252
+                },
+                "Strict": {
+                  "Precision": 0.3961089527442049,
+                  "Recall": 0.4053558133155688,
+                  "F1": 0.39961430147370036
+                },
+                "Exact": {
+                  "Precision": 0.4058049962150828,
+                  "Recall": 0.4152895881500059,
+                  "F1": 0.40934915822842466
+                }
+              }
+            }
+          },
+          "llama3_1_8b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_1_8b__regen__self_refine_v2",
+              "repair_model": "llama3_1_8b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_llama3_1_8b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/llama3_1_8b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/llama3_1_8b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4805335265419299,
+                  "Recall": 0.4936830287670624,
+                  "F1": 0.4855511736552878
+                },
+                "Partial": {
+                  "Precision": 0.47535352524848323,
+                  "Recall": 0.48719417059753195,
+                  "F1": 0.4797724860020688
+                },
+                "Strict": {
+                  "Precision": 0.4470563983169025,
+                  "Recall": 0.457219554488462,
+                  "F1": 0.45090986923241355
+                },
+                "Exact": {
+                  "Precision": 0.45776492415147874,
+                  "Recall": 0.46810997126123177,
+                  "F1": 0.46160527687205344
+                }
+              }
+            }
+          },
+          "llama3_3_70b_awq": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_3_70b_awq__regen__self_refine_v2",
+              "repair_model": "llama3_3_70b_awq",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_llama3_3_70b_awq_regen_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/llama3_3_70b_awq__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/llama3_3_70b_awq__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5000995230384543,
+                  "Recall": 0.5125597762429823,
+                  "F1": 0.5048498427348899
+                },
+                "Partial": {
+                  "Precision": 0.49514846300151644,
+                  "Recall": 0.5060510319479785,
+                  "F1": 0.49919536723982166
+                },
+                "Strict": {
+                  "Precision": 0.4681759158285876,
+                  "Recall": 0.47739216042651156,
+                  "F1": 0.47165309336840544
+                },
+                "Exact": {
+                  "Precision": 0.4787639848136031,
+                  "Recall": 0.4880028474494123,
+                  "F1": 0.48216280700789005
+                }
+              }
+            }
+          },
+          "qwen3_1.7b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_1.7b__regen__self_refine_v2",
+              "repair_model": "qwen3_1.7b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_qwen3_1.7b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/qwen3_1.7b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/qwen3_1.7b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.46870270306346257,
+                  "Recall": 0.49514124974884466,
+                  "F1": 0.4787381518583266
+                },
+                "Partial": {
+                  "Precision": 0.46002169419890937,
+                  "Recall": 0.48313728149487645,
+                  "F1": 0.4686537665468706
+                },
+                "Strict": {
+                  "Precision": 0.4282974866202714,
+                  "Recall": 0.44658177617038375,
+                  "F1": 0.4351842877896489
+                },
+                "Exact": {
+                  "Precision": 0.438686074122783,
+                  "Recall": 0.45753958207755674,
+                  "F1": 0.44568010701964533
+                }
+              }
+            }
+          },
+          "qwen3_8b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_8b__regen__self_refine_v2",
+              "repair_model": "qwen3_8b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/genwiki/vllm_text_to_data_qwen3_8b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/qwen3_8b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/genwiki/regen/qwen3_8b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4261146489222239,
+                  "Recall": 0.43668062717376394,
+                  "F1": 0.4302169053258968
+                },
+                "Partial": {
+                  "Precision": 0.42358545326898145,
+                  "Recall": 0.4330484744312909,
+                  "F1": 0.42722942445376677
+                },
+                "Strict": {
+                  "Precision": 0.39911082463827763,
+                  "Recall": 0.4072548236376401,
+                  "F1": 0.4022480926604854
+                },
+                "Exact": {
+                  "Precision": 0.4090455814591554,
+                  "Recall": 0.41721076330888224,
+                  "F1": 0.4121761920141058
+                }
+              }
+            }
+          },
+          "gemma3_12b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_12b__regen__self_refine_v2",
+              "repair_model": "gemma3_12b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_gemma3_12b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/gemma3_12b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/gemma3_12b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4382608315637235,
+                  "Recall": 0.451435286766337,
+                  "F1": 0.4432882839351293
+                },
+                "Partial": {
+                  "Precision": 0.43701040982243416,
+                  "Recall": 0.44859918218936484,
+                  "F1": 0.44138367775461246
+                },
+                "Strict": {
+                  "Precision": 0.4111757386871542,
+                  "Recall": 0.42073770977880565,
+                  "F1": 0.41480572746632066
+                },
+                "Exact": {
+                  "Precision": 0.4227688386364185,
+                  "Recall": 0.43253375239676606,
+                  "F1": 0.4264382884900537
+                }
+              }
+            }
+          },
+          "llama3_2_3b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_2_3b__regen__self_refine_v2",
+              "repair_model": "llama3_2_3b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_llama3_2_3b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/llama3_2_3b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/llama3_2_3b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.40897040081450725,
+                  "Recall": 0.4240384654072867,
+                  "F1": 0.4147215640456657
+                },
+                "Partial": {
+                  "Precision": 0.4054305949648155,
+                  "Recall": 0.41826739694610415,
+                  "F1": 0.4102454042597561
+                },
+                "Strict": {
+                  "Precision": 0.37695506577635857,
+                  "Recall": 0.38739825376707504,
+                  "F1": 0.38087461334609624
+                },
+                "Exact": {
+                  "Precision": 0.38879766339842387,
+                  "Recall": 0.39929094493733275,
+                  "F1": 0.392686869530976
+                }
+              }
+            }
+          },
+          "qwen3_32b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_32b__regen__self_refine_v2",
+              "repair_model": "qwen3_32b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/genwiki/vllm_text_to_data_qwen3_32b_regen_self_refine_v2_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/qwen3_32b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/genwiki/regen/qwen3_32b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4845916313252358,
+                  "Recall": 0.5001212466006568,
+                  "F1": 0.4905857602103817
+                },
+                "Partial": {
+                  "Precision": 0.479481708837962,
+                  "Recall": 0.4927710497010192,
+                  "F1": 0.48455015590288353
+                },
+                "Strict": {
+                  "Precision": 0.4498025043080966,
+                  "Recall": 0.4604886379225474,
+                  "F1": 0.45388066573882535
+                },
+                "Exact": {
+                  "Precision": 0.4613485699466889,
+                  "Recall": 0.4721392056229372,
+                  "F1": 0.46543211632179604
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "webnlg": {
+      "bt5": {
+        "repairs": {
+          "gemma3_4b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_4b__bt5__self_refine_v2",
+              "repair_model": "gemma3_4b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_gemma3_4b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/gemma3_4b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/gemma3_4b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5571564087116678,
+                  "Recall": 0.5827589089279863,
+                  "F1": 0.5674141326950595
+                },
+                "Partial": {
+                  "Precision": 0.5623000421694425,
+                  "Recall": 0.5832027949971357,
+                  "F1": 0.5705338421973485
+                },
+                "Strict": {
+                  "Precision": 0.5030487939559699,
+                  "Recall": 0.5173782329483776,
+                  "F1": 0.5087042598580551
+                },
+                "Exact": {
+                  "Precision": 0.5324546090835938,
+                  "Recall": 0.5472957806443272,
+                  "F1": 0.5382366374805887
+                }
+              }
+            }
+          },
+          "gemma3_27b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__bt5__self_refine_v2",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_gemma3_27b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/gemma3_27b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/gemma3_27b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.6542673119307485,
+                  "Recall": 0.6798037157631808,
+                  "F1": 0.6644272000257391
+                },
+                "Partial": {
+                  "Precision": 0.6526037392387877,
+                  "Recall": 0.6731057775004821,
+                  "F1": 0.6605806099090723
+                },
+                "Strict": {
+                  "Precision": 0.5956149653843116,
+                  "Recall": 0.6094677546192491,
+                  "F1": 0.6010483795905923
+                },
+                "Exact": {
+                  "Precision": 0.6206714634106473,
+                  "Recall": 0.6350365900420493,
+                  "F1": 0.6261861779643672
+                }
+              }
+            }
+          },
+          "qwen3_4b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_4b__bt5__self_refine_v2",
+              "repair_model": "qwen3_4b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_qwen3_4b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/qwen3_4b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/qwen3_4b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.6236584441139525,
+                  "Recall": 0.6475959555196843,
+                  "F1": 0.6332702486150836
+                },
+                "Partial": {
+                  "Precision": 0.6156733381574483,
+                  "Recall": 0.6346617506786998,
+                  "F1": 0.6230019509580283
+                },
+                "Strict": {
+                  "Precision": 0.5698558629067103,
+                  "Recall": 0.5830646456493914,
+                  "F1": 0.5750783668109408
+                },
+                "Exact": {
+                  "Precision": 0.5869191868238478,
+                  "Recall": 0.6002962840674705,
+                  "F1": 0.5919919844237109
+                }
+              }
+            }
+          },
+          "qwen3_14b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_14b__bt5__self_refine_v2",
+              "repair_model": "qwen3_14b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_qwen3_14b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/qwen3_14b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/bt5/qwen3_14b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.6290890411014775,
+                  "Recall": 0.655472107818066,
+                  "F1": 0.639640461208549
+                },
+                "Partial": {
+                  "Precision": 0.6204764448775896,
+                  "Recall": 0.6413594017784238,
+                  "F1": 0.6287081562940843
+                },
+                "Strict": {
+                  "Precision": 0.5738617602170457,
+                  "Recall": 0.5883711540014536,
+                  "F1": 0.5795859721990676
+                },
+                "Exact": {
+                  "Precision": 0.5909309164078808,
+                  "Recall": 0.6057303022961587,
+                  "F1": 0.5967365991928263
+                }
+              }
+            }
+          },
+          "llama3_1_8b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_1_8b__bt5__self_refine_v2",
+              "repair_model": "llama3_1_8b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_llama3_1_8b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/llama3_1_8b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/llama3_1_8b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.6285150174492705,
+                  "Recall": 0.6571925790354624,
+                  "F1": 0.6399008699449276
+                },
+                "Partial": {
+                  "Precision": 0.6135820934427157,
+                  "Recall": 0.6365641110731214,
+                  "F1": 0.6225644161264777
+                },
+                "Strict": {
+                  "Precision": 0.5701855088769069,
+                  "Recall": 0.5859717780772264,
+                  "F1": 0.5763770581790723
+                },
+                "Exact": {
+                  "Precision": 0.5825493323451932,
+                  "Recall": 0.5988560053990154,
+                  "F1": 0.5888724858511858
+                }
+              }
+            }
+          },
+          "llama3_3_70b_awq": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_3_70b_awq__bt5__self_refine_v2",
+              "repair_model": "llama3_3_70b_awq",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_llama3_3_70b_awq_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/llama3_3_70b_awq__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/llama3_3_70b_awq__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.6832345918426377,
+                  "Recall": 0.7106040348811685,
+                  "F1": 0.6942160355701388
+                },
+                "Partial": {
+                  "Precision": 0.6760455587543868,
+                  "Recall": 0.698298013156932,
+                  "F1": 0.6847876230576653
+                },
+                "Strict": {
+                  "Precision": 0.6234454879447197,
+                  "Recall": 0.6384038739116263,
+                  "F1": 0.6293902635355966
+                },
+                "Exact": {
+                  "Precision": 0.6439232082967241,
+                  "Recall": 0.6597755738697211,
+                  "F1": 0.6501292248738036
+                }
+              }
+            }
+          },
+          "qwen3_1.7b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_1.7b__bt5__self_refine_v2",
+              "repair_model": "qwen3_1.7b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_qwen3_1.7b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/qwen3_1.7b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/qwen3_1.7b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.6644276793619727,
+                  "Recall": 0.6880843646466462,
+                  "F1": 0.6739963783891314
+                },
+                "Partial": {
+                  "Precision": 0.6510770034833365,
+                  "Recall": 0.6697349763336062,
+                  "F1": 0.6585069240714656
+                },
+                "Strict": {
+                  "Precision": 0.614376650812412,
+                  "Recall": 0.6277737834497236,
+                  "F1": 0.6196900895831371
+                },
+                "Exact": {
+                  "Precision": 0.6248156607516316,
+                  "Recall": 0.6383078251105652,
+                  "F1": 0.6301140148819401
+                }
+              }
+            }
+          },
+          "qwen3_8b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_8b__bt5__self_refine_v2",
+              "repair_model": "qwen3_8b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_qwen3_8b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/qwen3_8b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/bt5/qwen3_8b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5874146756109808,
+                  "Recall": 0.6129834823037474,
+                  "F1": 0.5976430103949377
+                },
+                "Partial": {
+                  "Precision": 0.5784288070866127,
+                  "Recall": 0.5986359581674064,
+                  "F1": 0.5863649624565109
+                },
+                "Strict": {
+                  "Precision": 0.532096805637209,
+                  "Recall": 0.5465880626683052,
+                  "F1": 0.5378274880046737
+                },
+                "Exact": {
+                  "Precision": 0.5488282761128622,
+                  "Recall": 0.5635273754121589,
+                  "F1": 0.5545649851398581
+                }
+              }
+            }
+          },
+          "gemma3_12b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_12b__bt5__self_refine_v2",
+              "repair_model": "gemma3_12b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_gemma3_12b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/gemma3_12b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/gemma3_12b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5810518585483374,
+                  "Recall": 0.6021688464118041,
+                  "F1": 0.5895321849420027
+                },
+                "Partial": {
+                  "Precision": 0.5819093975273553,
+                  "Recall": 0.5996427733065057,
+                  "F1": 0.5888253215209719
+                },
+                "Strict": {
+                  "Precision": 0.5308363530053671,
+                  "Recall": 0.5424312541918176,
+                  "F1": 0.5354243556452752
+                },
+                "Exact": {
+                  "Precision": 0.5546931605171042,
+                  "Recall": 0.5672129443326627,
+                  "F1": 0.5595120465146562
+                }
+              }
+            }
+          },
+          "llama3_2_3b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_2_3b__bt5__self_refine_v2",
+              "repair_model": "llama3_2_3b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_llama3_2_3b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/llama3_2_3b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/llama3_2_3b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5429133159238422,
+                  "Recall": 0.5673439710387078,
+                  "F1": 0.5524779080760853
+                },
+                "Partial": {
+                  "Precision": 0.5363474132105711,
+                  "Recall": 0.5556779828358775,
+                  "F1": 0.5436953393736641
+                },
+                "Strict": {
+                  "Precision": 0.48761852728168514,
+                  "Recall": 0.5008587782587782,
+                  "F1": 0.4926543990233976
+                },
+                "Exact": {
+                  "Precision": 0.5062959481064744,
+                  "Recall": 0.5197593630540999,
+                  "F1": 0.5113047876211546
+                }
+              }
+            }
+          },
+          "qwen3_32b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_32b__bt5__self_refine_v2",
+              "repair_model": "qwen3_32b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_qwen3_32b_bt5_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/qwen3_32b__bt5__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/bt5/qwen3_32b__bt5__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7107112697948711,
+                  "Recall": 0.7352911088476586,
+                  "F1": 0.7206356276194366
+                },
+                "Partial": {
+                  "Precision": 0.6966426815336364,
+                  "Recall": 0.7157660566440099,
+                  "F1": 0.7042908839907349
+                },
+                "Strict": {
+                  "Precision": 0.6568852381133942,
+                  "Recall": 0.6702196214708447,
+                  "F1": 0.6621998865226717
+                },
+                "Exact": {
+                  "Precision": 0.6679871400792693,
+                  "Recall": 0.6813990799731049,
+                  "F1": 0.6733180272787266
+                }
+              }
+            }
+          }
+        }
+      },
+      "regen": {
+        "repairs": {
+          "gemma3_4b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_4b__regen__self_refine_v2",
+              "repair_model": "gemma3_4b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_gemma3_4b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/gemma3_4b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/gemma3_4b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5896726058810503,
+                  "Recall": 0.6169487695017222,
+                  "F1": 0.6003853702051053
+                },
+                "Partial": {
+                  "Precision": 0.5866359472808483,
+                  "Recall": 0.608072939279981,
+                  "F1": 0.59487585016076
+                },
+                "Strict": {
+                  "Precision": 0.5383131962876667,
+                  "Recall": 0.5526514771990996,
+                  "F1": 0.5438769766525907
+                },
+                "Exact": {
+                  "Precision": 0.558800441543463,
+                  "Recall": 0.5735263077036117,
+                  "F1": 0.5643957122926618
+                }
+              }
+            }
+          },
+          "gemma3_27b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__regen__self_refine_v2",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_gemma3_27b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/gemma3_27b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/gemma3_27b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.6673557106860873,
+                  "Recall": 0.6960339121092396,
+                  "F1": 0.6787275544429812
+                },
+                "Partial": {
+                  "Precision": 0.6646869333738192,
+                  "Recall": 0.6875045487627365,
+                  "F1": 0.6735894760087823
+                },
+                "Strict": {
+                  "Precision": 0.6121213893457343,
+                  "Recall": 0.6275104838150689,
+                  "F1": 0.6181709958581105
+                },
+                "Exact": {
+                  "Precision": 0.635184650229683,
+                  "Recall": 0.6510662516462189,
+                  "F1": 0.6413234639171015
+                }
+              }
+            }
+          },
+          "qwen3_4b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_4b__regen__self_refine_v2",
+              "repair_model": "qwen3_4b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_qwen3_4b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/qwen3_4b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/qwen3_4b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.6656940949158329,
+                  "Recall": 0.6916525501276626,
+                  "F1": 0.6761205354780118
+                },
+                "Partial": {
+                  "Precision": 0.6503948809049344,
+                  "Recall": 0.6699559597461031,
+                  "F1": 0.658059575018983
+                },
+                "Strict": {
+                  "Precision": 0.6107715310717279,
+                  "Recall": 0.6242975208456085,
+                  "F1": 0.6161390579810501
+                },
+                "Exact": {
+                  "Precision": 0.6218468765642556,
+                  "Recall": 0.6351828789258486,
+                  "F1": 0.6269960643667404
+                }
+              }
+            }
+          },
+          "qwen3_14b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_14b__regen__self_refine_v2",
+              "repair_model": "qwen3_14b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/markdown/webnlg/vllm_text_to_data_qwen3_14b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/qwen3_14b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/gemma3_27b_qwen3_14b_qwen3_4b_gemma3_4b_r2/eval_results/webnlg/regen/qwen3_14b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.646238666993384,
+                  "Recall": 0.672232223876127,
+                  "F1": 0.656526094287151
+                },
+                "Partial": {
+                  "Precision": 0.633157336733794,
+                  "Recall": 0.653519241170607,
+                  "F1": 0.6411041766399739
+                },
+                "Strict": {
+                  "Precision": 0.5926578412357066,
+                  "Recall": 0.6063400986978852,
+                  "F1": 0.5979999581902482
+                },
+                "Exact": {
+                  "Precision": 0.6048388499388218,
+                  "Recall": 0.6189609566721648,
+                  "F1": 0.6103154158168858
+                }
+              }
+            }
+          },
+          "llama3_1_8b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_1_8b__regen__self_refine_v2",
+              "repair_model": "llama3_1_8b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_llama3_1_8b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/llama3_1_8b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/llama3_1_8b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.660267252977337,
+                  "Recall": 0.688744775688053,
+                  "F1": 0.6715263715824048
+                },
+                "Partial": {
+                  "Precision": 0.6432006411733302,
+                  "Recall": 0.6654602674403095,
+                  "F1": 0.6519032793944662
+                },
+                "Strict": {
+                  "Precision": 0.603169454650547,
+                  "Recall": 0.6183105464407985,
+                  "F1": 0.6091080799797987
+                },
+                "Exact": {
+                  "Precision": 0.6132039684560693,
+                  "Recall": 0.628614001156018,
+                  "F1": 0.6191950743735157
+                }
+              }
+            }
+          },
+          "llama3_3_70b_awq": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_3_70b_awq__regen__self_refine_v2",
+              "repair_model": "llama3_3_70b_awq",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_llama3_3_70b_awq_regen_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/llama3_3_70b_awq__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/llama3_3_70b_awq__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7009385722469409,
+                  "Recall": 0.7297457619622568,
+                  "F1": 0.7123007173347174
+                },
+                "Partial": {
+                  "Precision": 0.6918226558273557,
+                  "Recall": 0.7147816078228449,
+                  "F1": 0.7007259754937016
+                },
+                "Strict": {
+                  "Precision": 0.6440926098142593,
+                  "Recall": 0.6591677833945875,
+                  "F1": 0.6500070878075092
+                },
+                "Exact": {
+                  "Precision": 0.6612170243613542,
+                  "Recall": 0.6770464868403012,
+                  "F1": 0.6673541636597397
+                }
+              }
+            }
+          },
+          "qwen3_1.7b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_1.7b__regen__self_refine_v2",
+              "repair_model": "qwen3_1.7b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_qwen3_1.7b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/qwen3_1.7b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/qwen3_1.7b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7297947161593038,
+                  "Recall": 0.7594510000642274,
+                  "F1": 0.7416863348832241
+                },
+                "Partial": {
+                  "Precision": 0.7072051679000193,
+                  "Recall": 0.7302661725589729,
+                  "F1": 0.7163880120077384
+                },
+                "Strict": {
+                  "Precision": 0.673776916849332,
+                  "Recall": 0.6898669164889341,
+                  "F1": 0.6801616561866392
+                },
+                "Exact": {
+                  "Precision": 0.678572042657434,
+                  "Recall": 0.6947646953297854,
+                  "F1": 0.6849693153894427
+                }
+              }
+            }
+          },
+          "qwen3_8b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_8b__regen__self_refine_v2",
+              "repair_model": "qwen3_8b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/markdown/webnlg/vllm_text_to_data_qwen3_8b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/qwen3_8b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/llama3_3_70b_awq_qwen3_8b_llama3_1_8b_qwen3_1.7b_r2/eval_results/webnlg/regen/qwen3_8b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.6058580175879754,
+                  "Recall": 0.632170372602862,
+                  "F1": 0.6163233143128899
+                },
+                "Partial": {
+                  "Precision": 0.5927631194403347,
+                  "Recall": 0.6136287198892684,
+                  "F1": 0.6008888831630207
+                },
+                "Strict": {
+                  "Precision": 0.551673780196987,
+                  "Recall": 0.5652206818029603,
+                  "F1": 0.5570001387065174
+                },
+                "Exact": {
+                  "Precision": 0.5642476198594342,
+                  "Recall": 0.5786454356707521,
+                  "F1": 0.5697895621288522
+                }
+              }
+            }
+          },
+          "gemma3_12b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_12b__regen__self_refine_v2",
+              "repair_model": "gemma3_12b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_gemma3_12b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/gemma3_12b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/gemma3_12b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.6012300254580288,
+                  "Recall": 0.6248908338481096,
+                  "F1": 0.610716271641502
+                },
+                "Partial": {
+                  "Precision": 0.5969717799825668,
+                  "Recall": 0.6159120437515108,
+                  "F1": 0.6044480972447163
+                },
+                "Strict": {
+                  "Precision": 0.5534850611098496,
+                  "Recall": 0.5661387971244147,
+                  "F1": 0.5585030309925277
+                },
+                "Exact": {
+                  "Precision": 0.571333978736686,
+                  "Recall": 0.5845492126160485,
+                  "F1": 0.5765087296242839
+                }
+              }
+            }
+          },
+          "llama3_2_3b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_2_3b__regen__self_refine_v2",
+              "repair_model": "llama3_2_3b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_llama3_2_3b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/llama3_2_3b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/llama3_2_3b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5773756682114454,
+                  "Recall": 0.6032556750298685,
+                  "F1": 0.5875186116351735
+                },
+                "Partial": {
+                  "Precision": 0.5657564609125145,
+                  "Recall": 0.5859221743438333,
+                  "F1": 0.5733911178064266
+                },
+                "Strict": {
+                  "Precision": 0.5192836605279002,
+                  "Recall": 0.5325741505465008,
+                  "F1": 0.5243723906784028
+                },
+                "Exact": {
+                  "Precision": 0.5347542541090928,
+                  "Recall": 0.5484192373593295,
+                  "F1": 0.5398214360394716
+                }
+              }
+            }
+          },
+          "qwen3_32b": {
+            "self_refine_v2": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_32b__regen__self_refine_v2",
+              "repair_model": "qwen3_32b",
+              "prompt_variant": "self_refine_v2",
+              "output_path": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/markdown/webnlg/vllm_text_to_data_qwen3_32b_regen_self_refine_v2_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/qwen3_32b__regen__self_refine_v2/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/baseline/round2_self_refine/qwen3_32b_gemma3_12b_llama3_2_3b_r2/eval_results/webnlg/regen/qwen3_32b__regen__self_refine_v2/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7487259398708979,
+                  "Recall": 0.775871292961629,
+                  "F1": 0.7596873147039112
+                },
+                "Partial": {
+                  "Precision": 0.7294653366397064,
+                  "Recall": 0.7506184973989596,
+                  "F1": 0.7378970095110035
+                },
+                "Strict": {
+                  "Precision": 0.6926222963933047,
+                  "Recall": 0.7069810146280734,
+                  "F1": 0.6983507550075245
+                },
+                "Exact": {
+                  "Precision": 0.7004095779726032,
+                  "Recall": 0.7151009292605931,
+                  "F1": 0.7062184910685378
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

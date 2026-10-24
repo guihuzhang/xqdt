@@ -1,0 +1,5104 @@
+[
+  [
+    "Chorley | isPartOf | Lancashire",
+    "White_Copice | country | England",
+    "White_Copice | isPartOf | Chorley"
+  ],
+  [
+    "White_Coppice | location | England"
+  ],
+  [
+    "Frances_Follin_Jones | deathYear | 1999",
+    "Frances_Follin_Jones | nationality | United_States",
+    "Frances_Follin_Jones | activeYearsStartYear | 1943",
+    "Frances_Follin_Jones | activeYearsEndDate | 1983",
+    "Frances_Follin_Jones | office | The_Art_Museum_at_Princeton_University"
+  ],
+  [
+    "Frances_Follin_Jones | deathYear | 1999",
+    "Frances_Follin_Jones | birthYear | 1912"
+  ],
+  [
+    "Gavin_Bischof | birthYear | 1946",
+    "Gavin_Bischof | birthPlace | Invercargill",
+    "Gavin_Bischof | occupation | Illustrator",
+    "Gavin_Bischof | birthPlace | New_Zealand",
+    "Gavin_Bischof | status | \"Deceased\""
+  ],
+  [
+    "Gavin_Bishop | birthPlace | New_Zealand"
+  ],
+  [
+    "Dimasangcay_Pundato | birthDate | 1947-12-21",
+    "Dimasangcay_Pundato | nationality | Filipino_Muslim",
+    "Dimasangcay_Pundato | office | \"Office of the Presidential Adviser on the Peace Process\"",
+    "Dimasangcay_Pundato | birthName | \"Dimiander Dimas\""
+  ],
+  [
+    "Dimasangcay_Pundato | birthYear | 1947",
+    "Dimasangcay_Pundato | nationality | Filipinos"
+  ],
+  [
+    "Kalam_Rud | country | Iran",
+    "Kalam_Rud | populationTotal | 197",
+    "Kalam_Rud | region | \"Somam Rural District, Rankuh District, Amlash County, Gilan Province\"",
+    "Kalam_Rud | alternativeName | \"Kalm Rd\"",
+    "Kalam_Rud | isPartOf | Amlash_County,_Iran",
+    "Kalam_Rud | isPartOf | Gilan_Province"
+  ],
+  [
+    "Kalam_Rud | populationTotal | 197",
+    "Kalam_Rud | country | Iran",
+    "Kalam_Rud | isPartOf | Iran"
+  ],
+  [
+    "Yingyuehu_Park_Station | location | Wuxi_Metro_Line_2",
+    "Yingyuehu_Park_Station | operatingYear | 2015",
+    "Yingyuehu_Park_Station | language | Chinese_language",
+    "Yingyuehu_Park_Station | station | Yingyuehu_Park_Station"
+  ],
+  [
+    "Yingyuehu_Park_Station | activeYearsStartYear | 2015"
+  ],
+  [
+    "Masters_Champions_League | winner | Gemini_Arabs",
+    "Masters_Champions_League | season | 2016-01-28",
+    "Masters_Champions_League | country | United_Arab_Emirates",
+    "Masters_Champions_League | format | Twenty20_cricket",
+    "Masters_Champions_League | field | United_Arab_Emirates",
+    "Masters_Champions_League | champions | former_international_cricket"
+  ],
+  [
+    "Sagittarius_Strikers | league | Masters_Champions_League",
+    "2016_Masters_Champions_League | hostCompany | Gemini_Arabs",
+    "2016_Masters_Champions_League | champions | Sagittarius_Strikers"
+  ],
+  [
+    "Adam_Gilchrist | club | Sagittarius_Strikers",
+    "Adam_Gilchrist | position | Wicketkeeper",
+    "Jacques_Kallis | club | South_Africa_national_team",
+    "Adam_Gilchrist | birthPlace | Australia",
+    "Jacques_Kallis | auctionWinner | Libra_Legends",
+    "Jacques_Kallis | formerTeam | South_Africa_national_team"
+  ],
+  [
+    "Sagittarius_Strikers | league | Masters_Champions_Leo_Lions",
+    "Masters_Champions_Leo_Lions | side | Libra_Legends",
+    "Sagittarius_Strikers | league | Sagittarius_Strikers",
+    "Leo_Lions | season | 2016_Masters_Champions_Leo_Lions"
+  ],
+  [
+    "Gemini_Arabs | league | Masters_Champions_Leo_Lions",
+    "Gemini_Arabs | victory | 2016_Masters_Champions_Leo_Lions"
+  ],
+  [
+    "2016_Masters_Champions_League | location | Sharjah",
+    "2016_Masters_Champions_League | fullName | \"Masters Champions League\"",
+    "2016_Masters_Champions_League | teams | Leo_Lions, Gemini_Arabs, Libra_Legends, Sagittarius_Strikers",
+    "Leo_Lions | club | Gemini_Arabs"
+  ],
+  [
+    "2016_Masters_Champions_League | country | United_Arab_Emirates",
+    "2016_Masters_Champions_League | venue | \"Dubai and Sharjah, United Arab Emirates\"",
+    "2016_Masters_Champions_League | season | 2016_Masters_Champions_League",
+    "2016_Masters_Champions_League | firstDate | \"2016-01-28\"",
+    "2016_Masters_Champions_League | format | Twenty20_cricket"
+  ],
+  [
+    "Masters_Champions_League | ground | \"Dubai and Sharjah\"",
+    "Masters_Champions_League | fullName | \"Masters Champions League\"",
+    "2016_Masters_Champions_League | hostTeam | Gemini_Arabs",
+    "Sagittarius_Strikers | league | Masters_Champions_League",
+    "Masters_Champions_League | players | Leo_Lions"
+  ],
+  [
+    "Musashi-Yamato_Station | stationNumber | \" ST06\"",
+    "Musashi-Yamato_Station | openingDate | \"1930-01-20\""
+  ],
+  [
+    "Musashi-Yamato_Station | openingDate | \"1930\""
+  ],
+  [
+    "Daniel_Montana_McLain | birthPlace | Carmel,_California",
+    "Daniel_Montana_McLain | activeYearsEndDate | 1995-11-08",
+    "Daniel_Montana_McLain | associatedBand/associatedMusicalArtist | The_Beat_Farmers",
+    "Daniel_Montana_McLain | birthDate | 1955-05-11",
+    "Daniel_Montana_McLain | associatedBand/associatedMusicalArtist | Country_Dick_Montan"
+  ],
+  [
+    "Daniel_Monte_McLain | birthPlace | California",
+    "Daniel_Monte_McLain | activeYearsStartYear | 1983",
+    "Daniel_Monte_McLain | alternativeName | \"Country Dick Montana\""
+  ],
+  [
+    "Anna_Bagriana | birthPlace | Fastiv",
+    "Anna_Bagriana | birthPlace | Kyiv_Oblast",
+    "Anna_Bagriana | almaMater | Language_Institute,_Shevchenko_National_University_of_Kyiv",
+    "Anna_Bagriana | birthYear | 1981"
+  ],
+  [
+    "Anna_Bagriana | birthPlace | Fastiv",
+    "Fastiv | isPartOf | Kyiv_Oblast"
+  ],
+  [
+    "Israel_Institute_(Washington) | president | Itamar_Rabievich",
+    "Itamar_Rabievich | birthYear | 1942",
+    "Israel_Institute_(Washington) | city | Jerusalem"
+  ],
+  [
+    "Itamar_Rabienovich | birthPlace | Jerusalem",
+    "Itamar_Rabienovich | occupation | Professor"
+  ],
+  [
+    "Samira_Saleh_Ali_al-Naimi | deathDate | \"1943-10-22\"",
+    "Samira_Saleh_Ali_al-Naimi | occupation | Lawyer",
+    "Samira_Saleh_Ali_al-Naimi | birthPlace | Iraq",
+    "Samira_Saleh_Ali_al-Naimi | birthYear | 1963"
+  ],
+  [
+    "Samira_Saleh_Ali_al-Naimi | deathPlace | Mosul"
+  ],
+  [
+    "Jan_Mathem | birthPlace | Haarlem",
+    "Jan_Mathem | deathPlace | The_Hague",
+    "Jan_Mathem | birthYear | 1600",
+    "Jan_Mathem | nationality | Netherlands",
+    "Jan_Mathem | deathDate | 1648-04-01"
+  ],
+  [
+    "Jan_Mathem | birthPlace | Haarlem",
+    "Jan_Mathem | deathPlace | The_Hague"
+  ],
+  [
+    "Capitán_Cobbett | country | Argentina",
+    "Capitán_Cobbett | refuge | Cierva_Cove",
+    "Capitán_Cobbett | location | Antarctica"
+  ],
+  [
+    "Cierva_Cove | location | Antarctica"
+  ],
+  [
+    "Hirafu_Station | location | \"Kutchan, Hokkaido, Japan\"",
+    "Hirafu_Station | location | Hokkaido",
+    "Hirafu_Station | country | Japan",
+    "Hirafu_Station | isPartOf | Hakodate_Main_Line"
+  ],
+  [
+    "Hirafu_Station | location | Hakodate_Main_Line"
+  ],
+  [
+    "Thrifty's_Inc. | location | Canada",
+    "Thrifty's_Inc. | foundingDate | 1984",
+    "Thrifty's_Inc. | alternativeName | \"Bluenotes\"",
+    "Thrifty's_Inc. | product | Clothing",
+    "Thrifty's_Inc. | industry | Lifestyle_clothing"
+  ],
+  [
+    "Bluenotes | location | Canada",
+    "Bluenotes | location | \"All Major Provinces in Canada\"",
+    "Bluenotes | foundingDate | 1984"
+  ],
+  [
+    "For_the_Fallen_Dreams | activeYearsStartYear | 2003",
+    "For_the_Fallen_Dreams | bandMember | Chris_Ash_(bassist)",
+    "For_the_Fallen_Dreams | instrument | Guitar",
+    "For_the_Fallen_Dreams | bandMember | Jim_Hocking",
+    "For_the_Fallen_Dreams | instrument | Drum_set",
+    "For_the_Fallen_Dreams | bandMember | Andrew_Tkaczyk"
+  ],
+  [
+    "For_the_Fallen_Dreams | formationYear | 2003",
+    "For_the_Fallen_Dreams | origin | Michigan"
+  ],
+  [
+    "Boulos | birthPlace | Port-au-Prince",
+    "Boulos | birthPlace | Haiti"
+  ],
+  [
+    "John_Boulos | birthPlace | Port-au-Prince",
+    "John_Boulos | birthPlace | Haiti"
+  ],
+  [
+    "Ghazbaniyeh | populationTotal | 59",
+    "Ghazbaniyeh | region | \"Jazireh-ye Minu Rural District, Minu District, Khorramshahr County, Khuzestan Province\"",
+    "Ghazbaniyeh | country | Iran",
+    "Ghazbaniyeh | alternativeName | \"Raddeh-ye Ghabnyeh\"",
+    "Ghazbaniyeh | isPartOf | Minu_Rural_District",
+    "Ghazbaniyeh | isPartOf | Khorramshahr_County,_Iraniy"
+  ],
+  [
+    "Ghazbaniyeh | populationTotal | 59",
+    "Ghazbaniyeh | country | Iran",
+    "Ghazbaniyeh | isPartOf | Iran"
+  ],
+  [
+    "Diyar-e-Dil | location | \"Skardo, Gilgit–Baltistan and Lahore\"",
+    "Diyar-e-Dil | location | Punjab,_Pakistan",
+    "Punjab,_Pakistan | country | Pakistan"
+  ],
+  [
+    "Diyar-e-Dil | location | \"Skardo, Gilgit–Baltistan and Lahore\""
+  ],
+  [
+    "Jakob_Ritter_von_Däner | deathDate | 1942-12-28",
+    "Jakob_Ritter_von_Däner | birthDate | 1865-08-07",
+    "Jakob_Ritter_von_Däner | militaryBranch | Imperial_German_Army",
+    "Jakob_Ritter_von_Däner | office | General_of_the_Bavarian_Army"
+  ],
+  [
+    "Jakob_Ritter_von_Däner | deathPlace | Munich"
+  ],
+  [
+    "Trondheim_byleksikon | country | Norway",
+    "Trondheim_byleksikon | firstPublicationYear | 1996",
+    "Trondheim_byleksikon | publisher | Kunnskapsforlaget",
+    "Trondheim_byleksikon | author | Terje_Bratberg",
+    "Trondheim_byleksikon | abbreviation | \"Trentheim City Encyclopedia\"",
+    "Trondheim_byleksikon | mediaType | \"Print\""
+  ],
+  [
+    "Trondheim_byleksikon | publisher | Kunnskapsforlaget",
+    "Trondheim_byleksikon | country | Norway"
+  ],
+  [
+    "Carlo_Ernesto_Liverati | birthPlace | Austria",
+    "Carlo_Ernesto_Liverati | deathPlace | Florence",
+    "Carlo_Ernesto_Liverati | birthDate | 1805-03-10",
+    "Carlo_Ernesto_Liverati | deathDate | 1844-10-27",
+    "Carlo_Ernesto_Liverati | nationality | Italy",
+    "Carlo_Ernesto_Liverati | studio | England"
+  ],
+  [
+    "Carlo_Ernesto_Liverati | birthPlace | Vienna",
+    "Carlo_Ernesto_Liverati | deathPlace | Florence"
+  ],
+  [
+    "Lost_Creek_Wilderness | location | Jefferson_County,_Colorado",
+    "Lost_Creek_Wilderness | isPartOf | Park_County,_Colorado"
+  ],
+  [
+    "Lost_Creek_Wilderness | location | Colorado"
+  ],
+  [
+    "Richard_Peter_Davis | birthDate | 1957-12-30",
+    "Richard_Peter_Davis | birthPlace | Chicago",
+    "Richard_Peter_Davis | occupation | Guitarist",
+    "Richard_Peter_Davis | birthPlace | Illinois",
+    "Richard_Peter_Davis | origin | United_States"
+  ],
+  [
+    "Richard_Peter_Davis | birthPlace | Chicago",
+    "Richard_Peter_Davis | activeYearsStartYear | 1969"
+  ],
+  [
+    "Shawn_Matheson | birthDate | 1972-05-06",
+    "Shawn_Matheson | nationality | Canada",
+    "Shawn_Matheson | medalList | 3",
+    "Shawn_Matheson | birthYear | 1972",
+    "Shawn_Matheson | team | Canada",
+    "Shawn_Matheson | event | 1994_Winter_Paralympics",
+    "Shawn_Matheson | sport | Ice_sledge_hockey"
+  ],
+  [
+    "Shawn_Matheson | nationality | Canada"
+  ],
+  [
+    "1967_World_Figure_Skating_Champions | location | Vienna",
+    "Vienna | country | Austria",
+    "1967_World_Figure_Skating_Champions | weekDate | \"1967-02-28\"",
+    "1967_World_Figure_Skating_Champions | season | 1967_World_Figure_Skating_Champions",
+    "1967_World_Figure_Skating_Champions | finalSeconds | 1967_World_Figure_Skating_Club"
+  ],
+  [
+    "Vienna | country | Austria",
+    "1967_World_Figure_Skating_Championships | location | Vienna"
+  ],
+  [
+    "Louis_Kurihara | birthDate | 1994-12-06"
+  ],
+  [
+    "Louis_Kurihara | birthYear | 1994"
+  ],
+  [
+    "Alfred_Shale | location | Alfred_Station,_New_York",
+    "Alfred_Shale | age | Devonian_period"
+  ],
+  [
+    "Alfred_Shale | age | Devonian_period"
+  ],
+  [
+    "Alejandro_Gabriel_Espinosa | birthPlace | Quito",
+    "Alejandro_Gabriel_Espinosa | birthDate | 1985-08-13",
+    "Alejandro_Gabriel_Espinosa | birthYear | 1985",
+    "Alejandro_Gabriel_Espinosa | club | Ecuador_national_football_team",
+    "Alejandro_Gabriel_Espinosa_Borja | nickname | \"Gabriel\""
+  ],
+  [
+    "Gabriel_Espinosa | birthPlace | Quito"
+  ],
+  [
+    "Temple_University | affiliation | Temple_University",
+    "Temple_University | affiliation | Medical_School",
+    "Temple_University | campus | Samaritan_Hospital",
+    "Philadelphia_Dental_College | city | Philadelphia"
+  ],
+  [
+    "Temple_University | city | Philadelphia"
+  ],
+  [
+    "_Real_Face_(song) | author | KAT-TUN"
+  ],
+  [
+    "_Real_Face_(song) | artist | KAT-TUN"
+  ],
+  [
+    "Mtshabezi_Mission | country | Zimbabwe",
+    "Mtshabezi_Mission | ward | Gwanda_District",
+    "Mtshabezi_Mission | region | Matabeleland_South_Province"
+  ],
+  [
+    "Mtshabezi_Mission | country | Zimbabwe"
+  ],
+  [
+    "Gamits | origin | United_States",
+    "Gamits | activeYearsStartYear | 1996"
+  ],
+  [
+    "Gamits | origin | United_States",
+    "Gamits | activeYearsStartYear | 1996"
+  ],
+  [
+    "Eliezer_Kulas | birthDate | 1944-08-29",
+    "Eliezer_Kulas | office | \"Member of the Knesset for Likud\"",
+    "Eliezer_Kulas | birthYear | 1944",
+    "Eliezer_Kulas | nationality | Israel",
+    "Eliezer_Kulas | activeYearsStartYear | 1981",
+    "Eliezer_Kulas | successor | 1988"
+  ],
+  [
+    "Eliezer_Kulas | party | Likud",
+    "Eliezer_Kulas | birthPlace | Kyzylorda"
+  ],
+  [
+    "Friedrich_Funcke | birthPlace | Nossen",
+    "Friedrich_Funcke | deathPlace | Römstedt",
+    "Friedrich_Funcke | office | \"Kantor at St. Johannis, Lüneburg\"",
+    "Friedrich_Funcke | successor | Kantor_at_Perleberg"
+  ],
+  [
+    "Friedrich_Funcke | birthPlace | Nossen",
+    "Friedrich_Funcke | deathPlace | Römstedt",
+    "Friedrich_Funcke | status | \"Deceased\""
+  ],
+  [
+    "Riccardo_Ruotolo | office | \"auxiliary bishop of the Roman Catholic Archdiocese of Manfredonia-Vieste-San_José_Rotondo\"",
+    "Riccardo_Ruotolo | deathDate | 2012-08-01",
+    "Riccardo_Ruotolo | birthDate | 1928-11-15",
+    "Riccardo_Ruotolo | birthPlace | Italy",
+    "Castulo | bishop | Riccardo_Ruotolo"
+  ],
+  [
+    "Riccardo_Ruotolo | birthPlace | Italy"
+  ],
+  [
+    "Maxim_Lemire | birthPlace | Notre-Dame_du-Mont-Carmel",
+    "Maxim_Lemire | birthDate | 1981-03-30",
+    "Maxim_Lemire | residence | Trois-Rivières"
+  ],
+  [
+    "Maxim_Lemire | birthPlace | Notre-Dame_du-Mont-Carmel",
+    "Maxim_Lemire | birthYear | 1981",
+    "Trois-Rivières | country | Canada",
+    "Maxim_Lemire | residence | Trois-Rivières",
+    "Maxim_Lemire | birthPlace | Quebec"
+  ],
+  [
+    "Annalise_Murphy | medal | Rio_Olympics",
+    "Annalise_Murphy | selectedByNation | Ireland",
+    "Annalise_Murphy | paradeToMemorial | St._Patrick's_Day_Parade",
+    "Annalise_Murphy | birthPlace | Rio_Olympics"
+  ],
+  [
+    "Annalise_Murphy | residence | Dublin",
+    "Annalise_Murphy | sport | Sailing"
+  ],
+  [
+    "Beatriz_Teresa_Missiego_Campos | birthPlace | Lima",
+    "Beatriz_Teresa_Missiego_Campos | birthDate | 1938-01-16",
+    "Beatriz_Teresa_Missiego_Campos | birthName | \"Betty Missiego Campos\"",
+    "Beatriz_Teresa_Missiego_Campos | nationality | Peru",
+    "Beatriz_Teresiego_Campos | residence | Spain"
+  ],
+  [
+    "Betty_Missiego | birthPlace | Lima"
+  ],
+  [
+    "Tianjin_Airlines | cityServed | Tianjin",
+    "Tianjin_Airlines | location | Dongli_District",
+    "Tianjin_Airlines | name | \"Tianjin Binhai International Airport\"",
+    "Tianjin_Airlines | country | China",
+    "Tianjin_Airlines | pinyin | \"Tinjn Hángkng: —Grand China Express Air\""
+  ],
+  [
+    "Tianjin_Airlines | headquarter | Tianjin"
+  ],
+  [
+    "Tianjin_Airlines | cityServed | Tianjin",
+    "Grand_China_Air | name | \"Tianjin Airlines\"",
+    "Grand_China_Air | location | China",
+    "Grand_China_Air | yearOfRebranding | 2009"
+  ],
+  [
+    "Tianjin_Airlines | headquarter | Tianjin,_China"
+  ],
+  [
+    "Jamila_Sanmoogan | birthDate | 1997-03-20",
+    "Jamila_Sanmoogan | birthPlace | Guyanese_water_sports_federation",
+    "Jamila_Sanmoogan | birthYear | 1997"
+  ],
+  [
+    "Jamila_Sanmoogan | nationality | Guyanese_people"
+  ],
+  [
+    "James_Alan_Polster | occupation | Screenwriter",
+    "James_Alan_Polster | birthDate | 1947-09-14",
+    "James_Alan_Polster | deathDate | \"1912-12-15\"",
+    "James_Alan_Polster | nationality | United_States",
+    "James_Alan_Polster | occupation | Novelist",
+    "James_Alan_Polster | status | \"Deceased\""
+  ],
+  [
+    "James_Alan_Polster | birthPlace | Cleveland",
+    "James_Alan_Polster | deathYear | 2012",
+    "James_Alan_Polster | nationality | United_States",
+    "James_Alan_Polster | birthYear | 1947"
+  ],
+  [
+    "St._John_(footballer) | club | Liverpool",
+    "1965_FA_Cup_Final | venue | Leeds",
+    "St._John_(footballer) | club | St._John_(footballer)",
+    "Bremner_(footballer) | club | Leeds_F.A.C."
+  ],
+  [
+    "1965_FA_Cup_Final | venue | London",
+    "St._John_(footballer) | club | St._John_(footballer)",
+    "London | club | Leeds_United_F.C.",
+    "1965_FA_Cup_Final | hostTeam | Liverpool",
+    "Bremner_(footballer) | club | Bremner_(footballer)"
+  ],
+  [
+    "Sri_Lanka_Police_Academy | city | Dehiwala",
+    "Sri_Lanka_Police_Academy | type | Police_college"
+  ],
+  [
+    "Sri_Lanka_Police_Academy | city | Dehiwala"
+  ],
+  [
+    "Rajaa_al-Sanea | birthYear | 1981",
+    "Rajaa_al-Sanea | nationality | Saudi_Arabs",
+    "Rajaa_al-Sanea | notableWork | Girls_of_Riyadh"
+  ],
+  [
+    "Rajaa_al-Sanea | birthPlace | Riyadh",
+    "Rajaa_al-Sanea | almaMater | Dentistry",
+    "Rajaa_al-Sanea | birthYear | 1981",
+    "Rajaa_al-Sanea | residence | Saudi_Arab_people"
+  ],
+  [
+    "Alessandro_dal_Borro | birthPlace | Arezzo",
+    "Alessandro_dal_Borro | profession | Captain",
+    "Alessandro_dal_Borro | status | Noble_(man)"
+  ],
+  [
+    "Alessandro_dal_Borro | birthPlace | Arezzo",
+    "Alessandro_dal_Borro | deathPlace | Corfu"
+  ],
+  [
+    "Battle_of_Aydn | duration | \"27 June 1919 - 4 July 1919\"",
+    "Aydn | isPartOfMilitaryConflict | Greco-Turkish_War",
+    "Aydn | isPartOfMilitaryConflict | Turkish_War",
+    "Aydn | country | Turkey",
+    "Battle_of_Aydn | location | Western_Turkey",
+    "Battle_of_Aydn | officiallyName | \"The Defence of Aydn\""
+  ],
+  [
+    "Battle_of_Aydn | commander | Yörük_Ali_Efe",
+    "Battle_of_Aydn | location | Aydn",
+    "Aydn | isPartOfMilitaryConflict | Battle_of_Aydn"
+  ],
+  [
+    "Bayern_Munich | league | UEFA_Champions_League",
+    "2001_Intercontinental_Cup | champions | Copa_Libertadores_Boca_Juniors",
+    "2001_Intercontinental_Cup | winner | Bayern_Munich",
+    "Bayern_Munich | season | 2000–01_UEFA_Champions_League",
+    "2001_Intercontinental_Cup | ground | Bayern_Munich",
+    "2001_Intercontinental_Cup | winner | Copa_Libertadores_Boca_Juniors"
+  ],
+  [
+    "Boca_Jrs. | ground | Tokyo",
+    "2001_Intercontinental_Cup | champions | Bayern_Munich",
+    "2001_Intercontinental_Cup | opponent | Boca_Jrs."
+  ],
+  [
+    "Cham_Takleh_ye_Olya | country | Iran",
+    "Cham_Takleh_ye_Olya | alternativeName | \"Cham Tagaleh\"",
+    "Cham_Takleh_ye_Olya | region | Honam_Rural_District",
+    "Cham_Takleh_ye_Olya | isPartOf | Lorestan_Province",
+    "Cham_Takleh_ye_Olya | isPartOf | Selseleh_County,_Iran"
+  ],
+  [
+    "Cham_Takleh-ye_Olya | country | Iran",
+    "Cham_Takleh-ye_Olya | populationTotal | 169"
+  ],
+  [
+    "Stock_Aitken_Waterman | genre | Hi-NRG",
+    "Stock_Aitken_Waterman | associatedBand/associatedMusicalArtist | SAW",
+    "Stock_Aitken_Waterman | associatedBand/associatedMusicalArtist | Eurobeat"
+  ],
+  [
+    "Stock_Aitken_Waterman | genre | Hi-NRG",
+    "Sinitta_(singer) | associatedBand/associatedMusicalArtist | Stock_Aitken_Waterman",
+    "Stock_Aitken_Waterman | genre | Eurobeat"
+  ],
+  [
+    "Stock_Aitken_Waterman | genre | Hi-NRG",
+    "Stock_Aitken_Waterman | genre | Eurobeat",
+    "Stock_Aitken_Waterman | associatedBand/associatedMusicalArtist | Motown",
+    "Italo_disco | stylisticOrigin | Disco"
+  ],
+  [
+    "Stock_Aitken_Waterman | genre | Hi-NRG",
+    "Stock_Aitken_Waterman | associatedBand/associatedMusicalArtist | Bananarama",
+    "Stock_Aitken_Waterman | associatedBand/associatedMusicalArtist | Sinitta_(singer)",
+    "Stock_Aitken_Waterman | associatedBand/associatedMusicalArtist | Stock_Aitken_Waterman",
+    "Stock_Aitken_Waterman | genre | Eurobeat"
+  ],
+  [
+    "Tolombeh-ye_Khosrowi | country | Iran",
+    "Tolombeh-ye_Khosrowi | populationTotal | 60",
+    "Tolombeh-ye_Khosrowi | region | \"Rizab Rural District, Qatruyeh District, Neyriz County, Fars Province\"",
+    "Tolombeh-ye_Khosrowi | alternativeName | \"Tolombeh-ye Khosrowi\"",
+    "Tolombeh-ye_Khosrowi | isPartOf | Fars_Province",
+    "Tolombeh-ye_Khosrowi | isPartOf | Neyriz_County,_Iran"
+  ],
+  [
+    "Tolombeh_ye_Khosrowi | populationTotal | 60",
+    "Tolombeh_ye_Khosrowi | country | Iran",
+    "Tolombeh_ye_Khosrowi | isPartOf | Iran"
+  ],
+  [
+    "Michael_Lynn_Dublin | alternativeName | \"Johnny Grunge\""
+  ],
+  [
+    "Michael_Lynn_Duke | birthDate | 1966-07-10",
+    "Michael_Lynn_Duke | occupation | Professional_wrestling",
+    "Michael_Lynn_Duke | birthYear | 1966",
+    "Michael_Lynn_Duke | deathDate | 2006-02-16",
+    "Michael_Lynn_Duke | birthName | \"Johnny Grunge\"",
+    "Michael_Lynn_Duke | nationality | United_States"
+  ],
+  [
+    "Sultan_Ismail_Petra_Airport | location | Kelantan",
+    "Malaysia_Airport_Holdings_Berhad | keyPerson | Malaysia_Airport_Holdings_Berhad",
+    "Sultan_Ismail_Petra_Airport | expansionStartDate | \"July 2015\""
+  ],
+  [
+    "Sultan_Ismail_Petra_Airport | location | Kelantan",
+    "Kelantan | country | Malaysia"
+  ],
+  [
+    "Trois-Rivières_Lions | city | Trois-Rivières,_Québec",
+    "Trois-Rivières_Lions | league | Ice_hockey"
+  ],
+  [
+    "Trois-Rivières_Lions | city | Trois-Rivières,_Québec"
+  ],
+  [
+    "Sidi_Mohammad_Ben_Abdellah_University | city | Fez",
+    "Sidi_Mohammad_Ben_Abdellah_University | country | Morocco",
+    "Sidi_Mohammad_Ben_Abdellah_University | established | 1975"
+  ],
+  [
+    "Sidi_Mohamed_Ben_Abdellah_University | country | Morocco"
+  ],
+  [
+    "Arnold_Palmer_Hospital_for_Children | affiliation | Camp_Boggy_Creek",
+    "Arnold_Palmer_Hospital_for_Children | affiliation | Children's_Memorial_Network_(association)",
+    "Arnold_Palmer_Hospital_for_Children | affiliation | National_Association_of_Children's_Hospitals_and_Related_Institutions",
+    "Arnold_Palmer_Hospital_for_Childrends | affiliation | Children's_Memis_Network"
+  ],
+  [
+    "Arnold_Palmer_Hospital_for_Children | state | Florida"
+  ],
+  [
+    "Millennium_House | location | Stockport",
+    "Millennium_House | class | \"Grade II\""
+  ],
+  [
+    "Millennium_House | location | Stockport"
+  ],
+  [
+    "Andrejs_Grants | genre | Portrait_of_people_in_Latvia"
+  ],
+  [
+    "Andrejs_Grants | birthPlace | Latvia",
+    "Andrejs_Grants | birthPlace | Riga"
+  ],
+  [
+    "Maurizio_Ragano | deathYear | 1640",
+    "Maurizio_Ragano | office | \"Bishop of Fondi\"",
+    "Maurizio_Ragano | birthPlace | Rome",
+    "Maurizio_Ragano | birthYear | 1636"
+  ],
+  [
+    "Maurizio_Ragano | office | \"Bischof of Fondi\""
+  ],
+  [
+    "It_Ai_n't_My_Fault_(cd_single) | artist | Silkk_the_Shocker",
+    "It_Ai_n't_My_Fault_(cd_single) | biggestHitTitle | \"It's Not My Fault 2\"",
+    "It_Ai_n't_My_Fault_(cd_single) | featuring | Mystikal"
+  ],
+  [
+    "Silkk_the_Socker | fullName | \"Silkk the Shocker\"",
+    "Silkk_the_Socker | associatedBand/associatedMusicalArtist | Mystikal",
+    "Silkk_the_Socker | associatedBand/associatedMusicalArtist | C-Murder"
+  ],
+  [
+    "Anderlecht_F.C. | league | Belgian_Pro_League",
+    "2013_Belgian_Super_Cup | winner | Anderlecht_F.C.",
+    "Anderlecht_F.C. | season | 2012–13_Belgian_Cup",
+    "2013_Belgian_Super_Cup | opponent | Genk_F.C.",
+    "2013_Belgian_Super_Cup | date | 2013-07-21"
+  ],
+  [
+    "2013_Belgian_Super_Cup | venue | Anderlecht"
+  ],
+  [
+    "Hamsij | populationTotal | 57",
+    "Hamsij | region | Yazdanabad_District",
+    "Hamsij | country | Iran",
+    "Hamsij | alternativeName | \"Ham Sheykh and Hamsch\"",
+    "Hamsij | location | Siriz_Rural_District",
+    "Hamsij | isPartOf | Kerman_Province",
+    "Hamsij | location | Zarand_County,_Iran",
+    "Hamsij | language | Persian_language"
+  ],
+  [
+    "Hamsij | populationTotal | 57",
+    "Hamsij | country | Iran",
+    "Hamsij | numberOfFamilies | 14",
+    "Hamsij | location | Iran"
+  ],
+  [
+    "Upper_Deadwood_Lake | location | Camas_County,_Idaho",
+    "Upper_Deadwood_Lake | region | Soldier_Mountain_National_Forest",
+    "Upper_Deadwood_Lake | country | United_States",
+    "Upper_Deadwood_Lake | location | Sawtooth_National_Forest",
+    "Upper_Deadwood_Lake | isPartOf | Idaho"
+  ],
+  [
+    "Upper_Deadwood_Lake,_Idaho | isPartOf | Idaho"
+  ],
+  [
+    "Hugh_Hudson | birthDate | 1936-08-25",
+    "Hugh_Hudson | birthPlace | England",
+    "Hugh_Hudson | occupation | Filmmaker"
+  ],
+  [
+    "Hugh_Hudson | nationality | United_Kingdom",
+    "Hugh_Hudson | birthPlace | London",
+    "Hugh_Hudson | birthYear | 1936",
+    "Hugh_Hudson | language | English_language"
+  ],
+  [
+    "James_Ratliff | office | \"Member of the Arkansas House of Representatives\"",
+    "James_Ratliff | party | Democratic_Party_(United_States)",
+    "James_Ratliff | nationality | United_States",
+    "James_Ratliff | activeYearsStartDate | 2011-01-14",
+    "James_Ratliff | region | District_60",
+    "James_Ratliff | activeYearsEndDate | 2017-01-17"
+  ],
+  [
+    "James_Ratliff | region | District_73",
+    "James_Ratliff | activeYearsStartDate | 2011-01-01"
+  ],
+  [
+    "Siim-Sander_Vene | birthDate | 1990-11-12",
+    "Varese_F.C. | league | LBA",
+    "Siim-Sander_Vene | birthYear | 1990",
+    "Siim-Sander_Vene | birthPlace | Estonia",
+    "Siim-Sander_Vene | club | Varese_F.C."
+  ],
+  [
+    "Siim-Sander_Vene | country | Estonia"
+  ],
+  [
+    "Velike_Brusnice | isPartOf | Slovenia",
+    "Velike_Brusnice | isPartOf | Gorjanci_River",
+    "Velike_Brusnice | location | Foothills_of_the_Gorjanci_River"
+  ],
+  [
+    "Velike_Brusnice | country | Slovenia"
+  ],
+  [
+    "1999_Tulane_Green_Wave | league | Conference_USA",
+    "1999_Tulane_Green_Wave | homeTeam | Louisiana_Superdome"
+  ],
+  [
+    "1999_Tulane_Green_Wave | league | Conference_USA",
+    "1999_Tulane_Green_Wave | homeTeam | Louisiana_Superdome"
+  ],
+  [
+    "Pir_Ahmadlu | populationTotal | 95",
+    "Pir_Ahmadlu | region | \"Qeshlaq Rural District, Abish Ahmad District, Kaleybar County, East Azerbaijan Province\"",
+    "Pir_Ahmadlu | country | Iran",
+    "Pir_Ahmadlu | alternativeName | \"Pr Amadl\"",
+    "Pir_Ahmadlu | isPartOf | East_Azerbaijan",
+    "Pir_Ahmadlu | isPartOf | Kaleybar_County,_Iran"
+  ],
+  [
+    "Pir_Ahmadlu | populationTotal | 95",
+    "Pir_Ahmadlu | country | Iran",
+    "Pir_Ahmadlu | isPartOf | Iran"
+  ],
+  [
+    "Francesco_Falconi | birthPlace | Grosseto",
+    "Francesco_Falconi | birthDate | 1976-06-26",
+    "Francesco_Falconi | nationality | Italy",
+    "Francesco_Falconi | genre | Fantasy_literature"
+  ],
+  [
+    "Francesco_Falconi | birthPlace | Grosseto",
+    "Francesco_Falconi | nationality | Italy"
+  ],
+  [
+    "Greater_New_York_Council | owner | Boy_Scouts_of_America"
+  ],
+  [
+    "Ten_Mile_River_Scout_Camps | country | United_States",
+    "Ten_Mile_River_Scout_Camps | operatingOrganisation | Greater_New_York_Council"
+  ],
+  [
+    "Pappanamkodu_Lakshmanan | activeYearsStartYear | 1967",
+    "Pappanamkodu_Lakshmanan | genre | Malayalam",
+    "Pappanamkodu_Lakshmanan | occupation | \"director, lyricist, scriptwriter\"",
+    "Pappanamkodu_Lakshmanan | country | India"
+  ],
+  [
+    "Pappanamkodu_Lakshmanan | nationality | Indian_people"
+  ],
+  [
+    "Louis-Joseph_Moll | deathDate | 1872-08-05",
+    "Louis-Joseph_Moll | birthDate | 1816-08-24",
+    "Louis-Joseph_Moll | profession | Physician",
+    "Louis-Joseph_Moll | deathPlace | Quebec"
+  ],
+  [
+    "Louis-Joseph_Moll | deathPlace | Quebec"
+  ],
+  [
+    "Wilmot_Mansion | location | Bethany,_Pennsylvania",
+    "Wilmot_Mansion | architecturalStyle | Greek_Revival_architecture",
+    "Wilmot_Mansion | location | Wayne_County,_Pennsylvania",
+    "Wilmot_Mansion | yearOfConstruction | 1827",
+    "Wilmot_Mansion | category | Historic_home"
+  ],
+  [
+    "Wilmot_Mansion | buildingStartDate | 1827"
+  ],
+  [
+    "Yorkshire_Heart_Vineyard | award | International_Wine_Challenge_Cellar_Door_of_the_Year",
+    "Yorkshire_Heart_Vineyard | location | Nun_Monkton",
+    "Yorkshire_Heart_Vineyard | foundingDate | 2000"
+  ],
+  [
+    "Nun_Monkton | country | England",
+    "Nun_Monkton | region | Yorkshire"
+  ],
+  [
+    "Arlene_Blum | birthDate | 1945-03-01",
+    "Arlene_Blum | occupation | Environmental_health_scientist",
+    "Arlene_Blum | nationality | United_States",
+    "Arlene_Blum | birthYear | 1945",
+    "Arlene_Blum | occupation | Mountaineer",
+    "Annapurna | author | Arlene_Blum"
+  ],
+  [
+    "Arlene_Blum | birthYear | 1945",
+    "Arlene_Blum | birthName | \"Arlene Blum\"",
+    "Arlene_Blum | occupation | Mountaineer",
+    "Arlene_Blum | child | Annalise_Blum",
+    "Annapurna | hero | Arlene_Blum"
+  ],
+  [
+    "Super_R-Type | developer | Irem_(company)",
+    "Super_R-Type | releaseYear | 1991",
+    "Super_R-Type | genre | Shooter",
+    "Super_R-Type | system | SNES"
+  ],
+  [
+    "Super_R-Type | platform | SNES",
+    "Super_R-Type | developer | Irem",
+    "Super_R-Type | console | Wii",
+    "Super_R-Type | releaseType | \"Wii U\""
+  ],
+  [
+    "Benjamin_Say | office | \"Member of the U.S. House of Representatives from Pennsylvania\"",
+    "Benjamin_Say | birthDate | 1755-08-28",
+    "Benjamin_Say | deathDate | 1813-04-23"
+  ],
+  [
+    "Benjamin_Say | state | Pennsylvania"
+  ],
+  [
+    "Burke_Lake_Park | location | Fairfax_Station,_Virginia",
+    "Burke_Lake_Park | location | Fairfax_County,_Virginia",
+    "Burke_Lake_Park | type | Public_park",
+    "Fairfax_Station,_Virginia | country | United_States"
+  ],
+  [
+    "Burke_Lake_Park | location | Virginia"
+  ],
+  [
+    "Jean_Pasqualini | office | British_Ambassador_in_Beijing",
+    "Jean_Pasqualini | occupation | Translator",
+    "Jean_Pasqualini | residence | Tianjin",
+    "Jean_Pasqualini | activeYearsStartDate | 1949-01-01",
+    "Jean_Pasqualini | residence | Shanghai",
+    "Beijing | leader | Communist_Party_(China)",
+    "Jean_Pasqualini | militaryBranch | United_States_Army"
+  ],
+  [
+    "Jean_Pasqualini | birthPlace | Beijing",
+    "Jean_Pasqualini | nationality | France",
+    "Jean_Pasqualini | birthPlace | China"
+  ],
+  [
+    "Jean_Pasqualini | releaseYear | 1964",
+    "Jean_Pasqualini | residence | Paris"
+  ],
+  [
+    "Jean_Pasqualini | birthPlace | China",
+    "Jean_Pasqualini | birthName | \"Bao Ruowang\"",
+    "Jean_Pasqualini | residence | Paris",
+    "Jean_Pasqualini | deathPlace | Paris",
+    "Jean_Pasqualini | nationality | France",
+    "Laogai | author | Jean_Pasqualini"
+  ],
+  [
+    "Jean_Pasqualini | deathPlace | Paris",
+    "Jean_Pasqualini | deathYear | 1997"
+  ],
+  [
+    "Jean_Pasqualini | birthPlace | China",
+    "Jean_Pasqualini | birthName | \"Bao Ruowang\"",
+    "Jean_Pasqualini | deathPlace | Paris",
+    "Jean_Pasqualini | deathYear | 1997",
+    "Jean_Pasqualini | nationality | France",
+    "Laogai | author | Jean_Pasqualini"
+  ],
+  [
+    "Jean_Pasqualini | birthPlace | Beijing",
+    "Jean_Pasqualini | birthName | \"Bao Ruowang\"",
+    "Jean_Pasqualini | birthPlace | China",
+    "Jean_Pasqualini | father | French_father"
+  ],
+  [
+    "Jean_Pasqualini | birthPlace | Beijing",
+    "Jean_Pasqualini | birthName | \"Bao Ruowang\"",
+    "Jean_Pasqualini | birthPlace | China",
+    "Jean_Pasqualini | nationality | France",
+    "Jean_Pasqualini | deathPlace | Paris"
+  ],
+  [
+    "Jean_Pasqualini | birthPlace | Bao_Ruowang",
+    "Jean_Pasqualini | nationality | French_people",
+    "Jean_Pasqualini | deathDate | \"1997-10-09\"",
+    "Jean_Pasqualini | occupation | Journalist",
+    "Jean_Pasqualini | deathPlace | Laogai_labor_camp",
+    "Jean_Pasqualini | birthYear | 1926"
+  ],
+  [
+    "Jean_Pasqualini | birthPlace | Beijing",
+    "Jean_Pasqualini | birthYear | 1926",
+    "Jean_Pasqualini | nationality | French_people",
+    "Jean_Pasqualini | birthPlace | Bao_Ruowang",
+    "Jean_Pasqualini | deathPlace | Paris",
+    "Jean_Pasqualini | significantWork | Laogai"
+  ],
+  [
+    "Teikyo_School | country | Japan",
+    "Teikyo_School | city | Wexham,_South_Bucks",
+    "Teikyo_School | country | United_Kingdom",
+    "Teikyo_School | boardingSchool | Teikyo_School"
+  ],
+  [
+    "Wexham | isPartOf | South_Bucks"
+  ],
+  [
+    "Green_Jackets_Ground | owner | St_Cross_Symondians_Club",
+    "St._Cross_Symondians_Club | ground | Green_Jackets_Ground",
+    "Green_Jackets_Ground | location | St._Cross,_Winchester",
+    "St._Cross,_Winchester | isPartOf | Hampshire"
+  ],
+  [
+    "Green_Jackets_Ground | location | Winchester,_Hampshire"
+  ],
+  [
+    "Thomas_Edmondson | birthPlace | Lancaster,_England",
+    "Thomas_Edmondson | deathPlace | Manchester",
+    "Thomas_Edmondson | deathDate | 1851-06-22",
+    "Thomas_Edmondson | birthYear | 1792",
+    "Edmondson_Ticket | inventor | Thomas_Edmondson"
+  ],
+  [
+    "Thomas_Edmondson | birthPlace | England",
+    "Thomas_Edmondson | deathPlace | Manchester",
+    "Thomas_Edmondson | birthYear | 1792",
+    "Thomas_Edmondson | deathYear | 1851"
+  ],
+  [
+    "Simon_Dach | birthPlace | Prussia",
+    "Simon_Dach | deathPlace | Königsberg",
+    "Simon_Dach | status | \"Deceased\""
+  ],
+  [
+    "Simon_Dach | birthPlace | Klaipda",
+    "Simon_Dach | birthPlace | Prussian_people",
+    "Simon_Dach | residence | Königsberg",
+    "Simon_Dach | status | \"Deceased\""
+  ],
+  [
+    "Mont_Albert_Railway_Station | location | Victoria",
+    "Mont_Albert_Railway_Station | location | Lilydale,_Victoria",
+    "Mont_Albert_Railway_Station | location | Belgrave,_Victoria",
+    "Mont_Albert_Railway_Station | country | Australia",
+    "Mont_Albert_Railway_Station | operatingYear | 1890"
+  ],
+  [
+    "Mont_Albert_Railway_Station | openingDate | 1890"
+  ],
+  [
+    "Mary_Elizabeth_McDonough | birthPlace | Van_Nuys,_California",
+    "Mary_Elizabeth_McDonough | birthDate | 1961-05-04",
+    "Mary_Elizabeth_McDonough | birthPlace | Los_Angeles",
+    "Mary_Elizabeth_McDonough | birthName | \"Mary Elizabeth McDonough\"",
+    "Elizabeth_McDonough | birthName | \"Elizabeth Murray\""
+  ],
+  [
+    "Mary_Elizabeth_McDonough | birthYear | 1961",
+    "Mary_Elizabeth_McDonough | birthPlace | California"
+  ],
+  [
+    "FIA_Touring_Car_World_Cup | season | 1995"
+  ],
+  [
+    "FIA_Touring_Car_World_Cup | season | 1995"
+  ],
+  [
+    "PAR | type | Nonprofit_organization",
+    "Parkinson_Association_of_the_Rockies | location | Colorado",
+    "Parkinson_Association_of_the_Rockies | mission | \"Care and Research\""
+  ],
+  [
+    "Parkinson_Association_of_the_Rockies | regionServed | Colorado"
+  ],
+  [
+    "Susana_Campos | deathDate | 2004-10-16",
+    "Susana_Campos | birthDate | \"1934-08-31\"",
+    "Susana_Campos | birthPlace | Argentina",
+    "Susana_Campos | occupation | Actress"
+  ],
+  [
+    "Susana_Campos | deathYear | 2004",
+    "Susana_Campos | birthYear | 1934"
+  ],
+  [
+    "Irving_Kupcinet | nationality | United_States",
+    "Irving_Kupcinet | birthPlace | Chicago",
+    "Irving_Kupcinet | birthDate | 1912-07-31",
+    "Irving_Kupcinet | occupation | Radio_and_television",
+    "Irving_Kupcinet | deathDate | \"1973-11-10\"",
+    "Irving_Kupcinet | birthName | \"Irv\"",
+    "Irving_Kupcinet | birthPlace | Illinois"
+  ],
+  [
+    "Irv_Kupcinet | activeYearsStartYear | 1935",
+    "Irv_Kupcinet | deathPlace | Chicago",
+    "Irv_Kupcinet | birthPlace | Chicago",
+    "Irv_Kupcinet | deathYear | 2003"
+  ],
+  [
+    "Susan_Lynn_Gordon | birthDate | 1949-07-27",
+    "Susan_Lynn_Gordon | deathDate | 2011-12-11",
+    "Susan_Lynn_Gordon | birthName | \"Susan Gordon\"",
+    "Susan_Lynn_Gordon | nationality | United_States",
+    "Susan_Lynn_Gordon | occupation | Child_actress"
+  ],
+  [
+    "Susan_Lynn_Gordon | birthYear | 1949",
+    "Susan_Lynn_Gordon | activeYearsStartYear | 1958",
+    "Susan_Lynn_Gordon | birthName | \"Susan Gordon\"",
+    "Susan_Lynn_Gordon | deathYear | 2011"
+  ],
+  [
+    "20_Finger_(band) | genre | Music_producer"
+  ],
+  [
+    "20_Finger_(band) | activeYearsStartYear | 1994",
+    "Max-A-Million | associatedBand/associatedMusicalArtist | 20_Finger_(band)",
+    "Max-A-Million | numberOfAlbums | \"100000+\""
+  ],
+  [
+    "Avtandil_Makharradze | birthPlace | Batumi",
+    "Avtandil_Makharradze | activeYearsStartYear | 1970",
+    "Avtandil_Makharradze | almaMater | Shota_Rustaveli_Theatre_and_Film_University"
+  ],
+  [
+    "Avtandil_Makharradze | birthPlace | Batumi"
+  ],
+  [
+    "Valovoy_Kordon | region | Uglovsky_District",
+    "Valovoy_Kordon | country | Russia",
+    "Valovoy_Kordon | isPartOf | Altai_Krai",
+    "Valovoy_Kordon | isPartOf | Selo"
+  ],
+  [
+    "Valovoy_Kordon | country | Russia"
+  ],
+  [
+    "Cvetanovac | country | Serbia",
+    "Cvetanovac | isPartOf | Ljig_Municipality"
+  ],
+  [
+    "Cvetanovac | country | Serbia",
+    "Cvetanovac | location | Ljig_Municipality"
+  ],
+  [
+    "Marmaris_National_Park | country | Turkey",
+    "Marmaris_National_Park | established | 1996",
+    "Marmaris_National_Park | region | Mula_Province",
+    "Marmaris_National_Park | location | Köyceiz",
+    "Marmaris_National_Park | city | Marmaris"
+  ],
+  [
+    "Marmaris_National_Park | location | Köyceiz"
+  ],
+  [
+    "Schott_Music | foundingDate | 1770-01-01",
+    "Bernhard_Schott | deathDate | 1809-04-26",
+    "Bernhard_Schott | birthPlace | Mainz",
+    "Bernhard_Schott | deathPlace | Germany",
+    "Schott_Music | founder | Bernhard_Schott",
+    "Bernhard_Schott | birthDate | 1748-08-10"
+  ],
+  [
+    "Schott_Music | foundationPlace | Germany",
+    "Schott_Music | foundingDate | 1770-01-01"
+  ],
+  [
+    "Shoaib_Khan | birthPlace | Bostan",
+    "Shoaib_Khan | birthDate | 1985-04-13",
+    "Shoaib_Khan | club | Quetta_Bears",
+    "Shoaib_Khan | birthYear | 1985",
+    "Shoaib_Khan | nationality | Pakistan"
+  ],
+  [
+    "Shoaib_Khan | nationality | Pakistan"
+  ],
+  [
+    "Nathan_Luke_West | birthDate | 1978-09-29",
+    "Nathan_Luke_West | occupation | Actor",
+    "Nathan_Luke_West | birthYear | 1978",
+    "Nathan_Luke_West | background | \"solo_singer\"",
+    "Nathan_Luke_West | nationality | United_States"
+  ],
+  [
+    "Nathan_West | birthYear | 1978",
+    "Nathan_West | birthName | \"Nathan Luke West\""
+  ],
+  [
+    "Hendrik_van_Eck_Airport | iataLocationIdentifier | \"PHW\"",
+    "Hendrik_van_Eck_Airport | icaoLocationIdentifier | \"FAPH\"",
+    "Phalaborwa | isPartOf | Limpopo_Province",
+    "Phalaborwa | country | South_Africa",
+    "Hendrik_van_Eck_Airport | cityServed | Phalaborwa"
+  ],
+  [
+    "Hendrik_van_Eck_Airport | cityServed | Phalaborwa,_Limpopo"
+  ],
+  [
+    "José_Vandor_Puchner | birthDate | 1909-10-29",
+    "José_Vandor_Puchner | deathDate | 1979-10-08",
+    "José_Vandor_Puchner | birthName | \"József Wech\"",
+    "José_Vandor_Puchner | religiousOrganisation | Salesians_of_Don_Bosco",
+    "José_Vandor_Puchner | birthPlace | Hungary",
+    "José_Vandor_Puchner | status | \"Deceased\""
+  ],
+  [
+    "Joseph_Vandor | deathYear | 1979",
+    "Joseph_Vandor | birthYear | 1909"
+  ],
+  [
+    "József_Wech | birthPlace | Dorog",
+    "József_Wech | birthDate | 1909-10-29",
+    "József_Wech | birthPlace | Austro-Hungarian_Empire",
+    "József_Wech | spouse | Maria_Puchner",
+    "Sebastian_Wech | nationality | Germans"
+  ],
+  [
+    "Joseph_Vandor | birthPlace | Dorog",
+    "Joseph_Vandor | birthYear | 1909",
+    "Joseph_Vandor | deathYear | 1979"
+  ],
+  [
+    "NSB_Di_2 | builder | Thune",
+    "NSB_Di_2 | buildDate | \"1957-09-01\"",
+    "NSB_Di_2 | builder | Maschinenbau_Köln"
+  ],
+  [
+    "NSB_Di_2 | builder | Thune",
+    "NSB_Di_2 | buildDate | 1954"
+  ],
+  [
+    "Poyales_de_l_Hoyo | country | Spain",
+    "Poyales_de_l_Hoyo | isPartOf | Castilla_and_León",
+    "Poyales_de_l_Hoyo | municipality | vila"
+  ],
+  [
+    "Poyales_de_l_Hoyo | country | Spain",
+    "Poyales_de_l_Hoyo | populationTotal | 598"
+  ],
+  [
+    "Everybody_Is_a_Star | author | Sylvester_Stewart",
+    "Everybody_Is_a_Star | releaseDate | \"December 1969\"",
+    "Everybody_Is_a_Star | producer | Sly_and_the_Family_Stone"
+  ],
+  [
+    "Everybody_Is_a_Star | releaseDate | \"December 1969\""
+  ],
+  [
+    "Beaverlodge_Lake | country | Canada",
+    "Beaverlodge_Lake | location | Northern_Saskatchewan"
+  ],
+  [
+    "Beaverlodge_Lake | country | Canada",
+    "Beaverlodge_Lake | location | Saskatchewan"
+  ],
+  [
+    "Sven_Svensson | birthYear | 1636",
+    "Sven_Svensson | birthPlace | Sweden",
+    "Sven_Svensson | birthPlace | Sven_Gunnarsson",
+    "Sweden | colony | New_Sweden"
+  ],
+  [
+    "Sven_Svensson | birthPlace | Sweden",
+    "Sven_Svensson | deathPlace | Philadelphia"
+  ],
+  [
+    "Heinrich_Brunner | birthPlace | Upper_Austria",
+    "Heinrich_Brunner | birthPlace | Wels",
+    "Heinrich_Brunner | birthDate | 1840-06-21",
+    "Heinrich_Brunner | deathDate | 1915-08-11",
+    "Heinrich_Brunner | nationality | Germany"
+  ],
+  [
+    "Heinrich_Brunner | birthPlace | Wels"
+  ],
+  [
+    "Myanmar | country | Myanmar",
+    "Myanmar_Peace_Center | abbreviation | \"MPC\""
+  ],
+  [
+    "Myanmar_Peace_Center | location | Myanmar",
+    "Myanmar | capital | Yangon"
+  ],
+  [
+    "RTBF | country | Belgium",
+    "Thomas_van_Hamme | birthDate | 1969-02-10",
+    "Thomas_van_Hamme | occupation | \"radio and television moderator\"",
+    "RTBF | city | Walloon_Broadcasting_Federation",
+    "Thomas_van_Hamme | birthYear | 1969"
+  ],
+  [
+    "Thomas_van_Hamme | birthYear | 1969",
+    "Thomas_van_Hamme | birthPlace | Belgium"
+  ],
+  [
+    "1920_Georgia_Bulldogs | season | 1920_Southern_Intercollegiate_Athletic_Association",
+    "Georgia_Bulldogs | universityTeam | University_of_Georgia",
+    "1920_Georgia_Bulldogs | league | Southern_Intercollegiate_Athletic_Association",
+    "Georgia_Bulldogs | competeIn | Georgia_Tech_University",
+    "Southern_Intercollegiate_Athletic_Association | champions | Tulane_(United_States)",
+    "Georgia_Bulldogs | state | \"Georgia Tech University of Georgia\""
+  ],
+  [
+    "Georgia_Bulletdogs | season | 1920",
+    "Georgia_Bulletdogs | league | Southern_Intercollegiate_Athletic_Association"
+  ],
+  [
+    "Gombak | isPartOf | Selayang",
+    "Batu_Cave | location | Gombak"
+  ],
+  [
+    "Jalan_Batu_Caves | location | Selayang",
+    "Selayang | isPartOf | Gombak"
+  ],
+  [
+    "FL_Studio_Mobile_3 | developer | Image-Line",
+    "FL_Studio_Mobile_3 | successor | FL_Studio_Mobile_2",
+    "FL_Studio_Mobile_3 | developer | Artua"
+  ],
+  [
+    "FL_Studio_Mobile | developer | Image-Line"
+  ],
+  [
+    "Young_Survival_Coalition | foundingDate | 1998",
+    "Young_Survival_Coalition | location | New_York_City",
+    "Young_Survival_Coalition | type | Nonprofit_(501)_(c)_(3)",
+    "Young_Survival_Coalition | founder | \"Three young women with breast cancer\"",
+    "Young_Survival_Coalition | country | United_States"
+  ],
+  [
+    "Young_Survival_Coalition | foundingYear | 1998"
+  ],
+  [
+    "Ivory_Sands_House | architecturalStyle | \"Transitional Federal-Greek Revival\"",
+    "Ivory_Sands_House | location | Cambridge,_Massachusetts",
+    "Ivory_Sands_House | yearOfConstruction | 1839",
+    "Ivory_Sands_House | location | 145_Elm_Street"
+  ],
+  [
+    "Ivory_Sands_House | yearOfConstruction | 1839"
+  ],
+  [
+    "Matthijs_Wulfraet | residence | Amsterdam",
+    "Matthijs_Wulfraet | activeYearsStartYear | 1670",
+    "Matthijs_Wulfraet | residence | Arnhem",
+    "Matthijs_Wulfraet | activeYearsEndDate | 1683-04-01"
+  ],
+  [
+    "Matthijs_Wulfraet | birthPlace | Arnhem",
+    "Matthijs_Wulfraet | residence | Amsterdam"
+  ],
+  [
+    "Johnny_Almond | birthDate | 1946-07-29",
+    "Johnny_Almond | genre | Saxophone",
+    "Johnny_Almond | deathDate | \"2009-11-18\"",
+    "Johnny_Almond | associatedBand/associatedMusicalArtist | Fleetwood_Mac",
+    "Johnny_Almond | associatedBand/associatedMusicalArtist | Alan_Price",
+    "Johnny_Almond | associatedBand/associatedMusicalArtist | Mark_Almond",
+    "Johnny_Almond | birthPlace | United_Kingdom"
+  ],
+  [
+    "Johnny_Almond | associatedBand/associatedMusicalArtist | Mark-Almond"
+  ],
+  [
+    "King_Peter_IV_Square | location | Lisbon",
+    "Lisbon | country | Portugal",
+    "King_Peter_IV_Square | alternativeName | \"Rossio\"",
+    "King_Peter_IV_Square | location | Portugal",
+    "Praça_de_D._Péter_IV_(praça) | fullName | \"Praça de D. Pedro IV\""
+  ],
+  [
+    "Lisbon | country | Portugal",
+    "Rossio_Square | location | Lisbon"
+  ],
+  [
+    "Battle_of_Mont_Sorrel | isPartOfMilitaryConflict | World_War_I",
+    "Battle_of_Mont_Sorrel | country | Germany",
+    "Battle_of_Mont_Sorrel | isPartOfMilitaryConflict | British_Second_Army",
+    "Battle_of_Mont_Sorrel | location | Ypres_Salient"
+  ],
+  [
+    "Battle_of_Mont_Sorrel | place | Ypres"
+  ],
+  [
+    "Josianne_Fleming-Artsen | birthYear | 1949",
+    "Josianne_Fleming-Artsen | office | \"Deputy Minister Plenipotentiary of Sint Maarten\"",
+    "Josianne_Fleming-Artsen | activeYearsStartYear | 2014",
+    "Josianne_Fleming-Artsen | profession | Teacher"
+  ],
+  [
+    "Josianne_Fleming-Artsen | office | \"Minister Plenipotentiary of Sint Maarten\""
+  ],
+  [
+    "Great_River_Bluffs_State_Park | location | Mississippi_River",
+    "Great_River_Bluffs_State_Park | country | United_States",
+    "Great_River_Bluffs_State_Park | state | Minnesota"
+  ],
+  [
+    "Great_River_Bluffs_State_Park | location | Minnesota",
+    "Great_River_Bluffs_State_Park | country | United_States"
+  ],
+  [
+    "Barnes_Reeves_Eason | birthDate | 1914-11-19",
+    "Barnes_Reeves_Eason | deathDate | 1921-10-25",
+    "Barnes_Reeves_Eason | alternativeName | \"B. Reeves, Jr.\""
+  ],
+  [
+    "B._Reeves_Eason,_Jr. | deathYear | 1921",
+    "B._Reeves_Eason,_Jr. | birthYear | 1914"
+  ],
+  [
+    "Harris_Sahayam_Lawrence | birthPlace | Nagercoil",
+    "Harris_Sahayam_Lawrence | birthDate | \"1923-07-28\"",
+    "Harris_Sahayam_Lawrence | deathDate | 2009-04-21",
+    "Harris_Sahayam_Lawrence | nationality | India",
+    "Harris_Sahayam_Lawrence | birthPlace | Tamil_Nadu"
+  ],
+  [
+    "H._S._S._Lawrence | birthYear | 1923",
+    "H._S._S._Lawrence | birthName | \"Harris Sam Sahayam Lawrence\"",
+    "H._S._S._Lawrence | birthPlace | Nagercoil",
+    "H._S._S._Lawrence | deathPlace | Chennai",
+    "H._S._S._Lawrence | nationality | India"
+  ],
+  [
+    "Qiu_Fazu | deathPlace | Wuhan",
+    "Qiu_Fazu | burialPlace | \"Qiu Fazu Square, Tongji Medical College, Huazhong University of Science and Technology, Wuhan\"",
+    "Qiu_Fazu | deathDate | 2009-04-07"
+  ],
+  [
+    "Qiu_Fazu | birthPlace | Hangzhou",
+    "Qiu_Fazu | deathPlace | Wuhan"
+  ],
+  [
+    "Moseyev_Pochinok | country | Russia",
+    "Moseyev_Pochinok | isPartOf | Vologda_Oblast",
+    "Moseyev_Pochinok | isPartOf | Mardengskoye_Rural_Stayment",
+    "Mardengskoye_Rural_Stayment | isPartOf | Velikoustyugsky_District"
+  ],
+  [
+    "Moseyev_Pochinok | country | Russia"
+  ],
+  [
+    "Spacetime_Studios | location | Austin,_Texas",
+    "Spacetime_Studios | foundingDate | 2005",
+    "Spacetime_Studios | product | MMO_(game)",
+    "Spacetime_Studios | keyPerson | \"Gary Gattis, Cinco Barnes, Anthony L. Sommers, Jake Rodgers\"",
+    "Spacetime_Studios | type | GameDevelopment",
+    "Spacetime_Studios | industry | PC"
+  ],
+  [
+    "Spacetime_Studios | location | Texas",
+    "Spacetime_Studios | foundingDate | 2005"
+  ],
+  [
+    "Garlton_Hills_Volcanics | location | Scotland",
+    "Garlton_Hills_Volcanics | age | Carboniferous_period"
+  ],
+  [
+    "Garlton_Hills_Volcanics | location | Scotland",
+    "Garlton_Hills_Volcanics | age | Carboniferous_period"
+  ],
+  [
+    "Yazawa_(musician) | recordLabel | Emi_Music_Japan",
+    "Garuru_Records | location | Japan",
+    "Yazawa_(musician) | recordLabel | Garuru_Records",
+    "Yazawa_(musician) | activeYearsStartYear | 2008"
+  ],
+  [
+    "Eikichi_Yazawa | activeYearsStartYear | 1975",
+    "Eikichi_Yazawa | recordLabel | Garuru_Records",
+    "Eikichi_Yazawa | origin | Japan"
+  ],
+  [
+    "Green_Bay_Packers | league | Western_Conference",
+    "Baltimore_Colts | city | Baltimore",
+    "Green_Bay_Packers | rivalTeam | Baltimore_Colts"
+  ],
+  [
+    "Green_Bay_Packers | season | 1965_NFL_Poker_Playoffs",
+    "1965_NFL_Poker_Playoffs | team | Baltimore_Colts",
+    "Green_Bay_Packers | city | Green_Bay_Green_Bears"
+  ],
+  [
+    "Animazement | location | Raleigh,_North_Carolina",
+    "Animazement | location | North_Raleigh_Hillside",
+    "Animazement | year | 1998"
+  ],
+  [
+    "Animazement | location | Raleigh_Convention_Center",
+    "Animazement | venue | Sheraton_Imperial_Hotel_and_Conference_Center",
+    "Animazement | genre | Animation"
+  ],
+  [
+    "Little_Joe_1_A | launchSite | NASA",
+    "Little_Joe_1_A | launchDate | 1959-11-04",
+    "Little_Joe_1_A | launchName | \"LJ-1A\"",
+    "Little_Joe_1_A | status | \"Unmanned\""
+  ],
+  [
+    "Little_Joe_1_A | launchSite | NASA"
+  ],
+  [
+    "Kekerten_Island | location | Qikiqtaaluk_Region",
+    "Kekerten_Island | country | Canada",
+    "Kekerten_Island | state | \"Uninhabited\"",
+    "Kekerten_Island | region | Nunavut"
+  ],
+  [
+    "Kekerten_Island | country | Canada"
+  ],
+  [
+    "L'Inondation | director | Delluc_(filmmaker)",
+    "Delluc_(filmmaker) | deathPlace | Paris",
+    "L'Inondation | year | 1924"
+  ],
+  [
+    "Louis_Delluc | deathPlace | Paris",
+    "Louis_Delluc | birthYear | 1890",
+    "Louis_Delluc | deathDate | 1924",
+    "Louis_Delluc | nationality | French_people"
+  ],
+  [
+    "Ivan_Moravec | birthPlace | Prague"
+  ],
+  [
+    "Ivan_Moravec | birthPlace | Prague",
+    "Ivan_Moravec | deathPlace | Prague"
+  ],
+  [
+    "Hoosiers_(film) | starring | Gene_Hackman",
+    "Hoosiers_(film) | fictitiousSchool | Hickory_High_School"
+  ],
+  [
+    "Bobby_Plump | highSchool | Milan"
+  ],
+  [
+    "Martial_Outlaw | starring | Jeff_Wincott",
+    "Martial_Outlaw | director | Kurt_Anderson",
+    "Martial_Outlaw | starring | Richard_Jaeckel",
+    "Martial_Outlaw | genre | Martial_arts",
+    "Martial_Outlaw | producer | Pierre_David",
+    "Martial_Outlaw | starring | Gary_Hudson",
+    "Martial_Outlaw | year | 1993",
+    "Martial_Outlaw | author | Thomas_Ritz"
+  ],
+  [
+    "Martial_Outlaw | director | Kurt_Anderson",
+    "Martial_Outlaw | writer | Thomas_Ritz",
+    "Martial_Outlaw | producer | Pierre_David",
+    "Martial_Outlaw | creator | Pierre_David"
+  ],
+  [
+    "North_Carolina_Tar_Heels | league | Atlantic_Coast_Conference",
+    "North_Carolina_Tar_Heels | league | Coastal_Division"
+  ],
+  [
+    "North_Carolina_Tar_Heels | league | Atlantic_Coast_Conference",
+    "North_Carolina_Tar_Heels | city | Chapel_Hill,_North_Carolina",
+    "North_Carolina_Tar_Heels | league | Coastal_Division"
+  ],
+  [
+    "Rangra_Village | country | India",
+    "Rangra_Village | isPartOf | Punjab_(India)",
+    "Rangra_Village | isPartOf | Jalandhar_District",
+    "Rangra_Village | isPartOf | Nakodar_Village"
+  ],
+  [
+    "Rangra_(comicsCharacter) | location | Nakodar",
+    "Rangra_(comicsCharacter) | country | India"
+  ],
+  [
+    "Justine_Lacoste-Beaubien | birthDate | 1877-10-01",
+    "Justine_Lacoste-Beaubien | deathDate | 1967-01-17",
+    "Sainte-Justine_Hospital | founder | Justine_Lacoste-Beaubien",
+    "Sainte-Justine_Hospital | academicDiscipline | Children's_Hospital"
+  ],
+  [
+    "Justine_Lacoste-Beaubien | birthPlace | Montreal",
+    "Justine_Lacoste-Beaubien | deathPlace | Montreal",
+    "Justine_Lacoste-Beaubien | deathYear | 1967"
+  ],
+  [
+    "Tianjin_Metro | lineOfTransportation | Tianjin_Metro_Line_3",
+    "Tianjin_Metro_Line_3 | activeYearsStartYear | 2012",
+    "Tianshili_Station | location | Tianjin"
+  ],
+  [
+    "Tianshili_Station | activeYearsStartYear | 2012"
+  ],
+  [
+    "Mary_Marg_Helgenberger | birthDate | 1958-11-16",
+    "Mary_Marg_Helgenberger | birthPlace | United_States",
+    "Mary_Marg_Helgenberger | activeYearsStartYear | 1982",
+    "Mary_Marg_Helgenberger | occupation | Actress",
+    "Mary_Marg_Helgenberger | genre | Soap_opera"
+  ],
+  [
+    "Marg_Helgenberger | birthYear | 1958",
+    "Marg_Helgenberger | birthName | \"Mary Marg Helgenberger\"",
+    "Marg_Helgenberger | activeYearsStartYear | 1982"
+  ],
+  [
+    "Mount_Pippu | country | Japan",
+    "Mount_Pippu | location | Hokkaid",
+    "Mount_Pippu | isPartOf | Daisetsuzan_Volcanic_Group",
+    "Mount_Pippu | isPartOf | Ishikari_Mountain"
+  ],
+  [
+    "Mount_Pippu | location | Hokkaid",
+    "Mount_Pippu | country | Japan"
+  ],
+  [
+    "Henrik_Fig | club | Denmark",
+    "Henrik_Fig | club | United_States",
+    "Henrik_Fig | position | Midfield_(football)",
+    "Henrik_Fig | club | Germany",
+    "Henrik_Fig | club | Association_football_(Denmark)"
+  ],
+  [
+    "Henrik_Fig | birthPlace | Denmark"
+  ],
+  [],
+  [],
+  [
+    "Yorkshire_Jets | ground | Yorkshire",
+    "Yorkshire_Jets | league | Netball",
+    "Yorkshire_Jets | ground | England"
+  ],
+  [
+    "Yorkshire_Jets | coach | Anna_Carter",
+    "Yorkshire_Jets | ground | Yorkshire"
+  ],
+  [
+    "Moscow_State_University | location | Moscow",
+    "Moscow_State_University | buildingType | Skyscraper",
+    "Moscow_State_University | height | 240 (metres)"
+  ],
+  [
+    "Moscow_State_University | city | Moscow",
+    "Moscow_State_University | buildingType | Main_Building",
+    "Moscow_State_University | tallestBuilding | Messe_Turm"
+  ],
+  [
+    "Franz_Christian_Gau | birthPlace | Cologne",
+    "Franz_Christian_Gau | birthDate | 1790-06-15",
+    "Franz_Christian_Gau | birthYear | 1790",
+    "Franz_Christian_Gau | deathPlace | Paris",
+    "Franz_Christian_Gau | nationality | Germany",
+    "Franz_Christian_Gau | deathDate | 1854-01-01"
+  ],
+  [
+    "Franz_Christian_Gau | birthPlace | Cologne",
+    "Franz_Christian_Gau | deathPlace | Paris"
+  ],
+  [
+    "7th_Maryland_Regiment | activeYearsStartYear | 1776",
+    "7th_Maryland_Regiment | assignedToDuty | Continental_Army"
+  ],
+  [
+    "7th_Maryland_Regiment | activeYearsEndDate | 1783",
+    "7th_Maryland_Regiment | authorizedByNation | 1776",
+    "7th_Maryland_Regiment | assignedByNation | 1776"
+  ],
+  [
+    "Shaheed_Tajuddin_Ahmaddin_Medical_College | established | 2013",
+    "Shaheed_Tajuddin_Ahmaddin_Medical_College | country | Bangladesh",
+    "Shaheed_Tajuddin_Ahmaddin_Medical_College | type | Government_medical_college"
+  ],
+  [
+    "Shaheed_Tajuddin_Ahmaddin_Medical_College | country | Bangladesh"
+  ],
+  [
+    "Carla_Juri | birthDate | 1985-01-02",
+    "Carla_Juri | birthPlace | Switzerland",
+    "Carla_Juri | occupation | Actress"
+  ],
+  [
+    "Carla_Juri | birthYear | 1985"
+  ],
+  [
+    "Urumqi_Air | location | Ürümqi",
+    "Ürümqi | isPartOf | Xinjiang_Uyghur_Autonomous_Region",
+    "Urumqi_Air | location | People's_Republic_of_China",
+    "Urumqi_Air | type | Low-cost_airline"
+  ],
+  [
+    "Urumqi_Air | headquarter | Ürümqi"
+  ],
+  [
+    "Agadam | language | Tamil_language",
+    "Agadam | director | Isaq_(filmmaker)",
+    "Isaq_(filmmaker) | birthName | \"Mohamad Issack\"",
+    "Agadam | country | India",
+    "Isaq_(filmmaker) | associatedBand/associatedMusicalArtist | Kollywood"
+  ],
+  [
+    "Agadam | writer | Mohamad_Issack",
+    "Agadam | director | Mohamad_Issack"
+  ],
+  [
+    "Varano_Borghi | isPartOf | Province_of_Varese",
+    "Varano_Borghi | country | Italy",
+    "Varano_Borghi | isPartOf | Lombardy"
+  ],
+  [
+    "Varano_Borghi | areaTotal | 3.3 (square kilometres)",
+    "Varano_Borghi | isPartOf | Lombardy"
+  ],
+  [
+    "Nicolae_Xenopol | deathPlace | Tokyo",
+    "Nicolae_Xenopol | office | \"Ambassador of Romania to Tokyo\""
+  ],
+  [
+    "Nicolae_Xenopol | deathPlace | Tokyo",
+    "Nicolae_Xenopol | birthPlace | Iași",
+    "Nicolae_Xenopol | deathDate | \"1917-12-18\"",
+    "Nicolae_Xenopol | nationality | Romania",
+    "Nicolae_Xenopol | birthPlace | Moldavia"
+  ],
+  [
+    "Nicolae_Xenopol | deathPlace | Japan",
+    "Nicolae_Xenopol | office | \"Romania's Ambassador to Tokyo\"",
+    "Nicolae_Xenopol | deathDate | \"c. 1896\""
+  ],
+  [
+    "Nicolae_Xenopol | deathPlace | Tokyo",
+    "Nicolae_Xenopol | deathPlace | Japan",
+    "Nicolae_Xenopol | birthPlace | Moldavia",
+    "Nicolae_Xenopol | deathDate | \"1917-12-31\"",
+    "Nicolae_Xenopol | birthPlace | Iași"
+  ],
+  [
+    "Harlow_Town_Railway | location | Harlow",
+    "Harlow_Town_Railway | cityServed | Harlow",
+    "Harlow | isPartOf | Essex",
+    "Harlow_Town_Railway | operatingOrganisation | West_Anglia_Main_Line",
+    "Harlow | country | England"
+  ],
+  [
+    "Harlow_Town_Railway_Station | location | West_Anglia_Main_Line",
+    "Harlow_Town_Railway_Station | operatingYear | 1842",
+    "Harlow_Town_Railway_Station | cityServed | Harlow"
+  ],
+  [
+    "Walter_Thomas_Beson | birthPlace | Oxford",
+    "Walter_Thomas_Beson | birthDate | 1889-02-10",
+    "Beeson | birthYear | 1889",
+    "Beeson | spouse | Rose_Eliza_Beeson"
+  ],
+  [
+    "Cyril_Beason | birthPlace | Oxford",
+    "Cyril_Beason | birthYear | 1889",
+    "Cyril_Beason | deathYear | 1975"
+  ],
+  [
+    "Marion_McCorry | birthDate | 1945-10-10",
+    "Marion_McCorry | occupation | \"singer, Film and Television actress\"",
+    "Marion_McCorry | birthYear | 1945",
+    "Marion_McCorry | nationality | United_States"
+  ],
+  [
+    "Marion_McCorry | birthYear | 1945"
+  ],
+  [
+    "Sumiko_Sakamoto | birthPlace | Japan",
+    "Sumiko_Sakamoto | birthPlace | Osaka",
+    "Sumiko_Sakamoto | birthDate | 1936-11-26"
+  ],
+  [
+    "Sumiko_Sakamoto | deathPlace | Japan"
+  ],
+  [
+    "Victor_Valley_High_School | city | Victorville,_California",
+    "Victor_Valley_High_School | country | United_States"
+  ],
+  [
+    "Victor_Valley_High_School | state | California"
+  ],
+  [
+    "Kearns-Saint_Ann_School | state | Utah",
+    "Kearns-Saint_Ann_School | established | 1899",
+    "Kearns-Saint_Ann_School | academicStaffSize | 15"
+  ],
+  [
+    "Kearns-Saint_Ann_Catholic_School | state | Utah",
+    "Kearns-Saint_Ann_Catholic_School | established | 1899"
+  ],
+  [
+    "Manning_Island | location | Antarctica"
+  ],
+  [
+    "Manning_Island | location | Antarctica"
+  ],
+  [
+    "Callum_Hawkins | birthDate | 1992-06-22",
+    "Callum_Hawkins | birthYear | 1992",
+    "Callum_Hawkins | nationality | United_Kingdom",
+    "Callum_Hawkins | race | Marathon"
+  ],
+  [
+    "Callum_Hawkins | nationality | United_Kingdom"
+  ],
+  [
+    "Callum_Hawkins | birthDate | 1992-06-22",
+    "Callum_Hawkins | nationality | United_Kingdom",
+    "Callum_Hawkins | event | 2016_Summer_Olympic_Marathon",
+    "Callum_Hawkins | race | Marathon"
+  ],
+  [
+    "Callum_Hawkins | birthPlace | Elderslie",
+    "Callum_Hawkins | nationality | United_Kingdom",
+    "Callum_Hawkins | club | Butler_University"
+  ],
+  [
+    "Butler_University | athleticsOffered | National_Athlete_OfTheYear",
+    "John_McKenzie_(engineer) | almaMater | University_of_the_West_of_Scotland",
+    "John_McKenzie_(engineer) | almaMater | Mechanical_Engineering",
+    "John_McKenzie_(engineer) | birthPlace | Butler_University"
+  ],
+  [
+    "Callum_Hawkins | birthPlace | Elderslie",
+    "Callum_Hawkins | nationality | United_Kingdom",
+    "Callum_Hawkins | club | University_of_the_West_of_Scotland",
+    "Callum_Hawkins | club | Butler_University"
+  ],
+  [
+    "Jalal_Khoury | birthPlace | Beirut",
+    "Jalal_Khoury | birthDate | \"1933-05-28\"",
+    "Jalal_Khoury | deathDate | \"2017-12-03\"",
+    "Jalal_Khoury | occupation | Theatre_director",
+    "Jalal_Khoury | deathPlace | \"Beirut, Lebanon\"",
+    "Jalal_Khoury | occupation | Comedy"
+  ],
+  [
+    "Jalal_Khoury | birthPlace | Beirut",
+    "Jalal_Khoury | residence | Beirut"
+  ],
+  [
+    "Santa_Mara_del_Naranco | isPartOf | Mount_Naranco",
+    "Ramiro | deathPlace | Oviedo",
+    "Ramiro | deathDate | 850-02-01",
+    "Ramiro | spouse | Paterna_(politician)",
+    "Ramiro | deathPlace | Santa_Mara_del_Naranco",
+    "Ramiro | burialPlace | Cathedral_of_San_Salvador",
+    "Pantheon_of_Asturian_Kings | location | Oviedo"
+  ],
+  [
+    "Ramiro_I_of_Asturias | birthPlace | Oviedo",
+    "Ramiro_I_of_Asturias | deathPlace | Oviedo",
+    "Ramiro_I_of_Asturias | spouse | Paterna_(politician)"
+  ],
+  [
+    "Royal_Canadian_Air_Force | aircraftFighter | Bristol_Beaufighter",
+    "Skaggerak | location | Justy",
+    "Vorpostenboot | battle | World_War_II",
+    "Vorpostenboot | attackAircraft | Royal_Canadian_Air_Force",
+    "Vorpostenboot | attackAircraft | Skaggerak"
+  ],
+  [
+    "Vorpostenboot | shipWreck | October_1944"
+  ],
+  [
+    "Jean-Chrysostome_Brauneis_II | birthPlace | Quebec_City",
+    "Jean-Chrysostome_Brauneis_II | birthDate | 1814-01-26",
+    "Jean-Chrysostome_Brauneis_II | occupation | Musician",
+    "Jean-Chrysostome_Brauneis_II | deathPlace | Montreal",
+    "Jean-Chrysostome_Brauneis_II | deathDate | 1871-08-11"
+  ],
+  [
+    "Jean-Chrysostome_Brauneis_II | birthPlace | Montreal"
+  ],
+  [
+    "Replikas | album | Zerre",
+    "Replikas | recordLabel | Peyote_Music",
+    "Replikas | album | 2008-11-11"
+  ],
+  [
+    "Replikas | associatedBand/associatedMusicalArtist | Peyote_Music",
+    "Zerre | artist | Replikas"
+  ],
+  [
+    "Benjamin_Brooks_Thomas | deathDate | 2010-02-05",
+    "Benjamin_Brooks_Thomas | birthDate | \"1931-11-18\"",
+    "Benjamin_Brooks_Thomas | nationality | United_States",
+    "Benjamin_Brooks_Thomas | occupation | Attorney_at_Law",
+    "Benjamin_Brooks_Thomas | deathPlace | Harper_&_Row"
+  ],
+  [
+    "Brooks_Thomas | deathYear | 2010",
+    "Brooks_Thomas | birthYear | 1931"
+  ],
+  [
+    "Aesop_Fables | creator | Paul_Terry",
+    "Small_Town_Sheriff | creator | Fables_Studios",
+    "Small_Town_Sheriff | isPartOfMeanOfTransportation | Silent_film",
+    "Small_Town_Sheriff | production | Fables_Studios",
+    "Small_Town_Sheriff | isPartOfMeanOfTransportation | Aesop_Fables"
+  ],
+  [
+    "Small_Town_Sheriff | producer | Paul_Terry",
+    "Small_Town_Sheriff | distributor | Fables_Studios"
+  ],
+  [
+    "Sylvia_Morales | birthPlace | Phoenix,_Arizona",
+    "Sylvia_Morales | birthYear | 1943",
+    "Sylvia_Morales | occupation | \"filmmaker, producer, editor\"",
+    "Sylvia_Morales | birthPlace | United_States",
+    "Sylvia_Morales | ethnicGroup | Mexican_Americans",
+    "Sylvia_Morales | genre | Latino_film"
+  ],
+  [
+    "Sylvia_Morales | nationality | Mexican_Americans",
+    "Sylvia_Morales | almaMater | UCLA"
+  ],
+  [
+    "Sylvia_Morales | nationality | Mexican_Americans",
+    "Sylvia_Morales | almaMater | Film_at_UCLA",
+    "Sylvia_Morales | birthPlace | United_States",
+    "Sylvia_Morales | occupation | Film_maker",
+    "Sylvia_Morales | status | \"Deceased\"",
+    "Sylvia_Morales | birthYear | 1971"
+  ],
+  [
+    "Sylvia_Morales | award | Rockefeller_Fellowship_Award",
+    "Sylvia_Morales | almaMater | American_Film_Institute",
+    "Sylvia_Morales | program | American_Film_Institute_Directing_Workshop_for_Women"
+  ],
+  [
+    "Carolyn_(singer) | genre | Rock_music",
+    "Carolyn_(singer) | activeYearsStartYear | 1995",
+    "Carolyn_(singer) | recordLabel | Reunion_Records",
+    "Carolyn_(singer) | background | \"solo_singer\"",
+    "Carolyn_(singer) | occupation | Guitarist"
+  ],
+  [
+    "Carolyn_Arends | recordLabel | Reunion_Records",
+    "Carolyn_Arends | activeYearsStartYear | 1995",
+    "Carolyn_Arends | recordLabel | Signpost_Music"
+  ],
+  [
+    "Pour_Lui | finalSong | _DiPROMiSE",
+    "Pour_Lui | associatedBand/associatedMusicalArtist | BiS",
+    "Pour_Lui | activeYearsEndYear | 2018",
+    "_DiPROMiSE | duration | 2009–2018",
+    "_DiPROMiSE | background | \"solo_singer\""
+  ],
+  [
+    "Pour_Lui | associatedBand/associatedMusicalArtist | BiS",
+    "Pour_Lui | activeYearsStartYear | 2009"
+  ],
+  [
+    "Abdul_Satar_Sirat | birthPlace | Afghanistan",
+    "Abdul_Satar_Sirat | returnYear | 2001"
+  ],
+  [
+    "Abdul_Satar_Sirat | birthPlace | Afghanistan"
+  ],
+  [
+    "Keydan,_Iran | isPartOf | Lorestan_Province",
+    "Keydan,_Iran | populationTotal | 909",
+    "Keydan,_Iran | isPartOf | Shirvan_Rural_District",
+    "Shirvan_Rural_District | isPartOf | Central_District,_Borujerd_County,_Iran",
+    "Keydan,_Iran | romanization | \"Keydn, Khaidn, Kheydn, Kheydn\"",
+    "Keydan,_Iran | country | Iran"
+  ],
+  [
+    "Keydan,_Iran | populationTotal | 909",
+    "Keydan,_Iran | country | Iran",
+    "Keydan,_Iran | isPartOf | Iran"
+  ],
+  [
+    "A.C._Cesena | ground | Romagna",
+    "Kadir_Caidi | club | Nebil_A.C.",
+    "Kadir_Caidi | club | A.C._Cesena",
+    "Kadir_Caidi | birthPlace | Ravenna,_Romagna"
+  ],
+  [
+    "Kadir_Caidi | birthPlace | Ravenna"
+  ],
+  [
+    "Universal_Engineering_College | state | Kerala",
+    "Irinjalakuda | isPartOf | Thrissur_District",
+    "Universal_Engineering_College | country | India",
+    "Universal_Engineering_College | city | \"Irinjalakuda, Thrissur\"",
+    "Universal_Engineering_College | type | Private_college"
+  ],
+  [
+    "Universal_Engineering_College | country | India",
+    "Universal_Engineering_College | state | Kerala",
+    "Universal_Engineering_College | city | \"Irinjalakuda, Kerala\""
+  ],
+  [
+    "Gerran_Lyn_Howell | birthDate | 1991-02-25",
+    "Gerran_Lyn_Howell | birthPlace | Wales",
+    "Gerran_Lyn_Howell | occupation | Filmmaker",
+    "Vladimir_Dracula | firstAired | 2006",
+    "Gerran_Lyn_Howell | birthYear | 1991",
+    "Vladimir_Dracula | broadcastedBy | CBBC",
+    "Gerran_Lyn_Howell | genre | Short_films"
+  ],
+  [
+    "Gerran_Howell | activeYearsStartYear | 2006",
+    "Gerran_Howell | birthPlace | Wales",
+    "Gerran_Howell | birthName | \"Gerran Lyn Howell\""
+  ],
+  [
+    "Dar_Faraghat_Agricultural_Institute | country | Iran",
+    "Dar_Faraghat_Agricultural_Institute | location | \"Kushk-e Hezar Rural District, Beyza District, Sepidan County, Fars Province\"",
+    "Dar_Faraghat_Agricultural_Institute | type | Village_and_agricultural_institute",
+    "Dar_Faraghat_Agricultural_Institute | state | Iran"
+  ],
+  [
+    "Dar_Faraghat_Agricultural_Institute | country | Iran"
+  ],
+  [
+    "Dar_Faraghat_Agricultural_Institute | country | Iran",
+    "Dar_Faraghat_Agricultural_Institute | region | \"Kushk-e Hezar Rural District, Beyza District, Sepidan County, Fars Province\"",
+    "Dar_Faraghat_Agricultural_Institute | city | Tehran",
+    "Dar_Faraghat_Agricultural_Institute | populationTotal | 14",
+    "Dar_Faraghat_Agricultural_Institute | location | \"Kushk-e Hezar Rural District, Fars Province\""
+  ],
+  [
+    "Dar_Faraghat_Agricultural_Institute | country | Iran",
+    "Dar_Faraghat_Agricultural_Institute | populationTotal | 14000"
+  ],
+  [
+    "Alberto_Sordi | occupation | \"singer, actor, director, screenwriter\"",
+    "Alberto_Sordi | birthDate | 1920-06-15",
+    "Alberto_Sordi | birthPlace | Italy",
+    "Alberto_Sordi | deathDate | \"1973-02-24\"",
+    "Alberto_Sordi | occupation | Actor",
+    "Alberto_Sordi | background | \"solo_singer\""
+  ],
+  [
+    "Alberto_Sordi | deathPlace | Rome",
+    "Alberto_Sordi | birthPlace | Rome",
+    "Alberto_Sordi | deathYear | 2003"
+  ],
+  [
+    "Gastone_Moschin | deathDate | \"1929-09-01\""
+  ],
+  [
+    "Gastone_Moschin | deathDate | 2017-09-04",
+    "Gastone_Moschin | birthDate | 1929-06-08",
+    "Gastone_Moschin | occupation | Actor",
+    "Gastone_Moschin | birthPlace | Italy",
+    "Gastone_Moschin | genre | Stage_acting",
+    "Gastone_Moschin | deathYear | 2017"
+  ],
+  [
+    "Muri_Dam | location | Hokkaid",
+    "Muri_Dam | completionDate | 1980",
+    "Muri_Dam | country | Japan"
+  ],
+  [
+    "Muri_Dam | location | Hokkaid",
+    "Muri_Dam | completionDate | 1980",
+    "Muri_Dam | country | Japan"
+  ],
+  [
+    "BMW_1_Series | manufacturer | BMW",
+    "BMW_1_Series | class | Subcompact_sedan",
+    "BMW_1_Series | modelYears | 2004",
+    "BMW_1_Serie | class | Executive_car"
+  ],
+  [
+    "BMW_1_Series | manufacturer | BMW"
+  ],
+  [
+    "Mazraeh-ye_Pishu | populationTotal | 43",
+    "Mazraeh-ye_Pishu | region | \"Behdasht Rural District, Kushk-e Nar District, Parsian County, Hormozgan Province\"",
+    "Mazraeh-ye_Pishu | country | Iran",
+    "Mazraeh-ye_Pishu | alternativeName | \"Psh\"",
+    "Mazraeh-ye_Pishu | isPartOf | Behdasht_Rural_District,_Parsian_County,_Iran",
+    "Mazraeh-yeh-ye_Pishu | region | Kushk-e_Nar_District"
+  ],
+  [
+    "Mazraeh-ye_Pishu | populationTotal | 43",
+    "Mazraeh-ye_Pishu | country | Iran",
+    "Mazraeh-ye_Pishu | isPartOf | Iran"
+  ],
+  [
+    "Petralia_Sottana | country | Italy",
+    "Petralia_Sottana | isPartOf | Metropolitan_City_of_Palermo",
+    "Petralia_Sottana | isPartOf | Sicily"
+  ],
+  [
+    "Petralia_Sottana | location | Sicily",
+    "Sicily | country | Italy"
+  ],
+  [
+    "Fort_Portal_Hospital | state | Uganda",
+    "Fort_Portal_Hospital | category | Regional_Referral_Hospital",
+    "Fort_Portal_Hospital | type | Public_hospital",
+    "Fort_Portal_Hospital | country | Uganda",
+    "Fort_Portal_Hospital | fundingType | Ministry_of_Health_(Uganda)"
+  ],
+  [
+    "Fort_Portal_Hospital | country | Uganda"
+  ],
+  [
+    "Carlo_Borglia | birthPlace | Chieri,_Italy",
+    "Carlo_Borglia | birthDate | 1552-09-16",
+    "Carlo_Borglia | office | Archbishop_of_Turin",
+    "Carlo_Borglia | birthYear | 1552",
+    "Carlo_Borglia | inOfficeWhilePope | Clement_II",
+    "Carlo_Borglia | successor | Pope_II_of_Turin"
+  ],
+  [
+    "Carlo_Borglia | birthPlace | Chieri,_Italy",
+    "Carlo_Borglia | deathPlace | Italy",
+    "Carlo_Borglia | office | Archbishop_of_Turin"
+  ],
+  [
+    "Shakshuka_System | language | Hebrew_language",
+    "Shakshuka_System | creator | Ilan_Abudi",
+    "Shakshuka_System | country | Israel",
+    "Shakshuka_System | director | Ilan_Abudi",
+    "Shakshuka_System | creator | Mickey_Rosenthal",
+    "Mickey_Rosenthal | occupation | Investigative_journalist"
+  ],
+  [
+    "Shakshuka_System | creator | Ilan_Abudi",
+    "Shakshuka_System | language | Hebrew_language"
+  ],
+  [
+    "Dinghurst_Fort | location | Somerset",
+    "Dinghurst_Fort | location | Churchill,_England",
+    "Dinghurst_Fort | architecturalStyle | Univallate_hillfort",
+    "Dinghurst_Fort | age | Iron_age"
+  ],
+  [
+    "Dinghurst_Fort | location | Somerset"
+  ],
+  [
+    "Pair_Dadeni | title | \"Cauldron of Rebirth\"",
+    "Pair_Dadeni | role | \"Keystone of the Mabinogi\"",
+    "Pair_Dadeni | country | Wales",
+    "Pair_Dadeni | function | Resurrection_of_the_Dead"
+  ],
+  [
+    "Pair_Dadeni | alternativeName | \"Cauldron of Rebirth\""
+  ],
+  [
+    "Pair_Dadeni | owner | Efnisien",
+    "Pair_Dadeni | title | \"The Cauldron of Rebirth\"",
+    "Pair_Dadeni | owner | Bendigeidfran"
+  ],
+  [
+    "Pair_Dadeni | literalName | \"Cauldron of Rebirth\"",
+    "Pair_Dadeni | country | Wales",
+    "Cauldron_of_Rebirth | power | Resurrection"
+  ],
+  [
+    "Matholwch | offeredBy | Pair_Dadeni",
+    "Pair_Dadeni | ability | \"Resurrect the dead\""
+  ],
+  [
+    "Pair_Dadeni | owner | \"Matholwch, Bendigeidfran, Efnisien\"",
+    "Pair_Dadeni | fullName | \"Cauldron of Rebirth\""
+  ],
+  [
+    "Itou_Noe | nationality | Japan",
+    "Itou_Noe | magazine | Seito",
+    "Yamakawa_Kikue | activeYearsStartYear | 1915",
+    "Itou_Noe | birthPlace | Japan",
+    "Yamakawa_Kikue | publisher | Yamakawa_Kikue",
+    "Itou_Noe | gender | Feminist",
+    "Itou_Noe | activeYearsEndDate | 1916"
+  ],
+  [
+    "Yamakawa_Kikue | birthPlace | Japan",
+    "Yamakawa_Kikue | deathPlace | \"Japan\""
+  ],
+  [
+    "Joshi_Eigaku_Juku | city | Tokyo",
+    "Yamakawa_Kikue | almaMater | Joshi_Eigaku_Juku",
+    "Joshi_Eigaku_Juku | affiliation | Tsuda_Juku_University",
+    "Yamakawa_Kikue | birthYear | 1908",
+    "Joshi_Eigaku_Juku | status | Private_college"
+  ],
+  [
+    "Yamakawa_Kikue | birthPlace | Tokyo",
+    "Yamakawa_Kikue | deathPlace | Japan"
+  ],
+  [
+    "Ilija_Krstevski | birthDate | 1993-02-21",
+    "Ilija_Krstevski | club | PIF_Moscow",
+    "Ilija_Krstevski | birthYear | 1993",
+    "Ilija_Krstevski | club | Macedonia_national_handball_team"
+  ],
+  [
+    "Ilija_Krstevski | nationality | Macedonia"
+  ],
+  [
+    "Nowiny_Kryszkowskie | country | Poland",
+    "Nowiny_Kryszkowskie | isPartOf | Gmina_Wierzbinek",
+    "Gmina_Wierzbinek | isPartOf | Konin_County,_Poland",
+    "Nowiny_Kryszkowskie | isPartOf | Greater_Poland_Voivodeship"
+  ],
+  [
+    "Nowiny_Kryszkowskie | country | Poland"
+  ],
+  [
+    "Duke_Blue_Devils | coach | David_Cutcliffe",
+    "Duke_Blue_Devils | season | 2012",
+    "Duke_Blue_Devils | league | NCAA_Division_I_FBS",
+    "Duke_Blue_Devils | universityTeam | Duke_University",
+    "Duke_Blue_Devils | stadium | Wallace_Wade_Stadium"
+  ],
+  [
+    "Duke_Blue_Devils | season | 2012",
+    "Duke_Blue_Devils | city | Durham,_Duke_Blue_Devils",
+    "Duke_Blue_Devils | stadium | Wallace_Wade_Stadium"
+  ],
+  [
+    "Blue_Devils | coach | David_Cutcliffe",
+    "Blue_Devils | league | Atlantic_Coast_Conference",
+    "Blue_Devils | season | 2005",
+    "Blue_Devils | league | Coastal_División",
+    "Blue_Devils | stadium | Wallace_Wade_Stadium"
+  ],
+  [
+    "Duke_Blue_Devils | league | Atlantic_Coast_Conference",
+    "Duke_Blue_Devils | season | 2012",
+    "Duke_Blue_Devils | league | Coastal_División",
+    "Duke_Blue_Devils | stadium | Wallace_Wade_Stadium",
+    "Duke_Blue_Devils | nickname | \"Duke Blue Devils\""
+  ],
+  [
+    "Kirchzarten_Airfield | location | Kirchzarten",
+    "Kirchzarten_Airfield | location | Freiburg_im_Breisgau",
+    "Kirchzarten_Airfield | operatingOrganisation | Lufthansa",
+    "Kirchzarten_Airfield | surfaceType | Unpaved"
+  ],
+  [
+    "Kirchzarten_Airfield | location | Freiburg",
+    "Kirchzarten_Airfield | cityServed | Kirchzarten",
+    "Freiburg | country | Germany"
+  ],
+  [
+    "Halperin | birthPlace | Austria",
+    "Halperin | birthYear | 1933",
+    "Halperin | status | \"Deceased\"",
+    "Halperin | immigrationPlace | Israel"
+  ],
+  [
+    "Rafael_Halperin | birthPlace | Austria",
+    "Rafael_Halperin | activeYearsStartYear | 1973",
+    "Rafael_Halperin | deathPlace | Israel"
+  ],
+  [
+    "Petru_Poni | birthPlace | Moldavia",
+    "Petru_Poni | deathDate | \"1925-04-02\"",
+    "Petru_Poni | nationality | Romania",
+    "Petru_Poni | birthDate | 1841-01-01",
+    "Petru_Poni | occupation | Chemist",
+    "Petru_Poni | status | \"Deceased\""
+  ],
+  [
+    "Petru_Poni | birthPlace | Săcărești",
+    "Petru_Poni | deathPlace | Iași",
+    "Petru_Poni | birthYear | 1841",
+    "Petru_Poni | nationality | Romania",
+    "Petru_Poni | deathDate | 1925"
+  ],
+  [
+    "Brooke_Langton | birthDate | 1970-11-27",
+    "Brooke_Langton | birthPlace | United_States",
+    "Brooke_Langton | occupation | Actress"
+  ],
+  [
+    "Brooke_Langton | activeYearsStartYear | 1992",
+    "Brooke_Langton | birthPlace | Arizona",
+    "Brooke_Langton | birthYear | 1970"
+  ],
+  [
+    "Italy | capital | Rome",
+    "Giovanni_De_Agostini | birthPlace | Italy",
+    "Giovanni_De_Agostini | birthYear | 1901",
+    "Italy | leader | Giovanni_De_Agostini"
+  ],
+  [
+    "De_Agostini | foundingDate | 1901"
+  ],
+  [
+    "Roncesvalles_Pass | elevationAboveTheSeaLevel | 1057",
+    "Roncesvalles_Pass | alternativeName | \"Ronceval Pass\"",
+    "Roncesvalles_Pass | country | Spain",
+    "Roncesvalles_Pass | isPartOf | Pyrenees"
+  ],
+  [
+    "Roncevaux_Pass | alternativeName | \"Pass of Roncesvalles\"",
+    "Roncevaux_Pass | country | Spain"
+  ],
+  [
+    "Canyon_de_Chelly_National_Monument | country | United_States",
+    "Canyon_de_Chelly_National_Monument | established | \"1931-04-01\"",
+    "Canyon_de_Chelly_National_Monument | region | Four_Centres_Region",
+    "Canyon_de_Chelly_National_Monument | district | Canyon_de_Chelly_National_Monument",
+    "Canyon_de_Chelly_National_Monument | officialName | \"d-SHAY\"",
+    "Canyon_de_Chelly_National_Monument | country | \"United States\""
+  ],
+  [
+    "Canyon_de_Chelly_National_Monument | state | Arizona"
+  ],
+  [
+    "Tabayin_Township,_Shwebo_District | isPartOf | Sagaing_Division",
+    "Tabayin_Township,_Shwebo_District | country | Burma"
+  ],
+  [
+    "Tabayin_Township,_Burma | country | Burma"
+  ],
+  [
+    "S._Curtis_Smith_House | location | Newton,_Massachusetts",
+    "S._Curtis_Smith_House | buildingStartDate | 1883",
+    "S._Curtis_Smith_House | architecturalStyle | Queen_Anne_Victorian",
+    "S._Curtis_Smith_House | buildingType | Wood_frame",
+    "S._Curtis_Smith_House | location | Fairmont_Avenue",
+    "Newton,_Massachuse | isPartOf | Newton,_Massachuse"
+  ],
+  [
+    "S._Curtis_Smith_House | yearOfConstruction | 1883"
+  ],
+  [
+    "Yves_Mondosir | birthDate | 1975-10-12",
+    "Yves_Mondosir | birthPlace | Haiti",
+    "Yves_Mondosir | genre | Hip_hop_music",
+    "Yves_Mondosir | birthYear | 1975",
+    "Yves_Mondosir | alternativeName | \"DJ Whoo Kid\"",
+    "Yves_Mondosir | nationality | Americans"
+  ],
+  [
+    "DJ_Whoo_Kid | associatedBand/associatedMusicalArtist | G-Unit"
+  ],
+  [
+    "Paul_Joséph_Goebbels | birthDate | 1897-10-29",
+    "Paul_Joséph_Goebbels | birthPlace | Rheydt",
+    "Rheydt | isPartOf | Düsseldorf",
+    "Paul_Joséph_Goebbels | birthPlace | Industry"
+  ],
+  [
+    "Paul_Joseph_Goebbels | birthPlace | Rheydt",
+    "Paul_Joseph_Goebbels | office | \"Chancellor of Germany\"",
+    "Paul_Joseph_Goebbels | alternativeName | \"Joseph Goebbels\""
+  ],
+  [
+    "Paul_Joséph_Goebbels | birthDate | 1897-10-29",
+    "Paul_Joséph_Goebbels | birthPlace | Rheydt",
+    "Rheydt | isPartOf | Düsseldorf",
+    "Paul_Joséph_Goebbels | birthPlace | Industry"
+  ],
+  [
+    "Joseph_Goebbels | birthPlace | Rheydt",
+    "Joseph_Goebbels | birthName | Paul_Goebbels",
+    "Joseph_Goebbels | deathPlace | Berlin",
+    "Joseph_Goebbels | office | Chancellor_of_Germany"
+  ],
+  [
+    "The_Normal_Records | recordLabel | ForeFront_Records",
+    "The_Normal_Records | award | GMA_Dove_Award",
+    "The_Normal_Records | numberOfAlbums | 3",
+    "The_Normal_Records | disbandment | 2002"
+  ],
+  [
+    "Normals_(band) | activeYearsStartYear | 1998",
+    "Normals_(band) | disbanded | 2002"
+  ],
+  [
+    "Karlsruhe | country | Germany",
+    "Wildparkstadion | location | Karlsruhe"
+  ],
+  [
+    "Karlsruhe | country | Germany",
+    "Wildparkstadion | location | Karlsruhe"
+  ],
+  [
+    "Sorkh_Geriveh | alternativeName | \"Sorkh Chr, Sorkh Geryeh, Surkhchari\"",
+    "Sorkh_Geriveh | country | Iran",
+    "Sorkh_Geriveh | region | Shohada_Rural_District",
+    "Sorkh_Geriveh | isPartOf | Mazandaran_Province",
+    "Sorkh_Geriveh | region | Yaneh_Sar_District",
+    "Sorkh_Geriveh | alternativeName | \"Sorkh Geriveh\""
+  ],
+  [
+    "Sorkh_Geriveh | country | Iran"
+  ],
+  [
+    "Heydarabad-e_Meyheh | populationTotal | 181",
+    "Heydarabad-e_Meyheh | region | Central_District,_Kuhrang_County,_Iran",
+    "Heydarabad-e_Meyheh | country | Iran",
+    "Heydarabad-e_Meyheh | isPartOf | Bakhtiari_Province",
+    "Heydarabad-e_Meyheh | isPartOf | Dasht-e_Zarrin_Rural_District",
+    "Heydarabad-e_Meyheh | alternativeName | \"eydarbd-e Meyheh\"",
+    "Heydarabad-e_Meyheh | isPartOf | Chaharmahal"
+  ],
+  [
+    "Heydarabad-e_Meyheh | populationTotal | 181",
+    "Heydarabad-e_Meyheh | country | Iran",
+    "Heydarabad-e_Meyheh | isPartOf | Iran"
+  ],
+  [
+    "Ben_T._Reyes | nationality | Mexican_Americans",
+    "Ben_T._Reyes | birthPlace | Burton,_Texas",
+    "Ben_T._Reyes | birthDate | 1947-02-16",
+    "Ben_T._Reyes | birthPlace | Houston",
+    "Ben_T._Reyes | occupation | Laborer",
+    "Ben_T._Reyes | residence | Denver_Harbor_Area"
+  ],
+  [
+    "Ben_Reyes | birthPlace | Texas",
+    "Ben_Reyes | residence | Houston"
+  ],
+  [
+    "Claudia_Romani | birthPlace | Italy",
+    "Claudia_Romani | birthPlace | L'Aquila",
+    "Claudia_Romani | birthDate | 1982-04-14"
+  ],
+  [
+    "Claudia_Romani | birthPlace | Italy",
+    "Claudia_Romani | birthPlace | L'Aquila",
+    "Claudia_Romani | occupation | Model_(singer)"
+  ],
+  [
+    "Great_Central_Mines_NL | changedName | \"Great Central Mines Limited\"",
+    "Great_Central_Mines_NL | foundingDate | 1996-12-19"
+  ],
+  [
+    "Great_Central_Mines_NL | formerName | \"Great Central Mines, N.L.\""
+  ],
+  [
+    "Grosser_Sprint-Preis | league | Group_3",
+    "Grosser_Sprint-Preis | rename | Badener_Sprint-Cup",
+    "Badener_Sprint-Cup | city | Baden-Baden",
+    "Grosser_Sprint-Preis | season | 1998"
+  ],
+  [
+    "Badener_Sprint-Cup | city | Baden-Baden",
+    "Badener_Sprint-Cup | country | Germany",
+    "Badener_Sprint-Cup | level | \"Group 3\""
+  ],
+  [
+    "Kaleh_Qaţr-e_Sofla | alternativeName | \"Kaleh Qaţr-e Soflá\"",
+    "Kaleh_Qaţr-e_Sofla | country | Iran",
+    "Kaleh_Qaţr-e_Sofla | region | Zagros_District",
+    "Kaleh_Qaţr-e_Sofla | isPartOf | Chardavol_County,_Iran",
+    "Kaleh_Qaţr-e_Sofla | name | \"Kaţr-e Qaţr-e Sofla\"",
+    "Kaleh_Qaţr_e_Sofla | isPartOf | Bijnavand_Rural_District"
+  ],
+  [
+    "Kaleh_Qatar-e_Sofla | populationTotal | 95",
+    "Kaleh_Qatar-e_Sofla | country | Iran",
+    "Kaleh_Qatar-e_Sofla | isPartOf | Iran"
+  ],
+  [
+    "Tears_in_Heaven | genre | Pop_music",
+    "Tears_in_Heaven | album | Wind_of_Time"
+  ],
+  [
+    "If_only_(singer) | album | Wind_of_Time",
+    "If_only_(singer) | followedBy | Tears_in_Heaven",
+    "Tears_in_Heaven | author | Loona",
+    "Tears_in_Heaven | genre | Pop_music"
+  ],
+  [
+    "Michael_Berenbaum | birthPlace | Newark,_New_Jersey",
+    "Michael_Berenbaum | nationality | United_States",
+    "Michael_Berenbaum | birthDate | 1945-07-31",
+    "Michael_Berenbaum | occupation | \"professor, rabbi, writer, filmmaker\"",
+    "Michael_Berenbaum | academicDiscipline | Holocaust"
+  ],
+  [
+    "Michael_Berenbaum | birthYear | 1945",
+    "Michael_Berenbaum | religion | Judaism"
+  ],
+  [
+    "Padiham_(name) | isPartOf | Lancashire",
+    "Padiham_(name) | country | England",
+    "Padiham_(name) | isPartOf | Civil_Parish",
+    "Padiham_(name) | pronunciation | \"PAD-i-m\"",
+    "Padiham_(name) | location | River_Calder"
+  ],
+  [
+    "Padiham,_England | isPartOf | Lancashire"
+  ],
+  [
+    "Gol-e_Darakht | country | Iran",
+    "Gol-e_Darakht | populationTotal | 20",
+    "Gol-e_Darakht | isPartOf | Meyghan_Rural_District",
+    "Gol-e_Darakht | isPartOf | Central_District,_Nehbandan_County,_Iran",
+    "Gol-e_Darakht | isPartOf | South_Khorasan_Province",
+    "Gol-e_Darakht | censusPlace | Nehbandan_County,_Iran"
+  ],
+  [
+    "Gol-e_Darakht | populationTotal | 20",
+    "Gol-e_Darakht | country | Iran",
+    "Gol-e_Darakht | isPartOf | Iran"
+  ],
+  [
+    "William_Watkins | almaMater | Durham_University",
+    "William_Watkins | birthPlace | Oxford",
+    "William_Watkins | birthPlace | Oxfordshire",
+    "William_Watkins | almaMater | Abingdon_School",
+    "William_Watkins | profession | Scientist"
+  ],
+  [
+    "Nathaniel_Watkins | birthPlace | Oxfordshire"
+  ],
+  [
+    "Vaikule | birthPlace | Csis",
+    "Vaikule | birthDate | 1954-03-31",
+    "Vaikule | birthPlace | Latvia"
+  ],
+  [
+    "Laima_Vaikule | birthPlace | Csis,_Latvia",
+    "Laima_Vaikule | birthYear | 1954",
+    "Laima_Vaikule | occupation | Actress"
+  ],
+  [
+    "Salomone_Leclercq | birthPlace | Guillaume-Nicolas-Louis_Leclercq",
+    "Salomone_Leclercq | deathDate | 1792-09-02",
+    "Salomone_Leclercq | birthDate | 1745-11-15",
+    "Salomone_Leclercq | religion | Roman_Catholic_in_France",
+    "Salomone_Leclercq | activeYearsEndDate | 1792"
+  ],
+  [
+    "Salomone_Leclercq | deathPlace | Paris",
+    "Salomone_Leclercq | deathYear | 1792",
+    "Salomone_Leclercq | birthYear | 1745"
+  ],
+  [
+    "Al-Bab_District | country | Syria",
+    "Al-Bab_District | isPartOf | Aleppo_Governorate"
+  ],
+  [
+    "Al-Bab_District | type | District"
+  ],
+  [
+    "Caeciliusetae | order | Psocoptera",
+    "Psocoptera | suborder | Psocomorpha",
+    "Caeciliusetae | order | Infraorder"
+  ],
+  [
+    "Psocoptera | order | Psocomorpha",
+    "Caeciliusetae | family | Psocoptera"
+  ],
+  [
+    "Pocci | birthPlace | Germany",
+    "Punch_and_Judy | creator | Pocci",
+    "Pocci | occupation | Dramatist",
+    "Pocci | notableWork | 45",
+    "Pocci | birthPlace | Munich",
+    "Pocci | occupation | Painter",
+    "Punch_and_Judy | adaption | Marionette_Theatre"
+  ],
+  [
+    "Franz_Pocci | birthPlace | Munich",
+    "Franz_Pocci | birthName | \"Franz Graf von Pocci\"",
+    "Franz_Pocci | birthPlace | Germany",
+    "Franz_Pocci | deathPlace | Munich",
+    "Franz_Pocci | influencedBy | Kasperl"
+  ],
+  [
+    "Khandoli_Dam | location | Jharkhand",
+    "Khandoli_Dam | language | Hindi_language",
+    "Khandoli_Dam | country | India"
+  ],
+  [
+    "Khandoli_Dam | location | Giridih",
+    "Khandoli_Dam | country | India",
+    "Giridih | isPartOf | Jharkhand"
+  ],
+  [
+    "Aghjeh | country | Iran",
+    "Aghjeh | populationTotal | 284",
+    "Aghjeh | region | Atrak_Rural_District",
+    "Aghjeh | isPartOf | Maneh_District",
+    "Aghjeh | region | Samalqan_County,_North_Khorasan_Province",
+    "Aghjeh | alternativeName | \"ghjeh\"",
+    "Aghjeh | isPartOf | Samalqan_County,_Khorasan_Province"
+  ],
+  [
+    "Aghjeh | populationTotal | 284",
+    "Aghjeh | country | Iran",
+    "Aghjeh | isPartOf | Iran"
+  ],
+  [
+    "Jerusalem_Kings | ground | Jerusalem",
+    "Jerusalem_Kings | league | Jerusalem_Lions"
+  ],
+  [
+    "Jerusalem_Kings | city | Jerusalem"
+  ],
+  [
+    "Mount_Keltie | elevationAboveTheSeaLevel | 260.0",
+    "Mount_Keltie | location | Antarctica",
+    "Mount_Keltie | isPartOf | Conway_Range"
+  ],
+  [
+    "Mount_Keltie | location | Antarctica"
+  ],
+  [
+    "Mississippi_Valley_State_Delta_Devils | league | Southwestern_Athletic_Conference",
+    "Mississippi_Valley_State_Delta_Devils | city | Itta_Beana,_Mississippi",
+    "Mississippi_Valley_State_Delta_Devils | homePlace | Harrison_HPER_Complex",
+    "Mississippi_Valley_State_Delta_Devils | state | Mississippi_Valley_State_University"
+  ],
+  [
+    "Mississippi_Valley_State_Devils | league | Southwestern_Athletic_Conference",
+    "Delta_Devils | state | Mississippi"
+  ],
+  [
+    "Roberto_Car | birthDate | 1947-01-03",
+    "Roberto_Car | birthPlace | Trieste",
+    "Roberto_Car | nationality | Italy",
+    "Roberto_Car | researchGate | Molecular_dynamis"
+  ],
+  [
+    "Roberto_Car | birthPlace | Trieste"
+  ],
+  [
+    "1638:_Ubbo_Emmius | author | Nicolaus_Mulerius",
+    "Ubbo_Emmius | deathPlace | Groningen",
+    "1638:_Ubbo_Emmius | publishedYears | 1638"
+  ],
+  [
+    "Nicolaus_Mulerius | birthPlace | Groningen",
+    "Nicolaus_Mulerius | deathPlace | Bruges"
+  ],
+  [
+    "Old_Pike_Inn | location | Floyd_County,_Indiana",
+    "Old_Pike_Inn | buildingType | \"Tavern and Inn\"",
+    "Old_Pike_Inn | buildingStartDate | 1840",
+    "Old_Pike_Inn | location | New_Albany,_Indiana",
+    "Old_Pike_Inn | architecturalStyle | \"Two-story brick building\"",
+    "Old_Pike_Inn | type | Historic_inn"
+  ],
+  [
+    "Old_Pike_Inn | yearOfConstruction | 1840"
+  ],
+  [
+    "Sunil_Dhaniram | club | Canada",
+    "Sunil_Dhaniram | age | 39 (years and 256 days)",
+    "Sunil_Dhaniram | maidenCricket | ODI",
+    "Sunil_Dhaniram | birthPlace | Canada"
+  ],
+  [
+    "Sunil_Dhaniram | club | Canada",
+    "Sunil_Dhaniram | birthPlace | Guyana"
+  ],
+  [
+    "Sill_Tenant_House | location | Jerusalem,_New_York",
+    "Sill_Tenant_House | yearOfConstruction | 1870",
+    "Sill_Tenant_House | location | Yates_County,_New_York",
+    "Sill_Tenant_House | category | Historic_home"
+  ],
+  [
+    "Sill_Tenant_House | yearOfConstruction | 1870"
+  ],
+  [
+    "Eide_Church | country | Norway"
+  ],
+  [
+    "Eide_Church | country | Norway",
+    "Eide_Church | parish | Church_of_Norway",
+    "Eide_Church | location | Hustadvika_Municipality",
+    "Eide_Church | location | \"Mre og Romsdal County, Norway\""
+  ],
+  [
+    "St._John's_University | city | Brooklyn",
+    "Hy_Gotkin | almaMater | Thomas_Jefferson_High_School",
+    "Hy_Gotkin | birthPlace | Jewish_people",
+    "Hy_Gotkin | activeYearsStartYear | 1942",
+    "Hy_Gotkin | college | St._John's_University",
+    "Hy_Gotkin | birthPlace | Brooklyn"
+  ],
+  [
+    "Hy_Gotkin | activeYearsStartYear | 1944",
+    "Hy_Gotkin | birthPlace | Brooklyn"
+  ],
+  [
+    "Hyman__Hyde_'' Gotkin | birthDate | \"1922-08-16\"",
+    "Hyman__Hyde_'' Gotkin | birthPlace | Brooklyn",
+    "Hyman__Hyde_'' Gotkin | deathDate | 2004-04-11",
+    "Hyman__Hyde_'' Gotkin | almaMater | Thomas_Jefferson_High_School",
+    "Hyman__Hyde_''_Gatkin | nationality | United_States"
+  ],
+  [
+    "Hy_Gotkin | birthPlace | Brooklyn",
+    "Hy_Gotkin | activeYearsStartYear | 1944",
+    "Hy_Gotkin | nationality | United_States"
+  ],
+  [
+    "Qareh_Bater | country | Iran",
+    "Qareh_Bater | populationTotal | 144",
+    "Qareh_Bater | region | \"Gholaman Rural District, Raz and Jargalan District, Bojnord County, North Khorasan Province\"",
+    "Qareh_Bater | location | North_Khorasan_Province",
+    "Qareh_Bater | alternativeName | \"Qareh Bţer\"",
+    "Qareh_Bater | isPartOf | Iran",
+    "Qareh_Bater | isPartOf | Bojnord_County,_Iran"
+  ],
+  [
+    "Qareh_Bater | populationTotal | 144",
+    "Qareh_Bater | country | Iran",
+    "Qareh_Bater | isPartOf | Iran"
+  ],
+  [
+    "Deutsche_Schiff-und_Maschinenbau_AG_Weser | location | Bremen",
+    "Deutsche_Schiff-und_Maschinenbau_AG_Weser | foundingDate | 1926",
+    "Deutsche_Schiff-und_Maschinenbau_AG_Weser | type | Cooperation",
+    "Deutsche_Schiff-und_Maschinenbau_AG_Weser | abbreviation | \"Deschimag\""
+  ],
+  [
+    "Deutsche_Schiff_und_Maschinenbau | foundationPlace | Bremen",
+    "Deutsche_Schiff_und_Maschinenbau | foundingDate | 1926",
+    "Deutsche_Schiff_and_Maschinenbau | location | Germany"
+  ],
+  [
+    "Naathan_Phan | background | \"solo_singer\"",
+    "Naathan_Phan | occupation | \"solo_singer\"",
+    "Naathan_Phan | birthDate | 1988-08-20",
+    "Naathan_Phan | occupation | Magician",
+    "Naathan_Phan | birthPlace | United_States",
+    "Naathan_Phan | nationality | Vietnamese_people"
+  ],
+  [
+    "Naathan_Phan | birthYear | 1988"
+  ],
+  [
+    "Veliki_Kozjak | location | Dalmatian_Zagora",
+    "Veliki_Kozjak | country | Croatia",
+    "Veliki_Kozjak | alternativeName | \"Kozjak\"",
+    "Veliki_Kozjak | isPartOf | Mountain_Cliff"
+  ],
+  [
+    "Veliki_Kozjak | country | Croatia"
+  ],
+  [
+    "Jean_Courtecuisse | birthPlace | Le_Mans",
+    "Jean_Courtecuisse | deathPlace | Geneva",
+    "Jean_Courtecuisse | birthYear | 1350",
+    "Jean_Courtecuisse | office | \"bishop of Paris and bishop of Geneva\"",
+    "Jean_Courtecuisse | nationality | France",
+    "Jean_Courtecuisse | deathDate | 1423-03-04"
+  ],
+  [
+    "Jean_Courtecuisse | deathPlace | Geneva"
+  ],
+  [
+    "Mahindra_Thar | manufacturer | Mahindra_and_Mahindra_Limited",
+    "Mahindra_Thar | relatedMeanOfTransportation | Jeep_CJ_(SUV)",
+    "Mahindra_Thar | class | SUV",
+    "Mahindra_Thar | assembly | India"
+  ],
+  [
+    "Mahindra_Thar | class | SUV"
+  ],
+  [
+    "Humberto_Martins_Duarte | birthDate | 1961-04-14",
+    "Humberto_Martins_Duarte | birthPlace | Brazil",
+    "Humberto_Martins_Duarte | occupation | Actor"
+  ],
+  [
+    "Humberto_Martins_Duarte | birthYear | 1961",
+    "Humberto_Martins_Duarte | birthName | \"Humberto Martins\""
+  ],
+  [
+    "Tatjana_Wood | birthPlace | Darmstadt",
+    "Tatjana_Wood | occupation | Comic_book_colorist",
+    "Tatjana_Wood | birthPlace | Germany",
+    "Tatjana_Wood | nationality | United_States",
+    "Tatjana_Wood | birthName | \"Tatjana Weintraub\""
+  ],
+  [
+    "Tatjana_Wood | birthPlace | Darmstadt",
+    "Tatjana_Wood | birthName | \"Tatjana Weintraub\"",
+    "Tatjana_Wood | birthPlace | Germany"
+  ],
+  [
+    "SnOasis_(ski) | location | Great_Blakenham",
+    "SnOasis_(ski) | buildingStartDate | 2004"
+  ],
+  [
+    "SnOasis_(Vessel) | builder | Great_Blakenham",
+    "Great_Blakenham | isPartOf | Suffolk"
+  ],
+  [
+    "La_Chapelle-sur-Oudon | country | France",
+    "La_Chapelle-sur-Oudon | isPartOf | Maine-et-Loire",
+    "La_Chapelle-sur-Oudon | isPartOf | Comté_de_Maine"
+  ],
+  [
+    "La_Chapelle-sur-Oudon | country | France"
+  ],
+  [
+    "11th_Street_Bridge | location | Tulsa,_Oklahoma",
+    "11th_Street_Bridge | completionDate | 1915",
+    "11th_Street_Bridge | location | Arkansas_River"
+  ],
+  [
+    "11th_Street_Bridge | completionDate | 1915"
+  ],
+  [
+    "Petrinum_School | established | 1642",
+    "Dorsten | isPartOf | Westphalian_Community",
+    "Petrinum_School | state | Westphalian_Community",
+    "Franciscan_Order | foundationPlace | Dorsten",
+    "Petrinum_School | affiliation | Franciscan_Order"
+  ],
+  [
+    "Gymnasium_Petrinum_Dorsten | established | 1642",
+    "Gymnasium_Petrinum_Dorsten | city | Dorsten"
+  ],
+  [
+    "Roger_Mathey | occupation | \"playwright, actor, producer, filmmaker\"",
+    "Roger_Mathey | nationality | United_States",
+    "Roger_Mathey | birthPlace | Denver",
+    "Roger_Mathey | birthPlace | Orange_County,_California",
+    "Roger_Mathey | birthPlace | Los_Angeles",
+    "Roger_Mathey | worksInProduction | Film",
+    "Roger_Mathey | worksInProduction | Bakersfield"
+  ],
+  [
+    "Roger_Mathey | residence | California"
+  ],
+  [
+    "Amtrak | service | Trains",
+    "Amtrak | activeYearsStartYear | 1994"
+  ],
+  [
+    "Amtrak | cityServed | Camarillo,_California",
+    "Amtrak | activeYearsStartYear | 1994"
+  ],
+  [
+    "Ada_Annie_Rae-Arthur | birthDate | 1888-06-19",
+    "Ada_Annie_Rae-Arthur | birthPlace | Canada",
+    "Ada_Annie_Rae-Arthur | birthName | \"Ada Annie Rae-Arthur, later Ada Annie Lawson, now Cougar Annie\"",
+    "Ada_Annie_Rae-Arthur | deathDate | \"1985-04-28\"",
+    "Ada_Annie_Rae-Arthur | birthPlace | Clayoquot_Sea"
+  ],
+  [
+    "Cougar_Annie | deathYear | 1985"
+  ],
+  [
+    "Richard_John_Sparte | birthYear | 1951",
+    "Richard_John_Sparte | medium | \"Drypoint, etchings and oil paintings\"",
+    "Richard_John_Sparte | birthPlace | United_Kingdom"
+  ],
+  [
+    "Richard_Sparte | birthName | \"Richard John Spare\"",
+    "Richard_Sparte | nationality | United_Kingdom"
+  ],
+  [
+    "Bonthorpe | isPartOf | Lincolnshire",
+    "Bonthorpe | isPartOf | East_Lindsey_District",
+    "Bonthorpe | country | England"
+  ],
+  [
+    "Bonthorpe | isPartOf | Lincolnshire",
+    "Bonthorpe | country | England"
+  ],
+  [
+    "Portland_Plaza | completionDate | 1973",
+    "Portland_Plaza | architect | DMJM"
+  ],
+  [
+    "Portland_Plaza | architect | DMJM"
+  ],
+  [
+    "Walker_(Australian_Ambassador_to_France) | selectedByNation | 1959",
+    "Walker_(Australian_Ambassador_to_France) | office | Ambassador_of_Australia_to_France"
+  ],
+  [
+    "Edward_Ronald_Walker | birthPlace | Australia",
+    "Edward_Ronald_Walker | deathPlace | Paris"
+  ],
+  [
+    "Walker_(politician) | servedAsPresidentOfTheCityCouncilIn | June_1956",
+    "Walker_(politician) | servedAsPresidentOfTheCityCouncilIn | \"June 1956 - July 1957\""
+  ],
+  [
+    "Edward_Ronald_Walker | activeYearsStartDate | 1956-06-05",
+    "Edward_Ronald_Walker | activeYearsEndDate | 1957-06-05"
+  ],
+  [
+    "Edward_Ronald_Walker | office | \"Australian Ambassador to Germany, Japan and France\"",
+    "Edward_Ronald_Walker | birthDate | 1907-01-26",
+    "Edward_Ronald_Walker | birthName | \"Sir Edward Ronald Walker\"",
+    "Edward_Ronald_Walker | deathDate | \"1988-11-28\"",
+    "Edward_Ronald_Walker | occupation | Diplomat",
+    "Australia | representativeTitle | Permanent_Representative_at_to_United_States"
+  ],
+  [
+    "Edward_Ronald_Walker | birthPlace | Cobar,_Australia",
+    "Edward_Ronald_Walker | deathPlace | Paris",
+    "Edward_Ronald_Walker | almaMater | University_of_Sydney",
+    "Edward_Ronald_Walker | deathPlace | France",
+    "Edward_Ronald_Walker | birthYear | 1907",
+    "Edward_Ronald_Walker | spouse | Louise_Clementine_Donckers"
+  ],
+  [
+    "Bouly_de_Lesdain | deathYear | 1975",
+    "Bouly_de_Lesdain | spouse | Martha_Mailey",
+    "Martha_Mailey | nationality | United_States"
+  ],
+  [
+    "Jacques_Bouly_de_Lesdain | deathPlace | Dunkirk",
+    "Jacques_Bouly_de_Lesdain | birthPlace | France",
+    "Jacques_Bouly_de_Lesdain | deathYear | 1880",
+    "Jacques_Bouly_de_Lesdain | spouse | Martha_Mailey",
+    "Jacques_Bouly_de_Lesdain | birthYear | 1975"
+  ],
+  [
+    "Rocchetta_Belbo | country | Italy",
+    "Rocchetta_Belbo | isPartOf | Piedmont_(region)",
+    "Rocchetta_Belbo | isPartOf | Province_of_Cuneo"
+  ],
+  [
+    "Rocchetta_Belbo | region | Piedmont"
+  ],
+  [
+    "Domingo_de_Valencia | birthPlace | Manila",
+    "Domingo_de_Valencia | birthYear | 1647"
+  ],
+  [
+    "Domingo_de_Valencia | birthPlace | Manila"
+  ],
+  [
+    "San_José_Spartans | coach | Ron_Caragher",
+    "San_José_Spartans | season | 2016",
+    "San_José_Spartans | league | NCAA_División_I_FBS",
+    "San_José_Spartans | city | San_José_State_University",
+    "San_José_Spartans | stadium | Spartan_Stadium"
+  ],
+  [
+    "San_José_State_Spartans | season | 2016",
+    "San_José_State_Spartans | nickname | Spartans"
+  ],
+  [
+    "San_José_State_Spartans | coach | Ron_Caragher",
+    "San_José_State_Spartans | season | 2016",
+    "San_José_State_Spartans | league | Mountain_West_Conference",
+    "San_José_State_Spartans | league | FBS_División_I",
+    "San_Jose_San_Spartan_Spartans | stadium | Spartan_Stadium"
+  ],
+  [
+    "San_José_State_Spartans | season | 2016",
+    "San_José_State_Spartans | league | Mountain_West_Conference",
+    "San_José_State_Spartans | competeIn | West_División"
+  ],
+  [
+    "ELSTAT | numberOfRegionalStatisticalOffices | 50",
+    "ELSTAT | location | Greece",
+    "ELSTAT | city | Piraeus",
+    "ELSTAT | location | Municipality_of_Piraeus",
+    "ELSTAT | headquarter | Greece"
+  ],
+  [
+    "Hellenic_Statistical_Authority | location | Greece",
+    "Hellenic_Statistical_Authority | headquarter | Piraeus"
+  ],
+  [
+    "Edward_Hospital_&_Health_Services | fullName | \"Edward Hospital Services Corporation\"",
+    "Edward_Hospital_&_Health_Services | location | Naperville,_Illinois",
+    "Edward_Hospital_&_Health_Services | location | DuPage_County,_Illinois",
+    "Edward_Hospital_&_Health_Services | city | Naperville,_Illinois",
+    "Edward_Hospital_&_Health_Services | industry | Healthcare"
+  ],
+  [
+    "Edward_Hospital | state | Illinois",
+    "Edward_Hospital | established | 1907"
+  ],
+  [
+    "Windows_MultiPoint_Server_2012 | manufacturer | Microsoft",
+    "Windows_MultiPoint_Server_2012 | releaseDate | \"2012-11-27\""
+  ],
+  [
+    "Windows_MultiPoint_Server | manufacturer | Microsoft"
+  ],
+  [
+    "John_Ferguson | birthPlace | Nantwich",
+    "John_Ferguson | deathPlace | Leicester"
+  ],
+  [
+    "Frederick_Hassall | deathPlace | Leicestershire",
+    "Frederick_Hassall | birthPlace | Nantwich"
+  ],
+  [
+    "Alpha_Leporis | class | Supergiant_star",
+    "Alpha_Leporis | luminosity | Ib",
+    "Alpha_Leporis | classification | \"F0 Ib\""
+  ],
+  [
+    "Alpha_Leporis | stellarClassification | \"F0 Ib\""
+  ],
+  [
+    "Gregory_Porter | occupation | Songwriter",
+    "Gregory_Porter | birthDate | 1971-11-04",
+    "Gregory_Porter | birthPlace | United_States",
+    "Gregory_Porter | background | \"solo_singer\"",
+    "Gregory_Porter | occupation | Actor"
+  ],
+  [
+    "Gregory_Porter | genre | Jazz",
+    "Gregory_Porter | occupation | Actor"
+  ],
+  [
+    "MFC_Shakhtar_Donetsk | ground | \"Donetsk, Ukraine\"",
+    "MFC_Shakhtar_Donetsk | league | Futsal"
+  ],
+  [
+    "MFC_Shakhtar_Donetsk | ground | \"Donetsk, Ukraine\""
+  ],
+  [
+    "Lynette_Washington | genre | Jazz",
+    "Lynette_Washington | nationality | United_States",
+    "Lynette_Washington | award | Jazzmobile_Anheuser-Busch_Jazz_Vocal_Conference",
+    "Lynette_Washington | background | \"solo_singer\"",
+    "Lynette_Washington | performance | 2005"
+  ],
+  [
+    "Lynette_Washington | genre | Jazz"
+  ],
+  [
+    "Leiren,_Norway | isPartOf | Grane_Municipality",
+    "Leiren,_Norway | isPartOf | Leira_(town),_Norway",
+    "Leiren,_Norway | country | Norway",
+    "Leira_(town) | isPartOf | Nordland_County"
+  ],
+  [
+    "Leiren_(town) | country | Norway",
+    "Leiren_(town) | alternativeName | \"Leira\"",
+    "Leiren_(town) | location | Nordland"
+  ],
+  [
+    "Miss_Earth_2004 | country | Philippines",
+    "Miss_Earth_2004 | finalShow | 2004-10-24",
+    "Miss_Earth_2004 | city | Manila",
+    "Miss_Earth_2004 | finalShow | \"2004-10-24\"",
+    "Miss_Earth_2004 | candidate | Philippines"
+  ],
+  [
+    "Tamera_Szijarto | birthPlace | Manila",
+    "Tamera_Szijarto | birthPlace | Philippines"
+  ],
+  [
+    "Tamera_Szijarto | birthName | \"Tamera Marie Lagac Szijarto\"",
+    "Tamera_Szijarto | nationality | Filipino",
+    "Tamera_Szijarto | occupation | Beauty_queen",
+    "Tamera_Szijarto | birthPlace | Hungary"
+  ],
+  [
+    "Tamera_Szijarto | birthPlace | Manila",
+    "Tamera_Szijarto | birthName | \"Tamera Marie Lagac Szijarto\"",
+    "Tamera_Szijarto | award | Miss_Philippine_Earth_2004",
+    "Tamera_Szijarto | nationality | Philippines"
+  ],
+  [
+    "Pwllheli_Lifeboat_Station | location | \"Pwllheli, Gwynedd, Wales\"",
+    "Pwllheli_Lifeboat_Station | established | 1891",
+    "Pwllheli_Lifeboat_Station | operatingOrganisation | Royal_National_Lifeboat_Institution"
+  ],
+  [
+    "Pwllheli_Lifeboat_Station | location | Pwllheli",
+    "Pwllheli | isPartOf | Gwynedd",
+    "Pwllheli_Lifeboat_Station | country | Wales"
+  ],
+  [
+    "King_Hooton_House | location | Pensacola,_Florida",
+    "King_Hooton_House | category | Historic_home"
+  ],
+  [
+    "King_Hooton_House | location | Florida"
+  ],
+  [
+    "Motion_Blur | foundingDate | 2004",
+    "Motion_Blur | location | Ataşehir",
+    "Motion_Blur | location | Istanbul",
+    "Motion_Blur | fullName | \"Motion Blur Game Studio\"",
+    "Motion_Blur | product | Computer_game"
+  ],
+  [
+    "Motion_Blur | location | Ataşehir",
+    "Motion_Blur | foundingYear | 2004"
+  ],
+  [
+    "Margrave_Philipp_of_Hachberg-Sausenberg | birthDate | 1454-04-15",
+    "Margrave_Philipp_of_Hachberg-Sausenberg | successor | Lord_of_Badenweiler",
+    "Margrave_Philipp_of_Hachberg-Sausenberg | birthName | \"Margrave Philip of Hachberg-Sausenberg and Count of Neuchâtel\"",
+    "Margrave_Philipp_of_Hachberg-Sausenberg | birthPlace | Margaret_of_Vienne",
+    "Margrave_Philipp_of_Hachberg-Sausenberg | birthDate | 1487"
+  ],
+  [
+    "Philip_of_Hachberg-Sausenberg | deathPlace | Montpellier",
+    "Philip_of_Hachberg-Sausenberg | birthPlace | Neuchâtel"
+  ],
+  [
+    "Margrave_Philipp_of_Hachberg-Sausenberg | birthPlace | Margaret_of_Vienne",
+    "Margrave_Philipp_of_Hachberg-Sausenberg | birthYear | 1454",
+    "Margrave_Philipp_of_Hachberg-Sausenberg | office | \"Margrave of Hachberg-Sausenberg and Count of Neuchâtel\"",
+    "Margrave_Philipp_of_Hachberg-Sausenberg | birthDate | Rudolf_IV_of_Hachberg"
+  ],
+  [
+    "Philip_of_Hachberg-Sausenberg | deathPlace | Montpellier",
+    "Philip_of_Hachberg-Sausenberg | spouse | Maria_of_Savoy",
+    "Philip_of_Hachberg-Sausenberg | birthPlace | Neuchâtel"
+  ],
+  [
+    "Chobepur | country | India",
+    "Chobepur | populationTotal | 2000",
+    "Chobepur | isPartOf | Kanpur"
+  ],
+  [
+    "Naramau | country | India"
+  ],
+  [
+    "Charles_Sellier | occupation | Screenwriter",
+    "Charles_Sellier | birthDate | 1943-11-09",
+    "Charles_Sellier | nationality | United_States",
+    "Charles_Sellier | deathDate | 1911-01-31",
+    "Charles_Sellier | notableWork | American_literature"
+  ],
+  [
+    "1943 | birthYear | 2011",
+    "1943 | deathPlace | Charles_Sellier"
+  ],
+  [
+    "Ruan_Yang_(footballer) | birthPlace | Hangzhou",
+    "Ruan_Yang_(footballer) | birthDate | 1993-12-13",
+    "Ruan_Yang_(footballer) | club | Kunshan_F.C.",
+    "Ruan_Yang_(footballer) | birthYear | 1993",
+    "Kunshan_F.C. | league | China_League_II",
+    "Ruan_Yang_(footballer) | nationality | Chinese_language"
+  ],
+  [
+    "Ruan_Yang | birthPlace | Hangzhou"
+  ],
+  [
+    "Zaven_Andriasian | birthDate | 1989-03-11",
+    "Zaven_Andriasian | birthPlace | Yerevan",
+    "Zaven_Andriasian | birthName | \"Andriasyan\"",
+    "Zaven_Andriasian | nationality | Armenia",
+    "Zaven_Andriasian | title | World_Junior_Chess_Champions"
+  ],
+  [
+    "Zaven_Andriasian | birthPlace | Yerevan"
+  ],
+  [
+    "Fukagawa_Route | routeName | \"Route 9\"",
+    "Fukagawa_Route | length | 5.3 (kilometres)",
+    "Shuto_Expressway | operatingOrganisation | Shuto_Expressway",
+    "Fukagawa_Route | routeServed | Greater_Tokyo_Area",
+    "Fukagawa_Route | terminus | \"Tokyo ward of Ch\"",
+    "Fukagawa_Route | isPartOf | Shuto_Expressway",
+    "Fukagawa_Route | isPartOf | Kt"
+  ],
+  [
+    "Fukagawa_Route | endPoint | Kt"
+  ],
+  [
+    "Iran_Press_and_Cultural_Institute | affiliation | IRNA",
+    "Javanfekr | office | \"Presidential Advisor on Press Affairs\"",
+    "Javanfekr | currentYearsEndDate | 2012-02-27",
+    "Javanfekr | title | \"Presidential Advisor on Press Affairs\""
+  ],
+  [
+    "Ali_Akbar_Jaanfekr | birthPlace | Tehran",
+    "Ali_Akbar_Jaanfekr | office | \"IRNA\"",
+    "Ali_Akbar_Jaanfekr | nationality | Iran"
+  ],
+  [
+    "Sporobolomyces | order | Sporidiobolales",
+    "Sporobolomyces | genus | Fungal"
+  ],
+  [
+    "Sporobolomyces | order | Sporidiobolales"
+  ],
+  [
+    "Barnes_(naturalist) | activeYearsStartYear | 1913",
+    "Barnes_(naturalist) | club | Dublin_Naturalists_'_Field_Club",
+    "Barnes_(naturalist) | collection | Lichen"
+  ],
+  [
+    "Eileen_Barnes | birthPlace | Dublin",
+    "Eileen_Barnes | nationality | Ireland"
+  ],
+  [
+    "Shenzhen_City_Commercial_Bank | location | Shenzhen",
+    "Shenzhen | country | People's_Republic_of_China",
+    "Shenzhen_City_Commercial_Bank | type | Commercial_bank"
+  ],
+  [
+    "Shenzhen_City_Commercial_Bank | location | Shenzhen"
+  ],
+  [
+    "Babacar_Ba | birthPlace | Kaolack",
+    "Babacar_Ba | deathDate | 2006-12-13",
+    "Babacar_Ba | birthDate | \"1930-01-14\"",
+    "Babacar_Ba | nationality | Senegal"
+  ],
+  [
+    "Babacar_Ba | region | Kaolack"
+  ],
+  [
+    "Otoyol_7_(motorway) | alternativeName | \"Northern Marmara Motorway\"",
+    "Otoyol_7_(motorway) | location | Istanbul",
+    "Otoyol_7_(motorway) | alternativeName | \"O-7; Motorway 7\"",
+    "Otoyol_7_(motorway) | cost | \"Toll road\""
+  ],
+  [
+    "Otoyol_7 | location | Akyaz,_Istanbul"
+  ],
+  [
+    "Sulichay | populationTotal | 107",
+    "Sulichay | region | Central_District,_Zanjan_County,_Iran",
+    "Sulichay | country | Iran",
+    "Sulichay | region | Bonab_Rural_District",
+    "Sulichay | populationDensity | 107",
+    "Sulichay | alternativeName | \"Slchy\"",
+    "Sulichay | isPartOf | Zanjan_Province"
+  ],
+  [
+    "Sulichay | populationTotal | 107",
+    "Sulichay | country | Iran",
+    "Sulichay | isPartOf | Iran"
+  ],
+  [
+    "Ronya_(singer) | birthPlace | Siuntio",
+    "Ronya_(singer) | activeYearsStartYear | 2011",
+    "Ronya_(singer) | birthPlace | Finland",
+    "_Annoying_(singer) | radioPlayer | YleX",
+    "_Annoying_(singer) | accompanyingMusicalArtist | Ronya_(singer)"
+  ],
+  [
+    "Ronya_(singer) | birthPlace | Siuntio",
+    "Ronya_(singer) | birthPlace | Finland",
+    "Ronya_(singer) | activeYearsStartYear | 2011"
+  ],
+  [
+    "Bridgeton_Rail_Station | operatingOrganisation | Abellio_ScotRail",
+    "Bridgeton_Rail_Station | location | Bridgeton_District",
+    "Bridgeton_Rail_Station | cityServed | Glasgow",
+    "Bridgeton_Rail_Station | location | Argyle_Line",
+    "Bridgeton_Rail_Station | cityServed | Bridgeton,_Scotland",
+    "Glasgow | isPartOf | Central_Line"
+  ],
+  [
+    "Bridgeton_Railway_Station | cityServed | Glasgow"
+  ],
+  [
+    "Bridgeton_Railway_Station | location | Glasgow",
+    "Bridgeton_Railway_Station | openingYear | 1895"
+  ],
+  [
+    "Bridgeton_Cross_Station | location | Glasgow",
+    "Bridgeton_Cross_Station | opened | 1895",
+    "Bridgeton_Cross_Station | operatingOrganisation | Glasgow_Central_Railway",
+    "Glasgow_Central_Railway | route | Glasgow_Green_Railway",
+    "Glasgow | isPartOf | Rutherglen"
+  ],
+  [
+    "Gmina_Kodrb | isPartOf | Radomsko_County,_Poland",
+    "Bugaj_Zakrzewski | isPartOf | Gmina_Kodrb",
+    "Bugaj_Zakrzewski | country | Poland",
+    "Bugaj_Zakrzewski | isPartOf | ód_Voice_(Poland)"
+  ],
+  [
+    "Bugaj_Zakrzewski | country | Poland"
+  ],
+  [
+    "Hotel_Shahbag | location | Dhaka",
+    "Hotel_Shahbag | name | \"Shahbag\"",
+    "Hotel_Shahbag | status | \"Defunct\"",
+    "Shahbag | isPartOf | Shahbag_Nation"
+  ],
+  [
+    "Bangabandhu_Sheikh_Mujib_Medical_University | city | Dhaka",
+    "Bangabandhu_Sheikh_Mujib_Medical_University | country | Bangladesh",
+    "Bangabandhu_Sheikh_Mujib_Medical_University | campus | Shahbag"
+  ],
+  [
+    "Saraukhola | country | Nepal",
+    "Saraukhola | populationTotal | 2457",
+    "Saraukhola | isPartOf | Parbat_District",
+    "Saraukhola | isPartOf | Dhawalagiri_Zone",
+    "Saraukhola | type | Village_development_commission"
+  ],
+  [
+    "Saraukhola | populationTotal | 2457",
+    "Saraukhola | country | Nepal"
+  ],
+  [
+    "Davit_Harutyunyan | birthPlace | Yerevan",
+    "Davit_Harutyunyan | birthDate | 1963-05-23",
+    "Davit_Harutyunyan | office | \"Deputy Minister of Justice\"",
+    "Davit_Harutyunyan | nationality | Armenia",
+    "Davit_Harutyunyan | successor | 1998",
+    "Davit_Harutyunyan | alternativeName | \"David\""
+  ],
+  [
+    "Davit_Harutyunyan | birthPlace | Yerevan",
+    "Davit_Harutyunyan | office | \"Minister of Justice\"",
+    "Davit_Harutyunyan | birthPlace | Armenia"
+  ],
+  [
+    "Santo_Domingue | isPartOf | Distrito_Nacional",
+    "Ciudad_Nueva | country | Dominican_Republic",
+    "Ciudad_Nueva | isPartOf | Santo_Domingue"
+  ],
+  [
+    "Ciudad_Nueva | country | Dominican_Republic"
+  ],
+  [
+    "University_of_Tulsa | state | Oklahoma",
+    "University_of_Tulsa | numberOfStudents | 39.0"
+  ],
+  [
+    "University_of_Tulsa | country | United_States",
+    "University_of_Tulsa | state | Oklahoma"
+  ],
+  [
+    "Telangana | country | India",
+    "Mahatma_Krishna | birthPlace | Andhra_Pradesh",
+    "Mahatma_Krishna | birthPlace | Khammam",
+    "Mahatma_Krishna | birthPlace | Telangana"
+  ],
+  [
+    "Srinivasa_Reddy | birthPlace | Khammam",
+    "Srinivasa_Reddy | birthYear | 2001",
+    "Khammam | isPartOf | Telangana"
+  ],
+  [
+    "Sheepdog_(band) | region | \"Canada, United States, United Kingdom, Eastern and Western Europe\"",
+    "Sheepdog_(band) | location | \"Canada, United States and Australia\"",
+    "Sheepdog_(band) | genre | Folk_rock",
+    "Sheepdog_(band) | associatedBand/associatedMusicalArtist | The_Sheepdog_(band)"
+  ],
+  [
+    "Sheepdog | breed | Sheepdog",
+    "Sheepdog | country | Canada"
+  ],
+  [
+    "Cosmic_Pad_Studios | location | Saskatoon,_Saskatchewan",
+    "The_Sheepdogs | recordLabel | Cosmic_Pad_Studios",
+    "The_Sheepdogs | firstAlbum | 2006"
+  ],
+  [
+    "The_Sheepdogs | genre | Folk_rock",
+    "The_Sheepdogs | origin | Saskatoon,_Saskatchewan",
+    "The_Sheepdogs | origin | Canada",
+    "Feeling_Good | isPartOfMeanOfTransportation | Music_(artform)",
+    "The_Sheepdogs | album | 2006"
+  ],
+  [
+    "Rajan_(politician) | party | Indian_National_Congress"
+  ],
+  [
+    "N._Y._Hanumanthappa | birthPlace | Karnataka",
+    "N._Y._Hanumanthappa | birthPlace | \"Chitradurga, Karnataka\""
+  ],
+  [
+    "Victor_Dourlen | birthPlace | Dunkerque",
+    "Victor_Dourlen | almaMater | Paris_Conservatory",
+    "Victor_Dourlen | instrument | Piano",
+    "Victor_Dourlen | associatedBand/associatedMusicalArtist | François-Joseph_Gossec",
+    "Paris_Conservatory | musicFusionGenre | Counterpoint",
+    "Victor_Dourlen | teacher | Charles-Simon_Catel"
+  ],
+  [
+    "Victor_Dourlen | deathPlace | Paris"
+  ],
+  [
+    "Simply_Red | genre | Pop_music",
+    "Your_Mist_(song) | author | Mick_Hucknall",
+    "Your_Mist_(song) | releaseDate | \"July 1992\"",
+    "Your_Mist_(song) | genre | Soul_music",
+    "Your_Mist_(song) | associatedBand/associatedMusicalArtist | Simply_Red",
+    "Simply_Red | origin | United_Kingdom"
+  ],
+  [
+    "_Your_Mirror | releaseDate | \"July 1992\""
+  ],
+  [
+    "La_Trinidad | isPartOf | Benguet_Province",
+    "Benguet_State_University | country | Philippines",
+    "Benguet_State_University | city | La_Trinidad",
+    "Benguet_State_University | state | Benguet"
+  ],
+  [
+    "Benguet_State_University | country | Philippines",
+    "Benguet_State_University | city | Benguet",
+    "Benguet_State_University | state | Benguet"
+  ],
+  [
+    "Battle_of_Villarrobledo | isPartOfMilitaryConflict | First_Carlist_War",
+    "Battle_of_Villarrobledo | place | Villarrobledo",
+    "Battle_of_Villarrobledo | tookPlace | 1836-09-20"
+  ],
+  [
+    "Battle_of_Villarrobledo | place | Villarrobledo"
+  ],
+  [
+    "Sir_Francis_Theodore_Page_Burt | birthDate | 1918-06-14",
+    "Sir_Francis_Theodore_Page_Burt | office | \"11th Chief Justice of Western Australia\"",
+    "Sir_Francis_Theodore_Page_Burt | deathDate | \"1940-09-08\"",
+    "Sir_Francis_Theodore_Page_Burt | birthPlace | Australia",
+    "Sir_Francis_Theodore_Page_Burt | successor | \"1990-93\""
+  ],
+  [
+    "Francis_Burt | birthName | \"Francis Theodore Page Burt\"",
+    "Francis_Burt | deathPlace | Perth",
+    "Francis_Burt | office | \"Governor of Western Australia\"",
+    "Francis_Burt | birthPlace | Perth",
+    "Francis_Burt | nationality | Australia",
+    "Francis_Burt | office | \"11th Chief Justice of Western Australia\""
+  ],
+  [
+    "Thor_Breien | deathDate | 1899-02-09",
+    "Thor_Breien | nationality | Norway",
+    "Thor_Breien | office | Judge_(Norway)"
+  ],
+  [
+    "Thor_Breien | nationality | Norway",
+    "Thor_Breien | deathDate | 1899-09-01"
+  ],
+  [
+    "John_Ferguson | deathPlace | \"Cheltenham, Gloucestershire, England\"",
+    "John_Ferguson | deathDate | \"1984-04-09\""
+  ],
+  [
+    "Randal_Woolatt | deathPlace | \"Cheltenham, Gloucestershire\"",
+    "Randal_Woolatt | birthPlace | Claygate,_Surrey"
+  ],
+  [
+    "Salisbury_Sixth_Form_College | city | Salisbury",
+    "Salisbury_Sixth_Form_College | state | England",
+    "Salisbury_Sixth_Form_College | country | England",
+    "Salisbury_Sixth_Form_College | city | Wiltshire",
+    "Salisbury_Sixth_Form_College | type | Free_school_(college)"
+  ],
+  [
+    "Salisbury_Sixth_Form_College | established | 2014",
+    "Salisbury_Sixth_Form_College | city | Salisbury",
+    "Salisbury | isPartOf | Wiltshire",
+    "Salisbury_Sixth_Form_College | country | England"
+  ],
+  [
+    "Joan_Carson | birthDate | 1935-01-29",
+    "Joan_Carson | party | Unionist_Party_(UK)",
+    "Joan_Carson | birthPlace | Northern_Ireland"
+  ],
+  [
+    "Joan_Carson | birthPlace | Enniskillen",
+    "Joan_Carson | residence | Enniskillen",
+    "Joan_Carson | region | Northern_Ireland"
+  ],
+  [
+    "The_Liverbirds | genre | Rock_music",
+    "The_Liverbirds | activeYearsStartYear | 1963",
+    "The_Liverbirds | activeYearsEndDate | 1968",
+    "The_Liverbirds | origin | Liverpool",
+    "The_Liverbirds | background | \"solo_singer\"",
+    "The_Liverbirds | origin | England"
+  ],
+  [
+    "Liverpool_Liverbirds | season | 1963–1968",
+    "Liverpool_Liverbirds | ground | Liverpool"
+  ],
+  [
+    "Ma_Qi | deathPlace | Xining,_Qinghai",
+    "Ma_Qi | deathDate | 1931-08-05",
+    "Ma_Qi | deathPlace | China",
+    "Ma_Qi | family | Ma_Zhongying"
+  ],
+  [
+    "Ma_Qi | deathPlace | Xining,_Qinghai",
+    "Ma_Qi | birthPlace | Gansu"
+  ],
+  [
+    "Weatherboard_signal_box | yearOfConstruction | 1887",
+    "Weatherboard_signal_box | owner | RailCorp"
+  ],
+  [
+    "Albion_Park_Train_Station | location | Australia",
+    "Albion_Park_Train_Station | operatingOrganisation | NSW_TrainLink",
+    "Albion_Park_Train_Station | yearOfConstruction | 1887",
+    "Albion_Park_Train_Station | owner | RailCorp"
+  ],
+  [
+    "Sree_Palkulangara_Devi_Temple | state | Kerala",
+    "Sree_Palkulangara_Devi_Temple | owner | Sree_Palkulangara_Devi_Temple_Trust",
+    "Kerala | religion | Vasthu_Vidya",
+    "Sree_Palkulangara_Devi_Temple | location | Kerala"
+  ],
+  [
+    "Palkulangara_Devi_Temple | location | Palkulangara",
+    "Palkulangara_Devi_Temple | location | Kerala",
+    "Palkulangara_Devi_Temple | owner | Palkulangara_Devi_Temple_Trust",
+    "Palkulangara_Devi_Temple | country | India"
+  ],
+  [
+    "Charles_Stewart | office | Premier_of_Alberta",
+    "Charles_Stewart | office | Member_of_Parliament",
+    "Jasper–Edson_Electoral_District | newName | \"Jasper—Edson\"",
+    "Jasper–Edson_Electoral_District | winner | Charles_Stewart"
+  ],
+  [
+    "Walter_Frederick_Kuhl | birthPlace | Alberta",
+    "Walter_Frederick_Kuhl | occupation | Teacher",
+    "Walter_Frederick_Kuhl | region | Jasper–Edson_District"
+  ],
+  [
+    "Gariffa_Village | location | Hooghly_River",
+    "Gariffa_Village | birthPlace | Gariffa_Village",
+    "Raja_I_of_Kolkata | birthPlace | Kolkata",
+    "Raja_I_of_Kolkata | deathDate | 1791-07-05"
+  ],
+  [
+    "Ramkamal_Sen | birthPlace | Gariffa",
+    "Ramkamal_Sen | deathPlace | Kolkata"
+  ],
+  [
+    "Augustusburg | country | Germany",
+    "Augustusburg | isPartOf | Free_State_of_Saxony",
+    "Augustusburg | isPartOf | Mittelsachsen"
+  ],
+  [
+    "Augustusburg | country | Germany",
+    "Augustusburg | isPartOf | Mittelsachsen"
+  ],
+  [
+    "Oasis_Academy_Don_Valley | country | England",
+    "Oasis_Academy_Don_Valley | city | Sheffield",
+    "Sheffield | isPartOf | South_York",
+    "Oasis_Academy_Don_Valley | location | Attercliffe",
+    "Oasis_Academy_Don_Valley | academicDiscipline | All-through_school"
+  ],
+  [
+    "Oasis_Academy_Don_Valley | city | Sheffield",
+    "Oasis_Academy_Don_Valley | established | 2015",
+    "Sheffield | country | England"
+  ],
+  [
+    "Abraham_Vanderveer | office | \"United States Representative from New York\"",
+    "Abraham_Vanderveer | birthYear | 1781",
+    "Abraham_Vanderveer | deathDate | 1839-07-21"
+  ],
+  [
+    "Abraham_Vanderveer | deathPlace | Brooklyn",
+    "Abraham_Vanderveer | birthPlace | New_York"
+  ],
+  [
+    "Johann_Ernst_Eberlin | almaMater | Johann_Ernst_Eberlin",
+    "Johann_Ernst_Eberlin | birthPlace | Inzell",
+    "Inzell | isPartOf | Bavaria",
+    "Johann_Ernst_Eberlin | birthPlace | Salzburg"
+  ],
+  [
+    "Anton_Cajetan_Adlgasser | birthPlace | Inzell",
+    "Anton_Cajetan_Adlgasser | deathPlace | Salzburg"
+  ],
+  [
+    "Pinckneyville,_York_County,_York | isPartOf | York_County,_York",
+    "SC-322 | intersection | SC-49",
+    "SC-322 | location | Pinckneyville,_York"
+  ],
+  [
+    "South_Carolina_Highway_322 | location | York,_South_Carolina"
+  ],
+  [
+    "South_Carolina_Highway_322 | stateName | \"South Carolina Highway 322\"",
+    "South_Carolina_Highway_322 | length | 44417.0 (millimetres)",
+    "South_Carolina_Highway_322 | location | South_Carolina",
+    "South_Carolina_Highway_322 | country | United_States"
+  ],
+  [
+    "South_Carolina_Highway_322 | location | McConnells,_South_Carolina"
+  ],
+  [
+    "Duke_Robillard | associatedBand/associatedMusicalArtist | Fabulous_Thunderbirds",
+    "Duke_Robillard | activeYearsStartYear | 1981",
+    "Duke_Robillard | recordLabel | Rounder_Records",
+    "Duke_Robillard | associatedBand/associatedMusicalArtist | Duke_Robillard"
+  ],
+  [
+    "Duke_Robillard | genre | Blues",
+    "Duke_Robillard | activeYearsStartYear | 1967",
+    "Duke_Robillard | activeYearsEndYear | 1990",
+    "Duke_Robillard | instrument | Guitar"
+  ],
+  [
+    "Clovis_West_High_School | state | California",
+    "Clovis_West_High_School | established | 1976",
+    "Clovis_West_High_School | ranking | 206"
+  ],
+  [
+    "Clovis_West_High_School | state | California",
+    "Clovis_West_High_School | foundingDate | 1976"
+  ],
+  [
+    "Kaj_Skagen | birthPlace | Strandebarm",
+    "Kaj_Skagen | birthDate | 1949-10-23",
+    "Kaj_Skagen | nationality | Norway"
+  ],
+  [
+    "Kaj_Skagen | birthPlace | Strandebarm"
+  ],
+  [
+    "Hainburg_an_der_Donau | country | Austria",
+    "Hainburg_an_der_Donau | isPartOf | Bruck_an_der_Leitha",
+    "Hainburg_an_der_Donau | isPartOf | Lower_Austria"
+  ],
+  [
+    "Hainburg_an_der_Donau | country | Austria"
+  ],
+  [
+    "Sikkim_Gorkha_Jagan_Sangh | region | South_District,_Sikkim",
+    "Sikkim_Gorkha_Jagan_Sangh | established | 2015",
+    "Sikkim_Gorkha_Jagan_Sangh | headquarter | Namchi,_Sikkim",
+    "Sikkim_Gorkha_Jagan_Sangh | numberOfUnitOffices | \"Nearly all regions\""
+  ],
+  [
+    "Sikkim_Gorkha_Jagaran_Sangh | country | India",
+    "Sikkim_Gorkha_Jagaran_Sangh | headquarter | Namchi,_Sikkim"
+  ],
+  [],
+  [
+    "Sousse,_Tunisia | country | Tunisia",
+    "2014_African_Volleyball_Clubs_Champions_Champions | ground | Sousse,_Tunisia"
+  ],
+  [
+    "Fletcher_Peninsula | iceCoverage | Ice_(peat)",
+    "Fletcher_Peninsula | location | Antarctica",
+    "Fletcher_Peninsula | extendsInto | Bellingshausen_Sea"
+  ],
+  [
+    "Fletcher_Peninsula | country | Antarctica"
+  ],
+  [
+    "Laguna_Technopark | location | Bian,_Laguna",
+    "Isuzu_Philippine_Corporation | foundingDate | 1995",
+    "Isuzu_Philippine_Corporation | location | Laguna_Technopark",
+    "Isuzu_Philippine_Corporation | product | Isuzu_Cars"
+  ],
+  [
+    "Isuzu_Philippines | foundingDate | 1995",
+    "Isuzu_Philippines | location | Bian",
+    "Isuzu_Philippines | product | Bus"
+  ],
+  [
+    "Chah-e_Amiq_Hesar | country | Iran",
+    "Mahvelat-e_Jonubi_Rural_District | isPartOf | Central_District,_Mahvelat_County,_Iran",
+    "Chah-e_Amiq_Hesar | region | Mahvelat-e_Jonubi_Rural_District",
+    "Chah-e_Amiq_Hesar | alternativeName | \"Chh-e q eşr\"",
+    "Chah-e_Amiq_Hesar | isPartOf | Razavi_Khorasan_Province"
+  ],
+  [
+    "Chah-e_Amiq_Hesar | country | Iran"
+  ],
+  [
+    "Rezaabad-e_Re_Veys | country | Iran",
+    "Rezaabad-e_Re_Veys | populationTotal | 180",
+    "Rezaabad-e_Re_Veys | region | Mirbag-e_Jonubi_Rural_District",
+    "Rezaabad-e_Re_Veys | alternativeName | \"Re Veys\"",
+    "Rezaabad-e_Re_Veys | isPartOf | Central_District,_Delfan_County,_Lorestan_Province",
+    "Rezaabad-e_Re_Veys | isPartOf | Mirbag-e_Jonubi_Rural_District"
+  ],
+  [
+    "Rezaabad-e_Reza_Veys | populationTotal | 180",
+    "Rezaabad-e_Reza_Veys | country | Iran",
+    "Rezaabad-e_Reza_Veys | isPartOf | Iran"
+  ],
+  [
+    "Sibille_Attar | background | \"solo_singer\"",
+    "Sibille_Attar | birthPlace | Sweden",
+    "Sibille_Attar | birthDate | 1981-11-27",
+    "Sibille_Attar | birthPlace | rebro",
+    "Sibille_Attar | occupation | Songwriter",
+    "Sibille_Attar | birthPlace | \"rebro, Sweden\"",
+    "Sibille_Attar | nationality | French_language"
+  ],
+  [
+    "Sibille_Attar | activeYearsStartYear | 2001",
+    "Sibille_Attar | birthPlace | Sweden",
+    "Sibille_Attar | birthPlace | rebro",
+    "Sibille_Attar | alternativeName | \"Little Red Corvette\""
+  ],
+  [
+    "AMA_Computer_University | city | Quezon_City",
+    "AMA_Computer_University | country | Philippines",
+    "AMA_Computer_University | academicDiscipline | Information_technology",
+    "AMA_Computer_University | affiliation | AMA_University",
+    "AMA_Computer_University | state | Quezon_City",
+    "AMA_Computer_University | regionServed | Asia"
+  ],
+  [
+    "AMA_Computer_University | country | Philippines",
+    "AMA_Computer_University | owner | AMA_Group_of_Companies"
+  ],
+  [
+    "James_Robson_Douglas | successor | MacCallum_Grant",
+    "James_Robson_Douglas | birthYear | 1876",
+    "James_Robson_Douglas | deathYear | 1934",
+    "James_Robson_Douglas | office | \"13th Lieutenant Governor of Nova Scotia\"",
+    "James_Robson_Douglas | activeYearsStartDate | 1925-01-21"
+  ],
+  [
+    "James_Robson_Douglas | office | \"13th Lieutenant Governor of Nova Scotia\""
+  ],
+  [
+    "Sanski_Most | isPartOf | Una-Sana_Canton",
+    "Sanski_Most | country | \"Bosnia and Herzegovina\"",
+    "Sanski_Most | isPartOf | Municipality"
+  ],
+  [
+    "Sanski_Most | country | Bosnia_Herzegovina"
+  ],
+  [
+    "Games-X | publisher | Europress",
+    "Games-X | country | United_Kingdom",
+    "Games-X | format | \"Multi-format weekly computer and video game\"",
+    "Games-X | firstPublicationDate | \"1991-05-23\"",
+    "Games-X | mediaType | \"Multi-format weekly\""
+  ],
+  [
+    "Games-X | publisher | Europress",
+    "Europress | country | United_Kingdom"
+  ],
+  [
+    "Starhotels | location | Italy",
+    "Starhotels | location | Paris",
+    "Starhotels | type | Private_label",
+    "Starhotels | location | New_York_City",
+    "Starhotels | numberOfHotels | 23",
+    "Starhotels | foundationPlace | Florence",
+    "Starhotels | location | London"
+  ],
+  [
+    "Starhotels | location | Italy",
+    "Starhotels | foundationPlace | Florence",
+    "Starhotels | foundingDate | 1980"
+  ],
+  [
+    "Grlom_u_jagode | alternativeName | \"рлом у аоде,  The Unpicked Strawberries\"",
+    "Grlom_u_jagode | country | Yugoslavia",
+    "Grlom_u_jagode | director | Sran_Karabovi",
+    "Grlom_u_jagode | starring | Rajko_Grli",
+    "Grlom_u_jagode | firstAireTitle | \"1975\""
+  ],
+  [
+    "Grlom_u_Jagode | director | Sran_Karnovi",
+    "Grlom_u_Jagode | co-writer | Rajko_Grli"
+  ],
+  [
+    "Carl_Atwood_Wiley | deathDate | \"1985-04-21\"",
+    "Carl_Atwood_Wiley | nationality | United_States",
+    "Carl_Atwood_Wiley | birthDate | \"1918-12-30\"",
+    "Carl_Atwood_Wiley | occupation | Engineer",
+    "Carl_Atwood_Wiley | status | \"Deceased\""
+  ],
+  [
+    "Carl_A._Wiley | birthYear | 1918",
+    "Carl_A._Wiley | deathYear | 1985"
+  ],
+  [
+    "Bandudato | areaTotal | 30.65 (square kilometres)",
+    "Bandudato | populationTotal | 1426"
+  ],
+  [
+    "Bandudato | populationTotal | 1426",
+    "Bandudato | areaTotal | 30.65 (square kilometres)",
+    "Bandudato | isPartOf | Aileu"
+  ],
+  [
+    "Bulla_Regia | country | Tunisia",
+    "Bulla_Regia | isPartOf | Jendouba"
+  ],
+  [
+    "Bulla_Regia | country | Tunisia"
+  ],
+  [
+    "La_78 | junction | La-US_190",
+    "La_78 | route | La_1",
+    "La_1 | junction | Parlange",
+    "La_78 | cityServed | Livonia"
+  ],
+  [
+    "Louisiana_Highway_78 | route | \"Parlange, Louisiana, Frisco, Louisiana\"",
+    "Louisiana_Highway_78 | cityServed | Livonia,_La."
+  ],
+  [
+    "Torynorrhina_flammea | family | Scarabaeidae",
+    "Torynorrhina_flammea | insect | Beetle",
+    "Scarabaeidae | subfamily | Cetoniinae"
+  ],
+  [
+    "Torynorrhina_flammea | family | Scarabaeidae",
+    "Torynorrhina_flammea | subfamily | Cetoniinae"
+  ],
+  [
+    "Miss_Model_of_the_World | country | 42",
+    "Miss_Model_of_the_World | location | \"Istanbul, Turkey\"",
+    "Miss_Model_of_the_World | organizer | Miss_Model_of_the_World",
+    "Miss_Model_of_the_World | year | 1988"
+  ],
+  [
+    "Miss_Model_of_the_World | location | \"Istanbul, Turkey\""
+  ],
+  [
+    "Loango_National_Park | areaTotal | 1550 (square kilometres)",
+    "Loango_National_Park | wildlife | \"Elephants, buffaloes, gorillas, hippos, leopards\"",
+    "Loango_National_Park | country | Gabon",
+    "Loango_National_Park | highlightTouristPlace | Gabon"
+  ],
+  [
+    "Loango_National_Park | country | Gabon"
+  ],
+  [
+    "Nemo_(submarine_cable) | length | 90000.0 (millimetres)",
+    "Nemo_(submarine_cable) | location | Belgium"
+  ],
+  [
+    "Nemo_Link | location | Belgium",
+    "Nemo_Link | type | Submarine_cabling"
+  ],
+  [
+    "Blackpool_Transport_Services_Limited | location | Blackpool",
+    "Blackpool_Transport_Services_Limited | type | Bus_and_tram_operators",
+    "Blackpool_Transport_Services_Limited | owner | Blackpool_Borough_Council",
+    "Blackpool_Transport_Services_Limited | regionServed | \"Blackpool and Fylde\""
+  ],
+  [
+    "Blackpool_Transport | owner | Blackpool_Borough_Council"
+  ],
+  [
+    "Rudbari_Konar | populationTotal | 234",
+    "Rudbari_Konar | region | Central_District,_Tonekabon_County,_Iran",
+    "Rudbari_Konar | country | Iran",
+    "Rudbari_Konar | alternativeName | \"Rdbr Konr\"",
+    "Rudbari_Konar | isPartOf | Goli_Jan_Rural_District",
+    "Rudbari_Konar | isPartOf | Mazandaran_Province",
+    "Rudbari_Konar | isPartOf | Tonekabon_County,_Iran"
+  ],
+  [
+    "Rudbari_Konar | populationTotal | 234",
+    "Rudbari_Konar | country | Iran",
+    "Rudbari_Konar | isPartOf | Iran"
+  ],
+  [
+    "Romeo_Island | location | South_Shetland_Islands",
+    "Romeo_Island | type | Rock_(geology)",
+    "Romeo_Island | isPartOf | Antarctica"
+  ],
+  [
+    "Romeo_Island | location | Antarctica"
+  ],
+  [
+    "Calgary | isPartOf | Alberta",
+    "Calgary | country | Canada",
+    "Marlborough_Mall | location | Calgary"
+  ],
+  [
+    "Calgary | isPartOf | Alberta",
+    "Marlborough_Mall | location | Calgary"
+  ],
+  [
+    "Sierra_Nevada | country | United_States",
+    "Mount_Solomon_(mountain) | location | California",
+    "Mount_Solomon_(mountain) | isPartOf | Sierra_Nevada"
+  ],
+  [
+    "Mount_Solomon | location | California"
+  ],
+  [
+    "Rock_Region_Metropolitan_Transport_Authority | alternativeName | \"Rock Region Metro\"",
+    "Rock_Region_Metropolitan_Transport_Authority | state | Arkansas",
+    "Rock_Region_Metropolitan_Transport_Authority | type | Transit_system"
+  ],
+  [
+    "Rock_Region_Metro | operator | Rock_Region_Metropolitan_Transport_Authority"
+  ],
+  [
+    "William_Aberhart_High_School | regionServed | Western_Canada"
+  ],
+  [
+    "William_Aberhart_High_School | country | Canada",
+    "William_Aberhart_High_School | location | 3009_Morley_Trail_NW"
+  ],
+  [
+    "Alto_Pelado | isPartOf | San_Luis_Province",
+    "Alto_Pelado | country | Argentina",
+    "Alto_Pelado | isPartOf | Municipality"
+  ],
+  [
+    "Alto_Pelado | country | Argentina"
+  ],
+  [
+    "Carla_Tortelli | occupation | Waitress",
+    "Carla_Tortelli | birthName | \"Carla Maria Victoria Angelina Teresa Apollonia Lozupone Tortelli LeBec\"",
+    "Carla_Tortelli | nationality | United_States",
+    "Rhea_Perlman | character | Rhea_Perlman"
+  ],
+  [
+    "Carla_Tortelli | nationality | Americans",
+    "Carla_Tortelli | series | Cheers"
+  ],
+  [
+    "Tommy_Hill | birthPlace | Beckenham,_Kent",
+    "Tommy_Hill | birthDate | 1985-02-09",
+    "Tommy_Hill | birthYear | 1985",
+    "Tommy_Hill | nationality | United_Kingdom",
+    "Tommy_Hill | raceType | Motorcycle",
+    "Tommy_Hill | status | \"Deceased\""
+  ],
+  [
+    "Tommy_Hill | birthPlace | Kent"
+  ],
+  [
+    "Swanston_Square | location | Melbourne",
+    "William_Barak | height | 85 (metres)",
+    "Swanston_Square | location | \"Melbourne, Victoria, Australia\"",
+    "William_Barak | installation | 2015"
+  ],
+  [
+    "William_Barak | birthPlace | Australia",
+    "William_Barak | deathPlace | Coranderrk"
+  ],
+  [
+    "So_Paulo_Municipality | areaTotal | 14.93 (square kilometres)",
+    "So_Paulo_Municipality | populationTotal | 69",
+    "So_Paulo_Municipality | censusPlace | So_Paulo",
+    "So_Paulo_Municipality | currentPlace | So_Paulo",
+    "So_Paulo_Municipality | established | 2006-08-28"
+  ],
+  [
+    "Olbramov | populationTotal | 69",
+    "Olbramov | areaTotal | 14.93 (square kilometres)",
+    "Olbramov | country | Czech_Republic"
+  ],
+  [
+    "Zhovkva_Riaion | country | Ukraine",
+    "Zhovkva_Riaion | isPartOf | Lviv_Oblast"
+  ],
+  [
+    "Zhovkva_Riaion | country | Ukraine"
+  ],
+  [
+    "William_Edward_Greene | birthDate | 1855-09-07",
+    "William_Edward_Greene | birthPlace | England",
+    "William_Edward_Greene | deathDate | 1921-05-05",
+    "William_Friese-Greene | occupation | Photographer",
+    "William_Edward_Greene | birthYear | 1855"
+  ],
+  [
+    "William_Friese-Greene | birthPlace | Bristol",
+    "William_Friese-Greene | deathPlace | London",
+    "William_Friese-Greene | birthYear | 1855",
+    "William_Friese-Greene | deathDate | 1921"
+  ],
+  [
+    "Matthew_Statisfield_Richardson | birthDate | 1971-11-26",
+    "Matthew_Statisfield_Richardson | birthPlace | \"Brooklyn, New York City\"",
+    "Matty_Richardson | occupation | \"film director, screenwriter, video game executive\"",
+    "Matty_Richardson | birthYear | 1971"
+  ],
+  [
+    "Matthew_Statisfield_Richardson | birthYear | 1971",
+    "Matty_Richardson | birthName | \"Matthew Statisfield Richardson\""
+  ],
+  [
+    "Alfred_Flores | deathPlace | Guam",
+    "Alfred_Flores | deathDate | 2009-02-06",
+    "Alfred_Flores | spouse | Ester_Duenas_Flores",
+    "Alfred_Flores | deathPlace | \"Malojloj, Guam\""
+  ],
+  [
+    "Alfred_Flores | birthPlace | Inarajan,_Guam",
+    "Alfred_Flores | birthName | \"Alfred San Nicolas Flores\"",
+    "Alfred_Flores | deathPlace | Malojloj,_Guam",
+    "Alfred_Flores | birthYear | 1916",
+    "Alfred_Flores | spouse | Ester_Duenas",
+    "Alfred_Flores | deathYear | 2009"
+  ],
+  [
+    "Black_Widow_Records | genre | Progressive_rock",
+    "Black_Widow_Records | location | Italy",
+    "Black_Widow_Records | foundingDate | 1990",
+    "Black_Widow_Records | origin | Genoa",
+    "Black_Widow_Records | origin | Black_Widow_Records"
+  ],
+  [
+    "Black_Widow_Records | foundationPlace | Genoa,_Georgia",
+    "Black_Widow_Records | foundingYear | 1990"
+  ],
+  [
+    "Frank_Oppenheimer_Fellowship_Fund | createdBy | Exploratorium"
+  ],
+  [
+    "Frank_Oppenheimer | birthName | \"Friedman Oppenheimer\"",
+    "Frank_Oppenheimer | associatedBand/associatedMusicalArtist | McCarthyism",
+    "Frank_Oppenheimer | significantWork | Exploratorium"
+  ],
+  [
+    "Isaac_Hardenbergh_House | location | Roxbury,_New_York",
+    "Isaac_Hardenbergh_House | buildingStartDate | 1790",
+    "Isaac_Hardenbergh_House | country | United_States",
+    "Isaac_Hardenbergh_House | alternativeName | \"Hardenbergh Manor\"",
+    "Roxbury,_New_York | isPartOf | Delaware_County,_New_York"
+  ],
+  [
+    "Isaac_Hardenbergh_House | buildingStartDate | 1790"
+  ],
+  [
+    "_URL_Badman | releaseDate | \"2014-07-13\"",
+    "_URL_Badman | recordLabel | Parlophone"
+  ],
+  [
+    "_URL_Badman | releaseCompany | Parlophone"
+  ],
+  [
+    "Special_Presidential_Division | created | 1985",
+    "Special_Presidential_Division | militaryBranch | Special_Presidential_Division",
+    "Special_Presidential_Division | nickname | \"Spéciale Présidentielle\"",
+    "Special_Presidential_Division | country | Zairian_Army",
+    "Special_Presidentian_Division | nickname | \"French Division Spéciale Présidentielle\""
+  ],
+  [
+    "Special_Presidential_Division | activeYearsStartYear | 1985",
+    "Special_Presidential_Division | activeYearsEndDate | 1997"
+  ],
+  [
+    "John_Augustus_Roebling | birthDate | 1806-06-12",
+    "John_Augustus_Roebling | birthPlace | Germany",
+    "John_Augustus_Roebling | birthYear | 1806",
+    "John_Augustus_Roebling | deathDate | 1869-07-22",
+    "John_Augustus_Roebling | nationality | United_States",
+    "John_Augustus_Roebling | profession | Civil_engine"
+  ],
+  [
+    "John_A._Roebling | birthYear | 1806",
+    "John_A._Roebling | birthName | \"Johann August Röbling\"",
+    "John_A._Roebling | deathYear | 1869"
+  ],
+  [
+    "Sphinctospermum | family | Fabaceae",
+    "Sphinctospermum | family | Faboideae",
+    "Sphinctospermum | genus | Flowering_plant"
+  ],
+  [
+    "Sphinctospermum | family | Fabaceae",
+    "Sphinctospermum | family | Faboideae"
+  ],
+  [
+    "Theloderma_licin | genus | Theloderma",
+    "Theloderma_licin | region | \"Nationwide in Malaysia and southern Thailand\"",
+    "Theloderma_licin | alternativeName | \"Smooth frog\"",
+    "Theloderma_licin | species | Frog"
+  ],
+  [
+    "Theloderma_licin | genus | Theloderma",
+    "Theloderma_licin | family | Frog"
+  ],
+  [
+    "Manuel_Antonio_Mesones_Muro | birthPlace | Ferreafe",
+    "Manuel_Antonio_Mesones_Muro | birthPlace | Lambayeque_Region",
+    "Manuel_Antonio_Mesones_Muro | birthDate | 1862-06-16",
+    "Manuel_Antonio_Mesones_Muro | deathDate | \"1930-10-28\"",
+    "Manuel_Antonio | nationality | Peru"
+  ],
+  [
+    "Manuel_Antonio_Mesones_Muro | birthPlace | Ferreafe"
+  ],
+  [
+    "Hefei_Urban_Rail_Transportation | alternativeName | \"Hefei Metro\"",
+    "Hefei_Urban_Rail_Transportation | location | Hefei",
+    "Hefei_Urban_Rail_Transportation | cityServed | Hefei",
+    "Hefei | country | China"
+  ],
+  [
+    "Hefei_Metro | location | Hefei",
+    "Hefei_Metro | location | China",
+    "Hefei_Metro | constructionStartDate | 2016"
+  ],
+  [
+    "Anton_Lindfors | birthPlace | Porvoo",
+    "Anton_Lindfors | birthDate | 1991-04-22",
+    "Anton_Lindfors | birthYear | 1991",
+    "Anton_Lindfors | nationality | Finland",
+    "Anton_Lindfors | sport | Snowboard_cross"
+  ],
+  [
+    "Anton_Lindfors | birthPlace | Porvoo,_Finland"
+  ],
+  [
+    "Makhtumkuli_Avenue | location | Ashgabat",
+    "Makhtumkuli_Avenue | alternativeName | \"Magtymguly Avenue\"",
+    "Ashgabat | isPartOf | Turkmenistan"
+  ],
+  [
+    "Makhtumkuli_Avenue | location | Ashgabat",
+    "Ashgabat | isPartOf | Turkmenistan"
+  ],
+  [
+    "Norwegian_Association_of_Hunts_and_Anglers | country | Norway",
+    "Norwegian_Association_of_Hunts_and_Anglers | fullName | \"Norwegian Association of Hunters and Anglers\""
+  ],
+  [
+    "Norwegian_Association_of_Hunts_and_Anglers | fullName | \"Norwegian Association of Hunters and Anglers\""
+  ],
+  [
+    "Lindi_Region | administrativeRegion | Tanzania"
+  ],
+  [
+    "Lindi_Region | country | Tanzania"
+  ],
+  [
+    "RAF_Coleby_Grange | location | Lincolnshire",
+    "RAF_Coleby_Grange | status | \"Retired\"",
+    "RAF_Coleby_Grange | location | Coleby_Grange",
+    "RAF_Coleby_Grange | activeYearsStartDate | 1946-09-26"
+  ],
+  [
+    "RAF_Coleby_Grange | location | Lincolnshire"
+  ],
+  [
+    "Samuel_Ayscough | birthYear | 1745",
+    "Samuel_Ayscough | almaMater | Free_Grammar_School",
+    "Samuel_Ayscough | birthPlace | Nottingham"
+  ],
+  [
+    "Samuel_Ayscough | birthYear | 1745",
+    "Samuel_Ayscough | deathYear | 1804",
+    "Samuel_Ayscough | nationality | England"
+  ],
+  [
+    "Tolombeh-ye_Mohammad_Rafsanjani | country | Iran",
+    "Tolombeh-ye_Mohammad_Rafsanjani | region | Golestan_Rural_District",
+    "Golestan_Rural_District | isPartOf | Central_District,_Sirjan_County,_Iran",
+    "Tolombeh-ye_Mohammad_Rafsanjani | alternativeName | \"Tolombeh-ye Mohammad Rafsanjani\"",
+    "Tolombeh-ye_Mohammad_Rafsanjani | isPartOf | Kerman_Province"
+  ],
+  [
+    "Tolombeh_ye_Mohammad_Rafsanjani | country | Iran"
+  ],
+  [
+    "Pipistrel_Panthera | designCompany | Pipistrel_Slovenia",
+    "Pipistrel_Panthera | engine | All-Composite_(aircraft)",
+    "Pipistrel_Panthera | numberOfSeats | \"4\"",
+    "Pipistrel_Panthera | weight | 12.0 (kilograms)"
+  ],
+  [
+    "Pipistrel_Panthera | manufacturer | Pipistrel"
+  ],
+  [
+    "James_Ferguson_Dowdell | office | \"President of East Alabama College from 1868-1870\"",
+    "James_Ferguson_Dowdell | birthDate | 1818-11-26",
+    "James_Ferguson_Dowdell | deathDate | 1871-09-06",
+    "James_Ferguson_Dowdell | office | United_States_Representative_in_the_United_States",
+    "East_Alabama_College | state | Alabama"
+  ],
+  [
+    "James_Ferguson_Dowdell | state | Alabama"
+  ],
+  [
+    "Peter_Paul_Anatol_Lieven | birthPlace | London",
+    "Peter_Paul_Anatol_Lieven | birthYear | 1960"
+  ],
+  [
+    "Peter_Paul_Anatol_Lieven | birthPlace | London"
+  ],
+  [
+    "Mathias_Fink | birthPlace | Grenoble",
+    "Mathias_Fink | almaMater | ESPCI_Paris",
+    "Mathias_Fink | birthYear | 1945",
+    "Mathias_Fink | nationality | France",
+    "Mathias_Fink | office | \"Professor at the French Academy of Sciences\""
+  ],
+  [
+    "Mathias_Fink | birthPlace | Grenoble",
+    "Mathias_Fink | nationality | France"
+  ],
+  [
+    "Virginia_Field | birthDate | 1917-11-04",
+    "Virginia_Field | birthPlace | England",
+    "Virginia_Field | deathDate | \"1992-01-02\"",
+    "Virginia_Field | birthName | \"Margaret Cynthia Field\"",
+    "Virginia_Field | occupation | Actress"
+  ],
+  [
+    "Margaret_Field_Douglas | birthPlace | England",
+    "Virginia_Field | birthPlace | London",
+    "Virginia_Field | birthName | \"Margaret Cynthia Field\""
+  ],
+  [
+    "Jozef_Tomko | birthPlace | \"Udavské, near Humenné, Czechoslovakia\"",
+    "Jozef_Tomko | birthDate | 1924-03-11",
+    "Jozef_Tomko | birthPlace | Czechoslovakia"
+  ],
+  [
+    "Jozef_Tomko | birthPlace | Udavské"
+  ],
+  [
+    "Havar_Kandi_Qeshlaqi | country | Iran",
+    "Havar_Kandi_Qeshlaqi | populationTotal | 65",
+    "Havar_Kandi_Qeshlaqi | region | Central_District,_Parsabad_County,_Iran",
+    "Havar_Kandi_Qeshlaqi | region | Qeshli_Rural_District",
+    "Havar_Kandi_Qeshlaqi | alternativeName | \"Hvr Kandi Qeshlqeshlq\"",
+    "Havar_Kandi_Qeshlaqi | isPartOf | Ardabil_Province"
+  ],
+  [
+    "Havar_Kandi_Qeshlaqi | populationTotal | 65",
+    "Havar_Kandi_Qeshlaqi | country | Iran",
+    "Havar_Kandi_Qeshlaqi | isPartOf | Iran"
+  ],
+  [
+    "Jacques_Vivier | birthPlace | Mareuil-sur-Bel",
+    "Jacques_Vivier | birthDate | \"1930-10-1930\"",
+    "Jacques_Vivier | nationality | France",
+    "Jacques_Vivier | activeYearsStartYear | 1951",
+    "Jacques_Vivier | activeYearsEndYear | 1957"
+  ],
+  [
+    "Jacques_Vivier | birthPlace | Mareuil-sur-Bel"
+  ],
+  [
+    "Eric_Kupper | background | \"solo_singer\"",
+    "Eric_Kupper | occupation | \"singer, songwriter, remixer, DJ\"",
+    "Eric_Kupper | birthPlace | United_States",
+    "Eric_Kupper | occupation | Record_producer",
+    "Eric_Kupper | birthPlace | French_Americans",
+    "Eric_Kupper | instrument | Keyboard_instrument"
+  ],
+  [
+    "Eric_Kupper | occupation | DJ"
+  ],
+  [
+    "Norman_Mason | birthPlace | Sunderland",
+    "Red_Marauder | owner | Norman_Mason",
+    "Norman_Mason | firstWinner | Grand_National_Horse_Show"
+  ],
+  [
+    "Red_Marauder | owner | Norman_Mason"
+  ],
+  [
+    "Zak_Orth | birthDate | 1970-10-15",
+    "Zak_Orth | birthPlace | United_States",
+    "Zak_Orth | activeYearsStartDate | 1970-10-15",
+    "Zak_Orth | associatedBand/associatedMusicalArtist | Melinda_And_Melinda",
+    "Zak_Orth | associatedBand/associatedMusicalArtist | Wet_Hot_American_Summer",
+    "Zak_Orth | associatedBand/associatedMusicalArtist | NYC_22"
+  ],
+  [
+    "Zak_Orth | birthYear | 1970",
+    "Zak_Orth | birthName | \"Adam Zachary Orth\""
+  ],
+  [
+    "Aventura_Mall | location | Aventura,_Florida",
+    "Aventura_Mall | country | United_States",
+    "Aventura_Mall | size | 16th_largest_mall"
+  ],
+  [
+    "Aventura_Mall | location | Florida"
+  ],
+  [
+    "Youcca_Troubetzkoy | birthDate | 1905-12-13",
+    "Youcca_Troubetzkoy | birthName | \"Youcca Troubetzkov and Nicolas Barclay\"",
+    "Youcca_Troubetzkoy | birthPlace | Russia",
+    "Youcca_Troubetzkoy | deathDate | \"1992-04-22\"",
+    "Youcca_Troubetzkoy | nationality | French_Americans"
+  ],
+  [
+    "Youcca_Troubetzkoy | birthYear | 2005",
+    "Youcca_Troubetzkoy | birthName | \"Youcca Troubetzkov and Nicolas Barclay\"",
+    "Youcca_Troubetzkoy | deathYear | 1992"
+  ],
+  [
+    "Mount_Ikoma | country | Japan",
+    "Mount_Ikoma | region | Nara_Prefecture",
+    "Mount_Ikoma | isPartOf | Osaka_Prefecture"
+  ],
+  [
+    "Mount_Ikoma | country | Japan"
+  ],
+  [
+    "Carol_Shields | award | Orange_Prize_for_Fiction",
+    "Carol_Shields | award | Giller_Prize_(novel)",
+    "Carol_Shields | award | Governor_General_of_Canada_Literary_Award",
+    "Carol_Shields | lastName | \"Carol Shields\"",
+    "Carol_Shields | award | Booker_Prize",
+    "Orange_Prize_for_Fiction | awarded | 1998"
+  ],
+  [
+    "Carol_Shields | activeYearsStartYear | 1972",
+    "Carol_Shields | birthPlace | Canada",
+    "Unless_(novel) | author | Carol_Shields",
+    "Unless_(novel) | length | 2002"
+  ],
+  [
+    "Osaka_Prefecture | country | Japan",
+    "Ibaraki_Station | location | Osaka_Prefecture",
+    "Ibaraki_Station | isPartOf | Osaka_Prefecture",
+    "Ibaraki_Station | operatingOrganisation | West_Japan_Railway_Company",
+    "Ibaraki_Station | location | Ibaraki",
+    "Ibaraki_Station | isPartOf | JR_Kyoto_Line",
+    "JR._Kyosaka_Line | connectTo | Tkaid_Main_Line"
+  ],
+  [
+    "Ibaraki_Station | location | Japan",
+    "Ibaraki_Station | operatingYear | 1876",
+    "Ibaraki_Station | location | JR_Kyoto_Line"
+  ],
+  [
+    "Glen_Park_Formation | location | Illinois",
+    "Glen_Park_Formation | age | Carboniferous_period"
+  ],
+  [
+    "Glen_Park_Formation | age | Carboniferous_period"
+  ],
+  [
+    "Saranac_Lake,_New_York | isPartOf | Franklin_County,_New_York",
+    "Hopkins_Castle | location | Saranac_Lake,_New_York",
+    "Hopkins_Castle | buildingStartDate | 1913",
+    "Hopkins_Castle | floorCount | 3",
+    "Hopkins_Castle | location | Harrietstown,_New_York"
+  ],
+  [
+    "Hopkins_Castle | yearOfConstruction | 1923"
+  ],
+  [
+    "Jane_Elizabeth_Randall | birthPlace | Baltimore",
+    "Jane_Elizabeth_Randall | birthDate | 1990-08-28",
+    "Jane_Elizabeth_Randall | birthYear | 1990",
+    "Jane_Elizabeth_Randall | nationality | United_States",
+    "Jane_Elizabeth_Randall | activeYearsStartYear | 1995",
+    "Jane_Elizabeth_Randall | status | \"Deceased\""
+  ],
+  [
+    "Jane_Randall | birthPlace | Baltimore",
+    "Jane_Randall | birthName | \"Jane Elizabeth Randall\""
+  ],
+  [
+    "Arzo | isPartOf | Ticino",
+    "Ticino | country | Switzerland",
+    "Arzo | isPartOf | District_of_Mendrisio"
+  ],
+  [
+    "Arrsio | country | Switzerland",
+    "Arrsio | location | Ticino",
+    "Arrsio | isPartOf | Mendrisio"
+  ],
+  [
+    "_Labios_Compartidos | alternativeName | \"Shared Lips\"",
+    "_Labios_Compartidos | album | Maná_(band)",
+    "_Labios_Compartidos | releaseYear | 2006",
+    "_Labios_Compartidos | artist | Maná_(band)"
+  ],
+  [
+    "_Labios_Compartidos | author | Maná_(band)"
+  ],
+  [
+    "Thomas_King_Ekundayo_Phillips | birthPlace | Nigeria",
+    "Thomas_King_Ekundayo_Phillips | occupation | Organist",
+    "Thomas_King_Ekundayo_Phillips | deathDate | \"1969-07-10\"",
+    "Thomas_King_Ekundayo_Phillips | birthYear | 1884",
+    "Thomas_King_Ekundayo_Phillips | genre | Church_music",
+    "Thomas_King_Ekundayo_Phillips | status | \"Deceased\""
+  ],
+  [
+    "Thomas_King_Ekundayo_Phillips | birthPlace | Nigeria",
+    "Thomas_King_Ekundayo_Phillips | deathYear | 1969",
+    "Thomas_King_Ekundayo_Phillips | birthYear | 1884"
+  ],
+  [
+    "1955_UCLA_Bruins | coach | Red_Sanderson",
+    "1955_UCLA_Bruins | season | 1955",
+    "UCLA_Bruins | universityTeam | University_of_California_at_Los_Angeles",
+    "1955_UCLA_Bruins | league | Pacific_Coast_Conference",
+    "UCLA_Bruins | nationality | United_States"
+  ],
+  [
+    "1955_UCLA_Bruins | league | Pacific_Coast_Conference"
+  ],
+  [
+    "Pallewatte_Gamararalalage_Mathripala_Yapa_Sirisena | birthDate | 1951-09-03",
+    "Pallewatte_Gamararalalage_Mathripala_Yapa_Sirisena | office | \"Seventh President of Sri Lanka\"",
+    "Pallewatte_Gamararalalage_Mathripala_Yapa_Sirisena | country | Sri_Lanka"
+  ],
+  [
+    "Maithripala_Sirisena | birthPlace | Pallewatte_Gamaralalage",
+    "Maithripala_Sirisena | office | President_of_Sri_Lanka",
+    "Maithripala_Sirisena | birthName | \"Pallewatte Gamaralalage Maithripala Yapa Sirisena\""
+  ],
+  [
+    "Sirisena | spouse | Jayanthi_Pushpa_Kumar",
+    "Sirisena | child | Daham",
+    "Jayanthi_Pushpa_Kumar | child | Chathurika_(daughter)",
+    "Chathurika_(daughter) | successor | Dharani_(daughter)"
+  ],
+  [
+    "Daham_(politician) | office | \"Minister of Health, Minister of Defence, Leader of the House\"",
+    "Maithripala_Sirisena | spouse | Jayanthi_Pushpa_Kumara",
+    "Daham_(politician) | almaMater | Kundasale",
+    "Daham_(politician) | birthPlace | Sri_Lanka",
+    "Daham_(politician) | spouse | Maithripala_Sirisena",
+    "Daham_(politician) | office | \"Minister of Health, Minister of Defence, Minister of Sri Lanka\""
+  ],
+  [
+    "Jozini | isPartOf | Umkhanyakude_District",
+    "Jozini | country | South_Africa",
+    "Jozini | isPartOf | KwaZulu-Natal"
+  ],
+  [
+    "Jozini_Local_Municipality | city | Jozini",
+    "Jozini | isPartOf | KwaZulu-Natal"
+  ],
+  [
+    "Longcanoe_Lake | country | Canada",
+    "Longcanoe_Lake | isPartOf | Thunder_Bay_District",
+    "Longcanoe_Lake | location | Ontario",
+    "Longcanoe_Lake | isPartOf | Longcanoe_Lake"
+  ],
+  [
+    "Ontario | country | Canada",
+    "Longcanoe_Lake | state | Ontario"
+  ],
+  [
+    "Toledo_5 | owner | WTVG"
+  ],
+  [
+    "Toledo_5 | CW_affiliation | WTVG",
+    "Toledo_5 | acquiredBy | WTVG",
+    "Toledo_5 | broadcastedBy | \"CW\"",
+    "Toledo_5 | firstAired | \"September, 2014\""
+  ],
+  [
+    "Arvind_Ghosh_Memorial_Lunch | topic | Islamism"
+  ],
+  [
+    "Arvind_Ghosh | nationality | Indian_people"
+  ],
+  [
+    "Arheilgen | country | Germany",
+    "Darmstadt | isPartOf | Hesse",
+    "Arheilgen | municipality | Darmstadt",
+    "Arheilgen | established | 1937"
+  ],
+  [
+    "Darmstadt_Arheilgen | location | Darmstadt",
+    "Darmstadt | country | Germany"
+  ],
+  [
+    "Abdool_Raouf_Bundhun | birthDate | 1937-01-14",
+    "Abdool_Raouf_Bundhun | office | \"Vice-President of Mauritius\"",
+    "Abdool_Raouf_Bundhun | birthYear | 1937"
+  ],
+  [
+    "Mauritius | leader | Raouf_Bundhun"
+  ],
+  [
+    "California | numberOfUnited_States_Representatives | 53",
+    "United_States_House_of_Representatives | location | United_States"
+  ],
+  [
+    "California_State_Senate | location | California"
+  ],
+  [
+    "Andrew_Michael_Edgar_Seeley | occupation | Actor",
+    "Andrew_Michael_Edgar_Seeley | birthDate | 1982-04-30",
+    "Andrew_Michael_Edgar_Seeley | birthPlace | Canada",
+    "Andrew_Michael_Edgar_Seeley | background | \"solo_singer\"",
+    "Andrew_Michael_Edgar_Seeley | birthYear | 1982"
+  ],
+  [
+    "Drew_Seeley | birthPlace | Toronto",
+    "Drew_Seeley | birthYear | 1982",
+    "Drew_Seeley | birthPlace | Ontario"
+  ],
+  [
+    "Henry_FitzJames | birthDate | 1673-08-1673",
+    "Henry_FitzJames | birthPlace | England",
+    "Henry_FitzJames | birthYear | 1673",
+    "Henry_FitzJames | birthPlace | Scotland",
+    "Henry_FitzJames | birthName | \"Arabella Churchill, sister of the First Duke of Marlborough\"",
+    "Henry_FitzJames | birthPlace | Jacobite_peerage",
+    "Henry_FitzJames | deathDate | 1702-12-16"
+  ],
+  [
+    "Henry_FitzJames | birthPlace | Middlesex",
+    "Henry_FitzJames | title | 1st_Duke_of_Albemarle"
+  ],
+  [
+    "TT_Games_Limited | parentCompany | Warner_Bros._Interactive_Entertainment",
+    "TT_Games_Limited | type | Holding_company",
+    "Warner_Bros._Interactive_Entertainment | country | United_Kingdom"
+  ],
+  [
+    "TT_Games | parentCompany | Warner_Bros._Interactive_Entertainment"
+  ],
+  [
+    "Michael_Thorpe | nationality | United_States",
+    "Michael_Thorpe | birthDate | 1944-03-12",
+    "Michael_Thorpe | birthPlace | England",
+    "Michael_Thorpe | almaMater | Arizona_State_University",
+    "Michael_Thorpe | title | Foundation_Professor_of_Physics"
+  ],
+  [
+    "Michael_Thorpe | nationality | United_States",
+    "United_States | language | English_language"
+  ],
+  [
+    "Bangladesh | musicFusionGenre | Hard_rock",
+    "Stentorian | genre | Heavy_metal",
+    "Bangladesh | musicFusionGenre | Heavy_metal",
+    "Stentorian | associatedBand/associatedMusicalArtist | \"Rockstrata, Warfaze, Aurthohin, Kronic\"",
+    "Stentorian | origin | Bangladesh"
+  ],
+  [
+    "Tanim_Sufyani | birthPlace | Bangladesh",
+    "Tanim_Sufyani | party | Aurthohin",
+    "Tanim_Sufyani | formerParty | Stentorian"
+  ],
+  [
+    "Invercarron_Battle | location | Sutherland",
+    "Battle_of_Carbisdale | isPartOfMilitaryConflict | Wars_of_the_Three_Kingdoms",
+    "Battle_of_Carbisdale | location | Culrain,_Sutherland",
+    "Battle_of_Carbisdale | alternativeName | \"Invercarron\"",
+    "Battle_of_Carbisdale | tookPlace | 1650-04-27"
+  ],
+  [
+    "Battle_of_Carbisdale | location | \"Culrain, Sutherland, Scotland\"",
+    "Battle_of_Carbisdale | isPartOfMilitaryConflict | Scottish_Royalists",
+    "Battle_of_Carbisdale | country | United_Kingdom"
+  ],
+  [
+    "ANT1_(satellite) | country | Greece",
+    "ANT1_(satellite) | owner | ANT1_Group",
+    "ANT1_(satellite) | established | 1996",
+    "ANT1_(satellite) | type | Subscription_TV",
+    "ANT1_(satellite) | location | North_America",
+    "ANT1_(satellite) | antonym | \"Antenna\""
+  ],
+  [
+    "ANT1_Satellite | country | Greece"
+  ],
+  [
+    "Salband | country | Iran",
+    "Salband | populationTotal | 142",
+    "Salband | region | \"Chaybasar-e Shomali Rural District, Bazargan District, Maku County, West Azerbaijan Province\"",
+    "Salband | alternativeName | \"Qeshlq-e Dmn\"",
+    "Salband | populationDensity | 142",
+    "Salband | areaTotal | 142",
+    "Salband | latinName | \"Slband\""
+  ],
+  [
+    "Salband | populationTotal | 142",
+    "Salband | country | Iran",
+    "Salband | isPartOf | Iran"
+  ],
+  [
+    "Scandinavian_Masters_(golf) | location | Sweden",
+    "Scandinavian_Masters_(golf) | season | May-June",
+    "Scandinavian_Masters_(golf) | isPartOfMembersOfMembersOfMembersOfMembersOfMembersOfMembersOfMembersOfMembersOfMembersOfMembersOfMembersOfMembersOfMembersOfPlace | European_Tour"
+  ],
+  [
+    "Scandinavian_Masters | country | Sweden"
+  ],
+  [
+    "Major_Elton | birthPlace | Whitestaunton,_Suffolk",
+    "Major_Elton | birthPlace | Somerset",
+    "Sir_Charles_Abdul_Elton | spouse | Reverend_William_Tierney_Elton",
+    "Lucy_Caroline_Elton | birthPlace | Whitestaunton",
+    "Sir_Charles_Abdul_Elton | birthName | \"Charles Abraham Elton, 6th Baronet\""
+  ],
+  [
+    "Frederick_Cockayne_Elton | birthPlace | Whitestaunton",
+    "Frederick_Cockayne_Elton | deathPlace | Somerset"
+  ],
+  [
+    "Alessandro_Nora | birthDate | 1987-05-24",
+    "Alessandro_Nora | club | A.N._Brescia",
+    "Alessandro_Nora | birthYear | 1987",
+    "Alessandro_Nora | club | Italy_national_water_polo"
+  ],
+  [
+    "Alessandro_Nora | nationality | Italy"
+  ],
+  [
+    "Tazeh_Kand-e_Afshar | populationTotal | 304",
+    "Tazeh_Kand-e_Afshar | country | Iran",
+    "Tazeh_Kand-e_Afshar | region | Central_District,_Urmia_County,_Azerbaijan",
+    "Tazeh_Kand-e_Afshar | alternativeName | \"Tzehkand-e Gardbd\"",
+    "Tazeh_Kand-e_Afshar | isPartOf | Nazluy-y-y-y-ye_Azerbaijan",
+    "Tazeh_Kand-e_e_Afshar | isPartOf | West_Azerbaijan",
+    "Tazeh_Kand-e_Azerbaijan | censusNumber | 304"
+  ],
+  [
+    "Tazeh_Kand-e_Afshar | populationTotal | 304",
+    "Tazeh_Kand-e_Afshar | country | Iran",
+    "Tazeh_Kand-e_Afshar | isPartOf | Iran"
+  ],
+  [
+    "Suho_Memorial_Paper_Museum | location | Taipei",
+    "Suho_Memorial_Paper_Museum | location | Zhongshan_District",
+    "Suho_Memorial_Paper_Museum | country | Taiwan",
+    "Suho_Memorial_Paper_Museum | language | Chinese_language"
+  ],
+  [
+    "Suho_Paper_Memorial_Museum | location | Taipei",
+    "Taipei | country | Taiwan"
+  ],
+  [
+    "Cuando_Cubango | country | Angola",
+    "Cuando_Cubango | populationTotal | 5340002",
+    "Cuando_Cubango | areaTotal | 199049.00 (square kilometres)",
+    "Cuando_Cubango | city | Menongue",
+    "Cuando_Cubango | alternativeName | \"Umbundu: Kwando Kubango Volupale\""
+  ],
+  [
+    "Cuando_Cubango_Province | country | Angola",
+    "Menongue | isPartOf | Cuando_Cubango_Province"
+  ],
+  [
+    "Calai_(municipality) | isPartOf | Cuangar_Province",
+    "Calai_(municipality) | isPartOf | \"Calai, Cuangar, Cuchi, Cuito, Cuanavale, Dirico, Longa, Mavinga, Menongue, Nancova, Rivungo\""
+  ],
+  [
+    "Cuando_Cubango | country | Angola",
+    "Calai_(municipality) | isPartOf | Cuando_Cubango",
+    "Cuando_Cubango | municipality | \"Calai, Cuangar, Cuchi, Dirico, Mavinga, Menongue, Rivungo\"",
+    "Cuando_Cubango | region | Cuando_Cubango"
+  ],
+  [
+    "Goli_Jan_Rural_District | isPartOf | Central_District,_Tonekabon_County,_Iran",
+    "Lij_Kuh | alternativeName | \"Lch Kh\"",
+    "Lij_Kuh | country | Iran",
+    "Lij_Kuh | region | Goli_Jan_Rural_District",
+    "Goli_Jan_Rural_District | isPartOf | Mazandaran_Province",
+    "Lij_Kuh | language | \"Romanization\""
+  ],
+  [
+    "Lij_Kuh | country | Iran"
+  ],
+  [
+    "Jaime_Boreanaz | birthDate | 1975-09-23",
+    "Jaime_Boreanaz | birthName | \"Bergman\"",
+    "Jaime_Boreanaz | occupation | Model_and_actress",
+    "Jaime_Boreanaz | birthYear | 1975",
+    "Jaime_Boreanaz | nationality | United_States",
+    "Jaime_Boreanaz | selectedByNasa | \"Playmate of the Month\""
+  ],
+  [
+    "Jaime_Bergman | birthPlace | Utah",
+    "Jaime_Bergman | birthYear | 1975",
+    "Jaime_Bergman | alternativeName | \"Jaime Boreanaz\"",
+    "Jaime_Bergman | nationality | United_States"
+  ],
+  [
+    "California_Bowl | region | \"Eastern Michigan, Northern Illinois, Ball State, Central Michigan, Miami, Western Michigan\"",
+    "California_Bowl | location | Toledo,_Michigan",
+    "Toledo,_Michigan | isPartOf | Eastern_Michigan"
+  ],
+  [
+    "California_Bowl | location | Central_Michigan",
+    "California_Bowl | participants | Toledo,_United_States",
+    "California_Bowl | location | California",
+    "Toledo,_United_States | competeIn | California_Bowl",
+    "California_Bowl | hostSchool | University_of_California_Fullerton",
+    "San_José_County,_California | isPartOf | San_Jose_County,_California"
+  ],
+  [
+    "Zhao_Jiande | deathYear | 111",
+    "Zhao_Jiande | birthPlace | Chinese_language",
+    "Nanyue | leader | Zhao_Jiande"
+  ],
+  [
+    "Nanyue | leader | Zhao_Jiande"
+  ],
+  [
+    "Johann_Puch | birthDate | 1862-06-27",
+    "Johann_Puch | birthPlace | Slovenia",
+    "Johann_Puch | deathDate | 1913-07-19",
+    "Johann_Puch | occupation | Mechanical_engineer",
+    "Johann_Puch | birthYear | 1862",
+    "Puch | product | Automobile",
+    "Puch | industry | Automotive"
+  ],
+  [
+    "Johann_Puch | birthPlace | Sakuak",
+    "Johann_Puch | birthYear | 1862",
+    "Johann_Puch | deathPlace | Austria-Hungary",
+    "Johann_Puch | birthPlace | Austria"
+  ],
+  [
+    "Austrian_Regular_Soldiers | battle | Battle_of_Bergisel",
+    "Battle_of_Bergisel | location | Bergisel",
+    "Battle_of_Bergisel | isPartOfMilitaryConflict | Tyrolese_military_forces",
+    "Napoleon_I_of_France | inOfficeWhileMonarch | Napoleon_I_of_France",
+    "Battle_of_Bergisel | commander | Napoleon_I_of_France",
+    "Battle_of_Bavaria | isPartOf | Austrian_Regular_Solder_Army"
+  ],
+  [
+    "Battles_of_Bergisel | location | Bergisel",
+    "Battles_of_Bergisel | numberOfMilitaryConflict | 5000_Tyroleans",
+    "Bergisel | nearMunicipality | Innsbruck"
+  ],
+  [
+    "Oliver_Fix | birthPlace | Augsburg",
+    "Oliver_Fix | birthDate | 1973-06-21",
+    "Oliver_Fix | nationality | Germany",
+    "Oliver_Fix | birthYear | 1973",
+    "Oliver_Fix | activeYearsStartYear | 1990",
+    "Oliver_Fix | sport | Slalom_canoe"
+  ],
+  [
+    "Oliver_Fix | birthPlace | Augsburg"
+  ],
+  [
+    "Chekmagushevsky_District | administrativeName | \"Administrative and municipal district (raion)\"",
+    "Chekmagushevsky_District | country | Russia",
+    "Chekmagushevsky_District | isPartOf | Republic_of_Bashkortostan"
+  ],
+  [
+    "Chekmagushevsky_District | country | Russia"
+  ],
+  [
+    "Tinayguk_River | country | United_States",
+    "Tinayguk_River | tributary | North_Fork_Koyukuk_River",
+    "Tinayguk_River | length | 710.0 (kilometres)",
+    "Tinayguk_River | state | Alaska"
+  ],
+  [
+    "Tinayguk_River | state | Alaska"
+  ],
+  [
+    "Richard_Pankhurst | birthPlace | Stoke_on_Tees",
+    "Richard_Pankhurst | spouse | Margaret_Marsden",
+    "Richard_Pankhurst | birthYear | 1806",
+    "Richard_Pankhurst | birthPlace | London",
+    "Henry_Francis_Pankhurst | deathDate | 1873-07-05"
+  ],
+  [
+    "Richard_Pankhurst | deathPlace | Manchester",
+    "Richard_Pankhurst | deathYear | 1898"
+  ],
+  [
+    "FC_Kara-Shoro_Uzgen | ground | \"Uzgen, Kyrgyzstan\"",
+    "FC_Kara-Shoro_Uzgen | league | Kyrgyzstan_League",
+    "FC_Kara-Shoro_Uzgen | league | Top_División_(Kyrgyzstan)",
+    "FC_Kara-Shoro_Uzgen | country | Kyrgyzstan"
+  ],
+  [
+    "FC_Kara-Shoro_Uzgen | ground | \"Uzgen, Kyrgyzstan\""
+  ],
+  [
+    "Safina_Party_(Kenya) | chairman | Safina_Party_(Kenya)",
+    "Safina_Party_(Kenya) | foundingDate | 1991-01-01",
+    "Safina_Party_(Kenya) | chairman | Forum_for_the_Restoration_of_Democracy_(Kenya)"
+  ],
+  [
+    "Safina_Party_(Kenya) | foundingPresident | Paul_Muite"
+  ],
+  [
+    "St._Peter's_Club | ground | Cardiff",
+    "John_Peter_(footballer) | club | St._Peter's_Club"
+  ],
+  [
+    "Maurice_Turnbull | birthPlace | Cardiff",
+    "Maurice_Turnbull | birthName | \"Maurice Joseph Lawson Turnbull\"",
+    "Maurice_Turnbull | office | Prime_Minister_of_Wales"
+  ],
+  [
+    "David_John_Magley | birthDate | 1959-11-24",
+    "David_John_Magley | birthYear | 1959",
+    "David_John_Magley | occupation | Basketball_coach",
+    "David_John_Magley | nationality | United_States"
+  ],
+  [
+    "Dave_Magley | birthName | \"David John Magley\"",
+    "Dave_Magley | nationality | United_States",
+    "Dave_Magley | almaMater | LaSalle_High_School"
+  ],
+  [
+    "Sledgeback_(footballer) | manager | Lars_Lundgren",
+    "Lars_Lundgren | newAppointment | Queensrche",
+    "Lars_Lundgren | club | Sledgeback_(footballer)",
+    "Lars_Lundgren | departureDate | \"February 2009\""
+  ],
+  [
+    "Parker_Lundgren | club | Queensrche",
+    "Parker_Lundgren | departurePlace | Sledgeback"
+  ],
+  [
+    "Qabed,_Iran | populationTotal | 54",
+    "Qabed,_Iran | isPartOf | Central_District,_Nishapur_County,_Iran",
+    "Qabed,_Iran | isPartOf | Rivand_Rural_District",
+    "Qabed,_Iran | country | Iran",
+    "Qabed,_Iran | isPartOf | Razavi_Khorasan_Province",
+    "Qabed,_Iran | alternativeName | \"Qobeyd\""
+  ],
+  [
+    "Qabed | populationTotal | 54",
+    "Qabed | country | Iran",
+    "Qabed | isPartOf | Iran"
+  ],
+  [
+    "Cagthorpe | isPartOf | Lincolnshire",
+    "Cagthorpe | isPartOf | Horncastle",
+    "Horncastle | country | England"
+  ],
+  [
+    "Cagthorpe | isPartOf | Lincolnshire",
+    "Cagthorpe | country | England"
+  ],
+  [
+    "Joseph_S._Chandler | activeYearsEndDate | 1862-09-18",
+    "Joseph_S._Chandler | birthDate | 1861-12-01",
+    "Joseph_S._Chandler | militaryBranch | 114th_Pennsylvania_Infantry_(United_States_Army)"
+  ],
+  [
+    "75th_Pennsylvania_Infantry_Regiment | established | 1861",
+    "75th_Pennsylvania_Infantry_Regiment | militaryBranch | Infantry"
+  ],
+  [
+    "Old_Killingly_High_School | location | Killingly,_Connecticut",
+    "Old_Killingly_High_School | yearOfConstruction | 1908",
+    "Old_Killingly_High_School | location | 185_Broad_Street",
+    "Old_Killingly_High_School | state | Connecticut",
+    "Old_Killingly_High_School | city | Killingly,_Connecticut",
+    "Killingly,_Connecticut | isPartOf | Danielson_section"
+  ],
+  [
+    "Old_Killingly_High_School | yearOfConstruction | 1908"
+  ],
+  [
+    "Syria | uprising | 2011–12_Syrian_Uprising",
+    "Future_Motion_(Lebanon) | country | Syria",
+    "Syrian_Uprising | ground | Lebanon"
+  ],
+  [
+    "Rifaat_Eid | birthPlace | Tripoli",
+    "Rifaat_Eid | country | Lebanon"
+  ],
+  [
+    "Abbots_Bromley_School | formerName | \"School of S. Mary and S. Anne, Abbots Bromley\"",
+    "Abbots_Bromley_School | country | England",
+    "Abbots_Bromley_School | city | Abbots_Bromley",
+    "Abbots_Bromley_School | state | England",
+    "Abbots_Bromley_School | city | Staffordshire",
+    "Abbots_Bromley_School | type | Day_school"
+  ],
+  [
+    "Abbots_Bromley_School | established | 1874",
+    "Abbots_Bromley_School | country | England",
+    "Abbots_Bromley_School | state | Staffordshire"
+  ],
+  [
+    "Isaac_Carasso | deathDate | 1939-04-19",
+    "Isaac_Carasso | birthPlace | Greece",
+    "Ottoman_Salonica | country | Greece",
+    "Isaac_Carasso | birthPlace | Ottoman_Salonica",
+    "Isaac_Carasso | birthYear | 1874",
+    "Isaac_Carasso | family | Karasu",
+    "Ottoman_Salonica | isPartOf | Modern_Greece"
+  ],
+  [
+    "Isaac_Carasso | birthPlace | Thessaloniki",
+    "Isaac_Carasso | deathPlace | Paris"
+  ],
+  [
+    "Kahriz-e_Kalan | populationTotal | 95",
+    "Kahriz-e_Kalan | region | Central_District,_Kangavar_County,_Iran",
+    "Kahriz-e_Kalan | country | Iran",
+    "Kahriz-e_Kalan | region | Khezel-e_Gharbi_Rural_District",
+    "Kahriz-e_Kalan | alternativeName | \"Kahrz-e Kaln\"",
+    "Kahriz-e_Kalan | isPartOf | Kermanshah_Province"
+  ],
+  [
+    "Kahriz-e_Kalan | populationTotal | 95",
+    "Kahriz-e_Kalan | country | Iran",
+    "Kahriz-e_Kalan | numberOfFamilies | 20",
+    "Kahriz-e_Kalan | location | Iran"
+  ],
+  [
+    "Lina_Dorado | country | Colombia",
+    "Lina_Dorado | curatedBy | Luis_Cantillo",
+    "Lina_Dorado | publisher | Villegas_Editores",
+    "Villegas_Editores | location | Bogotá"
+  ],
+  [
+    "Lina_Dorado | birthPlace | Bogotá",
+    "Lina_Dorado | birthYear | 1975"
+  ],
+  [
+    "Behtarabad | populationTotal | 157",
+    "Behtarabad | region | Gonbaki_Rural_District",
+    "Behtarabad | country | Iran",
+    "Behtarabad | populationDensity | 35",
+    "Behtarabad | location | Kerman_Province",
+    "Behtarabad | areaTotal | 35",
+    "Behtarabad | alternativeName | \"Behtarbd\""
+  ],
+  [
+    "Behtarabad | populationTotal | 157",
+    "Behtarabad | country | Iran",
+    "Behtarabad | isPartOf | Iran"
+  ],
+  [
+    "Bologna | deathPlace | Bologna",
+    "Alfonso_Rodrguez | deathPlace | \"Bologna, Italy\"",
+    "Alfonso_Rodrguez | residence | So_Paulo",
+    "Alfonso_Rodrguez | residence | Portugal",
+    "Alfonso_Rodrguez | nationality | Argentina"
+  ],
+  [
+    "Dino_Grandi | deathPlace | Bologna",
+    "Dino_Grandi | birthPlace | Italy"
+  ],
+  [
+    "Dino_Grandi | office | \"Minister of Justice, Minister of Foreign Affairs\"",
+    "Dino_Grandi | birthDate | 1895-06-04",
+    "Dino_Grandi | deathDate | 1888-05-21",
+    "Dino_Grandi | birthPlace | Italy",
+    "Dino_Grandi | party | Fascist_Party_(Italy)",
+    "Dino_Grandi | successor | Conte_di_Mordano"
+  ],
+  [
+    "Dino_Grandi | birthPlace | Mordano",
+    "Dino_Grandi | office | \"Minister of Foreign Affairs\"",
+    "Dino_Grandi | birthPlace | Italy"
+  ],
+  [
+    "Moto_Racer | console | PlayStation",
+    "Moto_Racer | releasePlace | \"PC\""
+  ],
+  [
+    "Moto_Racer | mediaType | \"Playstation Portable or Microsoft Windows\""
+  ],
+  [
+    "Solar_Entertainment_Corporation | parentCompany | Tieng_Family",
+    "Solar_Entertainment_Corporation | fullName | \"Solar Entertainment Corporation\"",
+    "Solar_Entertainment_Corporation | type | Media_company",
+    "Solar_Entertainment_Corporation | keyPerson | \"William, Wilson, Willy Tieng\"",
+    "Tieng_Family | numberOfSize | \"Wilson, William Tieng\""
+  ],
+  [
+    "Solar_Entertainment_Corporation | founder | Tieng_Familiy",
+    "Solar_Entertainment_Corporation | parentCompany | Tieng_Familiy"
+  ],
+  [
+    "Kazumi_Saeki | nationality | Japan",
+    "Kazumi_Saeki | birthPlace | Sendai",
+    "Sendai | isPartOf | Miyagi_Prefecture"
+  ],
+  [
+    "Kazumi_Saeki | origin | Sendai"
+  ],
+  [
+    "Robin_Simon | instrument | Guitar",
+    "Robin_Simon | associatedBand/associatedMusicalArtist | Billy_Currie",
+    "Robin_Simon | associatedBand/associatedMusicalArtist | Ultravox",
+    "Robin_Simon | activeYearsStartYear | 1970",
+    "Robin_Simon | origin | Halifax",
+    "Robin_Simon | genre | Rock_music"
+  ],
+  [
+    "Robin_Simon | associatedBand/associatedMusicalArtist | Ultravox"
+  ],
+  [
+    "Edmon_Colomer | birthPlace | Spain",
+    "Edmon_Colomer | birthPlace | Barcelona",
+    "Edmon_Colomer | instrument | Singing"
+  ],
+  [
+    "Edmon_Colomer | club | Barcelona"
+  ],
+  [
+    "Russell_Sage | birthPlace | New_York",
+    "Russell_Sage | deathDate | 1906-07-22",
+    "Russell_Sage | nationality | United_States",
+    "Russell_Sage | birthDate | 1816-04-04",
+    "Russell_Sage | occupation | Railroad_executive",
+    "Russell_Sage | party | Whig_Party_(United_States)"
+  ],
+  [
+    "Russell_Sage | birthPlace | New_York"
+  ],
+  [
+    "Zimchung,_Sikkim | country | India",
+    "Zimchung,_Sikkim | isPartOf | Sikkim",
+    "Zimchung,_Sikkim | isPartOf | Mangan_Subdivision"
+  ],
+  [
+    "Zimchung,_Sikkim | country | India"
+  ],
+  [
+    "United_States_national_football_team | coach | Dawn_Staley",
+    "United_States_national_football_team | season | 2006"
+  ],
+  [
+    "South_Carolina_Gamecocks | coach | Dawn_Staley",
+    "Dawn_Staley | birthPlace | Philadelphia",
+    "South_Carolina_Gamecocks | season | 1996",
+    "Dawn_Staley | nationality | United_States",
+    "Dawn_Staley | office | \"Coach of the South Carolina Gamecocks\"",
+    "Dawn_Staley | tenure | 2006"
+  ],
+  [
+    "Abingdon_Glebe_House | location | Gloucester,_Virginia",
+    "Abingdon_Glebe_House | architecturalStyle | \"T-shaped\" (brick)",
+    "Abingdon_Glebe_House | yearOfConstruction | 1710",
+    "Abingdon_Glebe_House | location | Gloucester_County,_Virginia",
+    "Abingdon_Glebe_House | category | Historic_home"
+  ],
+  [
+    "Abingdon_Glebe_House | buildingStartDate | \"1700\""
+  ],
+  [
+    "Feriköy_Protestant_Cemetery | location | Feriköy_District",
+    "Ernest_Mamboury | deathDate | 1953-09-23",
+    "Ernest_Mamboury | deathPlace | Istanbul",
+    "Ernest_Mamboury | burialPlace | Feriköy_Protestant_Cemetery"
+  ],
+  [
+    "Ernest_Mamboury | birthPlace | Signy-Avenex",
+    "Ernest_Mamboury | deathPlace | Istanbul"
+  ],
+  [
+    "Rahim_Mirakhori | club | Iran_national_football_team",
+    "Rahim_Mirakhori | club | Asian_Cup_1984",
+    "Rahim_Mirakhori | birthDate | 1956-04-30",
+    "Rahim_Mirakhori | position | Defender_(football)"
+  ],
+  [
+    "Rahim_Mirakhori | birthPlace | Iran"
+  ],
+  [
+    "Ertzia | family | Lepidostromataceae",
+    "Ertzia | order | Lepidostromatales",
+    "Ertzia | type | Monospecific_genus"
+  ],
+  [
+    "Ertzia | order | Lepidostromatales",
+    "Ertzia | family | Lepidostromataceae"
+  ],
+  [
+    "Nimek_(village) | country | Iran",
+    "Nimek_(village) | populationTotal | 82",
+    "Nimek_(village) | region | \"Horjand Rural District, Kuhsaran District, Kerman Province, Iran\"",
+    "Nimek_(village) | populationDensity | 82",
+    "Nimek_(village) | alternativeName | \"Nmnek\"",
+    "Nimek_(village) | isPartOf | Kerman_Province",
+    "Nimek | isPartOf | Kerman_Province"
+  ],
+  [
+    "Nimek,_Iran | populationTotal | 82",
+    "Nimek,_Iran | country | Iran",
+    "Nimek,_Iran | isPartOf | Iran"
+  ],
+  [
+    "Chew_(bishop) | office | \"Bishop of the Diocese of Singapore\""
+  ],
+  [
+    "John_Chew | birthPlace | Singapore",
+    "John_Chew | office | Bishop_of_Singapore"
+  ],
+  [
+    "Nobuaki_Katayama | birthPlace | Japan",
+    "Nobuaki_Katayama | occupation | Race_driver",
+    "Lexus_IS | successor | Toyota_Altezza",
+    "Nobuaki_Katayama | title | Chief_Engineer_of_Lexus_SC_400",
+    "Lexus_SC_400 | successor | Lexus_SC-300",
+    "Toyota_Supra | manufacturer | Toyota_Supra"
+  ],
+  [
+    "Nobuaki_Katayama | birthPlace | Japan",
+    "Nobuaki_Katayama | nationality | Japanese"
+  ],
+  [
+    "Han_Groo | activeYearsStartYear | 2011",
+    "Han_Groo | birthYear | 1992",
+    "Han_Groo | birthPlace | Namyangju"
+  ],
+  [
+    "Han_Groo | birthDate | 1992-05-29",
+    "Han_Groo | birthYear | 1992",
+    "Han_Groo | occupation | Actor",
+    "Han_Groo | birthPlace | South_Korea",
+    "Han_Groo | background | \"solo_singer\"",
+    "Han_Groo | birthName | \"Min Han-groo\""
+  ],
+  [
+    "Makoshika_State_Park | areaTotal | 450.0 (square kilometres)",
+    "Makoshika_State_Park | fullName | \"Makoshika State Park\"",
+    "Makoshika_State_Park | location | Montana",
+    "Makoshika_State_Park | antonym | \"Ma-KO-sh (ih) kuh\""
+  ],
+  [
+    "Makoshika_State_Park | state | Montana"
+  ],
+  [
+    "Ust-Bartaga | country | Russia",
+    "Ust-Bartaga | isPartOf | Bashkortostan"
+  ],
+  [
+    "Ust-Bartaga | isPartOf | Karaidelsky_District",
+    "Ust-Bartaga | country | Russia",
+    "Ust-Bartaga | isPartOf | Bashkortostan",
+    "Karaidelsky_District | country | Russia"
+  ],
+  [
+    "Prism_Liberty_Corporation | industry | Publishing",
+    "Prism_Liberty_Corporation | location | Enfield,_Middlesex",
+    "Prism_Liberty_Corporation | foundingDate | 1980",
+    "Prism_Liberty_Corporation | location | Middlesex",
+    "Prism_Liberty_Corporation | keyPerson | Geoff_Young",
+    "Prism_Liberty_Corporation | country | United_Kingdom"
+  ],
+  [
+    "Prism_Liberty_Corporation | foundingDate | 1980"
+  ],
+  [
+    "Yada_Station | openingDate | \"1905-04-02\""
+  ],
+  [
+    "Yada_Station | openingDate | \"1905-05-01\""
+  ],
+  [
+    "Adam_Roarke | birthDate | \"1937-08-23\"",
+    "Adam_Roarke | birthName | \"Richard Jordan Gerler\"",
+    "Adam_Roarke | deathDate | \"1996-04-27\"",
+    "Adam_Roarke | nationality | United_States",
+    "Adam_Roarke | occupation | Film_director"
+  ],
+  [
+    "Adam_Roarke | birthPlace | Dallas",
+    "Adam_Roarke | birthName | \"Richard Jordan Gerler\"",
+    "Adam_Roarke | birthYear | 1937",
+    "Adam_Roarke | deathYear | 1996",
+    "Richard_Jordan_Gerler | birthPlace | Texas"
+  ],
+  [
+    "Get_Silly | status | \"Gold\"",
+    "Get_Silly | releasedDate | 2008-11-13",
+    "Get_Silly | recordLabel | RIAA"
+  ],
+  [
+    "Get_Silly | status | \"Gold\""
+  ],
+  [
+    "Jan_Six_van_Chandelier | birthPlace | Amsterdam",
+    "Jan_Six_van_Chandelier | birthYear | 1620",
+    "Jan_Six_van_Chandelier | deathPlace | Amsterdam",
+    "Jan_Six_van_Chandelier | deathYear | 1695"
+  ],
+  [
+    "Jan_Six_van_Chandelier | birthPlace | Amsterdam",
+    "Jan_Six_van_Chandelier | birthName | \"Jan, Joannes, Johan Six van Chandelier\"",
+    "Jan_Six_van_Chandelier | deathPlace | \"Amsterdam, France, Spain, Italy, England\"",
+    "Jan_Six_van_Chandelier | birthYear | 1620",
+    "Jan_Six_van_Chandelier | nationality | Netherlands",
+    "Jan_Six_van_Chandelier | deathDate | 1695"
+  ],
+  [
+    "Southport_&_Cheshire_Lines_Extension_Railway | route | Southport_&_Cheshire_Lines_Extension_Railway",
+    "Lydiate_Railway | location | Carr_Lane",
+    "Lydiate_Railway | cityServed | Lydiate"
+  ],
+  [
+    "Lydiate_Railway_Station | location | Lydiate"
+  ]
+]

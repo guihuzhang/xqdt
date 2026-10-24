@@ -1,0 +1,2771 @@
+{
+  "evaluator": "repair_t2d/eval/eval_text_to_data_repair.py",
+  "reference_xmls": {
+    "genwiki": "repair_t2d/eval/data/genwiki_test_refs.xml",
+    "webnlg": "repair_t2d/eval/data/webnlg_test_refs.xml"
+  },
+  "runs": [
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_12b__bt5__g_bridge_recover_guard",
+      "repair_model": "gemma3_12b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_12b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_12b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_12b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5278361824895359,
+          "Recall": 0.5409100967691773,
+          "F1": 0.5328955483713442
+        },
+        "Partial": {
+          "Precision": 0.5243692222121009,
+          "Recall": 0.5358093802705709,
+          "F1": 0.5287457071411031
+        },
+        "Strict": {
+          "Precision": 0.4891496513199603,
+          "Recall": 0.49856431143168145,
+          "F1": 0.4927670999072657
+        },
+        "Exact": {
+          "Precision": 0.5042888242963601,
+          "Recall": 0.5138326694656762,
+          "F1": 0.5079256107703733
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__bt5__g_bridge_recover_guard",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_27b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_27b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_27b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5311505998138225,
+          "Recall": 0.545638016152611,
+          "F1": 0.5367506446894177
+        },
+        "Partial": {
+          "Precision": 0.5263514078672905,
+          "Recall": 0.5389558918685743,
+          "F1": 0.5311946177086087
+        },
+        "Strict": {
+          "Precision": 0.49107734353597166,
+          "Recall": 0.5009535193040477,
+          "F1": 0.4948756627202818
+        },
+        "Exact": {
+          "Precision": 0.5053582647620363,
+          "Recall": 0.5155567737915498,
+          "F1": 0.5092660436305418
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_4b__bt5__g_bridge_recover_guard",
+      "repair_model": "gemma3_4b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_4b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_4b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_4b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4938652615216302,
+          "Recall": 0.5080732715133829,
+          "F1": 0.499368334244115
+        },
+        "Partial": {
+          "Precision": 0.49495340026170614,
+          "Recall": 0.5071566741831366,
+          "F1": 0.49957912357038364
+        },
+        "Strict": {
+          "Precision": 0.45242185995541273,
+          "Recall": 0.46207458589074185,
+          "F1": 0.4561199470781157
+        },
+        "Exact": {
+          "Precision": 0.47284305267338944,
+          "Recall": 0.48268981096279145,
+          "F1": 0.4765484845236195
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_1_8b__bt5__g_bridge_recover_guard",
+      "repair_model": "llama3_1_8b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_llama3_1_8b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/llama3_1_8b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/llama3_1_8b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5010152636919422,
+          "Recall": 0.5142370284659532,
+          "F1": 0.5061579502714546
+        },
+        "Partial": {
+          "Precision": 0.4964779310374969,
+          "Recall": 0.5082448393213158,
+          "F1": 0.5009993320972344
+        },
+        "Strict": {
+          "Precision": 0.4596889698164307,
+          "Recall": 0.4692937068820461,
+          "F1": 0.4633939080998647
+        },
+        "Exact": {
+          "Precision": 0.47421145725663644,
+          "Recall": 0.48403373716977954,
+          "F1": 0.4779690730677852
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_3_70b_awq__bt5__g_bridge_recover_guard",
+      "repair_model": "llama3_3_70b_awq",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_llama3_3_70b_awq_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/llama3_3_70b_awq__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/llama3_3_70b_awq__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5164796823300999,
+          "Recall": 0.5285901097973991,
+          "F1": 0.5211552356051207
+        },
+        "Partial": {
+          "Precision": 0.5124959558425769,
+          "Recall": 0.5231413686709814,
+          "F1": 0.516584577321289
+        },
+        "Strict": {
+          "Precision": 0.47879680852346,
+          "Recall": 0.48738324233768426,
+          "F1": 0.48210379710000056
+        },
+        "Exact": {
+          "Precision": 0.4926546624724301,
+          "Recall": 0.5014598474165672,
+          "F1": 0.4960357915938781
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_14b__bt5__g_bridge_recover_guard",
+      "repair_model": "qwen3_14b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_14b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_14b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_14b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.4927228544047418,
+          "Recall": 0.5064309471463201,
+          "F1": 0.4980141459455855
+        },
+        "Partial": {
+          "Precision": 0.48837966989603215,
+          "Recall": 0.50036828658404,
+          "F1": 0.49292866226691795
+        },
+        "Strict": {
+          "Precision": 0.4527718384834062,
+          "Recall": 0.46257469417667285,
+          "F1": 0.4565173763042865
+        },
+        "Exact": {
+          "Precision": 0.4670648007215739,
+          "Recall": 0.47696671176503747,
+          "F1": 0.4707976434653496
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_32b__bt5__g_bridge_recover_guard",
+      "repair_model": "qwen3_32b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_32b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_32b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_32b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.48958056976697606,
+          "Recall": 0.5036084797497428,
+          "F1": 0.4950159365245419
+        },
+        "Partial": {
+          "Precision": 0.4845817098194729,
+          "Recall": 0.4965645367116328,
+          "F1": 0.4891683301198177
+        },
+        "Strict": {
+          "Precision": 0.4504872857015895,
+          "Recall": 0.460067554532429,
+          "F1": 0.4541673187184219
+        },
+        "Exact": {
+          "Precision": 0.4640773730172665,
+          "Recall": 0.47377116430502175,
+          "F1": 0.46776768966091814
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_4b__bt5__g_bridge_recover_guard",
+      "repair_model": "qwen3_4b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_4b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_4b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_4b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.46971146739782643,
+          "Recall": 0.48614783557101,
+          "F1": 0.4761229906877671
+        },
+        "Partial": {
+          "Precision": 0.4639455899914825,
+          "Recall": 0.47774804605750343,
+          "F1": 0.46924491744071845
+        },
+        "Strict": {
+          "Precision": 0.42672001271773075,
+          "Recall": 0.43770948034386165,
+          "F1": 0.43095752075848426
+        },
+        "Exact": {
+          "Precision": 0.44122184793457614,
+          "Recall": 0.45219139379889883,
+          "F1": 0.4453991755652506
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_8b__bt5__g_bridge_recover_guard",
+      "repair_model": "qwen3_8b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_8b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_8b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_8b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.482272361966602,
+          "Recall": 0.4960988220947622,
+          "F1": 0.4875878579745917
+        },
+        "Partial": {
+          "Precision": 0.477653474059843,
+          "Recall": 0.48989817063592755,
+          "F1": 0.48225746649295465
+        },
+        "Strict": {
+          "Precision": 0.44460090362145677,
+          "Recall": 0.4548850350360119,
+          "F1": 0.448513457559385
+        },
+        "Exact": {
+          "Precision": 0.45796529022867516,
+          "Recall": 0.4682995660349124,
+          "F1": 0.4618476550092891
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_12b__regen__g_bridge_recover_guard",
+      "repair_model": "gemma3_12b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_12b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_12b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_12b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5437450872405624,
+          "Recall": 0.5674956307309248,
+          "F1": 0.5527946050896582
+        },
+        "Partial": {
+          "Precision": 0.537225246472984,
+          "Recall": 0.5574439177380354,
+          "F1": 0.5448088817036989
+        },
+        "Strict": {
+          "Precision": 0.49807175395410686,
+          "Recall": 0.514232445114798,
+          "F1": 0.504175534398008
+        },
+        "Exact": {
+          "Precision": 0.513436817358386,
+          "Recall": 0.5298247504129857,
+          "F1": 0.519535853950794
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__regen__g_bridge_recover_guard",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_27b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_27b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_27b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5433319581637432,
+          "Recall": 0.56639069218783,
+          "F1": 0.5522208675355266
+        },
+        "Partial": {
+          "Precision": 0.5367446558100588,
+          "Recall": 0.5568259846410738,
+          "F1": 0.5443453562431277
+        },
+        "Strict": {
+          "Precision": 0.501067252272374,
+          "Recall": 0.5172252908193155,
+          "F1": 0.5072355427929116
+        },
+        "Exact": {
+          "Precision": 0.5146356321726645,
+          "Recall": 0.5311134822997741,
+          "F1": 0.5208441912371111
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_4b__regen__g_bridge_recover_guard",
+      "repair_model": "gemma3_4b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_4b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_4b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_4b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5218058510315595,
+          "Recall": 0.546260081292976,
+          "F1": 0.5311696519691896
+        },
+        "Partial": {
+          "Precision": 0.5155216255292167,
+          "Recall": 0.5365989091318039,
+          "F1": 0.5234652396182063
+        },
+        "Strict": {
+          "Precision": 0.47730385477096005,
+          "Recall": 0.4939761262129683,
+          "F1": 0.4836442778809367
+        },
+        "Exact": {
+          "Precision": 0.49205518531176423,
+          "Recall": 0.5091058977572135,
+          "F1": 0.49844389712134546
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_1_8b__regen__g_bridge_recover_guard",
+      "repair_model": "llama3_1_8b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_llama3_1_8b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/llama3_1_8b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/llama3_1_8b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5306023512352627,
+          "Recall": 0.5515547518585493,
+          "F1": 0.5386650322130462
+        },
+        "Partial": {
+          "Precision": 0.5220487645266126,
+          "Recall": 0.5404498191681736,
+          "F1": 0.5289793497520473
+        },
+        "Strict": {
+          "Precision": 0.4876939101685937,
+          "Recall": 0.5026350210970464,
+          "F1": 0.49338132191296746
+        },
+        "Exact": {
+          "Precision": 0.49911174128262736,
+          "Recall": 0.5143462929475587,
+          "F1": 0.5048195559714547
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_3_70b_awq__regen__g_bridge_recover_guard",
+      "repair_model": "llama3_3_70b_awq",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_llama3_3_70b_awq_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/llama3_3_70b_awq__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/llama3_3_70b_awq__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5447974481850333,
+          "Recall": 0.5660951099255414,
+          "F1": 0.5530012797412717
+        },
+        "Partial": {
+          "Precision": 0.5362701216410527,
+          "Recall": 0.5549070969964233,
+          "F1": 0.5433216774608101
+        },
+        "Strict": {
+          "Precision": 0.5018061094707574,
+          "Recall": 0.5169175989009448,
+          "F1": 0.5075774019165834
+        },
+        "Exact": {
+          "Precision": 0.5136010350431244,
+          "Recall": 0.5290614773960723,
+          "F1": 0.5194060994757882
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_14b__regen__g_bridge_recover_guard",
+      "repair_model": "qwen3_14b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_14b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_14b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_14b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5218943397451726,
+          "Recall": 0.5455716208744982,
+          "F1": 0.5309628386096877
+        },
+        "Partial": {
+          "Precision": 0.5118853302314937,
+          "Recall": 0.5323308033460734,
+          "F1": 0.5195760743983197
+        },
+        "Strict": {
+          "Precision": 0.4774032056338972,
+          "Recall": 0.4938856638061585,
+          "F1": 0.48367372503541106
+        },
+        "Exact": {
+          "Precision": 0.48853686136624047,
+          "Recall": 0.50531748034903,
+          "F1": 0.4948118969762079
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_32b__regen__g_bridge_recover_guard",
+      "repair_model": "qwen3_32b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_32b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_32b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_32b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5247476733127807,
+          "Recall": 0.5488811630847029,
+          "F1": 0.5339776129107708
+        },
+        "Partial": {
+          "Precision": 0.5164187329737266,
+          "Recall": 0.5372759015110469,
+          "F1": 0.5242736509418299
+        },
+        "Strict": {
+          "Precision": 0.48193709717729943,
+          "Recall": 0.49882036000240804,
+          "F1": 0.4883547783863839
+        },
+        "Exact": {
+          "Precision": 0.4937731386467164,
+          "Recall": 0.5109255914755283,
+          "F1": 0.5001943224636018
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_4b__regen__g_bridge_recover_guard",
+      "repair_model": "qwen3_4b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_4b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_4b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_4b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.515618001114715,
+          "Recall": 0.5420595799829875,
+          "F1": 0.5257338321628984
+        },
+        "Partial": {
+          "Precision": 0.5045882640138202,
+          "Recall": 0.5268840178471119,
+          "F1": 0.5129989195523412
+        },
+        "Strict": {
+          "Precision": 0.4703432381010743,
+          "Recall": 0.48779661595005375,
+          "F1": 0.47696257626177535
+        },
+        "Exact": {
+          "Precision": 0.48099613424436477,
+          "Recall": 0.4987588673824771,
+          "F1": 0.48764737090764176
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "genwiki",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_8b__regen__g_bridge_recover_guard",
+      "repair_model": "qwen3_8b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_8b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+      "num_samples": 1000,
+      "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_8b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_8b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.5218881017818803,
+          "Recall": 0.5439510722515275,
+          "F1": 0.5303894097259844
+        },
+        "Partial": {
+          "Precision": 0.5138631225600118,
+          "Recall": 0.5330081151496174,
+          "F1": 0.5211213880835114
+        },
+        "Strict": {
+          "Precision": 0.4797551076192958,
+          "Recall": 0.49534718709604897,
+          "F1": 0.48571231921004304
+        },
+        "Exact": {
+          "Precision": 0.4915552026515608,
+          "Recall": 0.5074259740989635,
+          "F1": 0.497532395104474
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_12b__bt5__g_bridge_recover_guard",
+      "repair_model": "gemma3_12b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_12b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_12b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_12b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7611214430410859,
+          "Recall": 0.787567754665969,
+          "F1": 0.7718120741567863
+        },
+        "Partial": {
+          "Precision": 0.749120775058275,
+          "Recall": 0.7708747329059829,
+          "F1": 0.7578178837436516
+        },
+        "Strict": {
+          "Precision": 0.7036651096918954,
+          "Recall": 0.7189687990580848,
+          "F1": 0.7097771179583919
+        },
+        "Exact": {
+          "Precision": 0.718625536170179,
+          "Recall": 0.7345113814756672,
+          "F1": 0.7249177869658192
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__bt5__g_bridge_recover_guard",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_27b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_27b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_27b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7663854752626346,
+          "Recall": 0.794858352810094,
+          "F1": 0.7777606196176509
+        },
+        "Partial": {
+          "Precision": 0.7488227712710164,
+          "Recall": 0.7719759336876145,
+          "F1": 0.7579914303810583
+        },
+        "Strict": {
+          "Precision": 0.706621094607796,
+          "Recall": 0.7231844177210232,
+          "F1": 0.7131513511229313
+        },
+        "Exact": {
+          "Precision": 0.71731889580121,
+          "Recall": 0.7342780106284357,
+          "F1": 0.7239752825459853
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_4b__bt5__g_bridge_recover_guard",
+      "repair_model": "gemma3_4b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_4b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_4b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_4b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7393000128079427,
+          "Recall": 0.7679050622289354,
+          "F1": 0.7507824356719832
+        },
+        "Partial": {
+          "Precision": 0.7325410652153139,
+          "Recall": 0.7558260405349303,
+          "F1": 0.7417612002891519
+        },
+        "Strict": {
+          "Precision": 0.681439363826676,
+          "Recall": 0.6981538344330498,
+          "F1": 0.6880427288276154
+        },
+        "Exact": {
+          "Precision": 0.7009917924776021,
+          "Recall": 0.718031871902907,
+          "F1": 0.707666649703623
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_1_8b__bt5__g_bridge_recover_guard",
+      "repair_model": "llama3_1_8b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_llama3_1_8b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/llama3_1_8b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/llama3_1_8b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7498250603722066,
+          "Recall": 0.7783013492394134,
+          "F1": 0.7611566262746783
+        },
+        "Partial": {
+          "Precision": 0.7321352072914356,
+          "Recall": 0.7553780835113288,
+          "F1": 0.7412622661795409
+        },
+        "Strict": {
+          "Precision": 0.6890383340216697,
+          "Recall": 0.7052548918470318,
+          "F1": 0.695408671904089
+        },
+        "Exact": {
+          "Precision": 0.6999890287003188,
+          "Recall": 0.7168157861672652,
+          "F1": 0.7065309408308295
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_3_70b_awq__bt5__g_bridge_recover_guard",
+      "repair_model": "llama3_3_70b_awq",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_llama3_3_70b_awq_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/llama3_3_70b_awq__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/llama3_3_70b_awq__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7782424682424682,
+          "Recall": 0.8066063316063316,
+          "F1": 0.7896776344549624
+        },
+        "Partial": {
+          "Precision": 0.7559799709799709,
+          "Recall": 0.778583501083501,
+          "F1": 0.7650199617298926
+        },
+        "Strict": {
+          "Precision": 0.7177365477365477,
+          "Recall": 0.7335821535821536,
+          "F1": 0.7240402349904612
+        },
+        "Exact": {
+          "Precision": 0.7244084944084944,
+          "Recall": 0.7405214005214005,
+          "F1": 0.7307930848202341
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_14b__bt5__g_bridge_recover_guard",
+      "repair_model": "qwen3_14b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_14b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_14b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_14b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7804917042942865,
+          "Recall": 0.8084854414716972,
+          "F1": 0.7916821584566771
+        },
+        "Partial": {
+          "Precision": 0.7629194906162836,
+          "Recall": 0.7853865728345112,
+          "F1": 0.7718003724201961
+        },
+        "Strict": {
+          "Precision": 0.7256803722755409,
+          "Recall": 0.7422200075365423,
+          "F1": 0.7321836881815116
+        },
+        "Exact": {
+          "Precision": 0.7341680725062649,
+          "Recall": 0.75081133522408,
+          "F1": 0.7406746881344024
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_32b__bt5__g_bridge_recover_guard",
+      "repair_model": "qwen3_32b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_32b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_32b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_32b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.768678619105051,
+          "Recall": 0.7980298507791227,
+          "F1": 0.7803750020670506
+        },
+        "Partial": {
+          "Precision": 0.7485444340786873,
+          "Recall": 0.772136181935447,
+          "F1": 0.7578654246124621
+        },
+        "Strict": {
+          "Precision": 0.7131458712168739,
+          "Recall": 0.7304498418421591,
+          "F1": 0.7199440890058574
+        },
+        "Exact": {
+          "Precision": 0.7197459068766793,
+          "Recall": 0.7372034127754554,
+          "F1": 0.726574374543368
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_4b__bt5__g_bridge_recover_guard",
+      "repair_model": "qwen3_4b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_4b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_4b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_4b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7550052487327231,
+          "Recall": 0.7818845960896141,
+          "F1": 0.7658497893500503
+        },
+        "Partial": {
+          "Precision": 0.7366740321948944,
+          "Recall": 0.7582822862071545,
+          "F1": 0.7452854666695562
+        },
+        "Strict": {
+          "Precision": 0.6994793623189797,
+          "Recall": 0.7153233241360494,
+          "F1": 0.7057797254350482
+        },
+        "Exact": {
+          "Precision": 0.707808075007271,
+          "Recall": 0.7238345523035016,
+          "F1": 0.7141386523412443
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "bt5",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_8b__bt5__g_bridge_recover_guard",
+      "repair_model": "qwen3_8b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_8b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_8b__bt5__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_8b__bt5__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7641029194077382,
+          "Recall": 0.7914036961356778,
+          "F1": 0.775113125915818
+        },
+        "Partial": {
+          "Precision": 0.7460802201393786,
+          "Recall": 0.7679741349856611,
+          "F1": 0.7548077053211681
+        },
+        "Strict": {
+          "Precision": 0.7085924664142967,
+          "Recall": 0.7246515034287566,
+          "F1": 0.7149746052280014
+        },
+        "Exact": {
+          "Precision": 0.7169631622832567,
+          "Recall": 0.7331503230371443,
+          "F1": 0.7233530642452606
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_12b__regen__g_bridge_recover_guard",
+      "repair_model": "gemma3_12b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_12b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_12b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_12b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7992310882239089,
+          "Recall": 0.8309340819488549,
+          "F1": 0.8119371594606891
+        },
+        "Partial": {
+          "Precision": 0.7754264853222468,
+          "Recall": 0.8005589962065179,
+          "F1": 0.7854158133249849
+        },
+        "Strict": {
+          "Precision": 0.741652760619349,
+          "Recall": 0.7594148921016242,
+          "F1": 0.7487058569592512
+        },
+        "Exact": {
+          "Precision": 0.7462286072495931,
+          "Recall": 0.764311573955368,
+          "F1": 0.7533605377288015
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_27b__regen__g_bridge_recover_guard",
+      "repair_model": "gemma3_27b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_27b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_27b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_27b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7989019986851461,
+          "Recall": 0.8302870168215067,
+          "F1": 0.8114621471150641
+        },
+        "Partial": {
+          "Precision": 0.7750425817546842,
+          "Recall": 0.7998936226011815,
+          "F1": 0.7849102260534319
+        },
+        "Strict": {
+          "Precision": 0.7415309593644992,
+          "Recall": 0.7592476763067428,
+          "F1": 0.7485536551004087
+        },
+        "Exact": {
+          "Precision": 0.745946359009143,
+          "Recall": 0.7638830427760622,
+          "F1": 0.7530177737528793
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "gemma3_4b__regen__g_bridge_recover_guard",
+      "repair_model": "gemma3_4b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_4b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_4b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_4b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.79035017336059,
+          "Recall": 0.8215725308641976,
+          "F1": 0.8028091422728936
+        },
+        "Partial": {
+          "Precision": 0.7704414507174924,
+          "Recall": 0.7952381779100529,
+          "F1": 0.7802298901010363
+        },
+        "Strict": {
+          "Precision": 0.7339812510020843,
+          "Recall": 0.7515311397707231,
+          "F1": 0.7409104275223019
+        },
+        "Exact": {
+          "Precision": 0.7414471901555235,
+          "Recall": 0.7592811397707231,
+          "F1": 0.7484294131662875
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_1_8b__regen__g_bridge_recover_guard",
+      "repair_model": "llama3_1_8b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_llama3_1_8b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/llama3_1_8b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/llama3_1_8b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7907456248072144,
+          "Recall": 0.8213193604995519,
+          "F1": 0.802981133184607
+        },
+        "Partial": {
+          "Precision": 0.76746244673315,
+          "Recall": 0.7914827034989332,
+          "F1": 0.7769924382765787
+        },
+        "Strict": {
+          "Precision": 0.7328988365713293,
+          "Recall": 0.7498089909658782,
+          "F1": 0.7395994111985088
+        },
+        "Exact": {
+          "Precision": 0.7380029062197185,
+          "Recall": 0.7551148586312965,
+          "F1": 0.7447433101626325
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "llama3_3_70b_awq__regen__g_bridge_recover_guard",
+      "repair_model": "llama3_3_70b_awq",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_llama3_3_70b_awq_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/llama3_3_70b_awq__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/llama3_3_70b_awq__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.8003305258692743,
+          "Recall": 0.8323398171719762,
+          "F1": 0.8131559744875261
+        },
+        "Partial": {
+          "Precision": 0.7756470607641349,
+          "Recall": 0.8009488945460764,
+          "F1": 0.7857069841287008
+        },
+        "Strict": {
+          "Precision": 0.7424410864112481,
+          "Recall": 0.7604982491223685,
+          "F1": 0.7496021425528969
+        },
+        "Exact": {
+          "Precision": 0.7462843560025492,
+          "Recall": 0.764550374185683,
+          "F1": 0.7534904217001898
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_14b__regen__g_bridge_recover_guard",
+      "repair_model": "qwen3_14b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_14b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_14b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_14b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.8028299487502196,
+          "Recall": 0.8346296917735359,
+          "F1": 0.8155450333027421
+        },
+        "Partial": {
+          "Precision": 0.7781704533241772,
+          "Recall": 0.8033732077880206,
+          "F1": 0.7881751115967289
+        },
+        "Strict": {
+          "Precision": 0.7460030235835128,
+          "Recall": 0.7641230800274603,
+          "F1": 0.7531777912656661
+        },
+        "Exact": {
+          "Precision": 0.7494542036962929,
+          "Recall": 0.7677617885162448,
+          "F1": 0.7566679955020359
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_32b__regen__g_bridge_recover_guard",
+      "repair_model": "qwen3_32b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_32b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_32b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_32b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.8009158602131239,
+          "Recall": 0.8326773320347118,
+          "F1": 0.8136399727316723
+        },
+        "Partial": {
+          "Precision": 0.7759491408796965,
+          "Recall": 0.8011671141646266,
+          "F1": 0.7859763979290989
+        },
+        "Strict": {
+          "Precision": 0.7429091415617121,
+          "Recall": 0.7610632902506866,
+          "F1": 0.7501052554040324
+        },
+        "Exact": {
+          "Precision": 0.7465796119610382,
+          "Recall": 0.7649328314336606,
+          "F1": 0.7538196909592639
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_4b__regen__g_bridge_recover_guard",
+      "repair_model": "qwen3_4b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_4b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_4b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_4b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7935863204979632,
+          "Recall": 0.8249467753546846,
+          "F1": 0.8061665418488015
+        },
+        "Partial": {
+          "Precision": 0.7691084432943531,
+          "Recall": 0.7938627594289929,
+          "F1": 0.7789684741219319
+        },
+        "Strict": {
+          "Precision": 0.7360408765276022,
+          "Recall": 0.7537102516153954,
+          "F1": 0.7430686707229173
+        },
+        "Exact": {
+          "Precision": 0.7400738780025284,
+          "Recall": 0.7579276188720325,
+          "F1": 0.747139203803406
+        }
+      }
+    },
+    {
+      "kind": "repair",
+      "dataset": "webnlg",
+      "baseline": "regen",
+      "shot_k": 0,
+      "style": "markdown",
+      "label": "qwen3_8b__regen__g_bridge_recover_guard",
+      "repair_model": "qwen3_8b",
+      "prompt_variant": "g_bridge_recover_guard",
+      "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_8b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+      "num_samples": 2155,
+      "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+      "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_8b__regen__g_bridge_recover_guard/hyps.xml",
+      "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_8b__regen__g_bridge_recover_guard/score.out",
+      "total_scores": {
+        "Ent_type": {
+          "Precision": 0.7977206736353077,
+          "Recall": 0.8290677902720586,
+          "F1": 0.8103141995741882
+        },
+        "Partial": {
+          "Precision": 0.7728585671611586,
+          "Recall": 0.7976677159222891,
+          "F1": 0.7827501755161919
+        },
+        "Strict": {
+          "Precision": 0.7394873715376764,
+          "Recall": 0.7572252358075529,
+          "F1": 0.746539192818166
+        },
+        "Exact": {
+          "Precision": 0.7434613447189666,
+          "Recall": 0.7614103799317213,
+          "F1": 0.7505613324486761
+        }
+      }
+    }
+  ],
+  "grouped": {
+    "genwiki": {
+      "bt5": {
+        "external": null,
+        "repairs": {
+          "gemma3_4b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_4b__bt5__g_bridge_recover_guard",
+              "repair_model": "gemma3_4b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_4b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_4b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_4b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4938652615216302,
+                  "Recall": 0.5080732715133829,
+                  "F1": 0.499368334244115
+                },
+                "Partial": {
+                  "Precision": 0.49495340026170614,
+                  "Recall": 0.5071566741831366,
+                  "F1": 0.49957912357038364
+                },
+                "Strict": {
+                  "Precision": 0.45242185995541273,
+                  "Recall": 0.46207458589074185,
+                  "F1": 0.4561199470781157
+                },
+                "Exact": {
+                  "Precision": 0.47284305267338944,
+                  "Recall": 0.48268981096279145,
+                  "F1": 0.4765484845236195
+                }
+              }
+            }
+          },
+          "gemma3_12b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_12b__bt5__g_bridge_recover_guard",
+              "repair_model": "gemma3_12b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_12b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_12b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_12b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5278361824895359,
+                  "Recall": 0.5409100967691773,
+                  "F1": 0.5328955483713442
+                },
+                "Partial": {
+                  "Precision": 0.5243692222121009,
+                  "Recall": 0.5358093802705709,
+                  "F1": 0.5287457071411031
+                },
+                "Strict": {
+                  "Precision": 0.4891496513199603,
+                  "Recall": 0.49856431143168145,
+                  "F1": 0.4927670999072657
+                },
+                "Exact": {
+                  "Precision": 0.5042888242963601,
+                  "Recall": 0.5138326694656762,
+                  "F1": 0.5079256107703733
+                }
+              }
+            }
+          },
+          "gemma3_27b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__bt5__g_bridge_recover_guard",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_27b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_27b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/gemma3_27b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5311505998138225,
+                  "Recall": 0.545638016152611,
+                  "F1": 0.5367506446894177
+                },
+                "Partial": {
+                  "Precision": 0.5263514078672905,
+                  "Recall": 0.5389558918685743,
+                  "F1": 0.5311946177086087
+                },
+                "Strict": {
+                  "Precision": 0.49107734353597166,
+                  "Recall": 0.5009535193040477,
+                  "F1": 0.4948756627202818
+                },
+                "Exact": {
+                  "Precision": 0.5053582647620363,
+                  "Recall": 0.5155567737915498,
+                  "F1": 0.5092660436305418
+                }
+              }
+            }
+          },
+          "llama3_1_8b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_1_8b__bt5__g_bridge_recover_guard",
+              "repair_model": "llama3_1_8b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_llama3_1_8b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/llama3_1_8b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/llama3_1_8b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5010152636919422,
+                  "Recall": 0.5142370284659532,
+                  "F1": 0.5061579502714546
+                },
+                "Partial": {
+                  "Precision": 0.4964779310374969,
+                  "Recall": 0.5082448393213158,
+                  "F1": 0.5009993320972344
+                },
+                "Strict": {
+                  "Precision": 0.4596889698164307,
+                  "Recall": 0.4692937068820461,
+                  "F1": 0.4633939080998647
+                },
+                "Exact": {
+                  "Precision": 0.47421145725663644,
+                  "Recall": 0.48403373716977954,
+                  "F1": 0.4779690730677852
+                }
+              }
+            }
+          },
+          "llama3_3_70b_awq": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_3_70b_awq__bt5__g_bridge_recover_guard",
+              "repair_model": "llama3_3_70b_awq",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_llama3_3_70b_awq_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/llama3_3_70b_awq__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/llama3_3_70b_awq__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5164796823300999,
+                  "Recall": 0.5285901097973991,
+                  "F1": 0.5211552356051207
+                },
+                "Partial": {
+                  "Precision": 0.5124959558425769,
+                  "Recall": 0.5231413686709814,
+                  "F1": 0.516584577321289
+                },
+                "Strict": {
+                  "Precision": 0.47879680852346,
+                  "Recall": 0.48738324233768426,
+                  "F1": 0.48210379710000056
+                },
+                "Exact": {
+                  "Precision": 0.4926546624724301,
+                  "Recall": 0.5014598474165672,
+                  "F1": 0.4960357915938781
+                }
+              }
+            }
+          },
+          "qwen3_4b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_4b__bt5__g_bridge_recover_guard",
+              "repair_model": "qwen3_4b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_4b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_4b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_4b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.46971146739782643,
+                  "Recall": 0.48614783557101,
+                  "F1": 0.4761229906877671
+                },
+                "Partial": {
+                  "Precision": 0.4639455899914825,
+                  "Recall": 0.47774804605750343,
+                  "F1": 0.46924491744071845
+                },
+                "Strict": {
+                  "Precision": 0.42672001271773075,
+                  "Recall": 0.43770948034386165,
+                  "F1": 0.43095752075848426
+                },
+                "Exact": {
+                  "Precision": 0.44122184793457614,
+                  "Recall": 0.45219139379889883,
+                  "F1": 0.4453991755652506
+                }
+              }
+            }
+          },
+          "qwen3_8b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_8b__bt5__g_bridge_recover_guard",
+              "repair_model": "qwen3_8b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_8b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_8b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_8b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.482272361966602,
+                  "Recall": 0.4960988220947622,
+                  "F1": 0.4875878579745917
+                },
+                "Partial": {
+                  "Precision": 0.477653474059843,
+                  "Recall": 0.48989817063592755,
+                  "F1": 0.48225746649295465
+                },
+                "Strict": {
+                  "Precision": 0.44460090362145677,
+                  "Recall": 0.4548850350360119,
+                  "F1": 0.448513457559385
+                },
+                "Exact": {
+                  "Precision": 0.45796529022867516,
+                  "Recall": 0.4682995660349124,
+                  "F1": 0.4618476550092891
+                }
+              }
+            }
+          },
+          "qwen3_14b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_14b__bt5__g_bridge_recover_guard",
+              "repair_model": "qwen3_14b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_14b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_14b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_14b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.4927228544047418,
+                  "Recall": 0.5064309471463201,
+                  "F1": 0.4980141459455855
+                },
+                "Partial": {
+                  "Precision": 0.48837966989603215,
+                  "Recall": 0.50036828658404,
+                  "F1": 0.49292866226691795
+                },
+                "Strict": {
+                  "Precision": 0.4527718384834062,
+                  "Recall": 0.46257469417667285,
+                  "F1": 0.4565173763042865
+                },
+                "Exact": {
+                  "Precision": 0.4670648007215739,
+                  "Recall": 0.47696671176503747,
+                  "F1": 0.4707976434653496
+                }
+              }
+            }
+          },
+          "qwen3_32b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_32b__bt5__g_bridge_recover_guard",
+              "repair_model": "qwen3_32b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_32b_bt5_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_32b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/bt5/qwen3_32b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.48958056976697606,
+                  "Recall": 0.5036084797497428,
+                  "F1": 0.4950159365245419
+                },
+                "Partial": {
+                  "Precision": 0.4845817098194729,
+                  "Recall": 0.4965645367116328,
+                  "F1": 0.4891683301198177
+                },
+                "Strict": {
+                  "Precision": 0.4504872857015895,
+                  "Recall": 0.460067554532429,
+                  "F1": 0.4541673187184219
+                },
+                "Exact": {
+                  "Precision": 0.4640773730172665,
+                  "Recall": 0.47377116430502175,
+                  "F1": 0.46776768966091814
+                }
+              }
+            }
+          }
+        }
+      },
+      "regen": {
+        "external": null,
+        "repairs": {
+          "gemma3_4b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_4b__regen__g_bridge_recover_guard",
+              "repair_model": "gemma3_4b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_4b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_4b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_4b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5218058510315595,
+                  "Recall": 0.546260081292976,
+                  "F1": 0.5311696519691896
+                },
+                "Partial": {
+                  "Precision": 0.5155216255292167,
+                  "Recall": 0.5365989091318039,
+                  "F1": 0.5234652396182063
+                },
+                "Strict": {
+                  "Precision": 0.47730385477096005,
+                  "Recall": 0.4939761262129683,
+                  "F1": 0.4836442778809367
+                },
+                "Exact": {
+                  "Precision": 0.49205518531176423,
+                  "Recall": 0.5091058977572135,
+                  "F1": 0.49844389712134546
+                }
+              }
+            }
+          },
+          "gemma3_12b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_12b__regen__g_bridge_recover_guard",
+              "repair_model": "gemma3_12b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_12b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_12b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_12b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5437450872405624,
+                  "Recall": 0.5674956307309248,
+                  "F1": 0.5527946050896582
+                },
+                "Partial": {
+                  "Precision": 0.537225246472984,
+                  "Recall": 0.5574439177380354,
+                  "F1": 0.5448088817036989
+                },
+                "Strict": {
+                  "Precision": 0.49807175395410686,
+                  "Recall": 0.514232445114798,
+                  "F1": 0.504175534398008
+                },
+                "Exact": {
+                  "Precision": 0.513436817358386,
+                  "Recall": 0.5298247504129857,
+                  "F1": 0.519535853950794
+                }
+              }
+            }
+          },
+          "gemma3_27b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__regen__g_bridge_recover_guard",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_gemma3_27b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_27b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/gemma3_27b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5433319581637432,
+                  "Recall": 0.56639069218783,
+                  "F1": 0.5522208675355266
+                },
+                "Partial": {
+                  "Precision": 0.5367446558100588,
+                  "Recall": 0.5568259846410738,
+                  "F1": 0.5443453562431277
+                },
+                "Strict": {
+                  "Precision": 0.501067252272374,
+                  "Recall": 0.5172252908193155,
+                  "F1": 0.5072355427929116
+                },
+                "Exact": {
+                  "Precision": 0.5146356321726645,
+                  "Recall": 0.5311134822997741,
+                  "F1": 0.5208441912371111
+                }
+              }
+            }
+          },
+          "llama3_1_8b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_1_8b__regen__g_bridge_recover_guard",
+              "repair_model": "llama3_1_8b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_llama3_1_8b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/llama3_1_8b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/llama3_1_8b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5306023512352627,
+                  "Recall": 0.5515547518585493,
+                  "F1": 0.5386650322130462
+                },
+                "Partial": {
+                  "Precision": 0.5220487645266126,
+                  "Recall": 0.5404498191681736,
+                  "F1": 0.5289793497520473
+                },
+                "Strict": {
+                  "Precision": 0.4876939101685937,
+                  "Recall": 0.5026350210970464,
+                  "F1": 0.49338132191296746
+                },
+                "Exact": {
+                  "Precision": 0.49911174128262736,
+                  "Recall": 0.5143462929475587,
+                  "F1": 0.5048195559714547
+                }
+              }
+            }
+          },
+          "llama3_3_70b_awq": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_3_70b_awq__regen__g_bridge_recover_guard",
+              "repair_model": "llama3_3_70b_awq",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_llama3_3_70b_awq_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/llama3_3_70b_awq__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/llama3_3_70b_awq__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5447974481850333,
+                  "Recall": 0.5660951099255414,
+                  "F1": 0.5530012797412717
+                },
+                "Partial": {
+                  "Precision": 0.5362701216410527,
+                  "Recall": 0.5549070969964233,
+                  "F1": 0.5433216774608101
+                },
+                "Strict": {
+                  "Precision": 0.5018061094707574,
+                  "Recall": 0.5169175989009448,
+                  "F1": 0.5075774019165834
+                },
+                "Exact": {
+                  "Precision": 0.5136010350431244,
+                  "Recall": 0.5290614773960723,
+                  "F1": 0.5194060994757882
+                }
+              }
+            }
+          },
+          "qwen3_4b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_4b__regen__g_bridge_recover_guard",
+              "repair_model": "qwen3_4b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_4b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_4b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_4b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.515618001114715,
+                  "Recall": 0.5420595799829875,
+                  "F1": 0.5257338321628984
+                },
+                "Partial": {
+                  "Precision": 0.5045882640138202,
+                  "Recall": 0.5268840178471119,
+                  "F1": 0.5129989195523412
+                },
+                "Strict": {
+                  "Precision": 0.4703432381010743,
+                  "Recall": 0.48779661595005375,
+                  "F1": 0.47696257626177535
+                },
+                "Exact": {
+                  "Precision": 0.48099613424436477,
+                  "Recall": 0.4987588673824771,
+                  "F1": 0.48764737090764176
+                }
+              }
+            }
+          },
+          "qwen3_8b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_8b__regen__g_bridge_recover_guard",
+              "repair_model": "qwen3_8b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_8b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_8b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_8b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5218881017818803,
+                  "Recall": 0.5439510722515275,
+                  "F1": 0.5303894097259844
+                },
+                "Partial": {
+                  "Precision": 0.5138631225600118,
+                  "Recall": 0.5330081151496174,
+                  "F1": 0.5211213880835114
+                },
+                "Strict": {
+                  "Precision": 0.4797551076192958,
+                  "Recall": 0.49534718709604897,
+                  "F1": 0.48571231921004304
+                },
+                "Exact": {
+                  "Precision": 0.4915552026515608,
+                  "Recall": 0.5074259740989635,
+                  "F1": 0.497532395104474
+                }
+              }
+            }
+          },
+          "qwen3_14b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_14b__regen__g_bridge_recover_guard",
+              "repair_model": "qwen3_14b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_14b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_14b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_14b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5218943397451726,
+                  "Recall": 0.5455716208744982,
+                  "F1": 0.5309628386096877
+                },
+                "Partial": {
+                  "Precision": 0.5118853302314937,
+                  "Recall": 0.5323308033460734,
+                  "F1": 0.5195760743983197
+                },
+                "Strict": {
+                  "Precision": 0.4774032056338972,
+                  "Recall": 0.4938856638061585,
+                  "F1": 0.48367372503541106
+                },
+                "Exact": {
+                  "Precision": 0.48853686136624047,
+                  "Recall": 0.50531748034903,
+                  "F1": 0.4948118969762079
+                }
+              }
+            }
+          },
+          "qwen3_32b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "genwiki",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_32b__regen__g_bridge_recover_guard",
+              "repair_model": "qwen3_32b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/genwiki/vllm_text_to_data_qwen3_32b_regen_g_bridge_recover_guard_genwiki_0shot_markdown.json",
+              "num_samples": 1000,
+              "refs_xml": "repair_t2d/eval/data/genwiki_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_32b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/genwiki/regen/qwen3_32b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.5247476733127807,
+                  "Recall": 0.5488811630847029,
+                  "F1": 0.5339776129107708
+                },
+                "Partial": {
+                  "Precision": 0.5164187329737266,
+                  "Recall": 0.5372759015110469,
+                  "F1": 0.5242736509418299
+                },
+                "Strict": {
+                  "Precision": 0.48193709717729943,
+                  "Recall": 0.49882036000240804,
+                  "F1": 0.4883547783863839
+                },
+                "Exact": {
+                  "Precision": 0.4937731386467164,
+                  "Recall": 0.5109255914755283,
+                  "F1": 0.5001943224636018
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "webnlg": {
+      "bt5": {
+        "external": null,
+        "repairs": {
+          "gemma3_4b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_4b__bt5__g_bridge_recover_guard",
+              "repair_model": "gemma3_4b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_4b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_4b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_4b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7393000128079427,
+                  "Recall": 0.7679050622289354,
+                  "F1": 0.7507824356719832
+                },
+                "Partial": {
+                  "Precision": 0.7325410652153139,
+                  "Recall": 0.7558260405349303,
+                  "F1": 0.7417612002891519
+                },
+                "Strict": {
+                  "Precision": 0.681439363826676,
+                  "Recall": 0.6981538344330498,
+                  "F1": 0.6880427288276154
+                },
+                "Exact": {
+                  "Precision": 0.7009917924776021,
+                  "Recall": 0.718031871902907,
+                  "F1": 0.707666649703623
+                }
+              }
+            }
+          },
+          "gemma3_12b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_12b__bt5__g_bridge_recover_guard",
+              "repair_model": "gemma3_12b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_12b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_12b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_12b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7611214430410859,
+                  "Recall": 0.787567754665969,
+                  "F1": 0.7718120741567863
+                },
+                "Partial": {
+                  "Precision": 0.749120775058275,
+                  "Recall": 0.7708747329059829,
+                  "F1": 0.7578178837436516
+                },
+                "Strict": {
+                  "Precision": 0.7036651096918954,
+                  "Recall": 0.7189687990580848,
+                  "F1": 0.7097771179583919
+                },
+                "Exact": {
+                  "Precision": 0.718625536170179,
+                  "Recall": 0.7345113814756672,
+                  "F1": 0.7249177869658192
+                }
+              }
+            }
+          },
+          "gemma3_27b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__bt5__g_bridge_recover_guard",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_27b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_27b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/gemma3_27b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7663854752626346,
+                  "Recall": 0.794858352810094,
+                  "F1": 0.7777606196176509
+                },
+                "Partial": {
+                  "Precision": 0.7488227712710164,
+                  "Recall": 0.7719759336876145,
+                  "F1": 0.7579914303810583
+                },
+                "Strict": {
+                  "Precision": 0.706621094607796,
+                  "Recall": 0.7231844177210232,
+                  "F1": 0.7131513511229313
+                },
+                "Exact": {
+                  "Precision": 0.71731889580121,
+                  "Recall": 0.7342780106284357,
+                  "F1": 0.7239752825459853
+                }
+              }
+            }
+          },
+          "llama3_1_8b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_1_8b__bt5__g_bridge_recover_guard",
+              "repair_model": "llama3_1_8b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_llama3_1_8b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/llama3_1_8b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/llama3_1_8b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7498250603722066,
+                  "Recall": 0.7783013492394134,
+                  "F1": 0.7611566262746783
+                },
+                "Partial": {
+                  "Precision": 0.7321352072914356,
+                  "Recall": 0.7553780835113288,
+                  "F1": 0.7412622661795409
+                },
+                "Strict": {
+                  "Precision": 0.6890383340216697,
+                  "Recall": 0.7052548918470318,
+                  "F1": 0.695408671904089
+                },
+                "Exact": {
+                  "Precision": 0.6999890287003188,
+                  "Recall": 0.7168157861672652,
+                  "F1": 0.7065309408308295
+                }
+              }
+            }
+          },
+          "llama3_3_70b_awq": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_3_70b_awq__bt5__g_bridge_recover_guard",
+              "repair_model": "llama3_3_70b_awq",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_llama3_3_70b_awq_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/llama3_3_70b_awq__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/llama3_3_70b_awq__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7782424682424682,
+                  "Recall": 0.8066063316063316,
+                  "F1": 0.7896776344549624
+                },
+                "Partial": {
+                  "Precision": 0.7559799709799709,
+                  "Recall": 0.778583501083501,
+                  "F1": 0.7650199617298926
+                },
+                "Strict": {
+                  "Precision": 0.7177365477365477,
+                  "Recall": 0.7335821535821536,
+                  "F1": 0.7240402349904612
+                },
+                "Exact": {
+                  "Precision": 0.7244084944084944,
+                  "Recall": 0.7405214005214005,
+                  "F1": 0.7307930848202341
+                }
+              }
+            }
+          },
+          "qwen3_4b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_4b__bt5__g_bridge_recover_guard",
+              "repair_model": "qwen3_4b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_4b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_4b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_4b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7550052487327231,
+                  "Recall": 0.7818845960896141,
+                  "F1": 0.7658497893500503
+                },
+                "Partial": {
+                  "Precision": 0.7366740321948944,
+                  "Recall": 0.7582822862071545,
+                  "F1": 0.7452854666695562
+                },
+                "Strict": {
+                  "Precision": 0.6994793623189797,
+                  "Recall": 0.7153233241360494,
+                  "F1": 0.7057797254350482
+                },
+                "Exact": {
+                  "Precision": 0.707808075007271,
+                  "Recall": 0.7238345523035016,
+                  "F1": 0.7141386523412443
+                }
+              }
+            }
+          },
+          "qwen3_8b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_8b__bt5__g_bridge_recover_guard",
+              "repair_model": "qwen3_8b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_8b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_8b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_8b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7641029194077382,
+                  "Recall": 0.7914036961356778,
+                  "F1": 0.775113125915818
+                },
+                "Partial": {
+                  "Precision": 0.7460802201393786,
+                  "Recall": 0.7679741349856611,
+                  "F1": 0.7548077053211681
+                },
+                "Strict": {
+                  "Precision": 0.7085924664142967,
+                  "Recall": 0.7246515034287566,
+                  "F1": 0.7149746052280014
+                },
+                "Exact": {
+                  "Precision": 0.7169631622832567,
+                  "Recall": 0.7331503230371443,
+                  "F1": 0.7233530642452606
+                }
+              }
+            }
+          },
+          "qwen3_14b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_14b__bt5__g_bridge_recover_guard",
+              "repair_model": "qwen3_14b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_14b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_14b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_14b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7804917042942865,
+                  "Recall": 0.8084854414716972,
+                  "F1": 0.7916821584566771
+                },
+                "Partial": {
+                  "Precision": 0.7629194906162836,
+                  "Recall": 0.7853865728345112,
+                  "F1": 0.7718003724201961
+                },
+                "Strict": {
+                  "Precision": 0.7256803722755409,
+                  "Recall": 0.7422200075365423,
+                  "F1": 0.7321836881815116
+                },
+                "Exact": {
+                  "Precision": 0.7341680725062649,
+                  "Recall": 0.75081133522408,
+                  "F1": 0.7406746881344024
+                }
+              }
+            }
+          },
+          "qwen3_32b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "bt5",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_32b__bt5__g_bridge_recover_guard",
+              "repair_model": "qwen3_32b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_32b_bt5_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_32b__bt5__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/bt5/qwen3_32b__bt5__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.768678619105051,
+                  "Recall": 0.7980298507791227,
+                  "F1": 0.7803750020670506
+                },
+                "Partial": {
+                  "Precision": 0.7485444340786873,
+                  "Recall": 0.772136181935447,
+                  "F1": 0.7578654246124621
+                },
+                "Strict": {
+                  "Precision": 0.7131458712168739,
+                  "Recall": 0.7304498418421591,
+                  "F1": 0.7199440890058574
+                },
+                "Exact": {
+                  "Precision": 0.7197459068766793,
+                  "Recall": 0.7372034127754554,
+                  "F1": 0.726574374543368
+                }
+              }
+            }
+          }
+        }
+      },
+      "regen": {
+        "external": null,
+        "repairs": {
+          "gemma3_4b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_4b__regen__g_bridge_recover_guard",
+              "repair_model": "gemma3_4b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_4b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_4b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_4b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.79035017336059,
+                  "Recall": 0.8215725308641976,
+                  "F1": 0.8028091422728936
+                },
+                "Partial": {
+                  "Precision": 0.7704414507174924,
+                  "Recall": 0.7952381779100529,
+                  "F1": 0.7802298901010363
+                },
+                "Strict": {
+                  "Precision": 0.7339812510020843,
+                  "Recall": 0.7515311397707231,
+                  "F1": 0.7409104275223019
+                },
+                "Exact": {
+                  "Precision": 0.7414471901555235,
+                  "Recall": 0.7592811397707231,
+                  "F1": 0.7484294131662875
+                }
+              }
+            }
+          },
+          "gemma3_12b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_12b__regen__g_bridge_recover_guard",
+              "repair_model": "gemma3_12b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_12b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_12b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_12b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7992310882239089,
+                  "Recall": 0.8309340819488549,
+                  "F1": 0.8119371594606891
+                },
+                "Partial": {
+                  "Precision": 0.7754264853222468,
+                  "Recall": 0.8005589962065179,
+                  "F1": 0.7854158133249849
+                },
+                "Strict": {
+                  "Precision": 0.741652760619349,
+                  "Recall": 0.7594148921016242,
+                  "F1": 0.7487058569592512
+                },
+                "Exact": {
+                  "Precision": 0.7462286072495931,
+                  "Recall": 0.764311573955368,
+                  "F1": 0.7533605377288015
+                }
+              }
+            }
+          },
+          "gemma3_27b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "gemma3_27b__regen__g_bridge_recover_guard",
+              "repair_model": "gemma3_27b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_gemma3_27b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_27b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/gemma3_27b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7989019986851461,
+                  "Recall": 0.8302870168215067,
+                  "F1": 0.8114621471150641
+                },
+                "Partial": {
+                  "Precision": 0.7750425817546842,
+                  "Recall": 0.7998936226011815,
+                  "F1": 0.7849102260534319
+                },
+                "Strict": {
+                  "Precision": 0.7415309593644992,
+                  "Recall": 0.7592476763067428,
+                  "F1": 0.7485536551004087
+                },
+                "Exact": {
+                  "Precision": 0.745946359009143,
+                  "Recall": 0.7638830427760622,
+                  "F1": 0.7530177737528793
+                }
+              }
+            }
+          },
+          "llama3_1_8b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_1_8b__regen__g_bridge_recover_guard",
+              "repair_model": "llama3_1_8b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_llama3_1_8b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/llama3_1_8b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/llama3_1_8b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7907456248072144,
+                  "Recall": 0.8213193604995519,
+                  "F1": 0.802981133184607
+                },
+                "Partial": {
+                  "Precision": 0.76746244673315,
+                  "Recall": 0.7914827034989332,
+                  "F1": 0.7769924382765787
+                },
+                "Strict": {
+                  "Precision": 0.7328988365713293,
+                  "Recall": 0.7498089909658782,
+                  "F1": 0.7395994111985088
+                },
+                "Exact": {
+                  "Precision": 0.7380029062197185,
+                  "Recall": 0.7551148586312965,
+                  "F1": 0.7447433101626325
+                }
+              }
+            }
+          },
+          "llama3_3_70b_awq": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "llama3_3_70b_awq__regen__g_bridge_recover_guard",
+              "repair_model": "llama3_3_70b_awq",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_llama3_3_70b_awq_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/llama3_3_70b_awq__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/llama3_3_70b_awq__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.8003305258692743,
+                  "Recall": 0.8323398171719762,
+                  "F1": 0.8131559744875261
+                },
+                "Partial": {
+                  "Precision": 0.7756470607641349,
+                  "Recall": 0.8009488945460764,
+                  "F1": 0.7857069841287008
+                },
+                "Strict": {
+                  "Precision": 0.7424410864112481,
+                  "Recall": 0.7604982491223685,
+                  "F1": 0.7496021425528969
+                },
+                "Exact": {
+                  "Precision": 0.7462843560025492,
+                  "Recall": 0.764550374185683,
+                  "F1": 0.7534904217001898
+                }
+              }
+            }
+          },
+          "qwen3_4b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_4b__regen__g_bridge_recover_guard",
+              "repair_model": "qwen3_4b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_4b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_4b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_4b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7935863204979632,
+                  "Recall": 0.8249467753546846,
+                  "F1": 0.8061665418488015
+                },
+                "Partial": {
+                  "Precision": 0.7691084432943531,
+                  "Recall": 0.7938627594289929,
+                  "F1": 0.7789684741219319
+                },
+                "Strict": {
+                  "Precision": 0.7360408765276022,
+                  "Recall": 0.7537102516153954,
+                  "F1": 0.7430686707229173
+                },
+                "Exact": {
+                  "Precision": 0.7400738780025284,
+                  "Recall": 0.7579276188720325,
+                  "F1": 0.747139203803406
+                }
+              }
+            }
+          },
+          "qwen3_8b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_8b__regen__g_bridge_recover_guard",
+              "repair_model": "qwen3_8b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_8b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_8b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_8b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.7977206736353077,
+                  "Recall": 0.8290677902720586,
+                  "F1": 0.8103141995741882
+                },
+                "Partial": {
+                  "Precision": 0.7728585671611586,
+                  "Recall": 0.7976677159222891,
+                  "F1": 0.7827501755161919
+                },
+                "Strict": {
+                  "Precision": 0.7394873715376764,
+                  "Recall": 0.7572252358075529,
+                  "F1": 0.746539192818166
+                },
+                "Exact": {
+                  "Precision": 0.7434613447189666,
+                  "Recall": 0.7614103799317213,
+                  "F1": 0.7505613324486761
+                }
+              }
+            }
+          },
+          "qwen3_14b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_14b__regen__g_bridge_recover_guard",
+              "repair_model": "qwen3_14b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_14b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_14b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_14b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.8028299487502196,
+                  "Recall": 0.8346296917735359,
+                  "F1": 0.8155450333027421
+                },
+                "Partial": {
+                  "Precision": 0.7781704533241772,
+                  "Recall": 0.8033732077880206,
+                  "F1": 0.7881751115967289
+                },
+                "Strict": {
+                  "Precision": 0.7460030235835128,
+                  "Recall": 0.7641230800274603,
+                  "F1": 0.7531777912656661
+                },
+                "Exact": {
+                  "Precision": 0.7494542036962929,
+                  "Recall": 0.7677617885162448,
+                  "F1": 0.7566679955020359
+                }
+              }
+            }
+          },
+          "qwen3_32b": {
+            "g_bridge_recover_guard": {
+              "kind": "repair",
+              "dataset": "webnlg",
+              "baseline": "regen",
+              "shot_k": 0,
+              "style": "markdown",
+              "label": "qwen3_32b__regen__g_bridge_recover_guard",
+              "repair_model": "qwen3_32b",
+              "prompt_variant": "g_bridge_recover_guard",
+              "output_path": "repair_t2d/t2d_repair_output/xqdt_output/round3/markdown/webnlg/vllm_text_to_data_qwen3_32b_regen_g_bridge_recover_guard_webnlg_0shot_markdown.json",
+              "num_samples": 2155,
+              "refs_xml": "repair_t2d/eval/data/webnlg_test_refs.xml",
+              "hyps_xml": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_32b__regen__g_bridge_recover_guard/hyps.xml",
+              "score_out": "repair_t2d/t2d_repair_output/xqdt_output/round3/eval_results/webnlg/regen/qwen3_32b__regen__g_bridge_recover_guard/score.out",
+              "total_scores": {
+                "Ent_type": {
+                  "Precision": 0.8009158602131239,
+                  "Recall": 0.8326773320347118,
+                  "F1": 0.8136399727316723
+                },
+                "Partial": {
+                  "Precision": 0.7759491408796965,
+                  "Recall": 0.8011671141646266,
+                  "F1": 0.7859763979290989
+                },
+                "Strict": {
+                  "Precision": 0.7429091415617121,
+                  "Recall": 0.7610632902506866,
+                  "F1": 0.7501052554040324
+                },
+                "Exact": {
+                  "Precision": 0.7465796119610382,
+                  "Recall": 0.7649328314336606,
+                  "F1": 0.7538196909592639
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
