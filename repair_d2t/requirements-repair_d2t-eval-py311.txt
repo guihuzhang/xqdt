@@ -1,0 +1,9 @@
+sacrebleu==2.6.0
+rouge-score==0.1.2
+nltk==3.9.4
+numpy==2.2.6
+tqdm==4.67.3
+bert-score==0.3.13
+sentence-transformers==5.4.1
+torch==2.10.0
+transformers==4.57.6

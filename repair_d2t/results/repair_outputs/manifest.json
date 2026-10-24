@@ -1,0 +1,56 @@
+{
+  "format": "xqdt-d2t-compact-repair-v1",
+  "dataset": "WebNLG 2020",
+  "baseline": "Control Prefix 20",
+  "num_examples": 1779,
+  "shared_input": "../../inputs/webnlg20_control_prefix_20_eval_input.json",
+  "rounds": 3,
+  "repair_temperature": 0.7,
+  "repair_seed": 42,
+  "semantics": "Each JSONL file stores sparse per-round repair records. Start from shared_input[*].input_text and apply records in ascending round order by integer index. Samples absent from a round keep their previous text.",
+  "model_tags": {
+    "gemma3_4b_it": "google/gemma-3-4b-it",
+    "gemma3_12b_it": "google/gemma-3-12b-it",
+    "gemma3_27b_it": "google/gemma-3-27b-it",
+    "llama3_1_8b_instruct": "meta-llama/Llama-3.1-8B-Instruct",
+    "llama3_3_70b_awq": "casperhansen/llama-3.3-70b-instruct-awq",
+    "qwen3_4b_nothink": "Qwen/Qwen3-4B",
+    "qwen3_8b_nothink": "Qwen/Qwen3-8B",
+    "qwen3_14b_nothink": "Qwen/Qwen3-14B",
+    "qwen3_32b_nothink": "Qwen/Qwen3-32B"
+  },
+  "methods": {
+    "xqdt": {
+      "file": "xqdt.jsonl",
+      "verifier": "Loria-MosAIk/xqdt-webnlg-qwen3-8b",
+      "paper_checkpoint_provenance": "Qwen3-8B checkpoint-7479",
+      "prompt_variant": "p1c_p2b",
+      "judge_temperature": 0.3,
+      "judge_seed": 2023,
+      "feedback_field": "feedback",
+      "notes": "raw_model_output is retained because it is the exact JSON-form repair response."
+    },
+    "factspotter": {
+      "file": "factspotter.jsonl",
+      "evaluator": "Inria-CEDAR/FactSpotter-DeBERTaV3-Base",
+      "support_threshold": 0.5,
+      "feedback_field": "feedback",
+      "notes": "This D2T repair baseline uses the newer DeBERTaV3-Base release. The legacy correlation baselines elsewhere in the repository use the original ELECTRA-small FactSpotter checkpoint. raw_model_output was byte-identical to repaired_text in every released D2T repair record and is omitted here."
+    },
+    "nli": {
+      "file": "nli.jsonl",
+      "evaluator": "roberta-large-mnli",
+      "template_file": "../../metrics/nli_dusek/webnlg_templates.json",
+      "entailment_threshold": 0.5,
+      "global_warning_threshold": 0.5,
+      "feedback_field": "feedback",
+      "notes": "The WebNLG template file is byte-identical to the Dušek-style NLI baseline template bundled under correlations/4L-RP-Human. raw_model_output was byte-identical to repaired_text in every released D2T repair record and is omitted here."
+    },
+    "self_refine": {
+      "file": "self_refine.jsonl",
+      "prompt_format": "markdown_table",
+      "feedback_field": "self_refine_output",
+      "notes": "self_refine_output retains the complete model-produced critique plus revised text. The same prompt, temperature=0.7, and seed=42 were used across all nine repair generators."
+    }
+  }
+}
